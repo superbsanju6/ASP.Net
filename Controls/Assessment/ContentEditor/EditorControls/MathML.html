@@ -1,0 +1,42 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Generator" content="Asbru Web Content Editor">
+<meta http-equiv="Copyright" content="(C) 2002-2006 - Asbru Ltd. - www.asbrusoft.com">
+<script type="text/javascript" src="webeditor.properties.js"></script>
+<title>MATHML INSERT</title>
+
+<script type="text/javascript">
+
+function requestParameter(name) {
+	var value = "";
+	if (start = request.indexOf("?"+name+"=")+1) {
+		value = request.substring(start+name.length+1);
+	} else if (start = request.indexOf("&"+name+"=")+1) {
+		value = request.substring(start+name.length+1);
+	}
+	if (value.indexOf("&")+1) {
+		value = value.substring(0, value.indexOf("&"));
+	}
+	value = unescape(value);
+	return value;
+}
+
+window.focus();
+var request = "" + window.location;
+editor = requestParameter("editor");
+
+function insertSpecialCharacter() {
+    var html = '<div id="MathML" style="float:left;">' + document.getElementsByName("textarea")[0].value + '</div>';
+    window.parent.InsertSymbol(html);
+    window.parent.CloseEquationEditor();
+}
+
+</script>
+</head>
+<body>
+ <textarea rows="30" cols="80" name="textarea"></textarea><br>
+ <input type="submit" value="Submit" onclick="insertSpecialCharacter()">
+</body>
+</html>

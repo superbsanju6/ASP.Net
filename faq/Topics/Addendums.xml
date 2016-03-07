@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" lasteditedby="lgisaacs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Addendums</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Addendums</text></para>
+    </header>
+    <para style="text-align:right;"><link displaytype="image" src="New_Back_Arrow_icon.gif" type="topiclink" href="Assessment"></link><text styleclass="Header 2" style="font-size:8pt;" translate="true">&#32;</text><link displaytype="text" defaultstyle="true" type="topiclink" href="Assessment" styleclass="Answer" style="font-size:8pt;" translate="true">Return to Assessment Menu</link></para>
+    <para style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" style="font-family:Arial; font-size:10pt; color:#000000;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[How do I add an addendum?]]></caption></toggle></para>
+    <para style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">In order to add an addendum, follow these steps:</text></para>
+          <para styleclass="Answer"></para>
+          <list id="5" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Assessment</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Add</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Addendum</text><text styleclass="Answer" translate="true"> Icon</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Enter the desired criteria for the addendum</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Content</text><text styleclass="Answer" translate="true"> Tab</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Enter content for the addendum</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" style="font-weight:normal;" translate="true">Click</text><text styleclass="Answer" style="font-weight:bold;" translate="true"> Save</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

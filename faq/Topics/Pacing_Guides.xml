@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" lasteditedby="lgisaacs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Pacing Guide</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Pacing Guides</text></para>
+    </header>
+    <para styleclass="Header 2" style="text-align:right;"><link displaytype="image" src="New_Back_Arrow_icon.gif" type="topiclink" href="Instruction"></link><text styleclass="Header 2" style="font-size:8pt;" translate="true">&#32;</text><link displaytype="text" defaultstyle="true" type="topiclink" href="Instruction" styleclass="Answer" style="font-size:8pt;" translate="true">Return to Instruction Menu</link></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[How do I add a new Pacing Guide?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">A pacing guide cannot be &quot;added&quot; to the system, only the shell edited. &#160;In the beginning of a new semester Thinkgate will add a blank &quot;shell&quot; for every Grade/Subject/Course combination in the system. &#160;Users can then edit these shells. &#160;The reason you cannot add a new pacing guide is due to the issues that could be causes by a course having multiple pacing guides.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[Why is there not a pacing guide available for a specific subject and course?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">There should be a Pacing Guide in the system for each grade/subject/course.</text><text styleclass="Answer" style="font-weight:bold; font-style:italic;" translate="true"> If one appears to be missing please contact Thinkgate Support or your district point of contact.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[How do I edit a Pacing Guide?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">In order to edit a pacing guide please follow the directions listed below.</text></para>
+          <para styleclass="Answer"></para>
+          <list id="2" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click on </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Curriculum</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click on the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Find</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Pacing</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Guide</text><text styleclass="Answer" translate="true"> Button</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Use the criteria to search for the desired Pacing Guide</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Find</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Pacing</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Guides</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Edit</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Button</text><text styleclass="Answer" translate="true"> for desired Pacing Guide</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">After clicking Edit you will be brought to the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Profile</text><text styleclass="Answer" translate="true"> page of the Pacing Guide</text></li>
+          </list>
+          <para styleclass="Answer"></para>
+          <para styleclass="Answer"><text styleclass="Answer" style="font-weight:bold; font-style:italic;" translate="true">For detailed instruction on how to Edit and Create a Pacing Guide please view the Pacing Guide lessons within your Reference Center. &#160;These guides will provide step by step instruction and images on how to edit a Pacing Guide.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[What are the different parts of a Pacing Guide?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer" style="margin-left:0px;"><text styleclass="Answer" translate="true">Listed below are descriptions of each of the different sections within a Pacing Guide:</text></para>
+          <para styleclass="Answer" style="margin-left:0px;"></para>
+          <list id="3" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" style="font-weight:bold;" translate="true">Standards</text><text styleclass="Answer" translate="true"> – State Standards can be added to the Pacing Guide to ensure that all of the standards for that grade, subject and course are a part of the guide.</text></li>
+          </list>
+          <para styleclass="Answer" style="margin-left:48px;"></para>
+          <list id="3" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" style="font-weight:bold;" translate="true">Instructional</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Schedule</text><text styleclass="Answer" translate="true"> – This schedule outlines the standards that will be taught in each term and gives the user the option to change the teaching order. </text></li>
+          </list>
+          <para styleclass="Answer" style="margin-left:48px;"></para>
+          <list id="3" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" style="font-weight:bold;" translate="true">Pacing</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Guide</text><text styleclass="Answer" translate="true"> – Overview of the completed Pacing Guide.</text></li>
+          </list>
+          <para styleclass="Answer" style="margin-left:48px;"></para>
+          <list id="3" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" style="font-weight:bold;" translate="true">Assessment</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Guide</text><text styleclass="Answer" translate="true"> – Overview of the completed Assessment Blueprint (will not display if no Blueprint had been built).</text></li>
+          </list>
+          <para styleclass="Answer"></para>
+          <para styleclass="Answer"><text styleclass="Answer" style="font-weight:bold; font-style:italic;" translate="true">For detailed instruction on how to Edit and Create a Pacing Guide please view the Pacing Guide lessons within your Reference Center. &#160;These guides will provide step by step instruction and images on how to edit a Pacing Guide.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[What does proofing a pacing guide do?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer" style="margin-left:0px;"><text styleclass="Answer" translate="true">Proofing a Pacing Guide is a way of declaring that the guide is complete and ready for use. &#160;Once a Pacing Guide has been proofed Teachers will be able to view the guide.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[Can I make changes after a pacing guide is proofed?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">Yes. Pacing Guides can be edited even after being proofed. </text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[What is the difference between a pacing guide and a blueprint?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">A Pacing Guide is a schedule of what is going to be taught. A Blueprint is a schedule of what the students are going to be tested on and when the assessment will occur.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[Does my pacing guide transfer to my blueprint?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">Pacing Guides are linked to blueprints, however Blueprints do not link back to the Pacing Guide. &#160;If a standard is added to a Pacing Guide it will automatically be added to the blueprint. &#160;However, if a standard is added to a blueprint it will not be added to the Pacing Guide. &#160;Also, descriptions added to either module will be visible on both of them.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[What do the blue boxes mean when I am looking at standards?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">The blue boxes reflect the blueprint test schedule and indicate what term each standard will be tested in. &#160;The separation of the Pacing Guide and Blueprint allows standards to be taught in one term and tested in another.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"></para>
+  </body>
+</topic>

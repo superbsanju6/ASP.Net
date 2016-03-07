@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="PlaceholderTile.ascx.cs" Inherits="Thinkgate.Controls.PlaceholderTile" %>
+<asp:Image ID="Image1" runat="server" ImageUrl="~/Images/under-construction-sign.png" ImageAlign="Middle" CssClass="constructionMargins" />

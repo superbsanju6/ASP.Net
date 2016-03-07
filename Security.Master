@@ -1,0 +1,120 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Security.master.cs" Inherits="Thinkgate.Security" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+    <title>Thinkgate Elements</title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/reset.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body runat="server" id="bodyTag" onresize="resizeBackgrounds();">
+    <img id="bgimg2" runat="server" clientidmode="Static" src="Images/bgs/1024768.png"
+        style="visibility: hidden;" />
+    <img id="bgimg" runat="server" clientidmode="Static" src="Images/bgs/diag_stripes.png"
+        style="visibility: hidden;" />
+    <div id="realBody">
+        <form id="Form1" runat="server">
+        <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+            <Scripts>
+                <%--Needed for JavaScript IntelliSense in VS2010--%>
+                <%--For VS2008 replace RadScriptManager with ScriptManager--%>
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
+                <asp:ScriptReference Path="~/Scripts/fullscreenBackground.js" />
+                <asp:ScriptReference Path="~/Scripts/GoogleAnalytics.js"/>
+            </Scripts>
+        </telerik:RadScriptManager>
+        <script type="text/javascript">
+
+            /*window.onresize = setTimeout('resizeBackgrounds();', 200); */
+
+            $(document).ready = setTimeout('resizeBackgrounds();', 200);
+
+            function resizeBackgrounds() {
+                fullscreenBackground('bgimg2');
+                fullscreenBackground('bgimg');
+
+                if (typeof resizeBodyTbl == 'function') {
+                    resizeBodyTbl();
+                }
+            }
+
+        </script>
+        <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+        </telerik:RadAjaxManager>
+        <telerik:RadSkinManager ID="RadSkinManager1" runat="server" Skin="Transparent">
+        </telerik:RadSkinManager>
+        <telerik:RadAjaxPanel ID="updPanel" runat="server" LoadingPanelID="updPanelLoadingPanel"
+            Width="100%" Height="100%">
+            <script type="text/javascript">
+                Sys.WebForms.PageRequestManager.getInstance().add_endRequest(MasterPage_EndRequestHandler);
+
+                function MasterPage_EndRequestHandler(sender, args) {
+                    if (args.get_error() == undefined && sender._postBackSettings.sourceElement != undefined) {
+                        var postbackTrigger = sender._postBackSettings.sourceElement;
+                        if (postbackTrigger.className == "expandCommand" || postbackTrigger.className == "editCommand")
+                            if (showExpandWindow) showExpandWindow();
+                    }
+                }
+            </script>
+            <center>
+                <div class="page">
+                    <div class="header">
+                        <div class="headerOuterWrapper">
+                            <div class="headerImage">
+                                <asp:ContentPlaceHolder ID="HeaderImageContent" runat="server" />
+                            </div>
+                            <div class="headerInnerWrapper">
+                                <div class="headerPageTitle">
+                                    <asp:ContentPlaceHolder ID="PageTitleContent" runat="server" />
+                                </div>
+                                <div id="dvMenu" runat="server">
+                                    <asp:Button ID="btnChangePassword" runat="server" Text="Change Password" CausesValidation="false"
+                                        OnClick="btnChangePassword_Click" />&nbsp;
+                                    <asp:Button ID="btnResetPassword" runat="server" Text="Reset Password" CausesValidation="false"
+                                        OnClick="btnResetPassword_Click" />&nbsp;
+                                    <asp:Button ID="btnRegistration" runat="server" Text="Create User Account" CausesValidation="false"
+                                        OnClick="btnRegistration_Click" />&nbsp;
+                                    <asp:Button ID="btnRoleManagement" runat="server" Text="Manage Roles" CausesValidation="false"
+                                        OnClick="btnRoleManagement_Click" />&nbsp;
+                                    <asp:Button ID="btnUserManagemnt" runat="server" Text="Manage Users" CausesValidation="false"
+                                        OnClick="btnUserManagemnt_Click" />&nbsp;
+                                    <asp:Button ID="btnLogout" runat="server" Text="Logout" CausesValidation="false"
+                                        OnClick="btnLogout_Click" />&nbsp;
+                                    <asp:Button ID="btnHome" runat="server" Text="Home" OnClick="btnHome_Click" CausesValidation="false" />
+                                </div>
+                                <br />
+                                <div align="center">
+                                    <asp:Label ID="lblLoggedInUser" runat="server" Text="You are not logged in."></asp:Label></div>
+                            </div>
+                            <div class="headerFolders">
+                                <asp:ContentPlaceHolder ID="FoldersContent" runat="server" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main">
+                    <div class="mainContents">
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+                        <telerik:RadWindowManager ID="RadWindowManager1" runat="server" EnableShadow="true">
+                        </telerik:RadWindowManager>
+                    </div>
+                </div>
+                <div class="clear">
+                </div>
+                <div class="footer">
+                    <asp:ContentPlaceHolder ID="PageFooter" runat="server" />
+                </div>
+            </center>
+        </telerik:RadAjaxPanel>
+        <telerik:RadAjaxLoadingPanel ClientIDMode="Static" ID="updPanelLoadingPanel" runat="server" />
+        <telerik:RadNotification ID="genericRadNotification" runat="server" EnableRoundedCorners="true"
+            EnableShadow="true" Width="300" Height="100">
+        </telerik:RadNotification>
+        </form>
+    </div>
+</body>
+</html>

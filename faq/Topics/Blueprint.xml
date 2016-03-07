@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" lasteditedby="lgisaacs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Blueprint</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Blueprints</text></para>
+    </header>
+    <para styleclass="Header 2" style="text-align:right;"><link displaytype="image" src="New_Back_Arrow_icon.gif" type="topiclink" href="Assessment"></link><text styleclass="Header 2" style="font-size:8pt;" translate="true">&#32;</text><link displaytype="text" defaultstyle="true" type="topiclink" href="Assessment" styleclass="Answer" style="font-size:8pt;" translate="true">Return to Assessment Menu</link></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[How do I add a new blueprint?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">A blueprint cannot be &quot;added&quot; to the system, only the shell edited. &#160;In the beginning of a new semester Thinkgate will add a blank &quot;shell&quot; for every Grade/Subject/Course combination in the system. &#160;Users can then edit these shells. &#160;The reason you cannot add a new blueprint is due to the issues that could be causes by a course having multiple blueprints.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[Why is there no blueprint available to a specific subject and course?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">There should be a Blueprint in the system for each subject and course. </text><text styleclass="Answer" style="font-weight:bold; font-style:italic;" translate="true">If one appears to be missing please contact Thinkgate Support or your district point of contact</text><text styleclass="Answer" translate="true">.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[How do I edit a blueprint?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <list id="3" type="ol" listtype="decimal" formatstring="&#37;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="font-family:Calibri; font-size:11pt; color:#000080;">
+            <li styleclass="Answer"><text styleclass="Answer" translate="true">In order to edit a blueprint please follow the directions listed below.</text></li>
+          </list>
+          <para styleclass="Answer"></para>
+          <list id="4" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click on </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Assessment</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click on the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Find</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Blueprint</text><text styleclass="Answer" translate="true"> Button</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Use the criteria to search for the desired blueprint</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Find</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Blueprints</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Edit</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Button</text><text styleclass="Answer" translate="true"> for desired blueprint</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">After clicking Edit you will be brought to the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Profile</text><text styleclass="Answer" translate="true"> page of the blueprint</text></li>
+          </list>
+          <para styleclass="Answer"></para>
+          <para styleclass="Answer"><text styleclass="Answer" style="font-weight:bold; font-style:italic;" translate="true">For detailed instruction on how to Edit and Create a Blueprint please view the Blueprint lessons within your Reference Center. &#160;These guides will provide step by step instruction and images on how to edit a Blueprint.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[What are the different parts of a blueprint?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer" style="margin-left:0px;"><text styleclass="Answer" translate="true">Listed below are descriptions of each of the different sections within a Blueprint:</text></para>
+          <para styleclass="Answer" style="margin-left:0px;"></para>
+          <list id="5" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0; font-family:Calibri; font-size:11pt; color:#000080;">
+            <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" style="font-weight:bold;" translate="true">Standards</text><text styleclass="Answer" translate="true"> – State Standards can be added to the Blueprint to ensure that all of the standards for that grade, subject and course are a covered in assessments.</text><br/></li>
+            <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" style="font-weight:bold;" translate="true">Test</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Plan</text><text styleclass="Answer" translate="true"> – The test plan is where the user decides what kinds of assessments will be given in which term.</text><br/></li>
+            <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" style="font-weight:bold;" translate="true">Test</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Schedule</text><text styleclass="Answer" translate="true"> – This page mirrors the selections made on the Test Plan page. On the Test Schedule the user can change the sequence of the assessments being given within each term. The user can also mark the Blueprint Required check box to make the corresponding assessments required to follow the blueprint format. </text><br/></li>
+            <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" style="font-weight:bold;" translate="true">Blueprint</text><text styleclass="Answer" translate="true"> – The Blueprint page gives the user the ability to select how many questions from each standard will be on each assessment. </text><br/></li>
+            <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" style="font-weight:bold;" translate="true">Assessment</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Guide</text><text styleclass="Answer" translate="true"> – Provides a high-level overview of the Blueprint.</text></li>
+          </list>
+          <para styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"></para>
+          <para styleclass="Answer"><text styleclass="Answer" style="font-weight:bold; font-style:italic;" translate="true">For detailed instruction on how to Edit and Create a Blueprint please view the Blueprint lessons within your Reference Center. &#160;These guides will provide step by step instruction and images on how to edit a Blueprint.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[Once I create a blueprint do I have to use it for every assessment I create?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">If the Blueprint Required checkbox is selected on the Test Schedule portion of the Blueprint then the corresponding assessment will make the test conform to the Blueprint. &#160;This checkbox can be &quot;unchecked&quot; at any time. &#160;If you wish to create a free form test instead of using the blueprint you can uncheck the blueprint required box on the Test Schedule tab of the blueprint.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[Why do I need to proof my blueprint?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">Once the Blueprint is proofed, users will be able to build assessment off of it.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[What can I change after a blueprint is proofed?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">After a blueprint has been proofed anything can be updated. &#160;Proofing a blueprint only allows assessment to be built off of it. &#160;It does not lock any of the editable fields.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[What is the difference between a blueprint and a pacing guide?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer" style="margin-left:0px;"><text styleclass="Answer" translate="true">A Blueprint is a schedule of what the students are going to be tested on. A Pacing Guide is a schedule of what is going to be taught.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[What are the green highlighted boxes when I look at standards?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">The green boxes reflect the Pacing Guide and show what standards are scheduled to be taught in each term. </text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

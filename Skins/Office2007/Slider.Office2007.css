@@ -1,0 +1,356 @@
+/* RadSlider Office2007 Skin */
+
+.RadSlider_Office2007 a
+{
+	cursor:default;
+}
+
+.RadSlider_Office2007
+{
+	color:white;
+}
+
+.RadSlider_Office2007 a.rslHandle
+{
+	width:18px; 
+	height:18px; 
+	line-height:18px;
+	background-repeat:no-repeat;
+}
+
+.RadSlider_Office2007 .rslHorizontal
+{
+	height:18px;
+	background:#7698c5 url('Slider/SliderBgr.gif') repeat-x;
+}
+
+.RadSlider_Office2007 .rslHorizontal a.rslHandle
+{
+	background-image:url('Slider/Handles.gif');
+}
+
+.RadSlider_Office2007 .rslHorizontal .rslDecrease
+{
+	background-position:0 0;
+}
+
+.RadSlider_Office2007 .rslHorizontal .rslDecrease:hover
+{
+	background-position:0 -18px;
+}
+
+.RadSlider_Office2007 .rslHorizontal .rslDecrease:active,
+.RadSlider_Office2007 .rslHorizontal .rslDecrease:focus
+{
+	background-position:0 -36px;
+}
+
+.RadSlider_Office2007 .rslHorizontal .rslIncrease
+{
+	background-position:-18px 0;
+}
+
+.RadSlider_Office2007 .rslHorizontal .rslIncrease:hover
+{
+	background-position:-18px -18px;
+}
+
+.RadSlider_Office2007 .rslHorizontal .rslIncrease:active,
+.RadSlider_Office2007 .rslHorizontal .rslIncrease:focus
+{
+	background-position:-18px -36px;
+}
+
+.RadSlider_Office2007 .rslHorizontal a.rslDraghandle
+{
+	top:0;
+	margin-top:-6px;
+	width:9px; 
+	height:14px;
+	background-image:url('Slider/DragHandle.gif');
+	background-repeat:no-repeat;
+}
+
+.RadSlider_Office2007 .rslHorizontal a.rslDraghandle:hover
+{
+	background-position:-9px 0;
+}
+
+.RadSlider_Office2007 .rslHorizontal a.rslDraghandle:focus,
+.RadSlider_Office2007 .rslHorizontal a.rslDraghandle:active
+{
+	background-position:-18px 0;
+}
+
+.RadSlider_Office2007 .rslHorizontal .rslTrack,
+.RadSlider_Office2007 .rslHorizontal .rslItemsWrapper
+{
+	left:18px;
+}
+
+.RadSlider_Office2007 .rslHorizontal .rslTrack
+{
+	margin-top:8px;
+	height:1px;
+	background:#dee2ec;
+	border-top:solid 1px #7496c2;
+}
+
+.RadSlider_Office2007 .rslTop .rslItemsWrapper
+{
+	/* half of the width of the wrapper DIV (the background image in particular) as this is roughly the space between 
+       the track and the end of the image */
+	margin-top:10px;
+}
+
+.RadSlider_Office2007 .rslMiddle
+{
+	background-position:center center;
+}
+
+.RadSlider_Office2007 .rslBottom
+{
+	background-position:0 100%;
+}
+
+.RadSlider_Office2007 .rslBottom .rslItemsWrapper
+{
+	/* half of the width of the wrapper DIV (the background image in particular) as this is roughly the space between 
+       the track and the end of the image */
+	margin-bottom:10px;
+}
+
+/* vertical slider */
+.RadSlider_Office2007 .rslVertical
+{
+	width:18px;
+	background:#7698c5 url('Slider/SliderVerticalBgr.gif') repeat-y;
+}
+
+.RadSlider_Office2007 .rslVertical .rslHandle
+{
+	background-image:url('Slider/HandlesVertical.gif');
+}
+
+.RadSlider_Office2007 .rslVertical .rslDecrease
+{
+	background-position:0 0;
+}
+
+.RadSlider_Office2007 .rslVertical .rslDecrease:hover
+{
+	background-position:-18px 0;
+}
+
+.RadSlider_Office2007 .rslVertical .rslDecrease:active,
+.RadSlider_Office2007 .rslVertical .rslDecrease:focus
+{
+	background-position:-36px 0;
+}
+
+.RadSlider_Office2007 .rslVertical .rslIncrease
+{
+	background-position:0 -18px;
+}
+
+.RadSlider_Office2007 .rslVertical .rslIncrease:hover
+{
+	background-position:-18px -18px;
+}
+
+.RadSlider_Office2007 .rslVertical .rslIncrease:active,
+.RadSlider_Office2007 .rslVertical .rslIncrease:focus
+{
+	background-position:-36px -18px;
+}
+
+.RadSlider_Office2007 .rslVertical a.rslDraghandle
+{
+	left:0px;
+}
+
+.RadSlider_Office2007 .rslVertical .rslTrack,
+.RadSlider_Office2007 .rslVertical .rslItemsWrapper
+{
+	top:18px;
+}
+
+.RadSlider_Office2007 .rslVertical .rslTrack
+{
+	margin-left:8px;
+	width:1px;
+	background:#dee2ec;
+	border-left:solid 1px #7496c2;
+}
+
+.RadSlider_Office2007 .rslVertical a.rslDraghandle
+{
+	border:0;
+	top:0;
+	margin-left:-6px;
+	width:14px; height:9px;
+	background-image:url('Slider/DragVerticalHandle.gif');
+	background-repeat:no-repeat;
+}
+
+.RadSlider_Office2007 .rslVertical a.rslDraghandle:hover
+{
+	background-position:0 -9px;
+}
+
+.RadSlider_Office2007 .rslVertical a.rslDraghandle:focus,
+.RadSlider_Office2007 .rslVertical a.rslDraghandle:active
+{
+	background-position:0 -18px;
+}
+
+.RadSlider_Office2007 .rslLeft .rslItemsWrapper
+{
+	/* half of the width of the wrapper DIV (the background image in particular) as this is roughly the space between 
+       the track and the end of the image */
+	margin-left:10px;
+}
+
+.RadSlider_Office2007 .rslCenter
+{
+	background-position:center center;
+}
+
+.RadSlider_Office2007 .rslRight
+{
+	background-position:100% 0;
+}
+
+.RadSlider_Office2007 .rslRight .rslItemsWrapper
+{
+	/* half of the width of the wrapper DIV (the background image in particular) as this is roughly the space between 
+       the track and the end of the image */
+	margin-right:10px;
+}
+
+.RadSlider_Office2007 .rslItem,
+.RadSlider_Office2007 .rslLargeTick span
+{
+	color:#fff;
+}
+
+.RadSlider_Office2007 .rslItemsWrapper .rslItemSelected
+{
+    color:#fff;
+}
+
+/* horizontal slider items */
+.RadSlider_Office2007 .rslHorizontal .rslItem
+{
+	background-image:url('Slider/ItemHorizontalBgr.gif');
+}
+
+/* vertical slider items */
+.RadSlider_Office2007 .rslVertical .rslItem
+{
+	background-image:url('Slider/ItemVerticalBgr.gif');
+}
+
+/* set width of the ticks */
+.RadSlider_Office2007 .rslHorizontal .rslSmallTick,
+.RadSlider_Office2007 .rslHorizontal .rslLargeTick
+{
+	width:1px;
+}
+
+.RadSlider_Office2007 .rslVertical .rslSmallTick,
+.RadSlider_Office2007 .rslVertical .rslLargeTick
+{
+	height:1px;
+}
+
+/* horizontal slider - TrackPosition=Top/Bottom */
+.RadSlider_Office2007 .rslTop .rslSmallTick,
+.RadSlider_Office2007 .rslBottom .rslSmallTick
+{
+	background-image:url('Slider/SmallChangeHorizontal.gif');
+}
+
+.RadSlider_Office2007 .rslTop .rslLargeTick,
+.RadSlider_Office2007 .rslBottom .rslLargeTick
+{
+	background-image:url('Slider/LargeChangeHorizontal.gif');
+}
+
+.RadSlider_Office2007 .rslBottom div.rslTrack
+{
+	margin-top:0;
+	margin-bottom:8px;
+}
+
+/* vertical slider - TrackPosition=Left/Right */
+.RadSlider_Office2007 .rslLeft .rslSmallTick,
+.RadSlider_Office2007 .rslRight .rslSmallTick
+{
+    background-image:url('Slider/SmallChangeVertical.gif');
+}
+
+.RadSlider_Office2007 .rslLeft .rslLargeTick,
+.RadSlider_Office2007 .rslRight .rslLargeTick 
+{
+    background-image:url('Slider/LargelChangeVertical.gif');
+}
+
+.RadSlider_Office2007 .rslRight div.rslTrack
+{
+	margin-left:0;
+	margin-right:8px;
+}
+
+/* horizontal slider - TrackPosition=Center */
+.RadSlider_Office2007 .rslMiddle .rslSmallTick
+{
+	background-image:url('Slider/SmallChangeMiddleHorizontal.gif');
+}
+
+.RadSlider_Office2007 .rslMiddle .rslLargeTick 
+{
+	background-image:url('Slider/LargeChangeMiddleHorizontal.gif');
+}
+
+.RadSlider_Office2007 .rslMiddle a.rslHandle
+{
+	/* half of the height of the handle */
+	margin-top:-9px;
+}
+
+.RadSlider_Office2007 .rslMiddle div.rslTrack
+{
+	/* half of the height of the track */
+	margin-top:-1px;
+}
+
+/* vertical slider - TrackPosition=Center */
+.RadSlider_Office2007 .rslCenter .rslSmallTick
+{
+    background-image:url('Slider/SmallChangeCenterVertical.gif');
+}
+
+.RadSlider_Office2007 .rslCenter .rslLargeTick 
+{
+    background-image:url('Slider/LargelChangeCenterVertical.gif');
+}
+
+.RadSlider_Office2007 .rslCenter a.rslHandle
+{
+	/* half of the width of the handle */
+	margin-left:-9px;
+}
+
+.RadSlider_Office2007 .rslCenter div.rslTrack
+{
+	/* half of the width of the track */
+	margin-left:-1px;
+}
+
+/* Items/Ticks text */
+.RadSlider_Office2007 .rslItem,
+.RadSlider_Office2007 .rslLargeTick span
+{
+	font:11px arial,sans-serif;
+}

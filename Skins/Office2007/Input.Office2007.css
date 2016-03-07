@@ -1,0 +1,149 @@
+/*Telerik RadInput Office2007 Skin*/
+
+/*global*/
+
+.RadInput_Office2007,
+.RadInputMgr_Office2007
+{
+	vertical-align:middle;
+}
+
+.RadInput_Office2007
+{
+	font:12px arial,sans-serif;
+}
+
+.RadInput_Office2007 table
+{
+	border:0;
+	vertical-align:bottom;
+}
+
+.RadInput_Office2007 table.riTable td
+{
+	border:0;
+	padding:0;
+	vertical-align:middle;
+	overflow:visible;/*RadGrid*/
+}
+
+.RadInput_Office2007 table td.riCell 
+{
+	padding-right:4px;
+}
+
+.RadInput_Office2007 textarea
+{
+	vertical-align:bottom;
+	overflow:auto;
+}
+
+/*textbox states*/
+
+html body .RadInput_Office2007 .riTextBox,
+html body .RadInputMgr_Office2007
+{
+	border:1px solid #7f9db9;
+	padding:3px 0 2px 1px;
+	background:#fff;
+	color:#000;
+	font:11px arial,sans-serif;
+}
+
+html body .RadInput_Office2007 .riEmpty,
+html body .RadInput_Empty_Office2007
+{
+	color:#999;
+}
+
+html body .RadInput_Office2007 .riHover,
+html body .RadInput_Hover_Office2007
+{
+	border-color:#38577e;
+}
+
+html body .RadInput_Office2007 .riRead,
+html body .RadInput_Read_Office2007
+{
+	border-color:#c0cfdd;
+}
+
+html body .RadInput_Office2007 .riDisabled,
+html body .RadInput_Disabled_Office2007
+{
+	border-color:#c0cfdd;
+	color:#999;
+	cursor:default;
+}
+
+html body .RadInput_Office2007 .riError,
+html body .RadInput_Error_Office2007
+{	
+	border-color:#dcaa78;
+	background:#fff url('Input/sprite.gif') 100% -148px no-repeat;
+	color:#dcaa78;
+}
+
+html body .RadInput_Office2007 .riNegative,
+html body .RadInput_Negative_Office2007
+{
+	color:#333;
+}
+
+/*buttons*/
+
+.RadInput_Office2007 a
+{
+	display:block;
+	overflow:hidden;
+	position:relative;/*FF*/
+	outline:none;/*FF*/
+	z-index:2;/*Opera*/
+	background:url('Input/sprite.gif') no-repeat;
+	text-indent:-4444px;
+	text-align:left;
+	text-decoration:none;
+	direction:ltr;
+}
+* html .RadInput_Office2007 a{position:static}/*IE6*/
+*+html .RadInput_Office2007 a{position:static}/*IE7*/
+
+/*go*/
+
+.RadInput_Office2007 .riBtn a
+{
+	width:20px;
+	height:18px; 
+	line-height:18px;
+	background-position:4px 4px;
+}
+
+/*spin*/
+
+.RadInput_Office2007 .riSpin a
+{
+	width:12px;
+	height:6px; 
+	line-height:6px;
+	margin:0 1px;
+}
+
+.RadInput_Office2007 .riUp
+{
+	background-position:3px -49px;
+}
+
+.RadInput_Office2007 .riDown
+{
+	background-position:3px -99px;
+	margin-top:3px;
+}
+
+/*label*/
+
+.RadInput_Office2007 .riLabel
+{
+	margin:0 4px 0 0;
+	color:#000;
+	white-space:nowrap;
+}

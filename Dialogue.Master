@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Dialogue.master.cs" Inherits="Thinkgate.Dialogue" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server">
+        <StyleSheets>
+            <telerik:StyleSheetReference Path="~/Styles/reset.css" />
+        </StyleSheets>
+    </telerik:RadStyleSheetManager>
+    <link href="~/Styles/Site.css?v=2" rel="stylesheet" type="text/css" />
+    <script type='text/javascript' src='../Scripts/jquery-1.9.1.min.js'></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server" style="height: 100%;">
+    <div>
+        <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+            <Scripts>
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
+                <asp:ScriptReference Path="~/Scripts/fullscreenBackground.js" />
+                <asp:ScriptReference Path="~/Scripts/master.js?v=10136" />
+                <%--<asp:ScriptReference Path="https://www.google.com/jsapi" />--%>
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+			    <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+			    <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
+			    <asp:ScriptReference Path="~/Scripts/jquery-1.9.1.min.js" />
+			    <asp:ScriptReference Path="~/Scripts/jquery-migrate-1.1.0.min.js" />
+			    <asp:ScriptReference Path="~/Scripts/jquery-ui/js/jquery-ui-1.10.0.custom.min.js" />
+			    <asp:ScriptReference Path="~/Scripts/jquery.scrollTo-min.js" />
+			    <asp:ScriptReference Path="~/Scripts/jquery.cookie.js" />
+			    <asp:ScriptReference Path="~/Scripts/json2.js" />
+			    <asp:ScriptReference Path="~/Scripts/expandedSearchPage.js" />
+			    <asp:ScriptReference Path="~/Scripts/jsrender.js" />
+			    <asp:ScriptReference Path="~/Scripts/jquery.jfade.1.0.min.js" />
+			    <asp:ScriptReference Path="~/Scripts/SearchPager.js" />
+			    <asp:ScriptReference Path="~/Scripts/Criteria.js" />
+                <asp:ScriptReference Path="~/Scripts/jquery.inputmask.js"/>
+                <asp:ScriptReference Path="~/Scripts/GoogleAnalytics.js"/>
+            </Scripts>
+        </telerik:RadScriptManager>
+        <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+        </telerik:RadAjaxManager>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

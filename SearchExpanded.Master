@@ -1,0 +1,377 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SearchExpanded.master.cs"
+	Inherits="Thinkgate.SearchExpanded" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="height: 100%; overflow: hidden;">
+<head runat="server">
+	<title></title>
+	<telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server">
+		<StyleSheets>
+			<telerik:StyleSheetReference Path="~/Styles/reset.css" />
+			<telerik:StyleSheetReference Path="~/Styles/Site.css" />
+			<telerik:StyleSheetReference Path="~/Styles/SearchExpanded.css" />
+		</StyleSheets>
+	</telerik:RadStyleSheetManager>
+	<link href="~/Styles/Thinkgate_Window/Window.Thinkgate_Window.css?v=4"
+		rel="stylesheet" type="text/css" runat="server" />
+
+	<asp:ContentPlaceHolder ID="HeadContent" runat="server">
+	</asp:ContentPlaceHolder>
+     <style type="text/css">
+
+       .rgDataDiv {
+          
+           min-height: 400px !important;
+       }
+       .RadToolTip {
+           position: fixed !important;
+       }
+        </style>
+</head>
+<body>
+	<form id="form1" runat="server" style="height: 100%;">
+	<telerik:RadScriptManager ID="RadScriptManager2" runat="server">
+		<Scripts>
+			<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+			<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+			<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
+			<asp:ScriptReference Path="~/Scripts/jquery-1.9.1.min.js" />
+			<asp:ScriptReference Path="~/Scripts/jquery-migrate-1.1.0.min.js" />
+			<asp:ScriptReference Path="~/Scripts/jquery-ui/js/jquery-ui-1.10.0.custom.min.js" />
+			<asp:ScriptReference Path="~/Scripts/jquery.scrollTo-min.js" />
+			<asp:ScriptReference Path="~/Scripts/expandedSearchPage.js" />
+			<asp:ScriptReference Path="~/Scripts/master.js" />
+			<asp:ScriptReference Path="~/Scripts/jsrender.js" />
+			<asp:ScriptReference Path="~/Scripts/jquery.jfade.1.0.min.js" />
+			<asp:ScriptReference Path="~/Scripts/searchExpandedCustomPager.js" />
+            <asp:ScriptReference Path="~/Scripts/jquery.inputmask.js"/>
+            <asp:ScriptReference Path="~/Scripts/GoogleAnalytics.js"/>
+		</Scripts>
+	</telerik:RadScriptManager>
+	<telerik:RadWindowManager ID="RadWindowManager1" runat="server" EnableShadow="true"
+		Skin="Thinkgate_Window" EnableEmbeddedSkins="False" Modal="True" InitialBehaviors="Close"
+		Animation="None">
+	</telerik:RadWindowManager>
+	<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+	</telerik:RadAjaxManager>
+	<telerik:RadSkinManager ID="RadSkinManager1" runat="server" Skin="Transparent">
+	</telerik:RadSkinManager>
+	<script type="text/javascript">
+	    function onRequestStart(sender, args) {
+	        if (args.get_eventTarget().indexOf("btnStudentRosterExport") >= 0)
+	            args.set_enableAjax(false);
+	    }
+	    
+	    var specialKeys = new Array();
+	    specialKeys.push(8); 
+	    specialKeys.push(9);	    
+	    specialKeys.push(37);
+	    specialKeys.push(32);
+	    specialKeys.push(222);
+	    function IsAlphaNumeric(e) {
+	        var keyCode = e.keyCode == 0 ? e.charCode : e.keyCode;
+	        var ret = ((keyCode >= 48 && keyCode <= 57) || (keyCode >= 65 && keyCode <= 90) || (keyCode >= 97 && keyCode <= 122) || (specialKeys.indexOf(e.keyCode) != -1 || keyCode == 32 || keyCode == 39 && e.charCode != e.keyCode));
+	        if (e.char == '%' || e.char == '$' || e.char == '.' || e.char == '#' || (e.shiftKey == true && e.keyCode == 37)) {
+	            ret = false;
+	        }
+	        else if ($.browser.mozilla == true && e.keyCode == 46) {
+	            ret = true;
+	        }
+	        else if (($.browser.msie == true && e.keyCode == 39) || ($.browser.chrome == true && e.keyCode == 39)) {
+	            ret = true;
+	        }
+	        return ret;
+	    }
+	    function IsAlphaNumeric_CheckID(e) {
+	        var keyCode = e.keyCode == 0 ? e.charCode : e.keyCode;
+	        var ret = ((keyCode >= 48 && keyCode <= 57) || (keyCode >= 65 && keyCode <= 90) || (keyCode >= 97 && keyCode <= 122) || (specialKeys.indexOf(e.keyCode) != -1 || keyCode == 32 && e.charCode != e.keyCode));
+	        if (e.char == '%' || e.char == '$' || e.char == '.' || e.char == '#' || e.char == "'" || (e.shiftKey == true && e.keyCode == 37)) {
+	            ret = false;
+	        }
+	        else if ($.browser.mozilla == true && e.keyCode == 46) {
+	            ret = true;
+	        }
+	        return ret;
+	    }	  
+	    $(document).ready(function () {
+	        $(window).keydown(function (event) {
+	            if (event.keyCode == 13) {
+	                event.preventDefault();
+	                return false;
+	            }
+	        });
+	        $('#ctl00_LeftColumnContentPlaceHolder_ctlStudentSearchResultsCriteria_criteriaRepeater_ctl00_RadTextBoxCriteriaName').live('keypress', function (e) {	            
+	            var chk = IsAlphaNumeric(e);
+	            if (chk == false) {
+	                e.preventDefault();
+	            }
+	        });
+	        $('#ctl00_LeftColumnContentPlaceHolder_ctlStudentSearchResultsCriteria_criteriaRepeater_ctl00_RadTextBoxCriteriaName').live('paste', function () {
+	            setTimeout(function () {	                
+	                var data = $('#ctl00_LeftColumnContentPlaceHolder_ctlStudentSearchResultsCriteria_criteriaRepeater_ctl00_RadTextBoxCriteriaName').val();
+	                var dataFull = data.replace(/[^\w\s\']/gi, '').replace(new RegExp('_', 'g'), ' ');
+	                $('#ctl00_LeftColumnContentPlaceHolder_ctlStudentSearchResultsCriteria_criteriaRepeater_ctl00_RadTextBoxCriteriaName').val(dataFull);
+	            });
+	        });
+	        $('#ctl00_LeftColumnContentPlaceHolder_ctlStudentSearchResultsCriteria_criteriaRepeater_ctl01_RadTextBoxCriteriaStudentID').live('keypress', function (e) {
+	            var chk = IsAlphaNumeric_CheckID(e);
+	            if (chk == false) {
+	                e.preventDefault();
+	            }
+	        });
+	        $('#ctl00_LeftColumnContentPlaceHolder_ctlStudentSearchResultsCriteria_criteriaRepeater_ctl01_RadTextBoxCriteriaStudentID').live('paste', function () {
+	            setTimeout(function () {
+	                var data = $('#ctl00_LeftColumnContentPlaceHolder_ctlStudentSearchResultsCriteria_criteriaRepeater_ctl01_RadTextBoxCriteriaStudentID').val();
+	                var dataFull = data.replace(/[^\w\s]/gi, '').replace(new RegExp('_', 'g'),' ');
+	                $('#ctl00_LeftColumnContentPlaceHolder_ctlStudentSearchResultsCriteria_criteriaRepeater_ctl01_RadTextBoxCriteriaStudentID').val(dataFull);
+	            });
+	        });
+	       
+	    });
+	   
+		function toggleSidebar() {
+			$('#leftColumn').toggle('slide', { direction: 'left' }, 500);
+
+			var leftColumnWidth = convertToInt($('#leftColumn').css('width'));
+			var rightColumnMarginLeft = convertToInt($('#rightColumn').css('margin-left'));
+			var columnExpanderWidth = convertToInt($('#columnExpander').css('width'));
+			var columnExpanderMarginLeft = convertToInt($('#columnExpander').css('margin-left'));
+
+			if (rightColumnMarginLeft == columnExpanderWidth) {
+				rightColumnMarginLeft = -rightColumnMarginLeft;
+			}
+
+			var newRightColumnMarginLeft = Math.abs(rightColumnMarginLeft - leftColumnWidth);
+			var newColumnExpanderMarginLeft = Math.abs(columnExpanderMarginLeft - leftColumnWidth);
+
+			$('#rightColumn').animate({ 'margin-left': newRightColumnMarginLeft }, 500);
+			$('#columnExpander').animate({ 'margin-left': newColumnExpanderMarginLeft }, 500, function () {
+				if (newColumnExpanderMarginLeft == 0) {
+					//closed
+					$('#columnExpanderHandleImage').attr('src', '../../Images/arrow_gray_right.gif');
+					if (typeof alterPageComponents == 'function' )
+						alterPageComponents('closed');
+				}
+				else {
+					//open
+					$('#columnExpanderHandleImage').attr('src', '../../Images/arrow_gray_left.gif');
+
+					if (typeof alterPageComponents == 'function')
+						alterPageComponents('open');
+				}
+			});
+		}
+
+		function convertToInt(value) {
+			return value.replace(/[^-\d\.]/g, '');
+		}
+
+		function buildDependencyObject(dependencies) {
+			var data = {
+				"container": {}
+			};
+
+			var dependencyObject = jQuery.parseJSON(dependencies);
+
+			for (var dependency in dependencyObject) {
+				var key = dependencyObject[dependency].key;
+				var currentKey = dependencyObject[dependency].value;
+
+				data.container[currentKey + "Key"] = key;
+				data.container[currentKey] = [];
+
+				var genericDiv = $("div[id*='" + getControlType(dependencyObject[dependency].type) + key + "']:not(div[id$='_DropDown'])");
+
+				if (genericDiv == null) {
+					alert("Couldn't find: " + dependencyObject[dependency].type);
+					continue;
+				}
+
+				var genericControl = $find(genericDiv.attr('id'));
+				if (genericControl == null) {
+					continue;
+				}
+
+				var controlItems = genericControl.get_items()._array;
+				var jsonItem = {};
+				for (var i = 0; i < controlItems.length; ++i) {
+					var selected = false;
+
+					switch (dependencyObject[dependency].type) {
+						case "CheckBoxList":
+							selected = controlItems[i].get_checked();
+							jsonItem = {
+								"DisplayText": controlItems[i].get_text(),
+								"Value": controlItems[i].get_value(),
+								"Selected": selected
+							};
+							break;
+
+						case "DropDownList":
+							selected = controlItems[i].get_selected();
+							jsonItem = {
+								"ID": controlItems[i].get_value().replace(key + "_", ''),
+								"DisplayText": controlItems[i].get_text(),
+								"Value": controlItems[i].get_value(),
+								"Selected": selected
+							};
+							break;
+					}
+
+					if (!selected) {
+						continue;
+					}
+
+					data.container[currentKey].push(jsonItem);
+				}
+			}
+			return data;
+		}
+
+		function getControlType(type) {
+			switch (type) {
+				case "CheckBoxList":
+					return "RadCombobBoxCriteriaCheckBoxList";
+
+				case "DropDownList":
+					return "RadCombobBoxCriteriaDropDownList";
+
+				default:
+					return "";
+			}
+		}
+
+		var serviceControlsList = {};
+		var loadingInterval = "";
+
+		function checkServiceControlsFullyLoaded() {
+			for (var control in serviceControlsList) {
+				if (!serviceControlsList[control].loaded) {
+					return;
+				}
+			}
+
+			for (var control in serviceControlsList) {
+				serviceControlsList[control].callback();
+			}
+
+			if (loadingInterval != "") {
+				window.clearInterval(loadingInterval);
+			}
+		}
+
+		function addServiceControl(key) {
+			var serviceControl = {
+				loaded: false
+			};
+
+			serviceControlsList[key] = serviceControl;
+		}
+
+		function loadServiceData(key, type) {
+			var partialID = getControlType(type) + key;
+			var genericDiv = $("div[id$='" + partialID + "']:not(div[id$='_DropDown'])");
+
+			var genericControl = $find(genericDiv.attr('id'));
+			if (genericControl == null) {
+
+				//alert("loadServiceData: " + genericDiv.attr('id'));
+				return;
+			}
+
+			var serviceUrl = genericDiv.attr('serviceurl');
+			var serviceSuccessfulCallback = genericDiv.attr('successcallback');
+			var dependencies = genericDiv.attr('dependencies');
+
+			if (serviceUrl != null) {
+				ajaxWCFService({ url: serviceUrl, data: JSON.stringify(buildDependencyObject(dependencies)), success: serviceSuccessfulCallback });
+			}
+		}
+
+		function updateCriteriaControl(key, data, type, headerText) {
+			var partialID = getControlType(type) + key;
+			var genericDiv = $("div[id$='" + partialID + "']");
+			var genericControl = $find(genericDiv.attr('id'));
+			if (genericControl == null) {
+				alert(genericDiv.attr('id'));
+				return;
+			}
+
+			var genericControlItems = genericControl.get_items();
+			genericControlItems.clear();
+
+			switch (type) {
+				case "DropDownList":
+					var blankItem = new Telerik.Web.UI.RadComboBoxItem();
+					blankItem.set_text("Select a " + headerText);
+					blankItem.set_value('0');
+					genericControlItems.add(blankItem);
+					break;
+			}
+
+			for (var contract in data) {
+				var item = null;
+
+				switch (type) {
+					case "CheckBoxList":
+						item = new Telerik.Web.UI.RadListBoxItem();
+						item.set_checked(data[contract].Selected);
+						break;
+
+					case "DropDownList":
+						item = new Telerik.Web.UI.RadComboBoxItem();
+						item.set_selected(data[contract].Selected);
+						break;
+				}
+
+				if (data[contract].Value) {
+					item.set_text(data[contract].DisplayText);
+					item.set_value(data[contract].Value);
+
+					genericControlItems.add(item);
+				}
+			}
+		}
+	</script>
+	<telerik:RadAjaxPanel ID="updPanel" ClientEvents-OnRequestStart="onRequestStart" runat="server" LoadingPanelID="updPanelLoadingPanel"
+		Style="height: 100%;">
+		<div id="MainWrapperDiv" runat="server" style="width: 100%; height: 100%;">
+			<div style="height: 100%;">
+				<div id="wrapperColumnRight" style="float: right; width: 100%; margin-left: -210px; ">
+					<div id="rightColumn" style="margin-left: 210px; height: 100%;">
+						<asp:ContentPlaceHolder ID="RightColumnHeaderContentPlaceHolder" runat="server">
+						</asp:ContentPlaceHolder>
+						<asp:ContentPlaceHolder ID="RightColumnContentPlaceHolder" runat="server">
+						</asp:ContentPlaceHolder>
+					</div>
+				</div>
+				<div id="leftColumn" style="width: 200px; float: left; height: 100%; background-color: #848484; overflow-y:auto;overflow-x: hidden;">
+					<asp:ContentPlaceHolder ID="LeftColumnHeaderContentPlaceHolder" runat="server">
+					</asp:ContentPlaceHolder>
+					<asp:ContentPlaceHolder ID="LeftColumnContentPlaceHolder" runat="server">
+					</asp:ContentPlaceHolder>
+				</div>
+				<div id="columnExpander" style="width: 10px; margin-left: 200px; height: 100%; background-color: #CCCCCC;">
+					<div id="columnExpanderHandle" onclick="toggleSidebar()" style="cursor: pointer;
+						height: 100px; background-color: #0F3789; position: relative; top: 42%;">
+						<asp:Image runat="server" ID="columnExpanderHandleImage" Style="position: relative;
+							left: 1px; top: 40px; width: 8px" ImageUrl="~/Images/arrow_gray_left.gif" /></div>
+				</div>
+			</div>
+		</div>
+		<telerik:RadWindowManager ID="RadWindowManager" runat="server" EnableShadow="true" Skin="Telerik">
+		</telerik:RadWindowManager>
+	</telerik:RadAjaxPanel>
+	<telerik:RadAjaxLoadingPanel ID="updPanelLoadingPanel" runat="server" />
+	<input clientidmode="Static" type="hidden" runat="server" id="ReturnToPostBackPage" />
+	<input clientidmode="Static" type="hidden" runat="server" id="tileScrollDiv1_currentPage"
+		value="1" />
+	<input clientidmode="Static" type="hidden" runat="server" id="tileScrollDiv2_currentPage"
+		value="1" />
+	<input clientidmode="Static" type="hidden" runat="server" id="tileScrollDiv1_postBackPage" />
+	<input clientidmode="Static" type="hidden" runat="server" id="tileScrollDiv2_postBackPage" />
+	<asp:ContentPlaceHolder ID="EndOfFormContentPlaceHolder" runat="server">
+	</asp:ContentPlaceHolder>        
+	</form>
+</body>
+</html>

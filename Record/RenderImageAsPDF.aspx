@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RenderImageAsPDF.aspx.cs" Inherits="Thinkgate.Record.RenderImageAsPDF" %>

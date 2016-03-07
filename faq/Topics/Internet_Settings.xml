@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" lasteditedby="lgisaacs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Internet Settings</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Internet Settings</text></para>
+    </header>
+    <para styleclass="Header 2" style="text-align:right;"><link displaytype="image" src="Home.gif" type="topiclink" href="Introduction"></link><text styleclass="Header 2" style="font-size:8pt;" translate="true">&#32;</text><link displaytype="text" defaultstyle="true" type="topiclink" href="Introduction" styleclass="Answer" style="font-size:8pt;" translate="true">Return to Main Menu</link><br/></para>
+    <para styleclass="Header 2" style="text-indent:-18px; margin-left:18px;"><image src="rightarrow.gif" scale="100.00%" styleclass="Header 2" style="font-size:12pt;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="true" defaultstyle="false" src-collapsed="rightarrow.gif" src-expanded="downarrow.gif" styleclass="Header 2" style="font-size:12pt;"><caption translate="true"><![CDATA[Accessing Elements]]></caption></toggle></para>
+    <para styleclass="Header 2" style="margin-left:24px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[After entering my user name, password and client ID, then clicking Sign In, nothing happens.  Why am I unable to access Elements?]]></caption></toggle></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <para styleclass="Answer"><text styleclass="Answer" style="color:#000080;" translate="true">In order for Elements™ to open correctly, pop-up blockers must be turned off in your internet browser. &#160;If you never see the system open after signing in through the </text><link displaytype="text" defaultstyle="true" type="weblink" href="&lt;%LINK_CAPTION%&gt;" target="_blank" styleclass="Answer" style="color:#000080;" translate="true">www.thinkgate.net</link><text styleclass="Answer" style="color:#000080;" translate="true"> homepage, more than likely, pop-up blockers are enabled in your internet browser. &#160;In order to turn off pop-up blockers, here are some directions for Internet Explorer 7, Internet Explorer 8 and Mozilla Firefox (3.0+):</text></para>
+                <para styleclass="Answer"></para>
+                <para styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:24px; line-height:1.0;"><text styleclass="Answer" style="color:#000080;" translate="true">Internet Explorer 7: &#160;</text></para>
+                <list id="19" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" style="color:#000080;" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold; color:#000080;" translate="true">Tools</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" style="color:#000080;" translate="true">Hover over </text><text styleclass="Answer" style="font-weight:bold; color:#000080;" translate="true">Pop-Up Blockers</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" style="color:#000080;" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold; color:#000080;" translate="true">Turn Off Pop-Up Blocker</text></li>
+                </list>
+                <para styleclass="Answer"></para>
+                <para styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:24px; line-height:1.0;"><text styleclass="Answer" style="color:#000080;" translate="true">Internet Explorer 8:</text></para>
+                <list id="20" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" style="color:#000080;" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold; color:#000080;" translate="true">Tools</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" style="color:#000080;" translate="true">Hover over </text><text styleclass="Answer" style="font-weight:bold; color:#000080;" translate="true">Pop-Up Blockers</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" style="color:#000080;" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold; color:#000080;" translate="true">Turn Off Pop-Up Blocker</text></li>
+                </list>
+                <para styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"></para>
+                <para styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:24px; line-height:1.0;"><text styleclass="Answer" style="color:#000080;" translate="true">Mozilla Firefox (3.0+):</text></para>
+                <list id="21" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" style="color:#000080;" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold; color:#000080;" translate="true">Tools</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" style="color:#000080;" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold; color:#000080;" translate="true">Options</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" style="color:#000080;" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold; color:#000080;" translate="true">Content</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" style="color:#000080;" translate="true">Uncheck </text><text styleclass="Answer" style="font-weight:bold; color:#000080;" translate="true">Block Pop-Up Windows</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" style="color:#000080;" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold; color:#000080;" translate="true">OK</text></li>
+                </list>
+                <para styleclass="Answer"></para>
+                <para styleclass="Answer"><text styleclass="Answer" style="color:#000080;" translate="true">Once you have disabled pop-up blockers sign into Elements™ through </text><link displaytype="text" defaultstyle="true" type="weblink" href="&lt;%LINK_CAPTION%&gt;" target="_blank" styleclass="Answer" style="color:#000080;" translate="true">www.thinkgate.net</link><text styleclass="Answer" style="color:#000080;" translate="true">. &#160;A pop-up should display after you enter your User Name, Password and Client ID.</text></para>
+              </td>
+            </tr>
+          </table></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal" style="font-size:11pt;"><caption translate="true"><![CDATA[The pop-up blockers for my internet browser have been turned off, however, I am still unable to access Elements.  Why am I unable to access Elements?]]></caption></toggle></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <para styleclass="Answer"><text styleclass="Answer" translate="true">If Elements™ is not opening, even after turning off the pop-up blockers in your internet browser, than there is probably a 3rd party add-on installed for your internet browser that contains a separate pop-up blocker. &#160;Normally, any kind of tool bar add-on could cause this issue. &#160;You will need to disable these third party add-ons for the system to open properly. &#160;Here are some directions </text><text styleclass="Answer" style="color:#000080;" translate="true">for Internet Explorer 7, Internet Explorer 8 and Mozilla Firefox (3.0+)</text><text styleclass="Answer" translate="true">:</text></para>
+                <para styleclass="Answer"></para>
+                <para styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:24px; line-height:1.0;"><text styleclass="Answer" translate="true">Internet Explorer 7</text></para>
+                <list id="22" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Tools</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" translate="true">Hover over </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Manage Add-ons</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Enable or Disable Add-ons...</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" translate="true">Search the resulting list for any </text><text styleclass="Answer" style="font-weight:bold;" translate="true">toolbar add-ons</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" translate="true">Click the desired add-on you wish to turn off</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" translate="true">Under the Settings section select the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Disable radio button</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">OK</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" translate="true">You may need to repeat this for any other add-on that has a pop-up blocker</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" translate="true">You may need to close and re-open your browser once you have completed these steps</text></li>
+                </list>
+                <para styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"></para>
+                <para styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:24px; line-height:1.0;"><text styleclass="Answer" translate="true">Internet Explorer 8</text></para>
+                <list id="23" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Tools</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" translate="true">Click &#160;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Manage Add-ons</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Toolbars and Extensions</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" translate="true">Search the resulting list for any </text><text styleclass="Answer" style="font-weight:bold;" translate="true">toolbar add-ons</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" translate="true">Click the desired add-on you wish to turn off</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Disable</text><text styleclass="Answer" translate="true"> at the bottom right of the screen</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">OK</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" translate="true">You may need to repeat this for any other add-on that has a pop-up blocker</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" translate="true">You may need to close and re-open your browser once you have completed these steps</text></li>
+                </list>
+                <para styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"></para>
+                <para styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:24px; line-height:1.0;"><text styleclass="Answer" translate="true">Mozilla Firefox (3.0+)</text></para>
+                <list id="24" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Tools</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Add-ons</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Extensions</text><text styleclass="Answer" translate="true"> (check </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Plugins</text><text styleclass="Answer" translate="true"> if you do not see any under Extensions)</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" translate="true">Search the resulting list for any </text><text styleclass="Answer" style="font-weight:bold;" translate="true">toolbar</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">add-ons</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" translate="true">Click the desired add-on you wish to turn off</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Disable</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" translate="true">Close the Window</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" translate="true">You may need to repeat this for any other add-on that has a pop-up blocker</text></li>
+                  <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" translate="true">You may need to close and re-open your browser once you have completed these steps</text></li>
+                </list>
+              </td>
+            </tr>
+          </table></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Header 2" style="text-indent:-18px; margin-left:18px;"></para>
+    <para styleclass="Header 2" style="text-indent:-18px; margin-left:18px;"><image src="rightarrow.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="true" defaultstyle="false" src-collapsed="rightarrow.gif" src-expanded="downarrow.gif" styleclass="Header 2"><caption translate="true"><![CDATA[Printing Reports]]></caption></toggle></para>
+    <para styleclass="Header 2" style="text-indent:-18px; margin-left:24px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[How do I display the performance level colors and bar graph colors on printed reports?]]></caption></toggle></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <para styleclass="Answer"><text styleclass="Answer" translate="true">In order to print the performance level set colors on a report (or any other colors), the background colors and images setting must be turned on in your internet browser. &#160;Below are directions on how to turn this setting on for Internet Explorer 7, Internet Explorer 8 and Mozilla Firefox (3.0+):</text></para>
+                <para styleclass="Answer"></para>
+                <para styleclass="Answer" style="margin-left:24px;"><text styleclass="Answer" translate="true">Internet Explorer 7: &#160;</text></para>
+                <list id="25" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Tools</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Internet</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Options</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Advanced</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">In the list under settings scroll down to the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Printing</text><text styleclass="Answer" translate="true"> section</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Check the checkbox next to</text><text styleclass="Answer" style="font-weight:bold;" translate="true"> “Print Background Colors and Images”</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">OK</text></li>
+                </list>
+                <para styleclass="Answer" style="margin-left:48px;"></para>
+                <para styleclass="Answer" style="margin-left:24px;"><text styleclass="Answer" translate="true">Internet Explorer 8:</text></para>
+                <list id="26" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">File</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Page</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Setup</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Check the checkbox next to</text><text styleclass="Answer" style="font-weight:bold;" translate="true"> “Print Background Colors and Images”</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">OK</text></li>
+                </list>
+                <para styleclass="Answer" style="margin-left:48px;"></para>
+                <para styleclass="Answer" style="margin-left:24px;"><text styleclass="Answer" translate="true">Mozilla Firefox (3.0+):</text></para>
+                <list id="27" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">File</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Page</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Setup</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Check the checkbox next to </text><text styleclass="Answer" style="font-weight:bold;" translate="true">“Print Background (colors and images)”</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">OK</text></li>
+                </list>
+              </td>
+            </tr>
+          </table></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Header 2" style="text-indent:-18px; margin-left:18px;"></para>
+    <para styleclass="Header 2" style="text-indent:-18px; margin-left:18px;"><image src="rightarrow.gif" scale="100.00%" styleclass="Header 2"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="true" defaultstyle="false" src-collapsed="rightarrow.gif" src-expanded="downarrow.gif" styleclass="Header 2"><caption translate="true"><![CDATA[Printing Assessments]]></caption></toggle></para>
+    <para styleclass="Header 2" style="text-indent:-18px; margin-left:24px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[When printing assessments that contain page breaks the pages are not printing correctly.  The breaks are incorrect.  What do I need to do to make the page breaks print correctly?]]></caption></toggle></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <para styleclass="Answer"><text styleclass="Answer" translate="true">In order for the page breaks on assessments to print out correctly (through the one column or two column print) the proper settings must be set for Headers and Footers in your internet browser. &#160;Listed below are some directions on changing the Header and Footer settings in your internet browser:</text></para>
+                <para styleclass="Answer"></para>
+                <para styleclass="Answer" style="margin-left:24px;"><text styleclass="Answer" translate="true">Internet Explorer 7:</text></para>
+                <list id="28" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">File</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Page</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Setup</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Erase anything entered in the Header and Footer fields (they should both be blank)</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">OK</text></li>
+                </list>
+                <para styleclass="Answer" style="margin-left:48px;"></para>
+                <para styleclass="Answer" style="margin-left:24px;"><text styleclass="Answer" translate="true">Internet Explorer 8:</text></para>
+                <list id="29" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">File</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Page</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Setup</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Set each drop down in the Headers and Footers section to </text><text styleclass="Answer" style="font-weight:bold;" translate="true">“Empty”</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">OK</text></li>
+                </list>
+                <para styleclass="Answer" style="margin-left:48px;"></para>
+                <para styleclass="Answer" style="margin-left:24px;"><text styleclass="Answer" translate="true">Mozilla Firefox (3.0+)</text></para>
+                <list id="30" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">File</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Page</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Setup</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Margins &amp; Header/Footer</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Set each drop down in the Headers &amp; Footers section to </text><text styleclass="Answer" style="font-weight:bold;" translate="true">“—blank—“</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">OK</text></li>
+                </list>
+              </td>
+            </tr>
+          </table></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[What are the recommended page margin settings to print assessments?]]></caption></toggle></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <para styleclass="Answer"><text styleclass="Answer" translate="true">In order for tests to print out correctly we recommend you set specific page margins in your internet browser. &#160;Listed below are some directions on setting the proper page margins in your internet browser. </text></para>
+                <para styleclass="Answer"></para>
+                <para styleclass="Answer" style="margin-left:24px;"><text styleclass="Answer" translate="true">Internet Explorer 7:</text></para>
+                <list id="38" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">File</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Page</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Setup</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Under the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Margins (inches)</text><text styleclass="Answer" translate="true"> section set the left, right, top and bottom margins to </text><text styleclass="Answer" style="font-weight:bold;" translate="true">“0.5”</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">OK</text></li>
+                </list>
+                <para styleclass="Answer" style="margin-left:48px;"></para>
+                <para styleclass="Answer" style="margin-left:24px;"><text styleclass="Answer" translate="true">Internet Explorer 8:</text></para>
+                <list id="39" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">File</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Page</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Setup</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Under the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Margins</text><text styleclass="Answer" translate="true"> (</text><text styleclass="Answer" style="font-weight:bold;" translate="true">inches</text><text styleclass="Answer" translate="true">) section set the left, right, top and bottom margins to </text><text styleclass="Answer" style="font-weight:bold;" translate="true">“0.5”</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">OK</text></li>
+                </list>
+                <para styleclass="Answer" style="margin-left:48px;"></para>
+                <para styleclass="Answer" style="margin-left:24px;"><text styleclass="Answer" translate="true">Mozilla Firefox (3.0+):</text></para>
+                <list id="40" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">File</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Page</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Setup</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Margins &amp; Header/Footer</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Under the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Margins (inches)</text><text styleclass="Answer" translate="true"> section set the left, right, top and bottom margins to </text><text styleclass="Answer" style="font-weight:bold;" translate="true">“0.5”</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">OK</text></li>
+                </list>
+              </td>
+            </tr>
+          </table></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Header 2" style="text-indent:-18px; margin-left:18px;"></para>
+    <para styleclass="Header 2" style="text-indent:-18px; margin-left:18px;"><image src="rightarrow.gif" scale="100.00%" styleclass="Header 2"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="true" defaultstyle="false" src-collapsed="rightarrow.gif" src-expanded="downarrow.gif" styleclass="Header 2"><caption translate="true"><![CDATA[Pre-Slugging HALO Forms]]></caption></toggle></para>
+    <para styleclass="Header 2" style="text-indent:-18px; margin-left:24px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[When pre-slugging a HALO form, the student ID and test ID are displaying "on top" of the bubbles.  How do I make the student ID and test ID print in the correct boxes?]]></caption></toggle></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <para styleclass="Answer"><text styleclass="Answer" translate="true">In order to properly print pre-slugged HALO forms, the page scaling in your internet browser must be turned off. &#160;Listed below are some directions on how to turn off page scaling in your internet browser.</text></para>
+                <para styleclass="Answer"></para>
+                <para styleclass="Answer" style="margin-left:24px;"><text styleclass="Answer" translate="true">Internet Explorer 7:</text></para>
+                <list id="41" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">File</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Print</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Change the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Page</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Scaling</text><text styleclass="Answer" translate="true"> drop down to </text><text styleclass="Answer" style="font-weight:bold;" translate="true">“None”</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">OK</text></li>
+                </list>
+                <para styleclass="Answer" style="margin-left:48px;"></para>
+                <para styleclass="Answer" style="margin-left:24px;"><text styleclass="Answer" translate="true">Internet Explorer 8:</text></para>
+                <list id="42" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">File</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Print</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Change the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Page</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Scaling</text><text styleclass="Answer" translate="true"> drop down to </text><text styleclass="Answer" style="font-weight:bold;" translate="true">“None”</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">OK</text></li>
+                </list>
+                <para styleclass="Answer" style="margin-left:48px;"></para>
+                <para styleclass="Answer" style="margin-left:24px;"><text styleclass="Answer" translate="true">Mozilla Firefox (3.0+)</text></para>
+                <list id="43" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">File</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Print</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Change the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Page</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Scaling</text><text styleclass="Answer" translate="true"> drop down to </text><text styleclass="Answer" style="font-weight:bold;" translate="true">“None”</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">OK</text></li>
+                </list>
+              </td>
+            </tr>
+          </table></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Header 2" style="text-indent:-18px; margin-left:18px;"></para>
+    <para styleclass="Header 2" style="text-indent:-18px; margin-left:18px;"><image src="rightarrow.gif" scale="100.00%" styleclass="Header 2"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="true" defaultstyle="false" src-collapsed="rightarrow.gif" src-expanded="downarrow.gif" styleclass="Header 2"><caption translate="true"><![CDATA[Internet Explorer 8 - NOMERGE]]></caption></toggle></para>
+    <para styleclass="Header 2" style="text-indent:-18px; margin-left:24px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[In rare cases, users signing in are seeing more menu options than they should.  Also, some users search results are not consistent with the restrictions set for their user type.  How do I correct this issue?]]></caption></toggle></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <para styleclass="Answer"><text styleclass="Answer" translate="true">If you are using Internet Explorer 8 and having multiple users logging in on the same computer, or one user logging in as multiple different user types, you will need to add the &quot;-nomerge&quot; statement to your Internet Explorer program.</text></para>
+                <para styleclass="Answer"></para>
+                <list id="44" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; color:#000080;">
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Right Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Internet</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Explorer</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">8</text><text styleclass="Answer" translate="true"> icon </text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Properties</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Shortcut</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">In the Target field enter</text><text styleclass="Answer" style="font-weight:bold;" translate="true"> ‘ – nomerge’</text><text styleclass="Answer" translate="true"> after .exe” (at the end of the target field). &#160;Make sure to include the blank space before –nomerge. </text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">OK</text></li>
+                </list>
+              </td>
+            </tr>
+          </table></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

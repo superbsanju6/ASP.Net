@@ -1,0 +1,143 @@
+﻿body
+{
+	color: Black;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.windowclass
+{
+	z-index: 10000;
+}
+
+.defaultIcon
+{
+	float: left;
+	margin-top: 2px;
+	padding-right: 3px;
+	width: 24px;
+	height: 24px;
+	background-repeat: no-repeat;
+}
+
+.curriculaIcon
+{
+	background-image: url(/kenticocms7/cmswebparts/thinkgatewebparts/images/curriculum-icon.png);
+}
+
+.standardsIcon
+{
+	background-image: url(../Images/Test-paper.png);
+}
+
+.tagsIcon
+{
+	background-image: url(../Images/three-tags-icon.png);
+}
+
+.toolBarWrapper
+{
+	float: left;
+}
+
+.toolBar
+{
+	float: left;
+	margin: .5em;
+	border: 1px solid #949494;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background-image: url(../Images/greyGradiant.png);
+	color: #050505;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 30px;
+}
+
+.toolBarItem
+{
+	float: left;
+	padding: 0 1em;
+	/*border: solid black 1px;*/
+}
+
+	.toolBarItem:hover
+	{
+		background-color: rgba(0,0,0,.6);/* for IE */
+		cursor: pointer;
+	}
+
+	.toolBarItem a
+	{
+		float: left;
+		color: #928fc4;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 20px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+.badge
+{
+	position: relative;
+	top: 1px;
+	left: 5px;
+	display: table-cell;
+	float: left;
+	margin: 3px;
+	padding: 1px 5px;
+	-moz-border-radius: 13px;
+	-webkit-border-radius: 13px;
+	border-radius: 13px;
+	background: -moz-linear-gradient(top, #919300 0%, #949400 50%, #919300);
+	background: -webkit-gradient(linear, left top, left bottom, from(#919300), color-stop(0.50, #949400), to(#919300));
+	background-color: rgba(148,147,0,1);/* for IE */
+	-moz-box-shadow: 0px 1px 3px rgba(000,000,000,0.5), inset 0px 0px 2px rgba(255,255,255,1);
+	-webkit-box-shadow: 0px 1px 3px rgba(000,000,000,0.5), inset 0px 0px 2px rgba(255,255,255,1);
+	box-shadow: 0px 1px 3px rgba(000,000,000,0.5), inset 0px 0px 2px rgba(255,255,255,1);
+	color: #ffffff;
+	-webkit-text-shadow: 0px -1px 0px rgba(000,000,000,0.2), 0px 1px 0px rgba(255,255,255,0.4);
+	text-shadow: 0px -1px 0px rgba(000,000,000,0.2), 0px 1px 0px rgba(255,255,255,0.4);
+	font-size: 11px;
+	line-height: 15px;
+}
+
+.menubck
+{
+	float: left;
+	border: 1px solid #949494;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ebebeb 50%, #dbdbdb 50%, #b5b5b5);
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(0.50, #ebebeb), color-stop(0.50, #dbdbdb), to(#b5b5b5));
+	background-color: rgba(203,203,203,1);/* for IE */
+	color: #050505;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 30px;
+}
+
+.modalBackground
+{
+	background-color: Gray;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+
+.modalPopup
+{
+	padding: 3px;
+	width: 250px;
+	border: solid 3px Gray;
+	background-color: #ffffdd;
+}
+
+.tgLabel
+{
+	width: 100px;
+	text-align: right;
+	display:inline-block;
+
+}

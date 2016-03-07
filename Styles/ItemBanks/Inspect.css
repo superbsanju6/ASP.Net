@@ -1,0 +1,227 @@
+﻿@media print {
+  .fraction  {
+	margin-left: -5px;
+  }
+  .vinculum {
+    text-decoration:overline;
+  }
+  
+  .noprint {
+    display: none;
+  }
+}
+
+@media screen{  
+  .vinculum {
+    border-top:1px solid black;
+  }
+}
+
+.Verdana2t { 
+    vertical-align: top; 
+    text-align: left; 
+    text-decoration: none; 
+    border: 1px solid white;
+}
+
+/* old styles*/
+/*
+.fraction {
+    border: medium none;
+    vertical-align: top; 
+    text-align: left; 
+    text-decoration: none; 
+}
+
+.indent {
+    text-indent: 3em;
+    display: inline-block;
+    margin:0;
+}
+*/
+
+u {
+    border-bottom:2px solid black; 
+    text-decoration:none;
+    border-collapse: collapse;
+    line-height: 1.5em; 
+}
+.under2{
+    border-bottom:2px solid black;
+    text-decoration:none;
+    border-collapse: collapse;
+    line-height: 1.5em;
+}
+.under{
+    text-decoration:underline;
+}
+
+.center {
+    text-align: center;
+    margin: 0;
+}
+.borderme {
+    vertical-align: top; 
+    text-align: left; 
+    text-decoration: none; 
+    border: 1px solid white;
+}
+
+.borderme TD {
+     border: solid 1px black;
+}
+
+
+b.frac {
+	font-weight: normal;
+	font-size: 300%;
+	font-family: times new roman;
+}
+
+sup.frac {
+	position: relative;
+	top: -1.4em;
+	font-size: 70%;
+	margin-left: -0.4em;
+}
+
+sup.frac .frac {
+	font-size: 85%;
+}
+
+.indent {
+	text-indent: 3em;
+}
+
+.code {
+	background-color: #fff5d2;
+	border: #5585c6 1px dashed;
+	padding: 0px 20px;
+}
+
+.abs {
+	border-left: #000000 1px solid;
+	border-right: #000000 1px solid;
+	padding: 0px 0.3em 0px 0.3em;
+}
+
+.droptier {
+	display: inline-block;
+	*display: inline;
+	vertical-align: -1em;
+}
+
+.whole {
+	display: inline-block;
+	*display: inline;
+	margin: 0em 0em 0em 0.2em;
+	font-size: 120%;
+}
+
+
+
+table.frac {
+	display: inline-block;
+	*display: inline;
+	vertical-align: -1em;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+    font-size: 120%;
+}
+
+.neg {
+	margin-right: -0.3em;
+}
+
+frac.wh {
+	margin: 0em -0.2em 0em 0.2em;
+	font-size: 120%;
+}
+
+.neg .nu {
+	width: 3px;
+}
+
+.neg .de {
+	width: 3px;
+}
+
+.frac .nu {
+	border-left: 0px;
+	border-top: 0px;
+	border-right: 0px;
+	border-bottom: #000000 1px solid;
+	text-align: center;
+}
+
+.frac .de {
+	border: 0px;
+	text-align: center;
+}
+
+.fraction .numerator, .fraction .denominator {
+	text-align: center;
+}
+
+/* Radicals */
+.radical {
+	font-size: 114%;
+	*font-size: 108%;
+	line-height: 1.8em;
+	display: inline-block;
+	*display: inline;
+	margin-right: -0.24em;	
+}
+
+.radical_content {
+	line-height: 1.8em;
+	display: inline-block;
+	*display: inline;
+	text-decoration: overline;
+}
+
+/* Fill in the blank */
+.fillin {
+	margin: 0em 0.2em;
+	padding-left: 1em;
+	height: 1em;
+	border: #000000 1px solid;
+	display: inline-block;
+	*display: inline;
+}
+
+table.KdsTable01 {
+    border: 1px solid black;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+table.KdsTable01 th {
+    border: 1px solid black;
+	padding: 2px;
+	background-color: #D3D3D3;
+	text-align: center;
+	font-weight: normal;
+}
+
+table.KdsTable01 th.bold {
+    border: 1px solid black;
+	padding: 2px;
+	background-color: #D3D3D3;
+	text-align: center;
+	font-weight: bold;
+}
+
+table.KdsTable01 td {
+    border: 1px solid black;
+	padding: 2px;
+	text-align: center;
+}
+
+table.KdsTable01 td.bold {
+    border: 1px solid black;
+	padding: 2px;
+	text-align: center;
+	font-weight: bold;
+}

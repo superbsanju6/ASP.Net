@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="lgisaacs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Data Utilization</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Data Utilization</text></para>
+    </header>
+    <para styleclass="Normal" style="text-align:center; text-indent:-18px; margin-left:18px;"></para>
+    <para styleclass="Normal" style="text-align:center; text-indent:-18px; margin-left:18px;"><table styleclass="Default" rowcount="3" colcount="1" style="width:45%; cell-padding:3px; cell-spacing:3px; border-width:0px; border-spacing:3px; cell-border-width:0px; border-style:none; background-color:none;">
+      <thead style="vertical-align:top">
+        <td>
+          <para styleclass="Header 2" style="text-align:right;"><link displaytype="image" src="Home.gif" type="topiclink" href="Introduction"></link><text styleclass="Header 2" style="font-size:8pt;" translate="true">&#32;</text><link displaytype="text" defaultstyle="true" type="topiclink" href="Introduction" styleclass="Answer" style="font-size:8pt;" translate="true">Return to Main Menu</link></para>
+          <para styleclass="Heading1" style="text-align:left; background-color:transparent; padding:0px; border-color:#000000; border-style:single; border-width:2px; border-top:none; border-right:none; border-left:none;"><text styleclass="Heading1" style="color:#000080;" translate="true">Pick a topic...</text></para>
+        </td>
+      </thead>
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Navigate to the desired topic and click a link to further drill down results.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="height:191px;">
+          <para styleclass="Heading1" style="text-indent:-18px; margin-left:66px;"></para>
+          <para styleclass="Heading1" style="text-indent:-18px; margin-top:0px; margin-bottom:0px; margin-left:66px; line-height:1.0;"><image src="rightarrow.gif" scale="100.00%" styleclass="Heading1" style="font-size:12pt; color:#000080;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="true" defaultstyle="false" src-collapsed="rightarrow.gif" src-expanded="downarrow.gif" styleclass="Heading1" style="font-size:12pt; color:#000080;"><caption translate="true"><![CDATA[Data Analysis]]></caption></toggle></para>
+          <para styleclass="Heading1" style="text-indent:-18px; margin-top:0px; margin-bottom:0px; margin-left:66px; line-height:1.0;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <list id="2" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-top:0px; margin-bottom:0px; line-height:1.0; font-family:Symbol; font-size:11pt; color:#000000;">
+                  <li styleclass="Normal" style="margin-top:0px; margin-bottom:0px; line-height:1.0;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Admin_Portal" styleclass="Normal" translate="true">Administrator Portal</link></li>
+                  <li styleclass="Normal" style="margin-top:0px; margin-bottom:0px; line-height:1.0;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Teacher_Portal" styleclass="Normal" translate="true">Teacher Portal</link></li>
+                </list>
+              </td>
+            </tr>
+          </table></para>
+          <para styleclass="Heading1" style="text-indent:-18px; margin-top:0px; margin-bottom:0px; margin-left:66px; line-height:1.0;"></para>
+          <para styleclass="Heading1" style="text-indent:-18px; margin-top:0px; margin-bottom:0px; margin-left:66px; line-height:1.0;"><image src="rightarrow.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="true" defaultstyle="false" src-collapsed="rightarrow.gif" src-expanded="downarrow.gif" styleclass="Header 2"><caption translate="true"><![CDATA[Advanced Analysis]]></caption></toggle></para>
+          <para styleclass="Heading1" style="text-indent:-18px; margin-top:0px; margin-bottom:0px; margin-left:66px; line-height:1.0;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <list id="3" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-top:0px; margin-bottom:0px; line-height:1.0; font-family:Symbol; font-size:11pt; color:#000000;">
+                  <li styleclass="Normal" style="margin-top:0px; margin-bottom:0px; line-height:1.0;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Report_Engine" styleclass="Normal" translate="true">Report Engine</link></li>
+                </list>
+              </td>
+            </tr>
+          </table></para>
+          <para styleclass="Heading1" style="text-indent:-18px; margin-top:0px; margin-bottom:0px; margin-left:66px; line-height:1.0;"></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

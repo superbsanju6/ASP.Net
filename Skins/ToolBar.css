@@ -1,0 +1,456 @@
+/*
+
+RadToolBar base css
+
+* Notes on some CSS class names *
+
+class  --  HTML element  --  description 
+
+_not available_
+
+*/
+
+.RadToolBar,
+.RadToolBar *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.RadToolBar
+{
+	float: left;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.RadToolBar .rtbUL
+{
+	list-style-type: none;
+	overflow: hidden;
+	display: table-row;
+}
+
+*+html .rtbUL
+{
+	padding-bottom: 1px;
+}
+
+.RadToolBar_Vertical .rtbUL
+{
+	display: block;
+}
+
+* html .RadToolBar_Vertical .rtbUL { display: inline }
+* html .RadToolBar_Vertical .rtbUL { display: inline-block }
+* html .RadToolBar_Vertical .rtbUL { display: inline }
+
+@media screen and (min-width:550px) {
+	.rtbUL
+	{
+		display: table; /* only safari/opera need this one */
+	}
+}
+
+.RadToolBar .rtbItem,
+.RadToolBar .rtbWrap,
+.RadToolBar .rtbOut,
+.RadToolBar .rtbMid,
+.RadToolBar .rtbIn,
+.RadToolBar .rtbText
+{
+	clear: none;
+}
+
+.RadToolBar_Vertical .rtbItem
+{
+	float: left;
+	clear: left;
+}
+
+.RadToolBar .rtbWrap 
+{
+	display: block;
+	float: left;
+}
+
+* html .RadToolBar .rtbItem {display:inline}
+* html .RadToolBar .rtbItem {display:inline-block}
+* html .RadToolBar .rtbItem {display:inline}
+*+html .RadToolBar .rtbItem {display:inline}
+*+html .RadToolBar .rtbItem {display:inline-block}
+*+html .RadToolBar .rtbItem {display:inline}
+
+.RadToolBar .rtbUL .rtbWrap
+{
+	clear: left;
+}
+
+/* grips */
+
+.RadToolBar .rtbGrip
+{
+	display: none;
+}
+
+/* separators */
+
+.RadToolBar .rtbSeparator
+{
+	display: none;
+}
+
+/* items */
+
+.RadToolBar .rtbItem
+{
+	vertical-align: middle;
+	display: table-cell;
+	overflow: hidden;
+}
+
+.RadToolBar_Vertical .rtbItem
+{
+	overflow: visible;
+}
+
+.RadToolBar .rtbWrap
+{
+	vertical-align: top;
+	text-decoration: none;
+	cursor: pointer;
+	outline: 0;
+}
+
+.RadToolBar .rtbOut
+{
+	clear: left;
+	float: left;
+	display: block;
+}
+
+.RadToolBar .rtbMid
+{
+	display: block;
+	float: left;
+}
+
+.RadToolBar .rtbIn
+{
+	float: left;
+	display: block;
+}
+
+/* fixes the non-navigatable image bug, but triggers the floated parent problem (visible in bigger buttons) */
+* html .RadToolBar .rtbOut, * html .RadToolBar .rtbMid, * html .RadToolBar .rtbIn { float:none; }
+*+html .RadToolBar .rtbOut, *+html .RadToolBar .rtbMid, *+html .RadToolBar .rtbIn { float:none; }
+
+
+
+.RadToolBar .rtbIn,
+.RadToolBar .rtbIn *
+{
+	vertical-align: middle;
+}
+
+.RadToolBar .rtbIcon
+{
+	border: 0;
+}
+
+.RadToolBar .rtbSplBtn .rtbSplBtnActivator,
+.RadToolBar .rtbChoiceArrow /* background holder */
+{
+	display: -moz-inline-block;
+	display: inline-block;
+}
+
+/* popup menu common styles */
+
+.RadToolBarDropDown,
+.RadToolBarDropDown *
+{
+	padding: 0;
+	margin: 0;
+}
+
+.RadToolBarDropDown
+{
+	white-space:nowrap;
+	float:left;
+	position:absolute;
+	display: block;
+	text-align: left;
+}
+
+.RadToolBarDropDown_rtl
+{
+	text-align: right;
+}
+
+.RadToolBarDropDown:after 
+{
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+}
+
+@media screen and (min-width=50px)
+{
+	.RadToolBarDropDown
+	{
+		display: inline-block;
+	}
+	
+	.RadToolBarDropDown:after 
+	{
+		content: normal;
+		display: none;
+	}
+}
+
+.RadToolBarDropDown ul.rtbActive
+{
+	display: block;
+}
+
+.RadToolBarDropDown .rtbSlide
+{
+	position: absolute;
+	overflow: hidden;
+	display: none;
+	_height: 0;
+	float: left;
+	text-align: left;
+}
+
+.RadToolBarDropDown_rtl .rtbSlide
+{
+	text-align: right;
+}
+
+.RadToolBarDropDown .rtbItem
+{
+	display: list-item;
+	padding: 0;
+}
+
+.RadToolBarDropDown a.rtbItem
+{
+	cursor: default;
+	display: block;	
+	outline: 0;
+}
+
+.rtbScrollWrap
+{
+	position: absolute;
+	float: left;
+	overflow: hidden;
+	left: 0;
+}
+
+.RadToolBarDropDown .rtbItem,
+.RadToolBarDropDown .rtbSeparator
+{
+	list-style-type: none;
+	display: block;
+	width: auto;
+	clear: both;
+	font-size: 0;
+	line-height: 0;
+}
+
+.RadToolBarDropDown .rtbIcon
+{
+	border: 0;
+	float: none;
+	vertical-align: top;
+}
+
+.RadToolBarDropDown .rtbWrap
+{
+	display: block;
+	text-decoration: none;
+}
+
+.RadToolBar .rtbWrap:hover,
+.RadToolBar .rtbWrap:focus,
+.RadToolBarDropDown .rtbWrap:hover,
+.RadToolBarDropDown .rtbWrap:focus
+{
+	outline: 0;
+}
+
+.RadToolBarDropDown .rtbWrap *
+{
+	display: -moz-inline-block;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.RadToolBarDropDown .rtbDisabled .rtbIcon
+{
+	filter: alpha(opacity=40);
+	opacity: 0.4;
+	-moz-opacity: 0.4;
+}
+
+/* image positioning */
+
+.RadToolBar .rtbMid .rtbVOriented
+{
+	text-align: center;
+	float: none;
+	display: table-cell;
+}
+
+* html .RadToolBar .rtbMid .rtbVOriented { float: left; }
+
+@media screen and (min-width=50px) {
+	html:first-child .RadToolBar .rtbMid .rtbVOriented
+	{
+		display: block;
+	}
+}
+
+.RadToolBar .rtbVOriented .rtbText
+{
+	display: block;
+}
+
+
+div.RadToolBar .rtbDropDown .rtbVOriented,
+div.RadToolBar .rtbSplBtn .rtbVOriented 
+{
+	padding-right: 18px;
+	position: relative;
+	display: block;
+}
+
+.RadToolBar .rtbItem .rtbVOriented .rtbSplBtnActivator
+{
+	display: table-cell;
+	text-align: center;
+}
+
+@media screen and (min-width=50px)
+{
+	html:first-child .RadToolBar .rtbItem .rtbVOriented .rtbSplBtnActivator
+	{
+		display: inline-block;
+	}
+}
+
+.RadToolBar .rtbItem .rtbVOriented .rtbText
+{
+	padding: 0 2px;
+}
+
+.RadToolBar .rtbItem .rtbVOriented .rtbChoiceArrow
+{
+	position: absolute;
+	top: 20%;
+	right: 3px;
+}
+
+.RadToolBar_rtl
+{
+	float: right;
+	text-align: right;
+}
+
+.RadToolBar_rtl .rtbIcon + .rtbText
+{
+	display: -moz-inline-box;
+}
+
+.RadToolBar_rtl .rtbSplBtn .rtbSplBtnActivator,
+.RadToolBar_rtl .rtbChoiceArrow
+{
+	display:-moz-inline-box;
+}
+
+.RadToolBar_rtl .rtbSplBtnActivator .rtbIcon + .rtbText
+{
+	padding-top:2px;
+}
+
+.RadToolBar_rtl .rtbText
+{
+	zoom: 1;
+}
+
+/* for table layouts 
+* html td .RadToolBar { display: inline-block; }
+* html td .RadToolBar .rtbItem { float: left; display: inline-block; } /* for table layouts */
+*+html td > .RadToolBar_Horizontal { float: left;}
+*+html td > .RadToolBar_Horizontal .rtbItem {float: left; }
+
+/* separators */
+
+.RadToolBar_Horizontal .rtbSeparator
+{
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0 2px;
+}
+
+* html .RadToolBar_Horizontal .rtbSeparator {display:inline}
+* html .RadToolBar_Horizontal .rtbSeparator {display:inline-block}
+* html .RadToolBar_Horizontal .rtbSeparator {display:inline}
+
+*+html .RadToolBar_Horizontal .rtbSeparator {display:inline}
+*+html .RadToolBar_Horizontal .rtbSeparator {display:inline-block}
+*+html .RadToolBar_Horizontal .rtbSeparator {display:inline}
+
+*+html td > .RadToolBar_Horizontal .rtbSeparator { margin-top: 4px; float: left; }
+
+.RadToolBar_Horizontal .rtbSeparator .rtbText
+{
+	display: inline;
+	display: inline-block;
+	padding: 13px 1px 5px 0;
+	line-height: 0;
+	font-size: 0;
+	background: #ccc;
+	border-right: 1px solid #fff;
+}
+
+.RadToolBar_Vertical .rtbSeparator
+{
+	clear: both;
+	display: block;
+	padding: 1px 0 0 16px;
+	line-height: 0;
+	font-size: 0;
+	background: #ccc;
+	border-top: 1px solid #fff;
+	margin: 2px;
+}
+
+* html .RadToolBar_Vertical .rtbSeparator { padding: 0; }
+*+html .RadToolBar_Vertical .rtbSeparator { padding: 0; }
+
+.RadToolBar .rtbItem .rtbText *
+{
+	vertical-align: baseline;
+}
+
+/* rtl styles */
+*|html .RadToolBar_Vertical.RadToolBar_rtl .rtbItem
+{
+	clear: both;
+	float: right;
+}
+
+.RadToolBar_Vertical.RadToolBar_rtl .rtbItem
+{
+	display: block;
+	float: none;
+}
+

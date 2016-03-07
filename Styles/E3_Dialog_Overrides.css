@@ -1,0 +1,14 @@
+.E3Dialog_oride
+{
+}
+
+.E3Dialog_oride .rwPopupButton, .E3Dialog_oride .rwPopupButton span
+{
+    float: right !important;
+}
+
+.E3Dialog_oride .rwPopupButton
+{
+    /*margin-top: inherit !important;*/
+    margin-bottom: 0px !important;
+}

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="lgisaacs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd" status="Needs Review">
+  <title translate="true">Resources</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Resources</text></para>
+    </header>
+    <para styleclass="Header 2" style="text-align:right;"><link displaytype="image" src="New_Back_Arrow_icon.gif" type="topiclink" href="Instruction"></link><text styleclass="Header 2" style="font-size:8pt;" translate="true"> </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Instruction" styleclass="Answer" style="font-size:8pt;" translate="true">Return to Instruction Menu</link></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal" style="font-size:11pt;"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal" style="font-size:11pt;"><caption translate="true"><![CDATA[What kind of resources can I add to Elements™?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">There are currently two different types of resources that can be added to Elements.  The two types of resources are web link resources and uploaded document resources.  The web link resources allows the user to link a web page directly to a resource stored in Elements.  The uploaded document resource allows the user to upload an external document to store in a resource bank in Elements.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal" style="font-size:11pt;"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal" style="font-size:11pt;"><caption translate="true"><![CDATA[What is the purpose of adding  a resource?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">The purpose of adding resources is to provide supplemental document and websites that can assist with the teaching of a particular standard.  The resources can be tied to a specific standard then accessed by an user who may be teaching that standard.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal" style="font-size:11pt;"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal" style="font-size:11pt;"><caption translate="true"><![CDATA[How do I add a resource?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">In order to add a resource, please follow these steps:</text></para>
+          <para styleclass="Answer"></para>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">Upload Document Resource option:</text></para>
+          <para styleclass="Answer"></para>
+          <list id="80" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Instruction</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Add</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Resources</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">icon</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Select the template name</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Add</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Resource</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Add a </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Description</text><text styleclass="Answer" translate="true"> on the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Profile</text><text styleclass="Answer" translate="true"> Tab</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Associations</text><text styleclass="Answer" translate="true"> Tab</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">If you desire associate standards to the resource click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Add</text><text styleclass="Answer" translate="true"> icon</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Search for and add the desired standard(s)</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Content</text><text styleclass="Answer" translate="true"> Tab</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Replace</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">File</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Browse</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Select the desired document from your computer and click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Upload</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Save</text></li>
+          </list>
+          <para styleclass="Answer"></para>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">Web Link Option</text></para>
+          <para styleclass="Answer"></para>
+          <list id="81" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Instruction</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Add</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Resources</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">icon</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Select the template name</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Add</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Resource</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Add a </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Description</text><text styleclass="Answer" translate="true"> on the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Profile</text><text styleclass="Answer" translate="true"> Tab</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Associations</text><text styleclass="Answer" translate="true"> Tab</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">If you desire associate standards to the resource click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Add</text><text styleclass="Answer" translate="true"> icon</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Search for and add the desired standard(s)</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Content</text><text styleclass="Answer" translate="true"> Tab</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Type or paste a web link into the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Web</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Link</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">bar</text><text styleclass="Answer" translate="true"> at the bottom of the screen (the address should start with http://)</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Replace</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Link</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Save</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal" style="font-size:11pt;"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal" style="font-size:11pt;"><caption translate="true"><![CDATA[What can I associate the resources to?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">Standards can be associated to a resource to provide supplemental material for teaching a particular standard.</text></para>
+          <para styleclass="Answer"></para>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true"> In order to associate a resource to a standard, please follow these steps:</text></para>
+          <para styleclass="Answer"></para>
+          <list id="82" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Navigate to the desired resource through the Instruction tab and the Find Resources icon</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Associations</text><text styleclass="Answer" translate="true"> tab on the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Resource</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Profile</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Page</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Add</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Standards</text><text styleclass="Answer" translate="true"> Icon </text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Enter the desired search criteria</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Search</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">When you find the correct standard click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Add</text><text styleclass="Answer" translate="true"> icon</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" style="font-weight:normal;" translate="true">Click</text><text styleclass="Answer" style="font-weight:bold;" translate="true"> Save</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal" style="font-size:11pt;"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal" style="font-size:11pt;"><caption translate="true"><![CDATA[Do I have to associate a resource with something?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">You do not have to associate a Resource with anything but can associate them with a standard if desired. </text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

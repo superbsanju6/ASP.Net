@@ -1,0 +1,585 @@
+/* border style definition */
+table.RadSplitter_Office2007,
+.RadSplitter_Office2007 .rspResizeBar,
+.RadSplitter_Office2007 .rspSlideContainerResize,
+.RadSplitter_Office2007 .rspResizeBarOver,
+.RadSplitter_Office2007 .rspSlideContainerResizeOver,
+.RadSplitter_Office2007 .rspSlideContainerResizeHorizontal,
+.RadSplitter_Office2007 .rspSlideContainerResizeOverHorizontal,
+.RadSplitter_Office2007 .rspResizeBarInactive,
+.RadSplitter_Office2007 .rspResizeBarHorizontal,
+.RadSplitter_Office2007 .rspResizeBarOverHorizontal,
+.RadSplitter_Office2007 .rspResizeBarInactiveHorizontal,
+.RadSplitter_Office2007 .rspPane, 
+.RadSplitter_Office2007 .rspPaneHorizontal
+{
+	border:1px solid #6593cf;
+}
+
+/* applies to the RadSlidingPanes */
+div.RadSplitter_Office2007,
+table.rspSlideContainer
+{
+	position:absolute;
+	top:-9999px;
+	left:-9999px;
+}
+
+table.RadSplitter_Office2007
+{
+	border-collapse:collapse;
+	border-bottom:1px; /* half the size of the border, but at least 1px */
+}
+
+.RadSplitter_Office2007 .rspPane,.RadSplitter_Office2007 .rspPaneHorizontal 
+{
+	padding:0px;
+	text-align:left;
+}
+
+.RadSplitter_Office2007 .rspResizeBar,
+.RadSplitter_Office2007 .rspSlideContainerResize,
+.RadSplitter_Office2007 .rspResizeBarOver,
+.RadSplitter_Office2007 .rspSlideContainerResizeOver,
+.RadSplitter_Office2007 .rspResizeBarInactive,
+.RadSplitter_Office2007 .rspSlideContainerResizeHorizontal,
+.RadSplitter_Office2007 .rspSlideContainerResizeOverHorizontal,
+.RadSplitter_Office2007 .rspResizeBarHorizontal,
+.RadSplitter_Office2007 .rspResizeBarOverHorizontal,
+.RadSplitter_Office2007 .rspResizeBarInactiveHorizontal
+{
+	padding:0px;
+	font-size:1px;
+	background:#638ec8 url(Splitter/resizeBarBg.gif) repeat-x;
+	text-align:center;
+}
+
+.RadSplitter_Office2007 .rspResizeBar,
+.RadSplitter_Office2007 .rspSlideContainerResize,
+.RadSplitter_Office2007 .rspResizeBarOver,
+.RadSplitter_Office2007 .rspSlideContainerResizeOver,
+.RadSplitter_Office2007 .rspResizeBarInactive
+{
+	width:4px;	
+}
+
+.RadSplitter_Office2007 .rspResizeBarHorizontal,
+.RadSplitter_Office2007 .rspResizeBarOverHorizontal,
+.RadSplitter_Office2007 .rspSlideContainerResizeHorizontal,
+.RadSplitter_Office2007 .rspSlideContainerResizeOverHorizontal,
+.RadSplitter_Office2007 .rspResizeBarInactiveHorizontal
+{
+	height:4px;
+}
+
+.RadSplitter_Office2007 .rspResizeBarOver, 
+.RadSplitter_Office2007 .rspResizeBarOverHorizontal
+{
+	border:1px solid #4a70a2;
+}
+
+/* Helper Bar */
+.RadSplitter_Office2007 .rspHelperBarDrag, 
+.RadSplitter_Office2007 .rspHelperBarSlideDrag,
+.RadSplitter_Office2007 .rspHelperBarSlideDragHorizontal,
+.RadSplitter_Office2007 .rspHelperBarDragHorizontal
+{
+	font-size:1px;
+	background-color:#ccc;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60); 
+	opacity:0.6;
+}
+
+/* resize bar onerror */
+.RadSplitter_Office2007 .rspHelperBarError, 
+.RadSplitter_Office2007 .rspHelperBarSlideError,
+.RadSplitter_Office2007 .rspHelperBarErrorHorizontal
+{
+	font-size:1px;
+	background-color:#f60;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60); 
+	opacity:0.6;
+}
+
+/* Colapse Bar */
+.RadSplitter_Office2007 .rspCollapseBarWrapper
+{
+	width:4px;
+	margin:auto;
+}
+
+.RadSplitter_Office2007 .rspCollapseBarCollapse
+{	
+	cursor:pointer;
+	width:4px;
+	height:27px;
+	margin:auto;
+	text-align:center;
+	background:url(Splitter/splitbar_collapse_h.gif);
+}
+
+.RadSplitter_Office2007 .rspCollapseBarExpand
+{	
+	cursor:pointer;
+	width:4px;
+	height:27px;
+	margin:auto;
+	text-align:center;
+	background:url(Splitter/splitbar_expand_h.gif);
+}
+
+.RadSplitter_Office2007 .rspCollapseBarHorizontalWrapper
+{
+	height:4px;
+	margin:auto;
+}
+
+.RadSplitter_Office2007 .rspCollapseBarHorizontalCollapse
+{	
+	cursor:pointer;
+	width:27px;
+	height:4px;
+	margin:auto;
+	text-align:center;
+	float:left;
+	background:url(Splitter/splitbar_collapse_v.gif);
+}
+
+.RadSplitter_Office2007 .rspCollapseBarHorizontalExpand
+{	
+	cursor:pointer;
+	width:27px;
+	height:4px;
+	margin:auto;
+	text-align:center;
+	float:right;
+	background:url(Splitter/splitbar_expand_v.gif);
+}
+
+.RadSplitter_Office2007 .rspCollapseBarCollapseOver
+{	
+	cursor:pointer;
+	width:4px;
+	height:27px;
+	margin:auto;
+	text-align:center;	
+	background:#e6f0fd url(Splitter/splitbar_collapse_h.gif);
+	border-top:1px solid #4a70a2;
+	border-bottom:1px solid #4a70a2;
+}
+
+.RadSplitter_Office2007 .rspCollapseBarExpandOver
+{	
+	cursor:pointer;
+	width:4px;
+	height:27px;
+	margin:auto;
+	text-align:center;
+	background:#e6f0fd url(Splitter/splitbar_expand_h.gif);
+	border-top:1px solid #4a70a2;
+	border-bottom:1px solid #4a70a2;
+}
+
+.RadSplitter_Office2007 .rspCollapseBarHorizontalCollapseOver
+{	
+	cursor:pointer;
+	width:27px;
+	height:4px;
+	margin:auto;
+	text-align:center;
+	float:left;	
+	background:#e6f0fd url(Splitter/splitbar_collapse_v.gif);
+	border-left:1px solid #4a70a2;
+	border-right:1px solid #4a70a2;
+}
+
+.RadSplitter_Office2007 .rspCollapseBarHorizontalExpandOver
+{	
+	cursor:pointer;
+	width:27px;
+	height:4px;
+	margin:auto;
+	text-align:center;
+	float:right;
+	background:#e6f0fd url(Splitter/splitbar_expand_v.gif);
+	border-left:1px solid #4a70a2;
+	border-right:1px solid #4a70a2;
+}
+
+.RadSplitter_Office2007 .rspCollapseBarCollapseError
+{	
+	cursor:pointer;
+	width:4px;
+	height:27px;
+	margin:auto;
+	text-align:center;
+	background:red url(Splitter/splitbar_collapse_h.gif);
+}
+
+.RadSplitter_Office2007 .rspCollapseBarExpandError
+{	
+	cursor:pointer;
+	width:4px;
+	height:27px;
+	margin:auto;
+	text-align:center;
+	background:red url(Splitter/splitbar_expand_h.gif);
+}
+
+.RadSplitter_Office2007 .rspCollapseBarHorizontalCollapseError
+{	
+	cursor:pointer;
+	width:27px;
+	height:4px;
+	margin:auto;
+	text-align:center;
+	float:left;
+	background:red url(Splitter/splitbar_collapse_v.gif);
+}
+
+.RadSplitter_Office2007 .rspCollapseBarHorizontalExpandError
+{	
+	cursor:pointer;
+	width:27px;
+	height:4px;
+	margin:auto;
+	text-align:center;
+	float:right;
+	background:red url(Splitter/splitbar_expand_v.gif);
+}
+
+/* sliding zone */
+.RadSplitter_Office2007 .rspSlideZone
+{
+	background:white;
+}
+
+/* pane tabs */
+.RadSplitter_Office2007 .rspTabsContainer 
+{
+	color:#333;
+	vertical-align:top;
+}
+
+.RadSplitter_Office2007 .rspPaneTabContainer,
+.RadSplitter_Office2007 .rspPaneTabContainerExpanded,
+.RadSplitter_Office2007 .rspPaneTabContainerDocked,
+.RadSplitter_Office2007 .rspPaneTabContainerHorizontal,
+.RadSplitter_Office2007 .rspPaneTabContainerExpandedHorizontal,
+.RadSplitter_Office2007 .rspPaneTabContainerDockedHorizontal
+{
+	width:21px;
+	height:auto;
+	overflow:hidden;
+	cursor:default;
+	text-align:center;
+	font-size:1px;
+	color:#15428b;
+	padding:6px 0px;
+	background:url('Splitter/paneTabContainer.gif') repeat-y;
+	border-top:solid 1px #f3f7fd;
+	border-right:solid 1px #92a5c7;
+	border-bottom:solid 1px #92a5c7;
+}
+
+.RadSplitter_Office2007 .rspPaneTabContainerExpanded,
+.RadSplitter_Office2007 .rspPaneTabContainerDocked
+{
+	background:url('Splitter/paneTabContainerExpanded.gif') repeat-y;
+	color:#15428b;
+}
+
+/* tabs on right position */
+.RadSplitter_Office2007 .rspTabsContainer.rspRight
+{
+	width:23px;
+}
+
+.RadSplitter_Office2007 .rspRight .rspPaneTabContainer,
+.RadSplitter_Office2007 .rspRight .rspPaneTabContainerExpanded,
+.RadSplitter_Office2007 .rspRight .rspPaneTabContainerDocked
+{
+	background:url('Splitter/paneTabContainerRight.gif') repeat-y right;
+	width:20px;
+	border-top:solid 1px #f3f7fd;
+	border-left:solid 1px #92a5c7;
+	border-bottom:solid 1px #92a5c7;
+	color:#15428b;
+}
+
+.RadSplitter_Office2007 .rspRight .rspPaneTabContainerExpanded,
+.RadSplitter_Office2007 .rspRight .rspPaneTabContainerDocked
+{
+	background:url('Splitter/paneTabContainerExpandedRight.gif') repeat-y right;
+	color:#15428b;
+}
+
+/* tabs on top position */
+.RadSplitter_Office2007 .rspTabsContainer .rspTop
+{
+	height:23px;
+}
+
+.RadSplitter_Office2007 .rspTop .rspPaneTabContainer,
+.RadSplitter_Office2007 .rspTop .rspPaneTabContainerExpanded,
+.RadSplitter_Office2007 .rspTop .rspPaneTabContainerDocked
+{
+	background:url('Splitter/paneTabContainerTop.gif') repeat-x top;
+	height:20px;
+	border-right:solid 1px #f3f7fd;
+	border-top:solid 1px #92a5c7;
+	border-bottom:solid 1px #92a5c7;
+	border-left:solid 1px #92a5c7;
+	color:#15428b;											
+	float:left;
+	padding:0px 6px;
+	width:auto;
+}
+
+.RadSplitter_Office2007 .rspTop .rspPaneTabContainerExpanded,
+.RadSplitter_Office2007 .rspTop .rspPaneTabContainerDocked
+{
+	background:url('Splitter/paneTabContainerExpandedTop.gif') repeat-x top;
+	color:#15428b;
+}
+
+.RadSplitter_Office2007 .rspTop .rspPaneTabText
+{
+	writing-mode:lr-tb;/* Office2007 */
+}
+
+.RadSplitter_Office2007 .rspTop .rspPaneTabIcon
+{
+	display:block; 
+	float:left
+}
+
+/* tabs on bottom position */
+.RadSplitter_Office2007 .rspTabsContainer .rspBottom
+{
+	height:23px;
+}
+
+.RadSplitter_Office2007 .rspBottom .rspPaneTabContainer,
+.RadSplitter_Office2007 .rspBottom .rspPaneTabContainerExpanded,
+.RadSplitter_Office2007 .rspBottom .rspPaneTabContainerDocked
+{
+	background:url('Splitter/paneTabContainerBottom.gif') repeat-x top;
+	height:20px;
+	border-right:solid 1px #f3f7fd;
+	border-bottom:solid 1px #92a5c7;
+	border-top:0px;
+	border-left:solid 1px #92a5c7;
+	color:#15428b;											
+	float:left;
+	padding:0px 6px;
+	width:auto;
+}
+
+.RadSplitter_Office2007 .rspBottom .rspPaneTabContainerExpanded,
+.RadSplitter_Office2007 .rspBottom .rspPaneTabContainerDocked
+{
+	background:url('Splitter/paneTabContainerExpandedBottom.gif') repeat-x top;
+	color:#15428b;
+}
+
+.RadSplitter_Office2007 .rspBottom .rspPaneTabText
+{
+	writing-mode:lr-tb;/* Office2007 */
+}
+
+.RadSplitter_Office2007 .rspBottom .rspPaneTabIcon
+{
+	display:block; 
+	float:left
+}
+
+/* End tabs on bottom position */
+.RadSplitter_Office2007 .rspPaneTabText
+{
+	writing-mode:tb-rl;
+	font:10px Verdana, Arial, Helvetica;
+	white-space:nowrap;
+	margin:2px;
+}
+
+.RadSplitter_Office2007 .rspPaneTabIcon
+{
+	margin:2px;
+}
+
+/* slide/dock containers */
+.RadSplitter_Office2007 .rspSlideContainer 
+{
+	border:0px solid #073b96;
+	border-collapse:collapse;
+}
+
+.RadSplitter_Office2007 .rspSlideHeader, 
+.RadSplitter_Office2007 .rspSlideHeaderDocked
+{
+	background:url('Splitter/slideHeader.gif') repeat-x;
+	height:18px;
+}
+
+.RadSplitter_Office2007 .rspSlideContainerResize,
+.RadSplitter_Office2007 .rspSlideContainerResizeHorizontal,
+.RadSplitter_Office2007 .rspSlideContainerResizeOver,
+.RadSplitter_Office2007 .rspSlideContainerResizeOverHorizontal
+{ 
+     background:#a4c3eb none;
+     border-left:solid 1px #6593cf;
+     border-right:solid 1px #6593cf;
+     width:2px;
+}
+
+.RadSplitter_Office2007 .rspSlideContainerResize,
+.RadSplitter_Office2007 .rspSlideContainerResizeOver
+{
+	border-top:0px;
+	border-bottom:0px;
+}
+
+.RadSplitter_Office2007 .rspSlideContainerResizeHorizontal,
+.RadSplitter_Office2007 .rspSlideContainerResizeOverHorizontal
+{
+	border-left:0px;
+	border-right:0px;
+}
+
+.RadSplitter_Office2007 .rspSlideHeaderIconWrapper
+{
+	width:17px;
+}
+
+.RadSplitter_Office2007 .rspSlideHeaderIconsWrapper
+{
+	float:right;
+}
+
+.RadSplitter_Office2007 .rspSlideHeaderUndockIcon,
+.RadSplitter_Office2007 .rspSlideHeaderDockIcon,
+.RadSplitter_Office2007 .rspSlideHeaderCollapseIcon,
+.RadSplitter_Office2007 .rspSlideHeaderUndockIconOver,
+.RadSplitter_Office2007 .rspSlideHeaderDockIconOver,
+.RadSplitter_Office2007 .rspSlideHeaderCollapseIconOver
+{	
+	width:11px;
+	height:11px;
+	float:left;
+	margin:3px;
+	cursor:hand;
+	cursor:pointer;
+} 
+
+.RadSplitter_Office2007 .rspSlideHeaderUndockIcon,
+.RadSplitter_Office2007 .rspSlideHeaderUndockIconOver
+{
+	background:url(Splitter/undock.gif); 
+}
+
+.RadSplitter_Office2007 .rspSlideHeaderDockIcon,
+.RadSplitter_Office2007 .rspSlideHeaderDockIconOver
+{
+	background:url(Splitter/dock.gif); 
+}
+
+.RadSplitter_Office2007 .rspSlideHeaderCollapseIcon,
+.RadSplitter_Office2007 .rspSlideHeaderCollapseIconOver
+{
+	background:url(Splitter/close.gif); 
+}
+
+.RadSplitter_Office2007 .rspSlideTitle, 
+.RadSplitter_Office2007 .rspSlideTitleDocked 
+{
+	font:bold 11px Verdana;
+	color:#15428b;
+	white-space:nowrap;
+	margin-left:5px;
+	margin-right:5px;
+	text-align:left;
+	line-height:18px;
+}
+
+.RadSplitter_Office2007 .rspSlideTitleContainer
+{
+	background:#b8cfe9 url(Splitter/slideHeader.gif) repeat-x;
+	height:18px;
+}
+
+.RadSplitter_Office2007 .rspSlideContent, 
+.RadSplitter_Office2007 .rspSlideContentDocked
+{
+	font:10px Verdana;
+	color:black;
+	background-color:white;
+	padding:5px;
+	text-align:left;
+}
+
+.RadSplitter_Office2007 .rspHelperBarSlideDrag,
+.RadSplitter_Office2007 .rspSlideContainerResize,
+.RadSplitter_Office2007 .rspSlideContainerResizeOver
+{
+	cursor:w-resize;
+}
+
+.RadSplitter_Office2007 .rspHelperBarSlideDragHorizontal,
+.RadSplitter_Office2007 .rspSlideContainerResizeHorizontal,
+.RadSplitter_Office2007 .rspSlideContainerResizeOverHorizontal
+{
+	cursor:n-resize;
+}
+
+.RadSplitter_Office2007 .rspResizeBarHorizontal,
+.RadSplitter_Office2007 .rspResizeBarInactiveHorizontal
+{
+	background:#638ec8 none;
+}
+
+.RadSplitter_Office2007 .rspResizeBarOver,
+.RadSplitter_Office2007 .rspResizeBarOverHorizontal
+{
+	background:#f9f9f9 none;
+}
+
+/* Helper Bar */
+.RadSplitter_Office2007 .rspHelperBarDrag, 
+.RadSplitter_Office2007 .rspHelperBarDragHorizontal
+{
+	font-size:1px;
+	background-color:#ccc;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60); 
+	opacity:0.6;
+}
+
+/* resize bar onerror */
+.RadSplitter_Office2007 .rspHelperBarError, 
+.RadSplitter_Office2007 .rspHelperBarErrorHorizontal
+{
+	font-size:1px;
+	background-color:#f60;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60); 
+	opacity:0.6;
+}
+
+/* Colapse Bar */
+.RadSplitter_Office2007 .rspCollapseBarOver
+{
+	background:#f9f9f9;
+	border-top:1px solid #c1c1c1;
+	border-bottom:1px solid #c1c1c1;
+}
+
+.RadSplitter_Office2007 .rspCollapseBarOverHorizontal
+{
+	background:#f9f9f9;
+	border-left:1px solid #c1c1c1;
+	border-right:1px solid #c1c1c1;
+}
+.RadSplitter_Office2007 .rspCollapseBarError, 
+.RadSplitter_Office2007 .rspCollapseBarErrorHorizontal
+{
+	background-color:red;
+}

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" lasteditedby="lgisaacs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Schools</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Schools</text></para>
+    </header>
+    <para styleclass="Header 2" style="text-align:right;"><link displaytype="image" src="New_Back_Arrow_icon.gif" type="topiclink" href="Support"></link><text styleclass="Header 2" style="font-size:8pt;" translate="true">&#32;</text><link displaytype="text" defaultstyle="true" type="topiclink" href="Support" styleclass="Answer" style="font-size:8pt;" translate="true">Return to Support Menu</link></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Font Style" style="font-family:Calibri; font-size:11pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Font Style" style="font-family:Calibri; font-size:11pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;"><caption translate="true"><![CDATA[How do I add a new school to the system?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">In order to add a new school to the system please follow the directions below. &#160;</text><text styleclass="Answer" style="font-weight:bold; font-style:italic;" translate="true">Only certain user types have access to add new schools, if you do not see any of the menu options listed in the directions below please contact your district administrator:</text></para>
+          <para styleclass="Answer"></para>
+          <list id="2" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Support</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Select the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Add Icon </text><text styleclass="Answer" translate="true">next to Schools</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Fill in the appropriate information:</text></li>
+          </list>
+          <para styleclass="Answer" style="margin-left:96px;"><text styleclass="Answer" style="font-style:italic;" translate="true">School Name</text></para>
+          <para styleclass="Answer" style="margin-left:96px;"><text styleclass="Answer" style="font-style:italic;" translate="true">Abbreviation (optional)</text></para>
+          <para styleclass="Answer" style="margin-left:96px;"><text styleclass="Answer" style="font-style:italic;" translate="true">Phone Number (optional)</text></para>
+          <para styleclass="Answer" style="margin-left:96px;"><text styleclass="Answer" style="font-style:italic;" translate="true">School Type</text></para>
+          <para styleclass="Answer" style="margin-left:96px;"><text styleclass="Answer" style="font-style:italic;" translate="true">Cluster (optional)</text></para>
+          <para styleclass="Answer" style="margin-left:96px;"><text styleclass="Answer" style="font-style:italic;" translate="true">School ID</text></para>
+          <list id="2" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Save</text></li>
+          </list>
+          <para styleclass="Answer" style="margin-left:48px;"></para>
+          <para styleclass="Answer" style="margin-left:0px;"><text styleclass="Answer" style="font-weight:bold; font-style:italic;" translate="true">The school ID needs to match the school ID that exists in your Student Information system if a roster load for the school is ever desired.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Font Style" style="font-family:Calibri; font-size:11pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#4f81bd; background-color:transparent; letter-spacing:normal; letter-scaling:100%;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[Do I need to add a cluster to my school?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">Depending on how your district organizes schools you may want to add a cluster flag to your school. &#160;Clusters allow for larger district to group their schools. &#160;Please check with your district office to find out if this is required.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Font Style" style="font-family:Calibri; font-size:11pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Font Style" style="font-family:Calibri; font-size:11pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;"><caption translate="true"><![CDATA[How do I edit a school?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">In order to edit a school please follow the directions below.</text></para>
+          <para styleclass="Answer"></para>
+          <list id="3" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Support</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Find</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Icon</text><text styleclass="Answer" translate="true"> next to schools</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Use the criteria options to search for the school you wish to edit.</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Find</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Schools</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Edit</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">icon</text><text styleclass="Answer" translate="true"> next to the desired school</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Once the profile page for the School loads any information can be edited on this screen.</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click Save</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

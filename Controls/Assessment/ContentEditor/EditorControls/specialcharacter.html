@@ -1,0 +1,333 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Generator" content="Asbru Web Content Editor">
+<meta http-equiv="Copyright" content="(C) 2002-2006 - Asbru Ltd. - www.asbrusoft.com">
+<script type="text/javascript" src="webeditor.properties.js"></script>
+<title></title>
+<link rel="stylesheet" href="../dtree.css" type="text/css">
+<script type="text/javascript" src="../dtree.js"></script>
+<link rel="stylesheet" type="text/css" href="../hardcore.css"> 
+<link rel="stylesheet" type="text/css" href="webeditor.css">
+<script type="text/javascript">
+
+
+function requestParameter(name) {
+	var value = "";
+	if (start = request.indexOf("?"+name+"=")+1) {
+		value = request.substring(start+name.length+1);
+	} else if (start = request.indexOf("&"+name+"=")+1) {
+		value = request.substring(start+name.length+1);
+	}
+	if (value.indexOf("&")+1) {
+		value = value.substring(0, value.indexOf("&"));
+	}
+	value = unescape(value);
+	return value;
+}
+
+window.focus();
+var request = "" + window.location;
+editor = requestParameter("editor");
+
+function insertSpecialCharacter(htmlcode) {
+    window.parent.InsertSymbol(htmlcode);
+    window.parent.CloseEquationEditor();
+}
+
+</script>
+</head>
+<body>
+<table style="width: 100%; height: 100%;">
+	<tr align="left" valign="top"> 
+	</tr>
+	<tr>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&nbsp;')">&nbsp;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&iexcl;')">&iexcl;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&cent;')">&cent;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&pound;')">&pound;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&curren;')">&curren;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&yen;')">&yen;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&brvbar;')">&brvbar;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&sect;')">&sect;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&uml;')">&uml;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&copy;')">&copy;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&ordf;')">&ordf;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&laquo;')">&laquo;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&not;')">&not;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&shy;')">&shy;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&reg;')">&reg;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&macr;')">&macr;</a></td>
+	</tr>
+	<tr>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&deg;')">&deg;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&plusmn;')">&plusmn;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&sup2;')">&sup2;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&sup3;')">&sup3;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&acute;')">&acute;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&micro;')">&micro;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&para;')">&para;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&middot;')">&middot;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&cedil;')">&cedil;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&sup1;')">&sup1;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&ordm;')">&ordm;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&raquo;')">&raquo;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&frac14;')">&frac14;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&frac12;')">&frac12;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&frac34;')">&frac34;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&iquest;')">&iquest;</a></td>
+	</tr>
+	<tr>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Agrave;')">&Agrave;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Aacute;')">&Aacute;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Acirc;')">&Acirc;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Atilde;')">&Atilde;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Auml;')">&Auml;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Aring;')">&Aring;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&AElig;')">&AElig;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Ccedil;')">&Ccedil;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Egrave;')">&Egrave;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Eacute;')">&Eacute;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Ecirc;')">&Ecirc;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Euml;')">&Euml;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Igrave;')">&Igrave;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Iacute;')">&Iacute;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Icirc;')">&Icirc;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Iuml;')">&Iuml;</a></td>
+	</tr>
+	<tr>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&ETH;')">&ETH;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Ntilde;')">&Ntilde;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Ograve;')">&Ograve;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Oacute;')">&Oacute;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Ocirc;')">&Ocirc;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Otilde;')">&Otilde;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Ouml;')">&Ouml;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&times;')">&times;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Oslash;')">&Oslash;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Ugrave;')">&Ugrave;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Uacute;')">&Uacute;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Ucirc;')">&Ucirc;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Uuml;')">&Uuml;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Yacute;')">&Yacute;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&THORN;')">&THORN;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&szlig;')">&szlig;</a></td>
+	</tr>
+	<tr>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&agrave;')">&agrave;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&aacute;')">&aacute;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&acirc;')">&acirc;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&atilde;')">&atilde;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&auml;')">&auml;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&aring;')">&aring;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&aelig;')">&aelig;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&ccedil;')">&ccedil;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&egrave;')">&egrave;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&eacute;')">&eacute;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&ecirc;')">&ecirc;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&euml;')">&euml;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&igrave;')">&igrave;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&iacute;')">&iacute;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&icirc;')">&icirc;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&iuml;')">&iuml;</a></td>
+	</tr>
+	<tr>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&eth;')">&eth;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&ntilde;')">&ntilde;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&ograve;')">&ograve;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&oacute;')">&oacute;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&ocirc;')">&ocirc;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&otilde;')">&otilde;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&ouml;')">&ouml;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&divide;')">&divide;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&oslash;')">&oslash;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&ugrave;')">&ugrave;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&uacute;')">&uacute;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&ucirc;')">&ucirc;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&uuml;')">&uuml;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&yacute;')">&yacute;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&thorn;')">&thorn;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&yuml;')">&yuml;</a></td>
+	</tr>
+	<tr>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&quot;')">&quot;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&amp;')">&amp;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&amp;lt;')">&lt;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&gt;')">&gt;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&OElig;')">&OElig;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&oelig;')">&oelig;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Scaron;')">&Scaron;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&scaron;')">&scaron;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Yuml;')">&Yuml;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&circ;')">&circ;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&tilde;')">&tilde;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&ensp;')">&ensp;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&emsp;')">&emsp;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&thinsp;')">&thinsp;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&zwnj;')">&zwnj;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&zwj;')">&zwj;</a></td>
+	</tr>
+	<tr>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&lrm;')">&lrm;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&rlm;')">&rlm;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&ndash;')">&ndash;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&mdash;')">&mdash;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&lsquo;')">&lsquo;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&rsquo;')">&rsquo;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&sbquo;')">&sbquo;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&ldquo;')">&ldquo;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&rdquo;')">&rdquo;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&bdquo;')">&bdquo;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&dagger;')">&dagger;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Dagger;')">&Dagger;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&permil;')">&permil;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&lsaquo;')">&lsaquo;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&rsaquo;')">&rsaquo;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&euro;')">&euro;</a></td>
+	</tr>
+	<tr>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&fnof;')">&fnof;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Alpha;')">&Alpha;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Beta;')">&Beta;</a></td>
+		<!--<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Gamma;')">&Gamma;</a></td>-->
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('<font face=symbol>G</font>')">&Gamma;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Delta;')">&Delta;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Epsilon;')">&Epsilon;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Zeta;')">&Zeta;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Eta;')">&Eta;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Theta;')">&Theta;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Iota;')">&Iota;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Kappa;')">&Kappa;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Lambda;')">&Lambda;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Mu;')">&Mu;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Nu;')">&Nu;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Xi;')">&Xi;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Omicron;')">&Omicron;</a></td>
+	</tr>
+	<tr>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Pi;')">&Pi;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Rho;')">&Rho;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Sigma;')">&Sigma;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Tau;')">&Tau;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Upsilon;')">&Upsilon;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Phi;')">&Phi;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Chi;')">&Chi;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Psi;')">&Psi;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Omega;')">&Omega;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&alpha;')">&alpha;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&beta;')">&beta;</a></td>
+		<!--<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&gamma;')">&gamma;</a></td>-->
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('<font face=symbol>g</font>')">&gamma;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&delta;')">&delta;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&epsilon;')">&epsilon;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&zeta;')">&zeta;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&eta;')">&eta;</a></td>
+	</tr>
+	<tr>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&theta;')">&theta;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&iota;')">&iota;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&kappa;')">&kappa;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&lambda;')">&lambda;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&mu;')">&mu;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&nu;')">&nu;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&xi;')">&xi;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&omicron;')">&omicron;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&pi;')">&pi;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&rho;')">&rho;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&sigmaf;')">&sigmaf;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&sigma;')">&sigma;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&tau;')">&tau;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&upsilon;')">&upsilon;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&phi;')">&phi;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&chi;')">&chi;</a></td>
+	</tr>
+	<tr>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&psi;')">&psi;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&omega;')">&omega;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&thetasym;')">&thetasym;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&upsih;')">&upsih;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&piv;')">&piv;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&bull;')">&bull;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&hellip;')">&hellip;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&prime;')">&prime;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&Prime;')">&Prime;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&oline;')">&oline;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&frasl;')">&frasl;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&weierp;')">&weierp;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&image;')">&image;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&real;')">&real;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&trade;')">&trade;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&alefsym;')">&alefsym;</a></td>
+	</tr>
+	<tr>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&larr;')">&larr;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&uarr;')">&uarr;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&rarr;')">&rarr;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&darr;')">&darr;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&harr;')">&harr;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&crarr;')">&crarr;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&lArr;')">&lArr;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&uArr;')">&uArr;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&rArr;')">&rArr;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&dArr;')">&dArr;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&hArr;')">&hArr;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&forall;')">&forall;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&part;')">&part;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&exist;')">&exist;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&empty;')">&empty;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&nabla;')">&nabla;</a></td>
+	</tr>
+	<tr>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&isin;')">&isin;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&notin;')">&notin;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&ni;')">&ni;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&prod;')">&prod;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&sum;')">&sum;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&minus;')">&minus;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&lowast;')">&lowast;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&radic;')">&radic;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&prop;')">&prop;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&infin;')">&infin;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&ang;')">&ang;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&and;')">&and;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&or;')">&or;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&cap;')">&cap;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&cup;')">&cup;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&int;')">&int;</a></td>
+	</tr>
+	<tr>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&there4;')">&there4;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&sim;')">&sim;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&cong;')">&cong;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&asymp;')">&asymp;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&ne;')">&ne;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&equiv;')">&equiv;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&le;')">&le;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&ge;')">&ge;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&sub;')">&sub;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&sup;')">&sup;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&nsub;')">&nsub;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&sube;')">&sube;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&supe;')">&supe;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&oplus;')">&oplus;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&otimes;')">&otimes;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&perp;')">&perp;</a></td>
+	</tr>
+	<tr>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&sdot;')">&sdot;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&lceil;')">&lceil;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&rceil;')">&rceil;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&lfloor;')">&lfloor;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&rfloor;')">&rfloor;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&lang;')">&lang;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&rang;')">&rang;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&loz;')">&loz;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&spades;')">&spades;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&clubs;')">&clubs;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&hearts;')">&hearts;</a></td>
+		<td align="center" width="5%"><a style="text-decoration: none" href="javascript:insertSpecialCharacter('&diams;')">&diams;</a></td>
+	</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Under Construction" lasteditedby="lgisaacs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Academic</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Academic</text></para>
+    </header>
+    <para styleclass="Header 2" style="text-align:right;"><link displaytype="image" src="New_Back_Arrow_icon.gif" type="topiclink" href="Instruction"></link><text styleclass="Header 2" style="font-size:8pt;" translate="true">&#32;</text><link displaytype="text" defaultstyle="true" type="topiclink" href="Instruction" styleclass="Answer" style="font-size:8pt;" translate="true">Return to Instruction Menu</link></para>
+    <para styleclass="Header 2" style="text-align:right;"></para>
+    <para styleclass="Header 2" style="text-align:center;"></para>
+    <para styleclass="Header 2" style="text-align:center;"></para>
+    <para styleclass="Header 2" style="text-align:center;"></para>
+    <para styleclass="Header 2" style="text-align:center;"></para>
+    <para styleclass="Header 2" style="text-align:center;"></para>
+    <para styleclass="Header 2" style="text-align:center;"></para>
+    <para styleclass="Header 2" style="text-align:center;"></para>
+    <para styleclass="Header 2" style="text-align:center;"></para>
+    <para styleclass="Header 2" style="text-align:center;"><image src="clip0002.bmp" scale="62.66%" width="1146" height="8" styleclass="Image Caption"></image></para>
+    <para styleclass="Header 2" style="text-align:center;"></para>
+    <para styleclass="Heading1" style="text-align:center;"><text styleclass="Heading1" style="font-size:14pt; color:#000000;" translate="true">Coming Soon! &#160;The Response to Intervention section of the FAQ is under construction. &#160;Please contact your district administrator or Thinkgate Support if you have any questions. &#160;We apologize for the inconvenience. &#160;Additionally, please refer to the Reference Center for more in depth guides on the Elements™ system.</text></para>
+    <para styleclass="Header 2" style="text-align:center;"></para>
+    <para styleclass="Header 2" style="text-align:center;"><image src="clip0002.bmp" scale="62.66%" width="1146" height="8" styleclass="Image Caption"></image></para>
+  </body>
+</topic>

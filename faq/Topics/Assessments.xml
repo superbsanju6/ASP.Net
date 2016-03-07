@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="lgisaacs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Assessment</title>
+  <body>
+    <header>
+      <para styleclass="Heading1" style="text-align:right;"><image src="thinkgate.jpg" align="right" scale="43.00%" width="192" height="43" styleclass="Image Caption"></image></para>
+      <para styleclass="Heading1" style="text-indent:0px; margin-right:0px; margin-left:0px; tabstops:none;"><text styleclass="Heading1" style="font-size:18pt; color:#ffffff;" translate="true">Assessment</text></para>
+    </header>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:center;"><table styleclass="Default" rowcount="7" colcount="1" style="width:34%; cell-padding:8px; cell-spacing:5px; page-break-inside:auto; border-width:3px; border-spacing:5px; cell-border-width:0px; border-color:#000000; border-style:solid; background-color:#c0c0c0; background-image:url('elements.jpg'); head-row-background-color:#333333; alt-row-background-color:none;">
+      <thead style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" style="font-size:16pt; font-weight:bold; color:#ffffff;" translate="true">Assessment Sub-Components</text></para>
+        </td>
+      </thead>
+      <tr>
+        <td>
+          <para styleclass="Normal"><link displaytype="image" src="icon_find.gif" type="topiclink" href="Items___Questions"></link><text styleclass="Normal" style="font-size:14pt;" translate="true"> &#160;</text><link displaytype="text" defaultstyle="false" type="topiclink" href="Items___Questions" styleclass="Normal" style="font-size:14pt;" translate="true">Item Builder: Items, Images and Addendums<title translate="true">Questions concerning items (questions), images or addendums.</title></link></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal"><link displaytype="image" src="icon_find.gif" type="topiclink" href="Test_Creation"></link><text styleclass="Normal" style="font-size:14pt;" translate="true"> &#160;</text><link displaytype="text" defaultstyle="false" type="topiclink" href="Test_Creation" styleclass="Normal" style="font-size:14pt;" translate="true">Test Building / Proofing<title translate="true">Questions concerning test building, editing and proofing tests.</title></link></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal"><link displaytype="image" src="icon_find.gif" type="topiclink" href="Test_Administration"></link><text styleclass="Normal" style="font-size:14pt;" translate="true"> &#160;</text><link displaytype="text" defaultstyle="false" type="topiclink" href="Test_Administration" styleclass="Normal" style="font-size:14pt;" translate="true">Dashboard<title translate="true">Questions concerning the test dashboard.</title></link></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal"><link displaytype="image" src="icon_find.gif" type="topiclink" href="Scanning"></link><text styleclass="Normal" style="font-size:14pt;" translate="true"> &#160;</text><link displaytype="text" defaultstyle="false" type="topiclink" href="Scanning" styleclass="Normal" style="font-size:14pt;" translate="true">Scanning<title translate="true">Common scanning issues and questions.</title></link></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal"><link displaytype="image" src="icon_find.gif" type="topiclink" href="Online_Testing"></link><text styleclass="Normal" style="font-size:14pt;" translate="true"> &#160;</text><link displaytype="text" defaultstyle="false" type="topiclink" href="Online_Testing" styleclass="Normal" style="font-size:14pt;" translate="true">Online Testing</link></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal"><link displaytype="image" src="New_Back_Arrow_icon.gif" type="topiclink" href="Curriculum_Plans"></link><text styleclass="Normal" style="font-size:14pt;" translate="true"> &#160;</text><link displaytype="text" defaultstyle="false" type="topiclink" href="FAQ_Menu" styleclass="Normal" style="font-size:14pt;" translate="true">FAQ Menu</link></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

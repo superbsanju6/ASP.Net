@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CompetencyWorksheet.master.cs" Inherits="Thinkgate.CompetencyWorksheet" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+
+    <link href="~/Styles/Site.css?v=2" rel="stylesheet" type="text/css" />
+
+    <script type='text/javascript' src='../Scripts/jquery-1.9.1.min.js'></script>
+
+    <asp:ContentPlaceHolder ID="headContent" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

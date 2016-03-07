@@ -1,0 +1,10 @@
+﻿/* Override default TGLogin.css for specific client */
+
+#lblServerName 
+{
+    /*color: darkgreen;*/
+}
+
+#myLogin_UserNameLabel, #myLogin_PasswordLabel {
+    /*color: green;*/
+}

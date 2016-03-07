@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="lgisaacs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd" status="Needs Review">
+  <title translate="true">Items</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Items</text></para>
+    </header>
+    <para style="text-align:right; line-height:1.15;"><link displaytype="image" src="New_Back_Arrow_icon.gif" type="topiclink" href="Assessment"></link><text styleclass="Header 2" style="font-size:8pt;" translate="true"> </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Assessment" styleclass="Answer" style="font-size:8pt;" translate="true">Return to Assessment Menu</link></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Font Style" style="font-family:Calibri; font-size:11pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Font Style" style="font-family:Calibri; font-size:11pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;"><caption translate="true"><![CDATA[How do I create new items in Elements?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">To create a new item in Elements, follow these steps:</text></para>
+          <para styleclass="Answer"></para>
+          <list id="41" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Assessment</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Add</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Items</text><text styleclass="Answer" translate="true"> icon</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Enter the desired criteria for the Item on the Profile tab</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Select the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Standards</text><text styleclass="Answer" translate="true"> tab, enter search criteria and attach the desired standards to the Item</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Select the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Content</text><text styleclass="Answer" translate="true"> tab and edit the question, edit the answer options and select the correct answer in the answer drop down.  You can also run spell check on the item</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Save</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Select the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Preview</text><text styleclass="Answer" translate="true"> tab to view the item</text></li>
+          </list>
+          <para styleclass="Answer" style="margin-left:48px;"></para>
+          <para styleclass="Answer" style="margin-left:0px;"><text styleclass="Answer" style="font-weight:bold; font-style:italic;" translate="true">Explanations of the different items banks can be found in the FAQ below.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[When creating items, there are different Item bank options that can be selected.   What are the differences in the item banks?
+]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">In Elements there are 5 different item banks.  Below are the different item banks and an explanation of each.</text></para>
+          <para styleclass="Answer"></para>
+          <list id="28" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0; font-family:Calibri; font-size:11pt; color:#000080;">
+            <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" style="font-weight:bold;" translate="true">Personal</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Bank</text><text styleclass="Answer" translate="true">- The Personal Bank is each user’s private bank.  When a user creates an item it will automatically be saved to this bank.  Other users will not be able to use items from this bank unless the user shares the item.</text></li>
+            <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" style="font-weight:bold;" translate="true">School</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Bank</text><text styleclass="Answer" translate="true">- When a user shares an item through school bank, the item will be shared among all teachers in that particular school.</text></li>
+            <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" style="font-weight:bold;" translate="true">Teacher</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Bank</text><text styleclass="Answer" translate="true">- When a user shares an item through the teacher bank the item will be shared among all teachers in the district.</text></li>
+            <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" style="font-weight:bold;" translate="true">District</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Bank</text><text styleclass="Answer" translate="true">-The district bank is shared among users in the District Office.  Once an item is designated for the District Bank it does not reside in any other bank.</text></li>
+            <li styleclass="Answer" style="margin-top:0px; margin-bottom:0px; margin-left:48px; line-height:1.0;"><text styleclass="Answer" style="font-weight:bold;" translate="true">Thinkgate</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Community</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Bank</text><text styleclass="Answer" translate="true">-The Thinkgate Community Bank is comprised of approved content and customer items promoted from proofed district assessments.  This bank is shared by all Thinkgate customers.</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Font Style" style="font-family:Calibri; font-size:11pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Font Style" style="font-family:Calibri; font-size:11pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;"><caption translate="true"><![CDATA[Can I copy an item from the teacher or school bank?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">Yes, you can copy items from other banks to save them into your own.  You can use the item as is or you can edit the item to your liking.  In order to copy an item, follow these steps:</text></para>
+          <para styleclass="Answer"></para>
+          <list id="54" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Assessment</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Find</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Items</text><text styleclass="Answer" translate="true"> Icon</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Enter the search criteria and click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">find</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">items</text><text styleclass="Answer" translate="true">, </text><text styleclass="Answer" style="font-style:italic;" translate="true">be sure to select which item bank you would like to search for the item in </text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Once you find the desired item, click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">copy</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">question</text><text styleclass="Answer" translate="true"> icon under </text><text styleclass="Answer" style="font-weight:bold;" translate="true">item</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">status</text></li>
+          </list>
+          <para styleclass="Answer"></para>
+          <para styleclass="Answer"><text styleclass="Answer" style="font-weight:bold; font-style:italic;" translate="true">The item is now copied into your personal item bank and can be found and edited by searching for items in your personal bank</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para style="text-indent:-18px; margin-left:18px; line-height:1.15;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Font Style" style="font-family:Calibri; font-size:11pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Font Style" style="font-family:Calibri; font-size:11pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;"><caption translate="true"><![CDATA[How do I search for items from a specific item bank?]]></caption></toggle></para>
+    <para style="text-indent:-18px; margin-left:42px; line-height:1.15;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">In order to search for items in a particular bank follow these steps:</text></para>
+          <para styleclass="Answer"></para>
+          <list id="64" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Assessment</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Find</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Items</text><text styleclass="Answer" translate="true"> Icon</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Choose the criteria to search for the desired question</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Change the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">item</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">bank</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">drop</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">down</text><text styleclass="Answer" translate="true"> to the bank you would like to search</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Find</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Items</text><text styleclass="Answer" translate="true">.  Only Items from the bank you have selected will appear</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+    <para style="text-indent:-18px; margin-left:18px; line-height:1.15;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Font Style" style="font-family:Calibri; font-size:11pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Font Style" style="font-family:Calibri; font-size:11pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;"><caption translate="true"><![CDATA[How do I add an item with an addendum?]]></caption></toggle></para>
+    <para style="text-indent:-18px; margin-left:42px; line-height:1.15;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">In order to add an addendum to an item, follow these steps:</text></para>
+          <para styleclass="Answer"></para>
+          <list id="116" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Assessment</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Add</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Items</text><text styleclass="Answer" translate="true"> Icon</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Select the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Profile</text><text styleclass="Answer" translate="true"> Tab</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Enter the desired item criteria</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Standards</text><text styleclass="Answer" translate="true"> tab </text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Attach the desired standards</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Content</text><text styleclass="Answer" translate="true"> Tab</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Enter desired item and answer content and select the correct answer </text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Addendum</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Icon</text></li>
+          </list>
+          <para styleclass="Answer"></para>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">At this point there are two different options. You can either add a new addendum by selecting </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Add</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Addendum</text><text styleclass="Answer" translate="true"> or find an existing one by selecting </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Find</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Addendums</text><text styleclass="Answer" translate="true">.  </text></para>
+          <para styleclass="Answer"></para>
+          <para styleclass="Answer"><text styleclass="Answer" style="font-weight:bold;" translate="true">Add Addendum Option:</text></para>
+          <para styleclass="Answer"></para>
+          <list id="117" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Add</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Addendum</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Enter the addendum criteria on the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Profile</text><text styleclass="Answer" translate="true"> tab</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Save</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Select the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Content</text><text styleclass="Answer" translate="true"> Tab</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Enter the content for the addendum</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click Save</text></li>
+          </list>
+          <para styleclass="Answer"></para>
+          <para styleclass="Answer"><text styleclass="Answer" style="font-weight:bold;" translate="true">Find Addendum Option:</text></para>
+          <para styleclass="Answer"></para>
+          <list id="118" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Add</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Addendum</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Enter the Search criteria </text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Find</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Addendums</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Select</text><text styleclass="Answer" translate="true"> Icon next to the addendum you want to choose</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Save</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+    <para style="line-height:1.15;"></para>
+    <para style="line-height:1.15;"></para>
+  </body>
+</topic>

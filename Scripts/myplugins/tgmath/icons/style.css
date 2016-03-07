@@ -1,0 +1,67 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.ttf') format('truetype'),
+		url('fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-undo, .icon-redo, .icon-checkmark, .icon-checkmark-2, .icon-close, .icon-cancel-circle, .icon-blocked, .icon-erase, .icon-eraser {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-undo:before {
+	content: "\e000";
+}
+.icon-redo:before {
+	content: "\e001";
+}
+.icon-checkmark:before {
+	content: "\e002";
+}
+.icon-checkmark-2:before {
+	content: "\e003";
+}
+.icon-close:before {
+	content: "\e004";
+}
+.icon-cancel-circle:before {
+	content: "\e005";
+}
+.icon-blocked:before {
+	content: "\e006";
+}
+.icon-erase:before {
+	content: "\e007";
+}
+.icon-eraser:before {
+	content: "\f12d";
+}

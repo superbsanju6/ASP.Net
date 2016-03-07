@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="KenticoSearch.master.cs" Inherits="Thinkgate.KenticoSearch" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head id="Head1" runat="server">
+    <meta charset="utf-8" />
+    <title>Resource Search </title>
+   
+
+    <script>
+
+        function createCSSRef(url) {
+            var obj = document.createElement("link");
+            obj["href"] = url;
+            obj["rel"] = "stylesheet";
+            obj["type"] = "text/css";
+            return obj;
+
+        }
+
+    </script>
+
+    <asp:PlaceHolder ID="PlaceHolder1" runat="server">
+        <script src="<%: ResolveUrl("~/Scripts/modernizr-2.6.2.js") %>"></script>
+    </asp:PlaceHolder>
+ 
+    <link id="Link1" href="~/Scripts/jquery-ui/css/overcast/jquery-ui-1.10.0.custom.min.css" rel="stylesheet" type="text/css" runat="server"/>  
+     
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+</head>
+<body style="font-family: 'Trebuchet MS', Arial; font-size: 12px; overflow: hidden;">
+    <form id="Form1" runat="server">
+        <telerik:RadWindowManager runat="server" id="RadWindowManager1"></telerik:RadWindowManager>
+
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+           <Services>
+                <asp:ServiceReference Path="~/Services/KenticoServices/KenticoWebServices.aspx" />
+            </Services>
+            <Scripts>
+                <asp:ScriptReference Path="~/Scripts/jquery-1.9.1.js" />
+                <asp:ScriptReference Path="~/Scripts/jquery-ui/js/jquery-ui-1.10.0.custom.min.js" />   
+                <asp:ScriptReference Path="~/Scripts/jquery.inputmask.js"/>           
+            </Scripts>
+        </asp:ScriptManager>
+        <header>
+             </header>
+        <div id="body">
+            <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
+            <section class="content-wrapper main-content clear-fix">
+                <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+            </section>
+        </div>
+        <footer>
+        </footer>
+    </form>
+</body>
+</html>

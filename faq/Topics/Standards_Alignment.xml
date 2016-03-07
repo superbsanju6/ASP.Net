@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="lgisaacs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd" status="Needs Review">
+  <title translate="true">Standards Alignment</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Standards Alignment</text></para>
+    </header>
+    <para styleclass="Header 2" style="text-align:right;"><link displaytype="image" src="New_Back_Arrow_icon.gif" type="topiclink" href="Instruction"></link><text styleclass="Header 2" style="font-size:8pt;" translate="true"> </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Instruction" styleclass="Answer" style="font-size:8pt;" translate="true">Return to Instruction Menu</link></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[What is a Standards Alignment document?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">A standards Alignment document is a supplemental document that can be attached to a standard to provide the user with further information and assistance with teaching the standard.  A standards alignment allows the user to fill in the Essential Learning, Essential Vocabulary, Assessment and Resources for a specific standard and all the &quot;sub-elements&quot; associated with the standard.  This information is then stored in an electronic document in the Elements™ system that is attached to a standard.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[How do I search for a Standards Alignment document by Standard?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">In order to search for a Standards Alignment document please see the directions listed below:</text></para>
+          <para styleclass="Answer"></para>
+          <list id="3" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click on </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Instruction</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Find</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Icon</text><text styleclass="Answer" translate="true"> next to </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Standards</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Alignment</text><text styleclass="Answer" translate="true"> under the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Instructional</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Planning</text><text styleclass="Answer" translate="true"> section</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">On the right side of the search criteria click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Standards</text><text styleclass="Answer" translate="true"> (it will appear as the only option that is not grayed out)</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">This will open a new set of criteria you can use to pick the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Standard Set, Grade, Subject</text><text styleclass="Answer" translate="true"> and </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Standards</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[How do I add a Standards Alignment document?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">In order to add a Standards Alignment document please see the directions listed below: </text><text styleclass="Answer" style="font-weight:bold; font-style:italic;" translate="true"> (Only certain user types have access to add Standards Alignment documents)</text></para>
+          <para styleclass="Answer"></para>
+          <list id="4" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click on </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Instruction</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Add</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Icon</text><text styleclass="Answer" translate="true"> next to Standards Alignment under the Instructional Planning section</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Add</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Standards</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Alignment</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">A new Document will open on the Document - Profile screen, fill in a description if desired</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Associations</text><text styleclass="Answer" translate="true"> in the left nav</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">green</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">plus</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">sign</text><text styleclass="Answer" translate="true"> to add standards to the document</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">A new pop up will open that will allow you to search for standards using the criteria.  Search for the desired standards and check the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Sel</text><text styleclass="Answer" translate="true"> box next to the standards desired.</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Update</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Standards</text><text styleclass="Answer" translate="true"> in the left nav</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Save</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Associations</text><text styleclass="Answer" translate="true"> in the left nav and the standards will now be listed</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Content</text><text styleclass="Answer" translate="true"> in the left nav</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">You will now see your desired standards listed as well as every subordinate element for that standard</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">You can now use the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Click to Edit</text><text styleclass="Answer" translate="true"> boxes to enter in information for the different sections</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Save</text><text styleclass="Answer" translate="true"> periodically as you complete the document</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[When I add a Standards Alignment I see the following error on the Content tab, "Error: Required data is missing for the following Associations:
+Standards".  What does this error message mean?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">If you are seeing this error message it means that your document does not have any standards tied to it yet.  In order to begin editing the document standards must first be attached.  Please follow these steps to add standards to the standards alignment </text><text styleclass="Answer" style="font-weight:bold; font-style:italic;" translate="true">(the steps start assuming you already have the document open</text><text styleclass="Answer" translate="true">):</text></para>
+          <para styleclass="Answer"></para>
+          <list id="5" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Associations</text><text styleclass="Answer" translate="true"> in the left nav</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">green</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">plus</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">sign</text><text styleclass="Answer" translate="true"> to add standards to the document</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">A new pop up will open that will allow you to search for standards using the criteria.  Search for the desired standards and check the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Sel</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">box</text><text styleclass="Answer" translate="true"> next to the standards desired.</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Update</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Standards</text><text styleclass="Answer" translate="true"> in the left nav</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Save</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[Can I paste tables or other external content into the text editor?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">We highly recommend that you </text><text styleclass="Answer" style="font-weight:normal;" translate="true">do</text><text styleclass="Answer" style="font-weight:bold;" translate="true"> NOT</text><text styleclass="Answer" translate="true"> paste any external content into the Click to Edit text editors.  Content from external sources often contains html tags that can cause issues when trying to view the document later.  We recommend typing any of your data into the editor.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="lgisaacs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd" status="Needs Review">
+  <title translate="true">Classroom Assessments</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Classroom Assessments</text></para>
+    </header>
+    <para styleclass="Header 2" style="text-align:right;"><link displaytype="image" src="New_Back_Arrow_icon.gif" type="topiclink" href="Assessment"></link><text styleclass="Header 2" style="font-size:8pt;" translate="true"> </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Assessment" styleclass="Answer" style="font-size:8pt;" translate="true">Return to Assessment Menu</link></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[I have administered an assessment and scanned the bubble sheets.  Is it possible to reset a student’s score after assessments have been scanned?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">Yes, it is possible to reset a student&apos;s score after the bubble sheets have been scanned.  In order to reset a student score here are some steps:</text></para>
+          <para styleclass="Answer"></para>
+          <list id="31" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Assessment</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Classroom</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Assessment</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Dashboard</text><text styleclass="Answer" translate="true"> icon</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Search for the desired test (use the test id if available, if not search by teacher name, class, test type and term)</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Find</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Test</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Events</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Dashboard</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Icon</text><text styleclass="Answer" translate="true"> for the desired test event</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">checkbox</text><text styleclass="Answer" translate="true"> next to the student(s) that need to be reset</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Reset</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Selected</text><text styleclass="Answer" translate="true"> in the left nav</text></li>
+          </list>
+          <para styleclass="Answer"></para>
+          <para styleclass="Answer"><text styleclass="Answer" style="font-weight:bold; font-style:italic;" translate="true">Resetting a student&apos;s results will completely clear their results from the system.  The only way to recover the scores is to re-scan or manually input the score again.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[I have created and proofed a classroom assessment.  How can I target this assessment to schools or teachers?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">Once a classroom assessment has been proofed it can be targeted to specific teachers or schools.  In order to target a classroom assessment here are some steps:</text></para>
+          <para styleclass="Answer"></para>
+          <list id="53" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Assessment</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Find</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Classroom</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Assessment</text><text styleclass="Answer" translate="true"> icon</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Search for the desired test using the drop downs</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Find</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Classroom</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Assessments</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Edit</text><text styleclass="Answer" translate="true"> next to the desired assessment</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Targets</text><text styleclass="Answer" translate="true"> in the left nav</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Using the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">radio</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">buttons</text><text styleclass="Answer" translate="true"> you can search either </text><text styleclass="Answer" style="font-weight:bold;" translate="true">teachers</text><text styleclass="Answer" translate="true"> or </text><text styleclass="Answer" style="font-weight:bold;" translate="true">schools</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Find</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Teachers</text><text styleclass="Answer" translate="true"> or </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Schools</text><text styleclass="Answer" translate="true"> once you have filled in the criteria</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">checkbox</text><text styleclass="Answer" translate="true"> next to the desired </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Teachers</text><text styleclass="Answer" translate="true"> or </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Schools</text><text styleclass="Answer" translate="true"> and click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Attach</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Targets</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[I have administered a test and realized after words that one of the answers on the test is incorrect.  Can I change a test answer and if so, how will the score be affected?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">Yes, a correct answer choice can be changed even after a test has been proofed and scanned.  In order to change the answer choice here are some steps:</text></para>
+          <para styleclass="Answer"></para>
+          <list id="69" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Assessment</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Find</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Classroom</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Assessment</text><text styleclass="Answer" translate="true"> Icon</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Search for the desired test using the drop downs</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Find</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Classroom</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Assessments</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Edit</text><text styleclass="Answer" translate="true"> next to the desired assessment</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Content</text><text styleclass="Answer" translate="true"> in the left nav</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Using the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">correct</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">answer</text><text styleclass="Answer" translate="true"> drop down change the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">distractor</text><text styleclass="Answer" translate="true"> for the question desired</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Save</text><text styleclass="Answer" translate="true"> (this save could take longer than a normal save due to the changes being made)</text></li>
+          </list>
+          <para styleclass="Answer"></para>
+          <para styleclass="Answer"><text styleclass="Answer" style="font-weight:bold; font-style:italic;" translate="true">Once an answer choice has been changed all scanned results will be automatically adjusted to mirror the change.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" style="font-family:Arial; font-size:10pt; color:#000000;"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" style="font-family:Arial; font-size:10pt; color:#000000;"><caption translate="true"><![CDATA[What can I change on an assessment after it has been proofed?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" style="font-weight:normal; font-style:normal;" translate="true">There are 3 main elements that can be changed after a test has been proofed and scanned:</text></para>
+          <para styleclass="Answer" style="margin-left:48px;"></para>
+          <list id="80" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" style="font-weight:bold; font-style:normal;" translate="true">Correct</text><text styleclass="Answer" style="font-weight:normal; font-style:normal;" translate="true"> </text><text styleclass="Answer" style="font-weight:bold; font-style:normal;" translate="true">Distractor</text><text styleclass="Answer" style="font-weight:normal; font-style:normal;" translate="true"> choice for a question</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" style="font-weight:normal; font-style:normal;" translate="true">Questions can be </text><text styleclass="Answer" style="font-weight:bold; font-style:normal;" translate="true">removed</text><text styleclass="Answer" style="font-weight:normal; font-style:normal;" translate="true"> </text><text styleclass="Answer" style="font-weight:bold; font-style:normal;" translate="true">from</text><text styleclass="Answer" style="font-weight:normal; font-style:normal;" translate="true"> </text><text styleclass="Answer" style="font-weight:bold; font-style:normal;" translate="true">scoring</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" style="font-weight:bold; font-style:normal;" translate="true">Standards</text><text styleclass="Answer" style="font-weight:normal; font-style:normal;" translate="true"> attached to questions</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[How do I enable online testing?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">In order to enable online testing here are some directions:</text></para>
+          <para styleclass="Answer"></para>
+          <list id="92" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Assessment</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Classroom</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Assessment</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Dashboard</text><text styleclass="Answer" translate="true"> icon</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Search for the desired test (use the test id if available, if not search by teacher name, class, test type and term)</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Find</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Test</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Events</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Dashboard</text><text styleclass="Answer" translate="true"> </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Icon</text><text styleclass="Answer" translate="true"> for the desired test event</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Enable</text><text styleclass="Answer" translate="true">/</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Disable</text><text styleclass="Answer" translate="true"> Test option in the left nav</text></li>
+          </list>
+          <para styleclass="Answer"></para>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">This will enable or disable the online testing depending on the current status of the test.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[If a student retakes a test, will that score override the original score?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">In order for a student&apos;s score to be replaced they must first be reset.  If a new bubble sheet is scanned when a score already exists it will not overwrite their current score.</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

@@ -1,0 +1,179 @@
+﻿
+#content {
+	left: 0;
+	right: 0;
+	position: relative;
+	width: 420px;
+}
+
+@media screen and (min-width: 570px) {
+	.login-modal {
+		padding: 20px;
+		background-color: #f3f4f5;
+		margin: 0 auto;
+		height: 215px;
+		opacity: 0;
+		position: relative;
+		width: 360px;
+		padding: 30px;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		-ms-border-radius: 6px;
+		-o-border-radius: 6px;
+		border-radius: 6px;
+		-webkit-box-shadow: 0 2px 10px rgba(0,0,0,0.24),0 0 0 3px #fff inset;
+		-moz-box-shadow: 0 2px 10px rgba(0,0,0,0.24),0 0 0 3px #fff inset;
+		box-shadow: 0 2px 10px rgba(0,0,0,0.24),0 0 0 3px #fff inset;
+	}
+}
+
+.email-field {
+	z-index: 1;
+	position: relative;
+	margin-bottom: 0;
+}
+
+.field {
+	float: left;
+	/*margin: 0 14px 14px 0;*/
+	width: 100%;
+}
+
+input.text {
+	padding: 4px 8px 4px 8px;
+}
+
+input.text, textarea {
+	border: 1px solid #aeaeae;
+	border-top-color: #929293;
+	border-bottom-color: #bdbdbd;
+	-webkit-box-shadow: inset 0 2px 2px -1px rgba(0,0,0,0.2),0 1px rgba(255,255,255,0.3);
+	-moz-box-shadow: inset 0 2px 2px -1px rgba(0,0,0,0.2),0 1px rgba(255,255,255,0.3);
+	box-shadow: inset 0 2px 2px -1px rgba(0,0,0,0.2),0 1px rgba(255,255,255,0.3);
+	background: #fff;
+	width: -moz-available;
+	box-sizing: border-box; /*IE secret sauce*/
+}
+
+.text {
+	color: #747474;
+	display: block;
+	font-weight: bold;
+	width: 100%;
+}
+
+.errorText {
+	color: #FF0000;
+	font-weight: bold;
+	/*padding-top: 10px;*/
+	display: inline-block;
+}
+
+.button, input, textarea {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	padding: 7px 20px 7px 20px;
+}
+
+	input[type="submit"].button, button[type="submit"].button {
+		-webkit-font-smoothing: antialiased;
+	}
+
+.footer .primary-button, .footer .pagination .current, .pagination .footer .current {
+	float: right;
+	min-width: 135px;
+}
+
+.primary-button, .pagination .current {
+	border-color: #003c8b;
+	border-color: #34bff3 rgba(0,0,0,0.05) #003c8b;
+	background: #34bff3;
+	background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #34bff3), color-stop(100%, #074aa2));
+	background: -webkit-linear-gradient(#34bff3,#074aa2);
+	background: -moz-linear-gradient(#34bff3,#074aa2);
+	background: -o-linear-gradient(#34bff3,#074aa2);
+	background: linear-gradient(#34bff3,#074aa2);
+	text-shadow: 0 -1px rgba(0,0,0,0.5);
+	color: #fff;
+	-webkit-box-shadow: inset 0 1px #60cbfa;
+	-moz-box-shadow: inset 0 1px #60cbfa;
+	box-shadow: inset 0 1px #60cbfa;
+}
+
+.footerDiv {
+	float: none;
+	bottom: 25px;
+	padding: 0 1em;
+	/*display: block;*/
+	color: #808080;
+	position: relative;
+}
+
+.resetPasswordPageHeader {
+	color: black;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.ui-widget-overlay {
+	background: #aaaaaa !important;
+	opacity: .6 !important;
+}
+
+.alignleft {
+	float: left;
+	padding-left: 15px;
+}
+
+.alignright {
+	float: right;
+	padding-right: 15px;
+}
+
+input {
+	padding: 0;
+	margin: 0;
+	width: 15px;
+}
+
+
+#loading {
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	background-color: gray;
+	text-align: center;
+	filter: alpha(opacity=50);
+}
+
+#loadingtext {
+	width: 300px;
+	height: 150px;
+	background-color: lightgray;
+	text-align: center;
+	padding: 100px 0 0 0;
+	margin: 250px auto 0 auto;
+	color: black;
+	font-size: 20px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 2px 10px rgba(0,0,0,0.24),0 0 0 3px gray inset;
+	-moz-box-shadow: 0 2px 10px rgba(0,0,0,0.24),0 0 0 3px gray inset;
+	box-shadow: 0 2px 10px rgba(0,0,0,0.24),0 0 0 3px gray inset;
+
+}
+
+.errorSection {
+	position: relative;
+	bottom: 5px;
+}

@@ -1,0 +1,160 @@
+.RadTabStrip_Thinkgate_Blue .rtsLI,
+.RadTabStrip_Thinkgate_Blue .rtsLink
+{
+	color: #000000;
+	font: 12px/26px "Segoe UI", Arial, sans-serif;
+}
+
+.RadTabStripLeft_Thinkgate_Blue .rtsSeparator,
+.RadTabStripRight_Thinkgate_Blue .rtsSeparator
+{
+	background: #828282;
+}
+
+/* <disabled tabs> */
+.RadTabStrip_Thinkgate_Blue .rtsDisabled
+{
+	color: #ababab;
+}
+/* </disabled tabs> */
+
+/* <scrolling arrows> */
+.RadTabStrip_Thinkgate_Blue .rtsNextArrow,
+.RadTabStrip_Thinkgate_Blue .rtsPrevArrow,
+.RadTabStrip_Thinkgate_Blue .rtsPrevArrowDisabled,
+.RadTabStrip_Thinkgate_Blue .rtsNextArrowDisabled
+{
+	background-image: url('TabStrip/TabStripStates.png');
+}
+/* </scrolling arrows> */
+
+/* <tab backgrounds> */
+
+.RadTabStripTop_Thinkgate_Blue .rtsLevel { background-color: transparent; }
+
+.RadTabStripTop_Thinkgate_Blue .rtsLevel .rtsLink,
+.RadTabStripTop_Thinkgate_Blue .rtsLevel .rtsOut,
+.RadTabStripBottom_Thinkgate_Blue .rtsLevel .rtsLink,
+.RadTabStripBottom_Thinkgate_Blue .rtsLevel .rtsOut,
+.RadTabStripTop_Thinkgate_Blue_Baseline .rtsLevel,
+.RadTabStripBottom_Thinkgate_Blue_Baseline .rtsLevel { background-image: url('TabStrip/TabStripStates.png'); }
+
+.RadTabStripLeft_Thinkgate_Blue .rtsLink,
+.RadTabStripRight_Thinkgate_Blue .rtsLink { background-image: url('TabStrip/TabStripVStates.png'); }
+
+.RadTabStripLeft_Thinkgate_Blue .rtsLast .rtsLink,
+.RadTabStripRight_Thinkgate_Blue .rtsLast .rtsLink
+{
+	border-bottom: 1px solid #8a8d94;
+}
+
+.RadTabStripRight_Thinkgate_Blue .rtsLink,
+.RadTabStripRight_Thinkgate_Blue .rtsLI .rtsDisabled:hover { background-position: 100% 0; }
+.RadTabStripRight_Thinkgate_Blue .rtsLink:hover { background-position: 100% -200px; }
+.RadTabStripRight_Thinkgate_Blue .rtsSelected,
+.RadTabStripRight_Thinkgate_Blue .rtsSelected:hover { background-position: 100% -400px; }
+/* </tab backgrounds> */
+
+
+/* <background positioning: tabs with hovers> */
+
+/* <orientation: top> */
+
+.RadTabStripTop_Thinkgate_Blue .rtsLink { background-position: 0 0; }
+.RadTabStripTop_Thinkgate_Blue .rtsOut { background-position: 100% 0; }
+
+.RadTabStripTop_Thinkgate_Blue .rtsLink:hover { background-position: 0 -52px; }
+.RadTabStripTop_Thinkgate_Blue .rtsLink:hover .rtsOut { background-position: 100% -52px; }
+
+.RadTabStripTop_Thinkgate_Blue .rtsSelected,
+.RadTabStripTop_Thinkgate_Blue .rtsSelected:hover { background-position: 0 -26px; }
+.RadTabStripTop_Thinkgate_Blue .rtsSelected .rtsOut,
+.RadTabStripTop_Thinkgate_Blue .rtsSelected:hover .rtsOut { background-position: 100% -26px; }
+
+.RadTabStripTop_Thinkgate_Blue .rtsDisabled:hover { background-position: 0 0; }
+.RadTabStripTop_Thinkgate_Blue .rtsDisabled:hover .rtsOut { background-position: 100% 0; }
+
+.RadTabStripTop_Thinkgate_Blue_Baseline .rtsLevel { background-position: 0 100%; background-repeat: repeat-x; }
+
+/* </orientation: top> */
+
+/* <orientation: bottom> */
+
+.RadTabStripBottom_Thinkgate_Blue .rtsLink { background-position: 0 -182px; }
+.RadTabStripBottom_Thinkgate_Blue .rtsOut { background-position: 100% -182px; }
+
+.RadTabStripBottom_Thinkgate_Blue .rtsLink:hover { background-position: 0 -130px; }
+.RadTabStripBottom_Thinkgate_Blue .rtsLink:hover .rtsOut { background-position: 100% -130px; }
+
+.RadTabStripBottom_Thinkgate_Blue .rtsSelected,
+.RadTabStripBottom_Thinkgate_Blue .rtsSelected:hover { background-position: 0 -156px; }
+.RadTabStripBottom_Thinkgate_Blue .rtsSelected .rtsOut,
+.RadTabStripBottom_Thinkgate_Blue .rtsSelected:hover .rtsOut { background-position: 100% -156px; }
+
+.RadTabStripBottom_Thinkgate_Blue .rtsDisabled:hover { background-position: 0 -182px; }
+.RadTabStripBottom_Thinkgate_Blue .rtsDisabled:hover .rtsOut { background-position: 100% -182px; }
+
+.RadTabStripBottom_Thinkgate_Blue_Baseline .rtsLevel { background-position: 0 -599px; background-repeat: repeat-x; }
+
+/* </orientation: bottom> */
+
+/* <orientation: right> */
+
+.RadTabStripRight_Thinkgate_Blue .rtsUL .rtsLink,
+.RadTabStripRight_Thinkgate_Blue .rtsUL .rtsLI .rtsDisabled:hover { background-position: 100% 0; text-align: left; }
+.RadTabStripRight_Thinkgate_Blue .rtsUL .rtsLink:hover { background-position: 100% -200px; }
+.RadTabStripRight_Thinkgate_Blue .rtsUL .rtsSelected,
+.RadTabStripRight_Thinkgate_Blue .rtsUL .rtsSelected:hover { background-position: 100% -400px; }
+
+/* </orientation: right> */
+
+/* </background positioning: tabs with hovers> */
+
+/* <simplistic sub-item styles> */
+
+.RadTabStrip_Thinkgate_Blue_SimpleSubItems .rtsLevel2,
+.RadTabStrip_Thinkgate_Blue_SimpleSubItems .rtsLevel3,
+.RadTabStrip_Thinkgate_Blue_SimpleSubItems .rtsLevel4 { background: #ffffff; }
+
+.RadTabStrip_Thinkgate_Blue_SimpleSubItems .rtsLevel2 .rtsSelected,
+.RadTabStrip_Thinkgate_Blue_SimpleSubItems .rtsLevel3 .rtsSelected,
+.RadTabStrip_Thinkgate_Blue_SimpleSubItems .rtsLevel4 .rtsSelected
+{
+	text-decoration: underline;
+}
+
+.RadTabStrip_Thinkgate_Blue_SimpleSubItems .rtsLevel2 .rtsLink,
+.RadTabStrip_Thinkgate_Blue_SimpleSubItems .rtsLevel2 .rtsOut,
+.RadTabStrip_Thinkgate_Blue_SimpleSubItems .rtsLevel2 .rtsIn,
+.RadTabStrip_Thinkgate_Blue_SimpleSubItems .rtsLevel3 .rtsLink,
+.RadTabStrip_Thinkgate_Blue_SimpleSubItems .rtsLevel3 .rtsOut,
+.RadTabStrip_Thinkgate_Blue_SimpleSubItems .rtsLevel3 .rtsIn,
+.RadTabStrip_Thinkgate_Blue_SimpleSubItems .rtsLevel4 .rtsLink,
+.RadTabStrip_Thinkgate_Blue_SimpleSubItems .rtsLevel4 .rtsOut,
+.RadTabStrip_Thinkgate_Blue_SimpleSubItems .rtsLevel4 .rtsIn
+{
+	background: none;
+}
+
+/* </simplistic sub-item styles> */
+
+ DIV.RadTabStrip_Thinkgate_Blue .rtsSelected {
+	BACKGROUND-COLOR: #0F3789;
+	COLOR: #FFFFFF;
+}
+ DIV.RadTabStrip_Thinkgate_Blue .rtsSelected:hover {
+	BACKGROUND-COLOR: #0F3789;
+	COLOR: #FFFFFF;
+}
+ DIV.RadTabStrip_Thinkgate_Blue .rtsSelected .rtsOut {
+	BACKGROUND-COLOR: #0F3789;
+}
+ DIV.RadTabStrip_Thinkgate_Blue .rtsSelected:hover .rtsOut {
+	BACKGROUND-COLOR: #0F3789;
+}
+ DIV.RadTabStrip_Thinkgate_Blue .rtsSelected .rtsIn {
+	BACKGROUND-COLOR: #0F3789;
+}
+ DIV.RadTabStrip_Thinkgate_Blue .rtsSelected:hover .rtsIn {
+	BACKGROUND-COLOR: #0F3789;
+}

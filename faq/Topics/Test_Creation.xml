@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="lgisaacs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Test Building / Proofing</title>
+  <body>
+    <header>
+      <para styleclass="Heading1" style="text-align:right;"><image src="thinkgate.jpg" align="right" scale="43.00%" width="192" height="43" styleclass="Image Caption"></image></para>
+    </header>
+    <para styleclass="Normal"></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-right:0px; margin-left:18px;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Heading1" style="font-size:12pt; color:#000000;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Heading1" style="font-size:12pt; color:#000000;"><caption translate="true"><![CDATA[How do I change the term for a newly created test?]]></caption></toggle></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-right:0px; margin-left:18px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para style="margin-left:47px;"><text style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">In order to change the term on a newly created test the </text><text style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">grade, subject and course</text><text style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> must be selected and </text><text style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">saved</text><text style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> for the term drop down to show up.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-16px; margin-left:16px;"></para>
+    <para styleclass="Normal" style="text-indent:-16px; margin-left:16px;"><image src="New_Add_icon4.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Heading1" style="font-size:12pt; color:#000000;"><caption translate="true"><![CDATA[Why does my standards drop down for a question say "none"?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-16px; margin-left:16px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:47px;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">New in the Elements Summer 2009 Release the Standard Search Options now defaults to Standard Filter. &#160;If you are seeing &quot;none&quot; in the standard drop down it means that you currently do not have a filter built. &#160;You can either build a Standards Filter using the Filter option in the left nav of the test page, or under the Curriculum tab, or you can change the Standard Search Options to Search or Standards Outline.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-16px; margin-left:16px;"></para>
+    <para styleclass="Normal" style="text-indent:-16px; margin-left:16px;"><image src="New_Add_icon4.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Heading1" style="font-size:12pt; color:#000000;"><caption translate="true"><![CDATA[In the Standard Search Options for a test, what is the Standards Outline?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-16px; margin-left:16px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:47px;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">The Standards Outline is a new standard search option that was added with the Elements Summer 2009 Release. &#160;The Standards Outline automatically populates with all the standards associated with the grade, subject and course tied to the test. &#160;When using the Standards Outline you can either hover over the standard name to see the standard text or click the preview icon to view the standard itself.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-16px; margin-left:16px;"></para>
+    <para styleclass="Normal" style="text-indent:-16px; margin-left:16px;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Normal" style="font-size:12pt; font-weight:bold;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Normal" style="font-size:12pt; font-weight:bold;"><caption translate="true"><![CDATA[How do I change the order of the questions on a test?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-16px; margin-left:16px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:47px;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">In order to change the order of questions on test you can change the </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">Item #</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> next to the question in the left column of the content page. &#160;You will need to </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">change both questions</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> that are being switched. &#160;For example you can change the item # for question 2 to 1 and the item # for question 1 to 2 and hit </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">save</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-16px; margin-left:16px;"></para>
+    <para styleclass="Normal" style="text-indent:-16px; margin-left:16px;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Normal" style="font-size:12pt; font-weight:bold;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Normal" style="font-size:12pt; font-weight:bold;"><caption translate="true"><![CDATA[How do I remove a question from a test?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-16px; margin-left:16px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:47px;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">In order to completely remove a question from a test you will need to click the </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">red X</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> next to the </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">Item #</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> in the left column of the question. &#160;The </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">red X</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> will change to a </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">green check mark</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> and a new menu option will appear in the left nav called </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">Remove Selected</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> that once clicked will remove the checked questions.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-16px; margin-left:16px;"></para>
+    <para styleclass="Normal" style="text-indent:-16px; margin-left:16px;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Normal" style="font-size:12pt; font-weight:bold;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Normal" style="font-size:12pt; font-weight:bold;"><caption translate="true"><![CDATA[What is the difference between removing a question and erasing the content?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-16px; margin-left:16px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:46px;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">Removing a question using the </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">red X</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> will remove the entire question from the content and the total </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">item count</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> for the test will change. &#160;Erasing the content using the </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">Erase Question</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> button only deletes the information for that question but leaves the blank question. &#160;It does not change the total item count.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-16px; margin-left:16px;"></para>
+    <para styleclass="Normal" style="text-indent:-16px; margin-left:16px;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Normal" style="font-size:12pt; font-weight:bold;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Normal" style="font-size:12pt; font-weight:bold;"><caption translate="true"><![CDATA[Why, when I use the search questions option, does it leave blank questions ony my test?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-16px; margin-left:16px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:48px;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">The </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">search questions</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> feature </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">adds a new question</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> to the test. &#160;It </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">does not change</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> the content of a blank question on the test. &#160;For example if a test has 10 questions and the search questions feature is used it will add an eleventh question to the test, not change one of the existing blank questions.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-16px; margin-left:16px;"></para>
+    <para styleclass="Normal" style="text-indent:-16px; margin-left:16px;"><image src="New_Add_icon4.bmp" scale="100.00%" style="font-family:Arial; font-size:12pt; font-weight:bold; color:#000000;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" style="font-family:Arial; font-size:12pt; font-weight:bold; color:#000000;"><caption translate="true"><![CDATA[What information can I change on a test after it has been proofed? ]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-16px; margin-left:16px;"><table styleclass="Default" rowcount="2" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:48px;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">After a test has been proofed there are only a few components that can be changed. &#160;The </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">standards</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">, correct </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">distractor</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">, </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">score on test checkbox</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> and </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">security</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> tab are the only areas that can be changed after a test is proofed.</text></para>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:48px;"></para>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:48px;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-style:italic; color:#000000;" translate="true">See </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Thinkgate_Policies" styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-style:italic; color:#000000;" translate="true">Unproofing Tests</link><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-style:italic; color:#000000;" translate="true"> for information on Thinkgate&apos;s policy for unproofing tests</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:48px;"></para>
+    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:48px;"></para>
+    <para styleclass="Normal" style="text-align:left;"><link displaytype="image" src="New_Back_Arrow_icon.gif" type="topiclink" href="Assessments"></link><text style="font-family:Arial; font-size:14pt; color:#000000;" translate="true"> &#160;</text><link displaytype="button" type="topiclink" href="Assessments" translate="true">Assessment</link></para>
+    <para styleclass="Normal" style="text-align:left; margin-top:0px; margin-bottom:0px; line-height:2.0;"><link displaytype="image" src="New_Back_Arrow_icon.gif" type="topiclink" href="Curriculum_Plans"></link><text styleclass="Normal" style="font-size:14pt;" translate="true"> &#160;</text><link displaytype="button" type="topiclink" href="FAQ_Menu" translate="true">FAQ Menu</link></para>
+  </body>
+</topic>

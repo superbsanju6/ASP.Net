@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WesCTExml.aspx.cs" Inherits="Thinkgate.TempScan.WesCTExml" %>

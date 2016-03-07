@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" lasteditedby="lgisaacs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Roster/Admin/School</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Roster/Admin/School</text></para>
+    </header>
+    <para styleclass="Header 2" style="text-align:right;"><link displaytype="image" src="New_Back_Arrow_icon.gif" type="topiclink" href="Support"></link><text styleclass="Header 2" style="font-size:8pt;" translate="true">&#32;</text><link displaytype="text" defaultstyle="true" type="topiclink" href="Support" styleclass="Answer" style="font-size:8pt;" translate="true">Return to Support Menu</link></para>
+    <para styleclass="Header 2" style="text-indent:-18px; margin-left:18px;"><image src="rightarrow.gif" scale="100.00%" styleclass="Header 2"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="true" defaultstyle="false" src-collapsed="rightarrow.gif" src-expanded="downarrow.gif" styleclass="Header 2"><caption translate="true"><![CDATA[Roster File]]></caption></toggle></para>
+    <para styleclass="Header 2" style="text-indent:-18px; margin-left:24px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[What is a Roster File?]]></caption></toggle></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <para styleclass="Answer"><text styleclass="Answer" translate="true">A roster file is a file that contains all the teacher, student and class information that needs to be loaded to your system. &#160;A roster file is the most important of the three major data files that need loaded to your system. &#160;The roster file sets up all the classes and adds all the teachers and students to your system. &#160;It is very important that roster files contain as much information as possible and follow a consistent format in order to prevent the creation of duplicates or incorrect data being loaded.</text></para>
+              </td>
+            </tr>
+          </table></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[What information is required in a Roster File?]]></caption></toggle></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <para styleclass="Answer"><text styleclass="Answer" translate="true">A roster file contains all the information related to teachers, students and classes. &#160;The file includes student demographics as well as any additional user defined fields that the user wishes to track. &#160;Listed below are the required and optional column headers as well as a description of a few of the columns. &#160;Red text denotes required and blue denotes optional.</text></para>
+                <para styleclass="Normal"></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#ff0000;" translate="true">Student ID</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#0000ff;" translate="true">Login ID</text><text styleclass="Answer" translate="true"> - This number will be automatically created off of the student id if not includes. &#160;This number will give students a second number they can use instead of their student id to log into online testing.</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#ff0000;" translate="true">Student Last Name</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#ff0000;" translate="true">Student First Name</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#0000ff;" translate="true">Student Middle Name</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#0000ff;" translate="true">Student Email</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#ff0000;" translate="true">School ID </text><text styleclass="Answer" translate="true">- The school ID needs to match the ID sent in the school file which is explained below.</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#ff0000;" translate="true">Grade</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#0000ff;" translate="true">Subject</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#ff0000;" translate="true">Course Name</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#ff0000;" translate="true">Course Section</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#ff0000;" translate="true">Class Period</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#ff0000;" translate="true">Semester</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#ff0000;" translate="true">Teacher Last Name</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#ff0000;" translate="true">Teacher First Name</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#0000ff;" translate="true">Teacher Middle Name</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#ff0000;" translate="true">***</text><text styleclass="Normal" style="color:#0000ff;" translate="true">Teacher ID</text><text styleclass="Normal" style="color:#ff0000;" translate="true">*** </text><text styleclass="Answer" translate="true">- This field is not required, however, we highly recommend sending unique teacher id&apos;s for your teachers. &#160;Teacher ID&apos;s prevent the creation of duplicate users if a teacher were to switch schools or change names.</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#0000ff;" translate="true">Teacher Email</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#0000ff;" translate="true">Teacher User ID </text><text styleclass="Answer" translate="true">- This is what the teacher will use to log into the system. &#160;If the column is left blank then a default firstinitial.lastname (i.e. John Smith, Jsmith) user ID will be created.</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#0000ff;" translate="true">Teacher Password</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#ff0000;" translate="true">Race</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#ff0000;" translate="true">Gender</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#0000ff;" translate="true">LEP</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#0000ff;" translate="true">Socioeconomic</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#0000ff;" translate="true">Disability</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#ff0000;" translate="true">Birthdate</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#0000ff;" translate="true">Gifted</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#ff0000;" translate="true">Student State ID</text></para>
+                <para styleclass="Normal" style="margin-left:48px;"><text styleclass="Normal" style="color:#0000ff;" translate="true">Additional UDF&apos;s</text></para>
+              </td>
+            </tr>
+          </table></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[What format does a Roster File need to be submitted in?]]></caption></toggle></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <para styleclass="Answer" style="margin-left:0px;"><text styleclass="Answer" translate="true">Roster files needs to be submitted as comma delimited (.csv) files.</text></para>
+              </td>
+            </tr>
+          </table></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[How do I send a Roster File to Thinkgate?]]></caption></toggle></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <para styleclass="Answer"><text styleclass="Answer" translate="true">In order to send a Roster File to Thinkgate Support you must have tmanager rights in your system. &#160;If you are a tmanager, listed below are directions:</text></para>
+                <para styleclass="Answer"></para>
+                <list id="3" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Support</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Upload</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Files</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">to</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Support</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Browse</text><text styleclass="Answer" translate="true"> in the resulting pop-up</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Located the file on your computer</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Double click the file once located</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Continue</text></li>
+                </list>
+              </td>
+            </tr>
+          </table></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[How long does it take to get a Roster File uploaded?]]></caption></toggle></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <para styleclass="Answer"><text styleclass="Answer" translate="true">Once a roster file has been received by Thinkgate Support, minus any import issues or if the file was submitted on a Friday, the file will be uploaded within 48 hours. &#160;If there are any import issues with the file the import process could take longer. &#160;If the issues cannot be resolved by Thinkgate Support you will be contacted any may be required to re-send the file after changes are made. &#160;If the file is submitted on a Friday it will be uploaded at the beginning of the following week. &#160;If an issue is found in the import and Thinkgate Support makes the request for a new file or correction to the existing file the 48 hour time period will start again as soon as the corrections are made or new file received.</text></para>
+              </td>
+            </tr>
+          </table></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[How often do I need to send a Roster File?]]></caption></toggle></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <para styleclass="Answer"><text styleclass="Answer" translate="true">Roster files can be sent whenever the customer desires. &#160;If your system experiences constant roster changes you may wish to send the file more frequently. &#160;However, if you do not have many changes it is not required that you send the roster file. &#160;The roster file is designed to keep your system up to date and mirror your Student Information System. &#160;Therefore, if you experience a lot of changes in your SIS you may send a new roster file.</text></para>
+              </td>
+            </tr>
+          </table></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Header 2" style="text-indent:-18px; margin-left:18px;"></para>
+    <para styleclass="Header 2" style="text-indent:-18px; margin-left:18px;"><image src="rightarrow.gif" scale="100.00%" styleclass="Header 2"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="true" defaultstyle="false" src-collapsed="rightarrow.gif" src-expanded="downarrow.gif" styleclass="Header 2"><caption translate="true"><![CDATA[Admin File]]></caption></toggle></para>
+    <para styleclass="Header 2" style="text-indent:-18px; margin-left:24px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[What is an Admin File?]]></caption></toggle></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <para styleclass="Answer"><text styleclass="Answer" translate="true">The Admin File contains all users other then teachers that need loaded to your system. &#160;This includes administrators, cmanagers, tmanagers and any other custom user types. &#160;</text></para>
+              </td>
+            </tr>
+          </table></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[What information is required in an Admin File?]]></caption></toggle></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <para styleclass="Normal"><text styleclass="Answer" translate="true">Listed below are the required and optional column headers that need to be included in the Admin file. &#160;Red text denotes required and blue denotes optional. &#160;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">All columns headers must be included in the file, even if the content is left blank.</text></para>
+                <para styleclass="Answer"></para>
+                <para styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" style="color:#ff0000;" translate="true">School ID</text></para>
+                <para styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" style="color:#ff0000;" translate="true">User Last Name</text></para>
+                <para styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" style="color:#ff0000;" translate="true">User First Name</text></para>
+                <para styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" style="color:#0000ff;" translate="true">User Middle Name</text></para>
+                <para styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" style="color:#0000ff;" translate="true">User ID</text></para>
+                <para styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" style="color:#0000ff;" translate="true">User Password</text></para>
+                <para styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" style="color:#0000ff;" translate="true">User Email</text></para>
+                <para styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" style="color:#ff0000;" translate="true">User Role</text></para>
+              </td>
+            </tr>
+          </table></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[What format does an Admin File need to be submitted in?]]></caption></toggle></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <para styleclass="Answer"><text styleclass="Answer" translate="true">Admin files need to be submitted as a comma delimited (.csv) file.</text></para>
+              </td>
+            </tr>
+          </table></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[How do I send an Admin File to Thinkgate?]]></caption></toggle></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <para styleclass="Answer"><text styleclass="Answer" translate="true">In order to send an Admin File to Thinkgate Support you must have tmanager rights in your system. &#160;If you are a tmanager, listed below are directions:</text></para>
+                <para styleclass="Answer"></para>
+                <list id="4" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Support</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Upload Files to Support</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Browse</text><text styleclass="Answer" translate="true"> in the resulting pop-up</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Located the file on your computer</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Double click the file once located</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Continue</text></li>
+                </list>
+              </td>
+            </tr>
+          </table></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[How long does it take to get an Admin File uploaded?]]></caption></toggle></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <para styleclass="Answer"><text styleclass="Answer" translate="true">Once an Admin File has been received by Thinkgate Support, minus any import issues or if the file was submitted on a Friday, the file will be uploaded within 48 hours. &#160;If there are any import issues with the file the import process could take longer. &#160;If the issues cannot be resolved by Thinkgate Support you will be contacted any may be required to re-send the file after changes are made. &#160;If the file is submitted on a Friday it will be uploaded at the beginning of the following week. &#160;If an issue is found in the import and Thinkgate Support makes the request for a new file or correction to the existing file the 48 hour time period will start again as soon as the corrections are made or new file received.</text></para>
+              </td>
+            </tr>
+          </table></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[How often do I need to send an Admin File?]]></caption></toggle></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <para styleclass="Answer"><text styleclass="Answer" translate="true">Admin Files can be sent whenever the customer desires. &#160;Normally, an Admin File only needs to be submitted with the initial customer setup or if there are a lot of changes to the higher end users in your system.</text></para>
+              </td>
+            </tr>
+          </table></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Header 2" style="text-indent:-18px; margin-left:18px;"></para>
+    <para styleclass="Header 2" style="text-indent:-18px; margin-left:18px;"><image src="rightarrow.gif" scale="100.00%" styleclass="Header 2"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="true" defaultstyle="false" src-collapsed="rightarrow.gif" src-expanded="downarrow.gif" styleclass="Header 2"><caption translate="true"><![CDATA[School File]]></caption></toggle></para>
+    <para styleclass="Header 2" style="text-indent:-18px; margin-left:18px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[What is a School File?]]></caption></toggle></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <para styleclass="Answer"><text styleclass="Answer" translate="true">The School File is used to load schools to the system.</text></para>
+              </td>
+            </tr>
+          </table></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[What information is required in a School File?]]></caption></toggle></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <para styleclass="Answer"><text styleclass="Answer" translate="true">Listed below are the required and optional columns that need to be included in the School File. &#160;Red text denotes required and blue denotes optional. &#160;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">All columns headers must be included in the file, even if the content is left blank.</text></para>
+                <para styleclass="Answer"></para>
+                <para styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" style="color:#ff0000;" translate="true">School Name</text></para>
+                <para styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" style="color:#ff0000;" translate="true">Abbreviation</text></para>
+                <para styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" style="color:#ff0000;" translate="true">School ID</text></para>
+                <para styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" style="color:#0000ff;" translate="true">Cluster Name </text><text styleclass="Answer" translate="true">- Only include this column if your schools are divided into clusters.</text></para>
+                <para styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" style="color:#0000ff;" translate="true">School Phone</text></para>
+                <para styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" style="color:#ff0000;" translate="true">School Type</text></para>
+              </td>
+            </tr>
+          </table></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[What format does a School File need to be submitted in?]]></caption></toggle></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <para styleclass="Answer"><text styleclass="Answer" translate="true">School Files need to be submitted as comma delimited (.csv) files.</text></para>
+              </td>
+            </tr>
+          </table></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[How do I send a School File to Thinkgate?]]></caption></toggle></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <para styleclass="Answer"><text styleclass="Answer" translate="true">In order to send a School File to Thinkgate Support you must have tmanager rights in your system. &#160;If you are a tmanager, listed below are directions:</text></para>
+                <para styleclass="Answer"></para>
+                <list id="5" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Support</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click</text><text styleclass="Answer" style="font-weight:bold;" translate="true"> Upload Files to Support</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Browse</text><text styleclass="Answer" translate="true"> in the resulting pop-up</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Located the file on your computer</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Double click the file once located</text></li>
+                  <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Continue</text></li>
+                </list>
+              </td>
+            </tr>
+          </table></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[How long does it take to get a School File uploaded?]]></caption></toggle></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <para styleclass="Answer"><text styleclass="Answer" translate="true">Once a School File has been received by Thinkgate Support, minus any import issues or if the file was submitted on a Friday, the file will be uploaded within 48 hours. &#160;If there are any import issues with the file the import process could take longer. &#160;If the issues cannot be resolved by Thinkgate Support you will be contacted any may be required to re-send the file after changes are made. &#160;If the file is submitted on a Friday it will be uploaded at the beginning of the following week. &#160;If an issue is found in the import and Thinkgate Support makes the request for a new file or correction to the existing file the 48 hour time period will start again as soon as the corrections are made or new file received.</text></para>
+              </td>
+            </tr>
+          </table></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[How often do I need to send a School File?]]></caption></toggle></para>
+          <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <para styleclass="Answer"><text styleclass="Answer" translate="true">School Files can be sent whenever the customer desires. &#160;Normally, a School File only needs to be submitted with the initial customer setup.</text></para>
+              </td>
+            </tr>
+          </table></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"></para>
+  </body>
+</topic>

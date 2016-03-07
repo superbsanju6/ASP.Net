@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="lgisaacs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">New Menu Structure</title>
+  <body>
+    <header>
+      <para styleclass="Heading1" style="text-align:right;"><image src="thinkgate.jpg" align="right" scale="43.00%" width="192" height="43" styleclass="Image Caption"></image></para>
+      <para styleclass="Heading1"><text styleclass="Heading1" style="font-size:18pt; color:#ffffff;" translate="true">New Menu Structure</text></para>
+    </header>
+    <para styleclass="Normal"></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Heading1" style="font-size:12pt; color:#000000;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Heading1" style="font-size:12pt; color:#000000;"><caption translate="true"><![CDATA[Where are the Find and Add menu options?]]></caption></toggle></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:47px;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">The Find and Add option that were selectable text in the old system have now been converted to buttons located to the right of the specific topic. &#160;The Find option has been replaced with a magnifying glass image and the Add button with a green &quot;plus&quot; sign. &#160;The Administer District test option has also been replaced with the Dashboard image next to District and Classroom tests.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading1"></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Heading1" style="font-size:12pt; color:#000000;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Heading1" style="font-size:12pt; color:#000000;"><caption translate="true"><![CDATA[What changed in the menu structure, what menus moved?]]></caption></toggle></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:47px;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">With the new menu structure a few menu options have been moved to more appropriate areas. &#160;Items, addendums and images have all been moved to the Assessment tab under the Item Builder menu. &#160;</text></para>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:47px;"></para>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:47px;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">Curriculum plans have been broken into two parts, the pacing guide and the assessment blueprint. &#160;The pacing guide is located in the Curriculum tab under the Curriculum Planning menu (if purchased by your district). &#160;The Assessment Blueprint can be found in the Assessment tab under the District Blueprint menu (if purchased by your district).</text></para>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:47px;"></para>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:47px;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">All other information regarding the new changes to the system can be located in the Summer Release notes located in the Reference Center.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading1"></para>
+    <para styleclass="Normal" style="text-align:left; margin-top:0px; margin-bottom:0px; line-height:2.0;"><link displaytype="image" src="New_Back_Arrow_icon.gif" type="topiclink" href="Curriculum_Plans"></link><text styleclass="Normal" style="font-size:14pt;" translate="true"> &#160;</text><link displaytype="button" type="topiclink" href="FAQ_Menu" translate="true">FAQ Menu</link></para>
+  </body>
+</topic>

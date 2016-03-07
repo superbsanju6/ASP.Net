@@ -1,0 +1,222 @@
+/* RadWindow for ASP.NET AJAX Skin */
+
+.E3Dialog_oride
+{
+}
+
+.E3Dialog_oride .rwPopupButton, .E3Dialog_oride .rwPopupButton span
+{
+    float: right !important;
+}
+
+.E3Dialog_oride .rwPopupButton
+{
+    /*margin-top: 0px;*/
+    margin-bottom: 0px;
+}
+
+/* Window Background */
+
+/* Horiznotal */
+.RadWindow_Thinkgate_Window .rwTopLeft,
+.RadWindow_Thinkgate_Window .rwTopRight,
+.RadWindow_Thinkgate_Window .rwTitlebar,
+.RadWindow_Thinkgate_Window .rwFooterLeft,
+.RadWindow_Thinkgate_Window .rwFooterRight,
+.RadWindow_Thinkgate_Window .rwFooterCenter,
+.RadWindow_Thinkgate_Window .rwTopResize,
+.RadWindow_Thinkgate_Window .rwStatusbar div,
+.RadWindow_Thinkgate_Window .rwStatusbar,
+.RadWindow_Thinkgate_Window .rwPopupButton,
+.RadWindow_Thinkgate_Window .rwPopupButton span,
+.RadWindow_Thinkgate_Window.rwMinimizedWindow .rwCorner
+{
+    background-image: url('Window/WindowHorizontalSprites.gif');
+}
+
+
+/* Vertical */
+.RadWindow_Thinkgate_Window .rwBodyLeft,
+.RadWindow_Thinkgate_Window .rwBodyRight,
+.RadWindow_Thinkgate_Window .rwStatusbarRow .rwCorner
+{
+	background-image: url('Window/WindowVerticalSprites.gif');
+}
+
+/* Window Shadows */
+
+/* Horiznotal */
+.RadWindow_Thinkgate_Window .rwShadow .rwTopLeft,
+.RadWindow_Thinkgate_Window .rwShadow .rwTopRight,
+.RadWindow_Thinkgate_Window .rwShadow .rwTitlebar,
+.RadWindow_Thinkgate_Window .rwShadow .rwFooterLeft,
+.RadWindow_Thinkgate_Window .rwShadow .rwFooterRight,
+.RadWindow_Thinkgate_Window .rwShadow .rwFooterCenter,
+.RadWindow_Thinkgate_Window .rwShadow .rwTopResize,
+.RadWindow_Thinkgate_Window .rwShadow .rwStatusbar div,
+.RadWindow_Thinkgate_Window .rwShadow .rwStatusbar,
+.RadWindow_Thinkgate_Window .rwShadow .rwPopupButton,
+.RadWindow_Thinkgate_Window .rwShadow .rwPopupButton span,
+.RadWindow_Thinkgate_Window .rwShadow .rwBodyLeft,
+.RadWindow_Thinkgate_Window .rwShadow .rwBodyRight,
+.RadWindow_Thinkgate_Window .rwShadow .rwStatusbarRow .rwBodyLeft,
+.RadWindow_Thinkgate_Window .rwShadow .rwStatusbarRow .rwBodyRight
+{
+	background-image: url('Window/WindowHorizontalSprites.png');
+}
+
+/* Vertical */
+.RadWindow_Thinkgate_Window .rwShadow .rwBodyLeft,
+.RadWindow_Thinkgate_Window .rwShadow .rwBodyRight,
+.RadWindow_Thinkgate_Window .rwShadow .rwStatusbarRow .rwBodyLeft,
+.RadWindow_Thinkgate_Window .rwShadow .rwStatusbarRow .rwBodyRight
+{
+	background-image: url('Window/WindowVerticalSprites.png');
+}
+
+/* Shadows End */
+
+.RadWindow_Thinkgate_Window .rwStatusbar input
+{
+    background-color: #f7f3e9;
+}
+
+.RadWindow_Thinkgate_Window .rwControlButtons a
+{
+    background-image: url('../../Images/radWindowImages.png');
+}
+
+.RadWindow_Thinkgate_Window a.rwIcon
+{
+	background-image: url('Window/WindowHorizontalSprites.gif');
+}
+
+div.RadWindow_Thinkgate_Window .rwTitlebarControls em
+{
+	color: white;
+}
+
+div.RadWindow_Thinkgate_Window .rwDialogInput
+{
+	border-top: solid 1px #abadb3;
+	border-right: solid 1px #dbdfe6;
+	border-bottom: solid 1px #e3e9ef;
+	border-left: solid 1px #e2e3ea;
+}
+
+div.RadWindow_Thinkgate_Window .rwDialogInput:hover
+{
+	border-top: solid 1px #5794bf;
+	border-right: solid 1px #b7d5ea;
+	border-bottom: solid 1px #c7e2f1;
+	border-left: solid 1px #c5daed;
+	color: #565656;
+}
+
+.RadWindow_Thinkgate_Window td.rwWindowContent
+{
+    background-color: #fff;
+}
+
+/* Loading Indicators */
+div.RadWindow_Thinkgate_Window tr td.rwLoading
+{
+	background-color: #fff;
+}
+
+/* When ShowContentDuringLoad="true" */
+.RadWindow_Thinkgate_Window td.rwWindowContent.rwLoading
+{
+    background-image: url('Common/loading.gif');
+}
+
+/* When ShowContentDuringLoad="false" */
+.RadWindow_Thinkgate_Window input.rwLoading
+{
+    background-image: url('Common/loading_small.gif');
+}
+
+div.RadWindow_Thinkgate_Window a.rwCancel,
+div.RadWindow_Thinkgate_Window a.rwCancel span
+{
+    background: none;
+    cursor: pointer;
+}
+
+div.RadWindow_Thinkgate_Window a.rwCancel span span
+{
+    color: #000000;
+    text-decoration: underline;
+}
+
+/* Shadow Control Buttons */
+
+.RadWindow_Thinkgate_Window .rwShadow .rwControlButtons 
+{
+	margin: 5px -2px 0 0;
+}
+
+.RadWindow_Thinkgate_Window .rwShadow .rwControlButtons 
+{
+	margin: 5px -1px 0 0\9;
+}
+
+/* ctrl buttons when winodw is minimized */
+.RadWindow_Thinkgate_Window.rwMinimizedWindowShadow .rwShadow .rwControlButtons 
+{
+	margin: 7px -8px 0 0;
+}
+
+/* Icon when winodw is minimized */
+.RadWindow_Thinkgate_Window.rwMinimizedWindowShadow .rwShadow .rwIcon 
+{
+	margin: 9px 6px 0 0;
+}
+
+/*title buttons when winodw is minimized */
+.RadWindow_Thinkgate_Window.rwMinimizedWindowShadow .rwShadow em 
+{
+	margin: 4px 0 0 -1px;
+}
+
+.RadWindow_Thinkgate_Window .rwShadow .rwControlButtons li
+{
+	float: left;
+	padding: 0;
+}
+
+div.RadWindow_Thinkgate_Window .rwControlButtons a
+{
+	width: 26px; 
+}
+
+.rwInactiveWindow .rwShadow .rwTopLeft,
+.rwInactiveWindow .rwShadow .rwTopRight,
+.rwInactiveWindow .rwShadow .rwTitlebar,
+.rwInactiveWindow .rwShadow .rwFooterLeft,
+.rwInactiveWindow .rwShadow .rwFooterRight,
+.rwInactiveWindow .rwShadow .rwFooterCenter,
+.rwInactiveWindow .rwShadow .rwTopResize,
+.rwInactiveWindow .rwShadow .rwStatusbar div,
+.rwInactiveWindow .rwShadow .rwStatusbar,
+.rwInactiveWindow .rwShadow .rwPopupButton,
+.rwInactiveWindow .rwShadow .rwPopupButton span,
+.rwInactiveWindow .rwShadow.rwMinimizedWindow .rwCorner,
+.RadWindow_Thinkgate_Window.rwNoTitleBar.rwInactiveWindow .rwShadow .rwTopLeft,
+.RadWindow_Thinkgate_Window.rwNoTitleBar.rwInactiveWindow .rwShadow .rwTitlebar,
+.RadWindow_Thinkgate_Window.rwNoTitleBar.rwInactiveWindow .rwShadow .rwTopRight,
+.RadWindow_Thinkgate_Window.rwNoTitleBar.rwInactiveWindow .rwShadow .rwFooterLeft,
+.RadWindow_Thinkgate_Window.rwNoTitleBar.rwInactiveWindow .rwShadow .rwFooterCenter,
+.RadWindow_Thinkgate_Window.rwNoTitleBar.rwInactiveWindow .rwShadow .rwFooterRight
+{
+    background-image: url('Window/WindowHorizontalSprites.gif') !important;
+}
+
+.rwInactiveWindow .rwShadow .rwBodyLeft,
+.rwInactiveWindow .rwShadow .rwBodyRight,
+.rwInactiveWindow .rwShadow .rwStatusbarRow .rwCorner,
+.RadWindow_Thinkgate_Window.rwNoTitleBar.rwInactiveWindow .rwShadow .rwBodyLeft,
+.RadWindow_Thinkgate_Window.rwNoTitleBar.rwInactiveWindow .rwShadow .rwBodyRight
+{
+	background-image: url('Window/WindowVerticalSprites.gif') !important;
+}

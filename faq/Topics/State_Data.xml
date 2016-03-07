@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" lasteditedby="lgisaacs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">State Data</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">State Data</text></para>
+    </header>
+    <para styleclass="Header 2" style="text-align:right;"><link displaytype="image" src="New_Back_Arrow_icon.gif" type="topiclink" href="Support"></link><text styleclass="Header 2" style="font-size:8pt;" translate="true">&#32;</text><link displaytype="text" defaultstyle="true" type="topiclink" href="Support" styleclass="Answer" style="font-size:8pt;" translate="true">Return to Support Menu</link></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[What State Data files can be uploaded?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">Elements currently support the following state data files:</text></para>
+          <para styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">CRCT</text></para>
+          <para styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">EOCT</text></para>
+          <para styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">GHSGT</text></para>
+          <para styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">GHSWT</text></para>
+          <para styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">ITBS</text></para>
+          <para styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">FCAT</text></para>
+          <para styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">05 Writing</text></para>
+          <para styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">08 Writing</text></para>
+          <para styleclass="Answer"></para>
+          <para styleclass="Answer"><text styleclass="Answer" style="font-weight:bold; font-style:italic;" translate="true">This list will be updated as more state data files are supported.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[What format does State Data need to be sent in?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">State data files need to be sent in as text (.txt) &#160;or data (.dat) files. &#160;In order for the upload to work correctly the files must be submitted in this format. &#160;If a file is not submitted as a .txt or .dat file the upload will be unable to process and Thinkgate Support will request the document be sent again.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[How do I send a State Data file to Thinkgate?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">In order to send a State Data File to Thinkgate Support you must have tmanager rights in your system. &#160;If you are a tmanager, listed below are directions:</text></para>
+          <para styleclass="Answer"></para>
+          <list id="1" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; font-weight:bold; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Support</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click</text><text styleclass="Answer" style="font-weight:bold;" translate="true"> Upload Files to Support</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Browse</text><text styleclass="Answer" translate="true"> in the resulting pop-up</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Located the file on your computer</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Double click the file once located</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Continue</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[How long does it take to get a State Data file uploaded?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">Once a state data file has been received by Thinkgate Support, minus any import issues, the file will be uploaded within two weeks. &#160;If there are any import issues with the file the import process could take longer. &#160;If the issues cannot be resolved by Thinkgate Support you will be contacted any may be required to re-send the file after changes are made. &#160;If an issue is found in the import and Thinkgate Support makes the request for a new file or correction to the existing file the two week time period will start again as soon as the corrections are made or new file received.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading1" style="text-align:left; text-indent:-18px; margin-top:0px; margin-bottom:0px; margin-left:18px; line-height:1.0;"></para>
+  </body>
+</topic>

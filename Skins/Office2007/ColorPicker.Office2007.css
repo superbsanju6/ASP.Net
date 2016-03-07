@@ -1,0 +1,130 @@
+/* r.a.d.colorpicker OFFICE2007 skin */
+
+/* skin-specific wrapper */
+.RadColorPicker_Office2007 .rcpPalette
+{
+	border: solid 1px #868686;
+	background: #ebebeb;
+}
+
+/* color buttons */
+.RadColorPicker_Office2007 .rcpPalette ul li a
+{
+	cursor: hand;
+	border: solid 1px #ebebeb;
+	margin: 1px;
+}
+
+.RadColorPicker_Office2007 .rcpPalette ul li a span
+{
+	border: solid 1px #c5c5c5;
+}
+/* end of color buttons */
+
+/* selected color */
+.RadColorPicker_Office2007 .rcpSelectedColor
+{
+	border: solid 1px black !important;
+}
+
+.RadColorPicker_Office2007 .rcpSelectedColor span
+{
+	border: solid 1px white !important;
+}
+/* end of selected color */
+
+/* color preview panel */
+.RadColorPicker_Office2007 .rcpPalette .rcpColorPreview
+{
+	border: solid 1px #868686;
+	margin: 2px;
+}
+
+.RadColorPicker_Office2007 .rcpPalette .rcpColorPreview span
+{
+	font: normal 11px Arial, Verdana, Sans-serif;
+	cursor: default;
+	line-height: 24px;
+}
+
+.RadColorPicker_Office2007 .rcpPalette .rcpColorPreview .colorvaluedark
+{
+	color: white;
+	margin-right: 2px;
+}
+
+.RadColorPicker_Office2007 .rcpPalette .rcpColorPreview .colorvaluelight
+{
+	color: black;
+	margin-left: 2px;
+}
+
+.RadColorPicker_Office2007 .rcpPalette .rcpColorBox
+{
+}
+/* end of color preview panel */
+
+/* no color button */
+.RadColorPicker_Office2007 .rcpPalette .rcpEmptyColor
+{
+	background: white;
+}
+
+.RadColorPicker_Office2007 .rcpPalette .rcpEmptyColor
+{
+	border: solid 1px #868686 !important;
+	font-size: 12px;
+	text-align: center;
+	line-height: 30px;
+	margin: 2px 2px 0 2px;
+}
+
+.RadColorPicker_Office2007 .rcpPalette .rcpEmptyColor span
+{
+	border: solid 1px white;
+}
+
+.RadColorPicker_Office2007 .rcpPalette .rcpEmptyColor span,.RadColorPicker_Office2007 .rcpPalette .rcpEmptyColor a
+{
+	font: bold 10px Verdana, Arial, Sans-serif;
+	color: #868686;
+	text-decoration: none;
+	display: block; clear: both; float: none;
+	margin: 0;
+}
+/* end of no color button */
+
+/* color picker icon */
+.RadColorPicker_Office2007 .rcpIcon,
+.RadColorPicker_Office2007 .rcpIcon a,
+.RadColorPicker_Office2007 .rcpIcon em
+{
+	width: 34px; height: 22px;
+}
+
+.RadColorPicker_Office2007 .rcpIcon a,
+.RadColorPicker_Office2007 .rcpIcon a:hover,
+.RadColorPicker_Office2007 .rcpIcon a:active,
+.RadColorPicker_Office2007 .rcpIcon a:focus
+{
+	background-image: url('ColorPicker/IconSprites.gif');
+	background-repeat: no-repeat;
+	cursor: default;
+}
+
+.RadColorPicker_Office2007 .rcpIcon a
+{
+	background-position: 0 0;
+}
+
+.RadColorPicker_Office2007 .rcpIcon a:hover
+{
+	background-position: 0 -22px;
+}
+
+.RadColorPicker_Office2007 .rcpIcon a:active,
+.RadColorPicker_Office2007 .rcpIcon a:focus
+{
+	background-position: 0 -44px;
+}
+/* end color picker icon */

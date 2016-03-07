@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" lasteditedby="lgisaacs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">PlainPaper Scanning (PPS)</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">PlainPaper Scanning (PPS)</text></para>
+    </header>
+    <para styleclass="Header 2" style="text-align:right;"><link displaytype="image" src="New_Back_Arrow_icon.gif" type="topiclink" href="Assessment"></link><text styleclass="Header 2" style="font-size:8pt;" translate="true">&#32;</text><link displaytype="text" defaultstyle="true" type="topiclink" href="Assessment" styleclass="Answer" style="font-size:8pt;" translate="true">Return to Assessment Menu</link></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[How do I obtain the Elements™ Plain Paper Scanning Software?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">Please contact your district point of contact or Thinkgate Support (if permitted) to receive the Elements Plain Paper Software.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[What scanners are supported by the Elements™ Plain Paper Scanning Software?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="2" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">Scanners supported:  &#160;</text></para>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">&#32;</text></para>
+          <para styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Brother DCP 8060</text><br/><text styleclass="Answer" translate="true">Brother MFC 8460N</text><br/><text styleclass="Answer" translate="true">Brother MFC 8480DN</text><br/><text styleclass="Answer" translate="true">HP Scanjet 5590</text><br/><text styleclass="Answer" translate="true">HP Scanjet N6010</text><br/><text styleclass="Answer" translate="true">HP Scanjet 8350</text><br/><text styleclass="Answer" translate="true">HP Scanjet 8420</text><br/><text styleclass="Answer" translate="true">HP Scanjet 8460</text><br/><text styleclass="Answer" translate="true">Ricoh MP 7001</text><br/><text styleclass="Answer" translate="true">Ricoh MP 7500</text><br/><text styleclass="Answer" translate="true">Ricoh MP 9000</text></para>
+          <para styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Xerox 6180 MFP</text><br/><text styleclass="Answer" translate="true"> (Others will be added to the list as testing progresses.)</text></para>
+          <para styleclass="Answer" style="margin-left:48px;"></para>
+          <para styleclass="Answer"><text styleclass="Answer" style="font-weight:bold; font-style:italic;" translate="true">Other TWAIN compatible scanners should work.  Our support organization will explain how to test the scanner to confirm effective operation.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[What do I need to administer an assessment with Plain Paper Bubble Sheets?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">You will need to select a form type to administer the test with (roster or student forms). If you choose roster forms you can print one from Elements™ and make a photocopy for each student. If you choose student forms you will need to print one for each student. Both form types will have the test ID printed on them. </text></para>
+          <para styleclass="Answer"></para>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">To print bubble sheets follow these steps:</text></para>
+          <para styleclass="Answer"></para>
+          <list id="3" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Log into Elements™</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click on </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Assessment</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click on </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Find</text><text styleclass="Answer" translate="true"> (Classroom or District) </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Test</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Events</text><text styleclass="Answer" translate="true"> (the dashboard icon)</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Search for the desired test</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click on the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Dashboard</text><text styleclass="Answer" translate="true"> Button </text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Place </text><text styleclass="Answer" style="font-weight:bold;" translate="true">check</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">marks</text><text styleclass="Answer" translate="true"> next to the desired students (or hover over Actions and click Select All)</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Bubble</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Sheet</text><text styleclass="Answer" translate="true"> Button</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Print</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Student</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Form</text><text styleclass="Answer" translate="true">&#32;</text><br/><text styleclass="Answer" translate="true">Or</text><br/><text styleclass="Answer" translate="true">Click </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Print</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Roster</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Form</text></li>
+          </list>
+          <para styleclass="Answer"></para>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">You will also need a blank copy of the test for the student to look at. This can be obtained on the profile page of the test. Please follow these steps to print a blank copy of a test:</text></para>
+          <para styleclass="Answer"></para>
+          <list id="4" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Log into Elements™</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click on </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Assessment</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click on </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Find</text><text styleclass="Answer" translate="true"> (Classroom or District) </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Assessments</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Search for the desired test</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click the </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Edit</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">Test</text><text styleclass="Answer" translate="true"> Button</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Click on </text><text styleclass="Answer" style="font-weight:bold;" translate="true">Blank Test (1 column), Blank Test (2 column) </text><text styleclass="Answer" style="font-weight:normal;" translate="true">or</text><text styleclass="Answer" style="font-weight:bold;" translate="true"> Blank Test (Word)</text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">Print the desired blank test</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[What are the different kinds of Plain Paper Bubble Sheets and what is the difference?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">There are three kinds of bubble sheets available in Elements™; student, roster and blank.</text></para>
+          <para styleclass="Answer"></para>
+          <list id="5" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Answer" style="margin-left:48px; font-family:Calibri; font-size:11pt; color:#000080;">
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">A </text><text styleclass="Answer" style="font-weight:bold;" translate="true">student</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">form</text><text styleclass="Answer" translate="true"> is unique to the student. It comes with the student ID and test ID pre-printed on it. </text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">A </text><text styleclass="Answer" style="font-weight:bold;" translate="true">roster</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">form</text><text styleclass="Answer" translate="true"> includes all students in the class and the student bubbles in his or her own name. The primary benefit of a roster bubble sheet is that one can be printed and then photocopied to save printer ink. </text></li>
+            <li styleclass="Answer" style="margin-left:48px;"><text styleclass="Answer" translate="true">A </text><text styleclass="Answer" style="font-weight:bold;" translate="true">blank</text><text styleclass="Answer" translate="true">&#32;</text><text styleclass="Answer" style="font-weight:bold;" translate="true">form</text><text styleclass="Answer" translate="true"> is a bubble sheet with the test ID on it but no student information filled in. The student’s name can be filled in manually. The blank form is used to administer a test to a student who may not be in the class roster. The bubble sheet can be scanned at a later date after the student has been enrolled.</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Header 2" style="text-align:center;"></para>
+  </body>
+</topic>

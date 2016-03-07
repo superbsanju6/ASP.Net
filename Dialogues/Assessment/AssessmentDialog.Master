@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AssessmentDialog.master.cs"
+    Inherits="Thinkgate.Dialogues.Assessment.AssessmentDialog" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+	<meta http-equiv="PRAGMA" content="NO-CACHE" />
+	<meta http-equiv="Expires" content="-1" />
+	<meta http-equiv="CACHE-CONTROL" content="NO-STORE" />
+    <title></title>
+    <base target="_self" />
+    <telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server">
+        <StyleSheets>
+            <telerik:StyleSheetReference Path="~/Styles/reset.css" />
+        </StyleSheets>
+    </telerik:RadStyleSheetManager>
+    <link href="~/Styles/Thinkgate_Window/Window.Thinkgate_Window.css" rel="stylesheet"
+        type="text/css" runat="server" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+        // Gets the current RadWindow the user is currently viewing.
+        function getCurrentCustomDialog() {
+            var oWindow = null;
+            if (window.radWindow) oWindow = window.radWindow;
+            else if (window.frameElement.radWindow) oWindow = window.frameElement.radWindow;
+            return oWindow;
+        }
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+        <Scripts>
+            <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+            <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+            <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
+            <asp:ScriptReference Path="~/Scripts/jquery-1.9.1.min.js" />
+			<asp:ScriptReference Path="~/Scripts/jquery-migrate-1.1.0.min.js" />
+            <asp:ScriptReference Path="~/Scripts/master.js" />
+        </Scripts>
+    </telerik:RadScriptManager>
+    <telerik:RadWindowManager ID="RadWindowManager1" runat="server" EnableShadow="true"
+        Skin="Thinkgate_Window" EnableEmbeddedSkins="False" Modal="True" InitialBehaviors="Close"
+        Animation="None">
+    </telerik:RadWindowManager>
+    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+        <AjaxSettings>
+            <telerik:AjaxSetting AjaxControlID="standardsList">
+                <UpdatedControls>
+                    <telerik:AjaxUpdatedControl ControlID="standardsList" />
+                    <telerik:AjaxUpdatedControl ControlID="standardsTable" />
+                    <telerik:AjaxUpdatedControl ControlID="itemsSpecified" />
+                    <telerik:AjaxUpdatedControl ControlID="lblStandardStateNbr" />
+                    <telerik:AjaxUpdatedControl ControlID="standardID" />
+                    <telerik:AjaxUpdatedControl ControlID="hiddenstandardSet" />
+                </UpdatedControls>
+            </telerik:AjaxSetting>
+            <telerik:AjaxSetting AjaxControlID="generateBtn">
+                <UpdatedControls>
+                    <telerik:AjaxUpdatedControl ControlID="generateBtn" LoadingPanelID="updPanelLoadingPanel" />                  
+                    <telerik:AjaxUpdatedControl ControlID="standardsList" />                  
+                    <telerik:AjaxUpdatedControl ControlID="hdnRigorSelection" />
+                    <telerik:AjaxUpdatedControl ControlID="submitXmlHttpPanel" />
+                    
+                </UpdatedControls>                
+            </telerik:AjaxSetting>
+        </AjaxSettings>
+    </telerik:RadAjaxManager>
+    <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

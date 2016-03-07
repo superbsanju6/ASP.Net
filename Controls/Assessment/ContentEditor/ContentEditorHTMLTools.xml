@@ -1,0 +1,42 @@
+﻿<root>
+    <tools name="Formatting" enabled="true" DockingZone="editorToolHolder">
+      <tool Name="AjaxSpellCheck"/>
+      <tool Name="FontSize" />
+      <tool Name="FontName" />
+      <tool Name="ForeColor" />
+      <tool Name="BackColor" />
+      <tool Name="Bold" />
+      <tool Name="Italic" />
+      <tool Name="Underline" />
+      <tool Name="StrikeThrough" />
+      <tool name="InsertTableLight" />
+      <tool name="ToggleTableBorder" />
+      <separator Visible="true" />
+      <tool Name="JustifyLeft" />
+      <tool Name="JustifyCenter" />
+      <tool Name="JustifyRight" />
+      <tool Name="JustifyFull" />
+      <tool Name="JustifyNone" />
+      <separator  Visible="true" />
+      <tool Name="Superscript" />
+      <tool Name="Subscript" />
+      <separator Visible="true" />
+      <tool Name="ConvertToLower" />
+      <tool Name="ConvertToUpper" />
+      <tool Name="Indent" />
+      <tool Name="Outdent" />
+      <tool Name="InsertOrderedList" />
+      <tool Name="InsertUnorderedList" />
+      <tool Name="AbsolutePosition" />
+      <tool Name="EquationEditor" />
+      <separator />
+      <tool Name="Undo" ShortCut="CTRL+Z" />
+      <tool Name="Redo" ShortCut="CTRL+Y" />
+      <tool Name="Cut" ShortCut="CTRL+X" />
+      <tool Name="Copy" ShortCut="CTRL+C" />
+      <tool Name="Paste" ShortCut="CTRL+V" />
+      <tool Name="PasteStrip" />
+      <tool Name="Symbols" />
+      <tool Name="MathML" />
+      </tools>
+</root>

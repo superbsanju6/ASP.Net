@@ -1,0 +1,26 @@
+@import url('../ToolBar.css');
+@import url('../FormDecorator.css');
+@import url('../TabStrip.css');
+@import url('../Editor.css');
+@import url('../TreeView.css');
+@import url('../Splitter.css');
+@import url('../Slider.css');
+@import url('../Upload.css');
+@import url('../Window.css');
+@import url('../Grid.css');
+@import url('../Widgets.css');/*This should have been imported automatically!*/
+@import url('../FileExplorer.css');
+@import url('../Menu.css');
+
+@import url('ToolBar.Office2007.css');
+@import url('FormDecorator.Office2007.css');
+@import url('TabStrip.Office2007.css');
+@import url('Editor.Office2007.css');
+@import url('TreeView.Office2007.css');
+@import url('Splitter.Office2007.css');
+@import url('Slider.Office2007.css');
+@import url('Upload.Office2007.css');
+@import url('Window.Office2007.css');
+@import url('Grid.Office2007.css');
+@import url('Menu.Office2007.css');
+                

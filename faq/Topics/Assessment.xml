@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="lgisaacs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Assessment</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Assessment</text></para>
+    </header>
+    <para styleclass="Normal" style="text-align:center; text-indent:-18px; margin-left:18px;"></para>
+    <para styleclass="Normal" style="text-align:center; text-indent:-18px; margin-left:18px;"><table styleclass="Default" rowcount="3" colcount="1" style="width:45%; cell-padding:3px; cell-spacing:3px; border-width:0px; border-spacing:3px; cell-border-width:0px; border-style:none; background-color:none;">
+      <thead style="vertical-align:top">
+        <td>
+          <para styleclass="Header 2" style="text-align:right;"><link displaytype="image" src="Home.gif" type="topiclink" href="Introduction"></link><text styleclass="Header 2" style="font-size:8pt;" translate="true">&#32;</text><link displaytype="text" defaultstyle="true" type="topiclink" href="Introduction" styleclass="Answer" style="font-size:8pt;" translate="true">Return to Main Menu</link></para>
+          <para styleclass="Heading1" style="text-align:left; background-color:transparent; padding:0px; border-color:#000000; border-style:single; border-width:2px; border-top:none; border-right:none; border-left:none;"><text styleclass="Heading1" style="color:#000080;" translate="true">Pick a topic...</text></para>
+        </td>
+      </thead>
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Navigate to the desired topic and click a link to further drill down results.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="height:446px;">
+          <para styleclass="Heading1" style="text-indent:-18px; margin-left:66px;"></para>
+          <para styleclass="Heading1" style="text-indent:-18px; margin-left:66px;"><image src="rightarrow.gif" scale="100.00%" styleclass="Heading1" style="font-size:12pt; color:#000080;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="true" defaultstyle="false" src-collapsed="rightarrow.gif" src-expanded="downarrow.gif" styleclass="Heading1" style="font-size:12pt; color:#000080;"><caption translate="true"><![CDATA[Assessment Tools]]></caption></toggle></para>
+          <para styleclass="Heading1" style="text-indent:-18px; margin-left:66px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <list id="4" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+                  <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Blueprint" styleclass="Normal" translate="true">Blueprint</link></li>
+                  <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Summary" styleclass="Normal" translate="true">Summary</link></li>
+                </list>
+              </td>
+            </tr>
+          </table></para>
+          <para styleclass="Heading1" style="text-indent:-18px; margin-left:66px;"></para>
+          <para styleclass="Heading1" style="text-indent:-18px; margin-left:66px;"><image src="rightarrow.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="true" defaultstyle="false" src-collapsed="rightarrow.gif" src-expanded="downarrow.gif" styleclass="Header 2"><caption translate="true"><![CDATA[Assessment Category]]></caption></toggle></para>
+          <para styleclass="Heading1" style="text-indent:-18px; margin-left:66px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <list id="5" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+                  <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="District_Tests" styleclass="Normal" translate="true">District Assessments</link></li>
+                  <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Classroom_Tests" styleclass="Normal" translate="true">Classroom Assessments</link></li>
+                </list>
+              </td>
+            </tr>
+          </table></para>
+          <para styleclass="Heading1" style="text-indent:-18px; margin-left:66px;"></para>
+          <para styleclass="Heading1" style="text-indent:-18px; margin-left:66px;"><image src="rightarrow.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="true" defaultstyle="false" src-collapsed="rightarrow.gif" src-expanded="downarrow.gif" styleclass="Header 2"><caption translate="true"><![CDATA[Item Builder]]></caption></toggle></para>
+          <para styleclass="Heading1" style="text-indent:-18px; margin-left:66px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <list id="6" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+                  <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Items" styleclass="Normal" translate="true">Items</link></li>
+                  <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Addendums" styleclass="Normal" translate="true">Addendums</link></li>
+                  <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Images" styleclass="Normal" translate="true">Images</link></li>
+                  <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Rubrics" styleclass="Normal" translate="true">Rubrics</link></li>
+                </list>
+              </td>
+            </tr>
+          </table></para>
+          <para styleclass="Heading1" style="text-indent:-18px; margin-left:66px;"></para>
+          <para styleclass="Heading1" style="text-indent:-18px; margin-left:66px;"><image src="rightarrow.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="true" defaultstyle="false" src-collapsed="rightarrow.gif" src-expanded="downarrow.gif" styleclass="Header 2"><caption translate="true"><![CDATA[Assessment Administration]]></caption></toggle></para>
+          <para styleclass="Heading1" style="text-indent:-18px; margin-left:66px;"><table styleclass="Default" rowcount="1" colcount="1">
+            <tr style="vertical-align:top">
+              <td>
+                <list id="7" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+                  <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Clickers_eInstruction_IR__RF__" styleclass="Normal" translate="true">Clickers</link></li>
+                  <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Online_Testing" styleclass="Normal" translate="true">Online Testing</link></li>
+                  <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="HALO_Scanning" styleclass="Normal" translate="true">HALO Scanning</link></li>
+                  <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="PlainPaper_Scanning_PPS" styleclass="Normal" translate="true">PlainPaper Scanning (PPS)</link></li>
+                </list>
+              </td>
+            </tr>
+          </table></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

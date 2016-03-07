@@ -1,0 +1,346 @@
+div.RadToolTip_Office2007 .ResizeElement
+{
+	border: solid 1px #d3fd2c;
+	background: #f8fce0;
+}
+
+div.RadToolTip_Office2007 .rtLoading
+{	
+	background: url(ToolTip/Loading.gif)  no-repeat center;
+	width: 100%; 
+	height: 100%;
+}
+
+div.RadToolTip_Office2007 
+{
+	position: absolute;
+	cursor: default;
+}
+
+div.RadToolTip_Office2007 div.rtCallout
+{
+	display:none;
+}
+
+div.RadToolTip_Office2007.rtVisibleCallout div.rtCallout
+{
+	display: block;
+}
+
+div.RadToolTip_Office2007 table.rtWrapper td
+{		
+	padding: 0;
+	margin: 0;
+	border-collapse: collapse;
+}
+
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperTopLeft,
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperTopRight,
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperBottomLeft,
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperBottomRight
+{
+	width: 3px; 
+	height: 4px; 
+	line-height: 0px; 
+	font-size: 1px;
+	background-image: url('ToolTip/ToolTipCorners.gif');
+	background-repeat: no-repeat;
+}
+
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperTopLeft
+{
+	background-position: 0 0;
+}
+
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperTopRight
+{
+	background-position: right 0;
+}
+
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperBottomLeft
+{
+	background-position: 0 bottom;
+}
+
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperBottomRight
+{
+	background-position: right bottom;
+}
+
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperTopCenter,
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperBottomCenter
+{
+	height: 3px; 
+	line-height: 0px; 
+	font-size: 1px;
+	background:  url('ToolTip/ToolTipTopParts.gif');
+	background-repeat: repeat-x;
+}
+
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperTopCenter
+{
+	background-position: 0 0;
+}
+
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperBottomCenter
+{
+	background-position: 0 bottom;
+}
+
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperLeftMiddle,
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperRightMiddle
+{
+	background-image:  url('ToolTip/ToolTipSideParts.gif') ;
+	background-repeat: repeat-y;
+	font-size: 1px;
+	width: 3px;
+}
+
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperLeftMiddle
+{
+	background-position: 0 0;
+}
+
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperRightMiddle
+{
+	background-position: right 0;
+}
+
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperContent
+{
+	font: normal 12px "Segoe UI", "Trebuchet MS", Arial, Verdana, Sans-serif;
+	height: 100%;
+	background: #cad9ee url('ToolTip/ContentBgr.gif') repeat-x;
+	padding: 4px;
+	color: black;
+}
+
+div.RadToolTip_Office2007 div.rtTitlebar
+{	
+	color: #272397;
+	font: normal 18px "Segoe UI", "Trebuchet MS", Arial, Verdana, Sans-serif;
+	float:left;
+	line-height: 22px;
+	padding: 4px;
+}
+
+div.RadToolTip_Office2007 a.rtCloseButton,
+div.RadToolTip_Office2007 a.rtCloseButton:hover
+{
+	display: block; 
+	float: right;
+	position: absolute;
+	right: 2px;
+	width: 28px; 
+	height: 15px;
+	font-size: 1px; 
+	line-height: 1px;
+	margin-top: 3px;
+	margin-right: 1px;
+	background: url('ToolTip/close.gif')  no-repeat;
+	text-indent: -9999px;
+	outline: none;
+}
+
+/* RTL support begin */
+div.RadToolTip_Office2007_rtl a.rtCloseButton,
+div.RadToolTip_Office2007_rtl a.rtCloseButton:hover
+{
+	left: 2px;
+	right: auto;
+	margin-left: 1px;
+	margin-right: auto;
+	float: left !important;
+	text-decoration: none !important;
+    outline: none;
+}
+
+div.RadToolTip_Office2007_rtl div.rtTitlebar,
+div.RadToolTip_Office2007_rtl table.rtWrapper td.rtWrapperTopCenter div.rtTitlebar div
+{
+	float: right !important;
+}
+
+/* position="Center" */
+div.RadToolTip_Office2007_rtl .rtCalloutCenter
+{
+	right: 0;
+	left: auto;
+}
+
+/* position="BottomRight" */
+.RadToolTip_Office2007_rtl .rtCalloutTopLeft
+{
+	margin-right: -20px;
+}
+
+/* position="BottomCenter" */
+.RadToolTip_Office2007_rtl .rtCalloutTopCenter
+{
+	margin-right: 10px;
+}
+
+/* position="BottomLeft" */
+.RadToolTip_Office2007_rtl .rtCalloutTopRight
+{
+	margin-right: 20px;
+}
+
+/* position="TopCenter" */
+.RadToolTip_Office2007_rtl .rtCalloutBottomCenter
+{
+	margin-right: 10px !important;
+}
+
+/* position="TopLeft" */
+.RadToolTip_Office2007_rtl .rtCalloutBottomRight
+{
+	margin-right: 40px !important;
+}
+
+/* position="TopRight" */
+.RadToolTip_Office2007_rtl .rtCalloutBottomLeft
+{
+	margin-right: -20px !important;
+}
+
+/* position="MiddleRight" */
+.RadToolTip_Office2007_rtl .rtCalloutMiddleLeft
+{
+	margin-right: 10px;
+}
+
+/* position="MiddleLeft" */
+.RadToolTip_Office2007_rtl .rtCalloutMiddleRight
+{
+	margin-right: 1px;
+}
+/* RTL support end */
+
+div.RadToolTip_Office2007 div.rtCallout
+{
+	position: absolute; 
+	top: 0; 
+	left: 0;
+	height: 11px; 
+	width: 11px;
+	line-height: 0px; 
+	font-size: 1px;
+	background-image: url('ToolTip/Callouts.gif');
+	background-repeat: no-repeat;
+}
+
+/* position="Center" */
+div.RadToolTip_Office2007 .rtCalloutCenter
+{
+	background: none !important;
+}
+
+/* position="BottomRight" */
+.RadToolTip_Office2007 .rtCalloutTopLeft
+{
+	margin-top: -10px; 
+	margin-left: 20px;
+	background-position: 0 -22px;
+}
+
+/* position="BottomCenter" */
+.RadToolTip_Office2007 .rtCalloutTopCenter
+{
+	left: 50% !important;
+	margin-top: -9px; 
+	margin-left: -10px;
+	background-position: 0 0 !important;
+}
+
+/* position="BottomLeft" */
+.RadToolTip_Office2007 .rtCalloutTopRight
+{
+	left: 100% !important;
+	margin-top: -10px; 
+	margin-left: -20px;
+	background-position: 0 -11px !important;
+}
+
+/* position="TopCenter" */
+.RadToolTip_Office2007 .rtCalloutBottomCenter
+{
+	top: 100% !important; 
+	left: 50% !important;
+	margin-left: -10px !important; 
+	margin-top: -1px !important;
+	/*width: 100% !important;*/
+	background-position: 0 -55px !important;
+}
+
+/* position="TopLeft" */
+.RadToolTip_Office2007 .rtCalloutBottomRight
+{
+	top: 100% !important; 
+	left: 100% !important;
+	margin-left: -40px !important; 
+	margin-top: -1px !important;
+	background-position: 0 -66px !important;
+}
+
+/* position="TopRight" */
+.RadToolTip_Office2007 .rtCalloutBottomLeft
+{
+	top: 100% !important;
+	margin-left: 20px !important; 
+	margin-top: -1px !important;
+	background-position: 0 -77px !important;
+}
+
+/* position="MiddleRight" */
+.RadToolTip_Office2007 .rtCalloutMiddleLeft
+{
+	top: 50% !important;
+	margin-left: -10px; 
+	margin-top: -7px;
+	background-position: 0 -44px !important;
+}
+
+/* position="MiddleLeft" */
+.RadToolTip_Office2007 .rtCalloutMiddleRight
+{
+	left: 100% !important; 
+	top: 50% !important;
+	margin-left: -1px; 
+	margin-top: -10px;
+	background-position: 0 -33px;
+}
+
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperTopLeft,   
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperTopCenter,   
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperTopRight,   
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperLeftMiddle,   
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperContent,   
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperRightMiddle,   
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperBottomLeft,   
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperBottomCenter,   
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperBottomRight   
+{
+    padding: 0;
+    border: 0;
+    border-collapse: collapse;
+}
+div.RadToolTip_Office2007 table.rtWrapper
+{
+    border-collapse: collapse;
+}
+ 
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperTopLeft,
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperRightMiddle,
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperTopLeft,
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperTopRight,
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperBottomRight,
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperBottomCenter,
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperBottomLeft,
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperLeftMiddle,
+div.RadToolTip_Office2007 table.rtWrapper td.rtWrapperTopCenter
+{
+    
+    padding: 0;
+    border: 0;
+}

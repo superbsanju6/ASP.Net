@@ -1,0 +1,503 @@
+/*Telerik RadCalendar Office2007 skin*/
+
+table.RadCalendar_Office2007
+{
+	border-collapse:separate;
+	border:0;
+	background:#fff;
+	font:11px tahoma,sans-serif;
+	width:172px;
+}
+
+.RadCalendarPopup table.RadCalendar_Office2007
+{
+	border:1px solid #6f9dd9;
+}
+
+/*titlebar*/
+
+.RadCalendar_Office2007 .rcTitlebar
+{
+	width:100%;
+	border:0;
+	padding:0;
+	background:#e3efff;
+	color:#000;
+}
+
+.RadCalendar_Office2007 .rcTitlebar table
+{
+	width:100%;
+	border-collapse:separate;
+	border:0;
+	font:11px/15px tahoma,sans-serif;
+}
+
+.RadCalendar_Office2007 .rcTitlebar td
+{
+	border:0;
+	padding:1px 0 2px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.RadCalendar_Office2007 .rcTitlebar .rcTitle
+{
+	width:100%;
+	cursor:pointer;
+}
+
+.RadCalendar_Office2007 .rcTitlebar .rcPrev,
+.RadCalendar_Office2007 .rcTitlebar .rcNext,
+.RadCalendar_Office2007 .rcTitlebar .rcFastPrev,
+.RadCalendar_Office2007 .rcTitlebar .rcFastNext
+{
+	display:block;
+	width:13px;
+	height:13px;
+	overflow:hidden;
+	margin:0 2px;
+	background:transparent url('Calendar/sprite.gif') no-repeat;
+	text-indent:-1111px;
+	text-decoration:none;
+	color:#666;
+}
+
+.RadCalendar_Office2007 .rcTitlebar .rcPrev
+{
+	background-position:4px -47px;
+}
+
+.RadCalendar_Office2007 .rcTitlebar .rcNext
+{
+	background-position:4px -97px;
+}
+
+.RadCalendar_Office2007 .rcTitlebar .rcFastPrev
+{
+	margin-left:4px;
+	background-position:2px 3px;
+}
+
+.RadCalendar_Office2007 .rcTitlebar .rcFastNext
+{
+	margin-right:4px;
+	background-position:2px -147px;
+}
+
+.RadCalendar_Office2007 .rcMain
+{
+	width:100%;
+	border:0;
+	padding:0 0 4px;
+}
+
+.RadCalendar_Office2007 .rcMainTable
+{
+	border-collapse:separate;
+	border:0 !important;
+	width:92%;
+	margin:0 7px;
+	font:11px tahoma,sans-serif;
+}
+
+/*header, footer*/
+
+.RadCalendar_Office2007 .rcHeader,
+.RadCalendar_Office2007 .rcFooter
+{
+	border:0;
+	padding:0;
+}
+
+/*week numbers and days*/
+
+.RadCalendar_Office2007 .rcRow th,
+.RadCalendar_Office2007 .rcWeek th
+{
+	border:0;
+	padding:0;
+	font-weight:normal;
+	color:#000;
+	cursor:default;
+}
+
+.RadCalendar_Office2007 .rcWeek th
+{
+	border-bottom:1px solid #9ac6ff;
+	padding:1px 3px 1px 2px;
+	text-align:right;
+}
+
+.RadCalendar_Office2007 .rcRow th,
+.RadCalendar_Office2007 .rcRow td
+{
+	vertical-align:middle;
+}
+
+.RadCalendar_Office2007 .rcWeek .rcViewSel,
+.RadCalendar_Office2007 .rcRow th
+{
+	width:14px;
+	padding-left:2px;
+	padding-right:2px;
+	text-align:center;
+}
+
+/*date cells*/
+
+.RadCalendar_Office2007 .rcRow td
+{
+	border:1px solid #fff;
+	padding:0;
+	text-align:right;
+}
+
+.RadCalendar_Office2007 .rcMain .rcRow a,
+.RadCalendar_Office2007 .rcMain .rcRow span
+{
+	display:block;
+	padding:0 2px 0 1px;
+	text-decoration:none;
+	color:#000;
+}
+
+.RadCalendar_Office2007 .rcMain .rcWeekend a
+{
+	color:#666;
+}
+
+.RadCalendar_Office2007 .rcRow .rcToday
+{
+	border-color:#bb5503;
+}
+
+.RadCalendar_Office2007 .rcMain .rcOtherMonth a
+{
+	color:#b3b3b3;
+}
+
+.RadCalendar_Office2007 .rcMain .rcOutOfRange span
+{
+	color:#b3b3b3;
+	cursor:default;
+}
+
+.RadCalendar_Office2007 .rcRow .rcHover
+{
+	border-color:#ffe7a2;
+	background:#ffe7a2;
+}
+
+.RadCalendar_Office2007 .rcMain .rcRow .rcHover a
+{
+
+}
+
+.RadCalendar_Office2007 .rcRow .rcSelected
+{
+	border-color:#fbc84f;
+	background:#fbc84f;
+}
+
+/*multimonth view*/
+
+table.RadCalendarMultiView_Office2007
+{
+	width:auto;
+	border:1px solid #6f7074 !important;
+}
+
+.RadCalendarMultiView_Office2007 .rcMainTable
+{
+	width:100%;
+	border:0 !important;
+	margin:0;
+}
+
+.RadCalendarMultiView_Office2007 .rcTitlebar
+{
+	border:0;
+	border-bottom:1px solid #6f7074;
+	background:#dadfe6 url('Calendar/sprite.gif') 0 -900px repeat-x;
+	color:#15428b;
+}
+
+.RadCalendarMultiView_Office2007 .rcTitlebar table
+{
+	border:0;
+	font:bold 16px/23px "segoe ui",tahoma,sans-serif;
+}
+
+.RadCalendarMultiView_Office2007 .rcTitlebar a
+{
+	width:14px;
+	margin:0 3px;
+}
+
+.RadCalendarMultiView_Office2007 .rcTitlebar .rcPrev
+{
+	background-position:4px -1097px;
+}
+
+.RadCalendarMultiView_Office2007 .rcTitlebar .rcNext
+{
+	background-position:4px -1147px;
+}
+
+.RadCalendarMultiView_Office2007 .rcTitlebar .rcFastPrev
+{
+	margin-left:10px;
+	background-position:2px -1047px;
+}
+
+.RadCalendarMultiView_Office2007 .rcTitlebar .rcFastNext
+{
+	margin-right:10px;
+	background-position:2px -1197px;
+}
+
+.RadCalendarMultiView_Office2007 .rcCalendar
+{
+	width:172px;
+	border:0;
+	padding:1px;
+}
+
+.RadCalendarMultiView_Office2007 .rcFirstRow
+{
+	padding-top:7px;
+}
+
+.RadCalendarMultiView_Office2007 .rcLastRow
+{
+	padding-bottom:3px;
+}
+
+.RadCalendarMultiView_Office2007 .rcFirstCol
+{
+	padding-left:6px;
+}
+
+.RadCalendarMultiView_Office2007 .rcLastCol
+{
+	padding-right:6px;
+}
+
+.RadCalendarMultiView_Office2007 .rcMainTable .rcTitle
+{
+	border:0;
+	padding:1px 0 2px;
+	background:#bfdbff;
+	font:11px/15px tahoma,sans-serif;
+	text-align:center;
+}
+
+.RadCalendarMultiView_Office2007 .rcWeek th
+{
+	border-bottom-color:#6e6d8f;
+}
+
+/*month view*/
+
+table.RadCalendarMonthView_Office2007
+{
+	border-collapse:separate;
+	border:1px solid #9ebef5;
+	background:#f6f6f6;
+	font:11px tahoma,sans-serif;
+	color:#000;
+}
+
+.RadCalendarMonthView_Office2007 td
+{
+	border:0;
+	padding:0 1px;
+}
+
+.RadCalendarMonthView_Office2007 a
+{
+	display:block;
+	padding:1px 3px;
+	text-align:center;
+	text-decoration:none;
+	color:#000;
+}
+
+.RadCalendarMonthView_Office2007 .rcHover a
+{
+	background:#ffe7a2;
+}
+
+.RadCalendarMonthView_Office2007 .rcSelected a
+{
+	background:#fbc84f;
+}
+
+.RadCalendarMonthView_Office2007 .rcButtons
+{
+	padding:1px 7px;
+	text-align:center;
+}
+
+.RadCalendarMonthView_Office2007 input
+{
+	border:1px solid #5d8cc9;
+	padding:0;
+	background:#daeaff;
+	color:#000;
+	font:11px tahoma,sans-serif;
+	cursor:pointer;
+}
+
+.RadCalendarMonthView_Office2007 #rcMView_Today
+{
+	margin:0 0.4em 0 0;
+}
+
+.RadCalendarMonthView_Office2007 #rcMView_OK
+{
+	padding:0 0.2em;
+}
+
+/*time view*/
+
+table.RadCalendarTimeView_Office2007
+{
+	border-collapse:separate;
+	border:1px solid #9ebef5;
+	background:#fff;
+	color:#000;
+	font:11px tahoma,sans-serif;
+}
+
+.RadCalendarTimeView_Office2007 th
+{
+	border:0;
+	padding:0 0 2px;
+	background:#e3efff;
+	font:11px/16px tahoma,sans-serif;
+	text-align:center;
+	cursor:default;
+}
+
+.RadCalendarTimeView_Office2007 td
+{
+	border:0;
+	padding:0;
+	text-align:right;
+}
+
+.RadCalendarTimeView_Office2007 a
+{
+	display:block;
+	padding:3px 4px;
+	color:#000;
+	text-decoration:none;
+}
+
+.RadCalendarTimeView_Office2007 td.rcHover a
+{
+	background:#ffe7a2;
+}
+
+.RadCalendarTimeView_Office2007 td.rcSelected a
+{
+	background:#fbc84f;
+}
+
+.RadCalendarTimeView_Office2007 .rcFooter
+{
+	border:0;
+	padding:0;
+	text-align:left;
+}
+
+/*pickers*/
+
+.RadPicker_Office2007
+{
+	vertical-align:middle;
+}
+
+.RadPicker_Office2007 table,
+.RadPicker_Office2007 table td
+{
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+.RadPicker_Office2007 table.rcTable td
+{
+	vertical-align:middle;
+}
+
+.RadPicker_Office2007 table.rcTable .rcInputCell
+{
+	padding:0 4px 0 0;
+}
+
+.RadPicker_Office2007 td a
+{
+	position:relative;/*FF*/
+	outline:none;/*FF*/
+	z-index:2;/*Opera*/
+	margin:0 2px;
+	text-decoration:none;
+}
+* html .RadPicker_Office2007 td a{position:static}/*IE6*/
+*+html .RadPicker_Office2007 td a{position:static}/*IE7*/
+
+.RadPicker_Office2007 .rcCalPopup,
+.RadPicker_Office2007 .rcTimePopup
+{
+	display:block;
+	overflow:hidden;
+	width:16px;
+	height:16px;
+	background:url('Calendar/sprite.gif') no-repeat;
+	text-indent:-1111px;
+	text-align:center;
+}
+
+.RadPicker_Office2007 .rcCalPopup,
+.RadPicker_Office2007 .rcDisabled.rcCalPopup:hover
+{
+	background-position:0 -200px;
+}
+
+.RadPicker_Office2007 .rcCalPopup:hover
+{
+	background-position:0 -250px;
+}
+
+.RadPicker_Office2007 .rcTimePopup,
+.RadPicker_Office2007 .rcDisabled.rcTimePopup:hover
+{
+	background-position:0 -300px;
+}
+
+.RadPicker_Office2007 .rcTimePopup:hover
+{
+	background-position:0 -350px;
+}
+
+.RadPicker_Office2007 .rcDisabled,
+.RadCalendarMonthView_Office2007 .rcDisabled
+{
+	opacity:0.5;
+	filter:alpha(opacity=50);
+}
+
+/*rtl*/
+
+.RadCalendarRTL_Office2007 .rcTitlebar table
+{
+	direction:ltr;
+}
+
+.RadCalendarRTL_Office2007 .rcTitle
+{
+	direction:rtl;
+}

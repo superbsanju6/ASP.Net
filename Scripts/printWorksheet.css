@@ -1,0 +1,244 @@
+﻿body {
+}
+  .leftAlign {
+            text-align: left !important;
+            padding-left: 5px !important;
+            vertical-align: top;
+        }
+
+        .textColorWhite {
+            color: #fff;
+        }
+
+.dataTable, .display {
+    width: 1300px !important;
+}
+
+
+.dataTables_scroll {margin-left:50px !important;
+}
+tr.odd td {border:none !important;padding-bottom:3px 3px !important;
+}
+tr.odd, tr.even {border-left:1px solid #000000 !important;border-right:1px solid #000000 !important;
+}
+tr.even td {border:none !important;padding:3px 3px !important;
+}
+        .backColorLightGreen {
+            background-color: #76923c;
+            color :#ffffff;
+           border-color:#000000;
+        }
+
+        .backColorBlue {
+            background-color: #548dd4;
+        }
+
+        .backColorGrey {
+            background-color: #bfbfbf;
+        }
+
+        .backColorOrange {
+            background-color: #bfbfbf;
+        }
+
+        .height60px {
+            height: 60px;
+        }
+
+        .height25px {
+            height: 25px;
+        }
+
+        .height40px {
+            height: 40px;
+        }
+
+        .vAlignTopWithPadTop5px {
+            vertical-align: top;
+            padding-top: 5px;
+        }
+
+        .paging_full_numbers a.paginate_button {
+            border: 0px none white !important;
+            background-color: white !important;
+        }
+
+        .paging_full_numbers a.paginate_active {
+            border: 0px none white !important;
+        }
+
+        .hiddenColumn {
+            display: none;
+        }
+
+        table thead tr th {
+            font-weight: bold;
+            font-size: 105%;
+            border: 1px solid #000;
+        }
+
+        .borderRight1px {
+            border-right: 1px solid #000 !important;
+        }
+
+        .navButton {
+            border: 1px solid #e3e3e3;
+            color: #000;
+            padding: 5px 5px 5px 25px;
+        }
+
+        .btnSave {
+            background: #f2f2f2 url(images/saveIcon.png) 5px 50% no-repeat;
+        }
+
+        .btnCancel {
+            background: #f2f2f2 url(images/cancelIcon.png) 5px 50% no-repeat;
+        }
+
+        .btnPrint {
+            background: #f2f2f2 url(images/printIcon.png) 5px 50% no-repeat;
+        }
+
+        .btnCopy {
+            background: #f2f2f2 url(images/copyIcon.png) 5px 50% no-repeat;
+        }
+
+        .btnDelete {
+            background: #f2f2f2 url(images/deleteIcon.png) 5px 50% no-repeat;
+        }
+
+        .btnAdd {
+            background: #f2f2f2 url(images/add.gif) 5px 50% no-repeat;
+        }
+
+        .btnEdit {
+            background: #f2f2f2 url(images/editIcon.png) 5px 50% no-repeat;
+        }
+
+        .spacerGray {
+            background: #494949;
+            width: 1px;
+            height: 15px;
+            float: left;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .floatRight {
+            float: right;
+        }
+
+        .floatLeft {
+            float: left;
+        }
+
+        .greenBox {
+            width: 23px;
+            height: 18px;
+            /*background: #b2e389;*/
+            background: #76923c;
+            border: 1px solid #4c960e;
+            float: left;
+            margin-left: 20px;
+            margin-right: 10px;
+        }
+
+        .voiletBox {
+            width: 23px;
+            height: 18px;
+            /*background: #fac08f;*/
+            background: #bfbfbf;
+            border: 1px solid #bfbfbf;
+            float: left;
+            margin-left: 20px;
+            margin-right: 10px;
+        }
+
+        .layouotDiamension {
+            width: 97%;
+            margin: auto;
+            margin-top: 5px;
+        }
+
+        .marTop40px {
+            margin-top: 15px;
+        }
+
+        .disabledView {
+            text-decoration: underline;
+            color: #ccc;
+            /*pointer-events: none;*/
+        }
+
+        .enabledView {
+            text-decoration: underline;
+            color: #034AF3;
+        }
+
+        #divViewByStandard tr.even td {
+            font-weight: bold;
+            text-align: left !important;
+            padding-left: 5px !important;
+            border-left: 0px solid #000;
+            background-color: #548dd4;
+            color: #fff;
+        }
+
+        #divViewByStandard tr.odd td {
+            font-weight: bold;
+            text-align: left !important;
+            padding-left: 5px !important;
+            border-left: 0px solid #000;
+            background-color: #548dd4;
+            color: #fff;
+        }
+
+        #divViewByStudent tr.even td {
+            font-weight: bold;
+            text-align: left !important;
+            padding-left: 5px !important;
+            background-color: #548dd4;
+            color: #fff;
+        }
+
+        #divViewByStudent tr.odd td {
+            font-weight: bold;
+            text-align: left !important;
+            padding-left: 5px !important;
+            border-left: 0px solid #000;
+            background-color: #548dd4;
+            color: #fff;
+        }
+
+        .modal {
+            display: block;
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+            right: 0px;
+            height: 100%;
+            width: auto;
+            background: rgba( 255, 255, 255, .8 ) url('Styles/Thinkgate_Window/Common/loading.gif') 60% 50% no-repeat;
+        }
+
+
+        .textOverFlow {
+            white-space: normal;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            display: block;
+            width: 430px;
+        }
+
+        .hideme {
+                display:none;
+                }
+      
+        @media btnPrint {
+        .noprint {display:none !important;}
+        a:link:after, a:visited:after {  
+        display: none;
+        content: "";    
+        }
+        }

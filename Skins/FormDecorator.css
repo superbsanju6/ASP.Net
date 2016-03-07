@@ -1,0 +1,323 @@
+/* RadFormDecorator - common CSS settings */
+
+.rfdSkinnedButton .rfdInner
+{
+    /*font: normal 12px Arial, Verdana !important;
+    white-space: nowrap;
+    background-repeat: repeat-x;
+	width: auto !important;
+	padding: 0 !important;
+	display: block !important;
+	line-height: 21px !important;*/
+}
+
+.rfdCheckboxChecked,
+.rfdCheckboxUnchecked,
+.rfdRadioUnchecked,
+.rfdRadioChecked
+{
+    line-height: 20px !important;
+	padding: 0;
+	padding-left: 20px;
+	zoom:1;/*Fixes IE issue with font-size set in percents */		
+	display: inline-block !important;	
+}
+
+.rfdSkinnedButton .rfdOuter
+{
+	/*background-position: right 0;
+	background-repeat: no-repeat;
+	display: block;*/	
+}
+
+.rfdRealButton
+{
+	vertical-align: middle;
+	display: none;
+	min-width: 54px !important;
+}
+
+/* Internet Explorer */        
+*+html .rfdRealButton,
+*+html .rfdSkinnedButton
+{		
+	/*min-width: auto !important;*/
+}
+
+/* disabled inputs */
+.rfdInputDisabled
+{
+    filter: alpha(opacity=50);
+    -moz-opacity: .5;
+    opacity: .5;
+}
+
+.input 
+{
+	position: absolute;/* Causes IE to jump when a textbox in a scrollable parent is clicked -however, setting position:relative has other side effects. This is why it will be left here as *absolute* and set to relative where needed */	
+	left: -999999px;
+}
+
+/* FormDecorator + TreeView fix */
+.RadTreeView .rfdCheckboxUnchecked,
+.RadTreeView .rfdCheckboxChecked
+{
+    display: -moz-inline-box;
+    display: inline-block;
+    width: 0;
+    vertical-align: middle;
+    line-height: 21px;
+    height: 21px;
+}
+
+/* FormDecorator + TreeView fix */
+.RadGrid .rfdCheckboxUnchecked,
+.RadGrid .rfdCheckboxChecked
+{
+    display: -moz-inline-block;
+    display: inline-block;
+}
+
+.radr_noBorder
+{
+	border-width: 0;
+}
+
+/* min-width issue fix ("Log In") */
+ .rfdSkinnedButton
+{
+	/*_width: 54px;
+	min-width: 54px;*/
+}
+
+a.rfdSkinnedButton:focus,
+a.rfdSkinnedButton:active
+{
+	/*border: dotted 1px #131627;*/
+}
+
+/* =========================== TEXTAREA, INPUT, FIELDSET ============================= */
+.rfdRoundedInner
+{  
+  width:1px;
+  font-size:1px;      
+  background-repeat:no-repeat;
+}
+
+.rfdRoundedOuter
+{    
+  width:1px;
+  font-size:0px;  
+}
+
+
+table.rfdRoundedWrapper, table.rfdRoundedWrapper_fieldset
+{
+    display:-moz-inline-box;/*FF2*/
+    display:inline-block;/*FF3,Opera,Safari*/
+    _display:inline;/*IE6*/
+                                   
+    vertical-align:middle;           
+    border-width:0px !important;
+    padding:0px !important;                 
+}
+
+/*IE7*/
+*+html table.rfdRoundedWrapper, *+html table.rfdRoundedWrapper_fieldset
+{
+   display:inline;
+}
+
+table.rfdRoundedWrapper td, table.rfdRoundedWrapper_fieldset td
+{
+    vertical-align:middle;
+}
+
+/* Specific styling related to the elements that need to support rounded corners */
+table.rfdRoundedWrapper textarea, textarea.rfdTextarea
+{     
+    overflow :hidden;/*Prevent nasty flicker */     
+    /* Safari - Do not allow textarea resize. Also - textarea in a table causes very a 4px bottom margin! Bug in Safari*/    
+    /* This hack thing is parsed in IE as WELL!*/
+    [hack:safari;    
+        resize: none;        
+    ]        
+}
+
+
+fieldset.rfdFieldset
+{
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;        
+}
+
+input.rfdInput, textarea.rfdTextarea
+{   
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;         
+}
+
+.rfdRtl
+{
+	direction: rtl;
+}
+
+.rfdRtl .input 
+{
+	position: absolute;/* Causes IE to jump when a textbox in a scrollable parent is clicked -however, setting position:relative has other side effects. This is why it will be left here as *absolute* and set to relative where needed */	
+	left: 0;
+	right: 0;
+	top:-9999px;
+}
+
+
+/* checkboxes */
+.rfdRtl .rfdCheckboxUnchecked,
+.rfdRtl .rfdInputDisabled.rfdCheckboxUnchecked:hover
+{
+	padding: 0 20px 0 0;
+	background-position: right 0 !important;
+}
+
+.rfdRtl .rfdCheckboxUnchecked:hover
+{
+	background-position: right -200px !important;
+}
+
+.rfdRtl .rfdCheckboxChecked,
+.rfdRtl .rfdInputDisabled.rfdCheckboxChecked:hover 
+{
+	padding: 0 20px 0 0;
+	background-position: right -420px !important;
+}
+
+.rfdRtl .rfdCheckboxChecked:hover
+{
+	background-position: right -640px !important;
+}
+/* end of checkboxes */
+
+/* radiobuttons */
+.rfdRtl .rfdRadioUnchecked,
+.rfdRtl .rfdInputDisabled.rfdRadioUnchecked:hover 
+{
+	padding: 0 20px 0 0;
+	background-position: right 0 !important;
+}
+
+.rfdRtl .rfdRadioUnchecked:hover
+{
+	background-position: right -220px !important;
+}
+
+.rfdRtl .rfdRadioChecked,
+.rfdRtl .rfdInputDisabled.rfdRadioChecked:hover 
+{
+	padding: 0 20px 0 0;
+	background-position: right -440px !important;
+}
+
+.rfdRtl .rfdRadioChecked:hover
+{
+	background-position: right -640px !important;
+}
+/* end of radiobuttons */
+/* right to left support end */
+
+/* common skinned combobox settings begin */
+
+.rfdSelect
+{
+	display: inline-block;
+	text-decoration: none;
+	font: normal 10pt Arial, Verdana, Sans-serif;
+	cursor: default;
+	outline: none;
+	-moz-user-select: none;
+	max-width: 1024px;
+	overflow: hidden;
+	padding: 0;
+}
+
+.rfdSelect_disabled
+{
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40); /* IE 6/7 */
+    opacity: .4; /* Gecko, Opera */
+    -moz-opacity: .4; /* Old Gecko */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=40)"; /* IE8 */
+}
+
+.rfdSelect span
+{
+	display: block;
+}
+
+.rfdSelect .rfdSelect_outerSpan
+{
+	float: left;
+}
+
+.rfdSelect .rfdSelect_textSpan
+{
+	line-height: 18px;
+	padding: 0 3px;
+	float: left;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-left: 2px;
+	text-overflow: ellipsis;
+}
+
+.rfdSelect .rfdSelect_arrowSpan
+{
+	float: right;
+	_display: inline;
+}
+
+.rfdSelect .rfdSelect_arrowSpan span
+{
+    background-color: transparent !important;
+	text-indent: -9999px;
+	width: 14px;
+	height: 16px;
+}
+
+/* dropdown settings */
+.rfdSelectbox
+{
+    font: normal 10pt Arial, Verdana, Sans-serif;
+    display: inline-block;
+}
+
+.rfdSelectbox ul,
+.rfdSelectbox li
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.rfdSelectbox li
+{
+    cursor: default;
+    line-height: 16px;
+    height: 16px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.rfdSelectbox_optgroup li
+{
+    padding-left: 20px !important;
+    height: 18px !important;
+    line-height: 18px !important;
+}
+
+.rfdSelectbox_optgroup .rfdSelectbox_optgroup_label
+{
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 0 !important;
+}
+
+/* common skinned combobox settings begin */

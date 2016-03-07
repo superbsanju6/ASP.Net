@@ -1,0 +1,362 @@
+﻿.OrientationVertical
+{
+    width: 320px;
+    height: 460px;
+    padding: 63px 22px 68px 29px;
+    margin: 20px auto;
+    background: transparent url('../images/Menu/frame.jpg') no-repeat 0 0;
+}
+
+.OrientationHorizontal
+{
+    height: 320px;
+    width: 460px;
+    padding: 22px 68px 29px 63px;
+    margin: 20px auto;
+    background: transparent url('../images/Menu/frame_horizontal.jpg') no-repeat 0 0;
+}
+
+#RadMenu_iPhone_wrapper
+{
+    position: relative;
+    background: #fff url('../images/Menu/TopGradient.gif') repeat-x 0 0;
+    height: 100%;
+    padding: 0;
+}
+
+
+
+* html #RadMenu_iPhone_wrapper
+{
+    overflow: hidden;
+}
+
+
+
+#RadMenu_iPhone_Content
+{
+    overflow: hidden;
+    position: absolute;
+    top: 44px;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+.backButton
+{
+    display: none; /* shown by js when in inner levels */
+    height: 30px;
+    padding-left: 16px;
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    z-index: 2;
+    cursor: pointer;
+    background: transparent url('../images/Menu/BackButton.gif') no-repeat 0 0;
+}
+
+
+
+.backButton span
+{
+    background: transparent url('../images/Menu/BackButton.gif') no-repeat 100% 0;
+    font: bold 12px/30px "Segoe UI" , "Myriad Pro" , Arial, sans-serif;
+    color: #fff;
+    display: block;
+    padding-right: 8px;
+}
+
+
+
+.RadMenu .rmTemplate div.rmText
+{
+    padding: 0;
+}
+
+
+
+.RadMenu .rmTemplate > .rmText > .rmLink > .rmText
+{
+    line-height: 32px;
+}
+
+
+
+.RadMenu .rmTemplate > .rmText > .rmLink > .rmText > b
+{
+    display: block;
+    font-size: 11px;
+    line-height: 11px;
+    margin-top: -7px;
+    margin-bottom: 7px;
+}
+
+
+
+#description
+{
+    width: 400px;
+    background: tan;
+    margin: 0 auto;
+    padding: 30px 30px 10px;
+}
+
+
+
+h1
+{
+    font: normal 18px/25px "Segoe UI" , "Myriad Pro" , Arial, sans-serif;
+}
+
+
+
+p
+{
+    font: normal 12px/14px Verdana, sans-serif;
+}
+
+
+
+code, pre
+{
+    font: normal 12px/14px Consolas, "Courier New" , monospace;
+    display: block;
+}
+
+
+
+code
+{
+    border: 1px solid #555;
+    background: #fff;
+}
+
+
+
+.orientationLabel, .verticalButton, .horizontalButton
+{
+    float: left;
+    width: 60px;
+    height: 29px;
+    line-height: 29px;
+}
+
+
+
+.verticalButton
+{
+    width: 107px;
+    margin-left: 60px;
+    background: url('../images/Menu/vertical.png');
+}
+
+
+
+.horizontalButton
+{
+    width: 107px;
+    margin-left: 60px;
+    background: url('../images/Menu/horizontal.png');
+}
+
+
+
+.RadMenu_iOS #mainForm .qsfHeader, .RadMenu_iOS #mainForm .qsfLeft, .RadMenu_iOS #mainForm .qsfTitle, .RadMenu_iOS #mainForm .qsfSubtitle, .RadMenu_iOS #mainForm .qsfCodeSwitcher, .RadMenu_iOS #codeContainer, .RadMenu_iOS #ConfigurationPanel1, .RadMenu_iOS #mainForm .head1, .RadMenu_iOS #mainForm .head2, .RadMenu_iOS #mainForm .titleRight, .RadMenu_iOS #mainForm .qsfFooter, .RadMenu_iOS #mainForm .codeNskin
+{
+    display: none;
+}
+
+
+
+.RadMenu_iOS #exampleContainer
+{
+    width: auto;
+    margin: 0;
+}
+
+
+
+.RadMenu_iOS html, .RadMenu_iOS body, .RadMenu_iOS form
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+
+
+.RadMenu_iOS #RadMenu_iPhone_wrapper
+{
+    position: fixed;
+    background: #fff url('../images/Menu/TopGradient.gif') repeat-x 0 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+
+
+.RadMenu_iOS #iPhoneFrame, .RadMenu_iOS .innerArea, .RadMenu_iOS .qsfTable
+{
+    margin: 0;
+    padding: 0;
+    background: none;
+    height: auto;
+}
+
+
+
+.RadMenu_iOS #RadMenu_iPhone_Content
+{
+    height: auto;
+}
+
+
+
+.RadMenu_iOS body.BODY
+{
+    background: #fff;
+}
+
+
+
+.RadMenu_iOS #mainForm .qsfWrap
+{
+    background: none;
+    min-width: 0;
+    min-height: 0;
+}
+
+
+
+.RadMenu_iOS .qsfGrid
+{
+    margin-top: 0;
+}
+
+
+div.RadMenu_iPhone
+{
+    height: auto !important;
+}
+
+div.RadMenu_iPhone, div.RadMenu_iPhone .rmSlide, div.RadMenu_iPhone .rmGroup
+{
+    float: none;
+}
+
+div.RadMenu_iPhone .rmRootGroup, div.RadMenu_iPhone .rmGroup, div.RadMenu_iPhone .rmSlide, div.RadMenu_iPhone .rmItem
+{
+    width: 100% !important;
+}
+
+div.RadMenu_iPhone .rmSlide
+{
+    top: 0;
+    overflow: visible;
+    background: #fff;
+}
+
+.RadMenu_iPhone .rmItem
+{
+    border-bottom: 1px solid #e1e1e1;
+}
+
+div.RadMenu_iPhone a.rmLink, div.RadMenu_iPhone a.rmTemplateLink
+{
+    cursor: pointer !important;
+    text-decoration: none;
+    color: #000;
+    font: bold 20px/43px "Segoe UI" , Arial, sans-serif;
+    text-indent: 10px;
+    outline: 0;
+    padding: 0;
+    width: 100% !important;
+}
+
+div.RadMenu_iPhone .rmGroup .rmText
+{
+    padding: 0;
+}
+
+.RadMenu_iPhone .rmTemplate a.rmTemplateLink
+{
+    display: block;
+    height: 55px;
+    overflow: hidden;
+    text-indent: 0;
+    line-height: 16px;
+}
+
+.RadMenu_iPhone a.rmLink .rmLeftImage, .RadMenu_iPhone a.rmTemplateLink img
+{
+    width: 55px;
+    height: 55px;
+    float: left;
+}
+
+.RadMenu_iPhone a.rmTemplateLink .rmTitle, .RadMenu_iPhone a.rmTemplateLink .rmInfo
+{
+    margin-left: 65px;
+    width: 240px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+}
+
+.RadMenu_iPhone a.rmTemplateLink .rmTitle
+{
+    font-size: 14px;
+    margin-top: 11px;
+}
+
+.RadMenu_iPhone a.rmTemplateLink .rmInfo
+{
+    font-size: 13px;
+    color: #7f7f7f;
+    font-weight: normal;
+}
+
+.RadMenu_iPhone a.rmTemplateLink:hover .rmInfo
+{
+    color: #fff;
+}
+
+html.RadMenu_Desktop a.rmLink:hover, div.RadMenu_iPhone .rmActive > a.rmLink, div.RadMenu_iPhone .rmActive > .rmText > a.rmLink, div.RadMenu_iPhone a.rmTemplateLink:hover
+{
+    background: transparent url('../Images/Menu/ItemSelectedBg.gif') repeat-x 0 0;
+    color: #fff;
+}
+
+html.RadMenu_Desktop a.rmTemplateLink:hover
+{
+    background-position: 0 -43px;
+}
+
+div.RadMenu_iPhone .rmExpandRight
+{
+    background: transparent url('../Images/Menu/SubMenuIndicator.gif') no-repeat 100% 0;
+}
+
+.RadMenu_iPhone a.rmTemplateLink .rmExpandRight
+{
+    background-position: 100% -43px;
+}
+
+.RadMenu_Desktop a.rmLink:hover .rmExpandRight, .RadMenu_iPhone .rmActive > a.rmLink .rmExpandRight, .RadMenu_iPhone .rmActive > .rmText > a.rmLink .rmExpandRight
+{
+    background-position: 100% -98px;
+}
+
+html.RadMenu_Desktop a.rmTemplateLink:hover .rmExpandRight
+{
+    background-position: 100% -141px;
+}
+
+* html .RadMenu_iPhone, * html .rmText
+{
+    zoom: 1;
+}

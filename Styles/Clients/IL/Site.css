@@ -1,0 +1,87 @@
+﻿/* Override default Site.css for specific client */
+
+body.default {
+    /*background: url('./images/tg_bg_white.png');*/
+    background: #C3D5CB;
+}
+
+.header_left {
+    background-image: url('./images/header/header_left.png');
+}
+
+.header_middle {
+    background-image: url('./images/header/header_middle.png');
+}
+
+.header_right {
+    background-image: url('./images/header/header_right.png');
+}
+
+.rdContent {
+    background-image: url('./images/tiles/tile_bg_new_1px.png') !important;
+}
+
+
+.rdTitleBarTwoRows {
+    background-image: url('./images/tiles/tile_header_glass.png') !important;
+}
+
+
+.expandCommand {
+    background-image: url('./images/icons/expand.gif') !important;
+}
+
+.editCommand
+{
+		cursor: pointer !important;
+		background-image: url('./Images/icons/edit.png') !important;
+}
+
+.tileTitleRow {
+    color: #ffffff !important;
+}
+
+/*Need to get image modified to have glass overlay*/
+.rdTitleBarTwoRowsLight {
+    background-image: url('./images/tiles/tile_header_glass_light.png') !important;
+    -khtml-opacity: .50;
+    -moz-opacity: .50;
+    -ms-filter: "alpha(opacity=50)";
+    filter: alpha(opacity=50);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+    opacity: .50;
+}
+
+.FolderIconImageButton {
+    color: #ffffff !important;
+}
+
+.rtsLast {
+    border-right: 1px solid #828282;
+}
+
+.radReportCriteriaContainer_1_1 .rdContent {
+    background-image: url('./Images/tiles/tile_large_1px.png') !important;
+}
+
+.radReportCriteriaContainer_1_1 .rdTitleBarTwoRows {
+    background-image: url('./Images/tiles/tile_header_large.png') !important;
+}
+
+#ctl00_MainContent_ctlDoublePanel_rotator1_container0_tileContainerDiv1_T .tileTitleRow {
+    color: #000000 !important;
+}
+
+#updPanel {
+    background: none;
+}
+
+.rdContent > div {
+    background-color: transparent !important;
+    padding: 0px 5px 0px -5px !important;
+}
+
+.RadTabStrip {
+    padding-left: 3px !important;
+}
+

@@ -1,0 +1,245 @@
+/* Docking Zone properties */
+
+.RadDockZone_Office2007
+{
+    border:1px solid #ccc;
+    background:transparent;
+}
+
+*>.RadDockZone_Office2007.rdVertical /* hidden from IE6 */
+{
+    padding-right:5px;
+}
+
+/* Dock Object properties */
+
+/* wrappers and borders */
+
+.RadDockZone_Office2007 .rdPlaceHolder
+{
+    border-color:#666;
+}
+
+.RadDock_Office2007
+{
+    background:#fff;
+    color:#000;
+    font-family:'ms sans serif',sans-serif;
+    /*text-align:left;*//*moved to the common css file*/
+}
+
+.RadDock_Office2007 .rdTopBorder,
+.RadDock_Office2007 .rdSideBorders,
+.RadDock_Office2007 .rdBottomBorder
+{
+    border-width:2px;
+    border-color:#8db2e3;
+}
+.RadDock_Office2007 .rdSideBorders
+{
+    border-style:none solid none;
+}
+.RadDock_Office2007 .rdTopBorder
+{
+    border-style:solid none none;
+}
+.RadDock_Office2007 .rdBottomBorder
+{
+    border-style:none none solid;
+}
+
+
+/* titlebar and buttons */
+
+.RadDock_Office2007 .rdTitlebar
+{
+    top:2px; /*brd*/
+    color:#154a93;
+}
+
+.RadDock_Office2007 .rdHTitlebar .rdTitlebar
+{
+    height:20px;
+    background:url(Dock/TitlebarHLeft.gif) no-repeat infobackground;
+    padding-left:3px;
+    border-bottom:1px solid #8db2e3;
+}
+.RadDock_Office2007_rtl .rdHTitlebar .rdTitlebar
+{
+    padding-left:0;
+    /*padding-right:3px;*//*We do not need this, as in rtl, the white corner of the titlebar on the right is missing. */
+}
+.RadDock_Office2007.rdCollapsed .rdHTitlebar .rdTitlebar
+{
+    padding-bottom:0px; /*brd - title brd*/
+}
+.RadDock_Office2007 .rdVTitlebar .rdTitlebar
+{
+    left:1px;
+    width:20px;
+    background:url(Dock/TitlebarV.gif) repeat-x;
+}
+
+.RadDock_Office2007 .rdTitlebar .rdTitle
+{
+    font:bold 11px/21px 'ms sans serif',sans-serif;
+}
+
+.RadDock_Office2007 .rdHTitlebar .rdTitle
+{
+    height:20px;
+    padding-left:5px;
+    margin-right:3px;
+    background:url(Dock/TitlebarH.gif) repeat-x;
+}
+.RadDock_Office2007_rtl .rdHTitlebar .rdTitle
+{
+    padding-left:0;
+    padding-right:5px;
+    margin-right:0;
+    margin-left:3px;
+}
+
+.RadDock_Office2007 .rdVTitlebar .rdTitle
+{
+    padding:5px 0 0 0;
+    background:url(Dock/TitlebarVTop.gif) no-repeat;
+    line-height:1.4em;
+}
+
+.RadDock_Office2007 .rdHTitlebar .rdCommands
+{
+    padding-right:2px;
+    height:20px;
+    background:url(Dock/TitlebarHRight.gif) 100% 0 no-repeat;
+}
+.RadDock_Office2007_rtl .rdHTitlebar .rdCommands
+{
+    padding-right:0;
+    padding-left:2px;
+    background:none;
+}
+
+.RadDock_Office2007 .rdHTitlebar .rdCommands a
+{
+    margin:0 3px 0 0;
+}
+.RadDock_Office2007 .rdVTitlebar .rdCommands a
+{
+    margin:0;
+}
+
+.RadDock_Office2007 .rdCommands a
+{
+    height:19px;
+    margin-top:3px;
+}
+.RadDock_Office2007 .rdCollapse
+{
+    width:12px;
+    background:url(Dock/Collapse.gif) repeat-x;
+}
+.RadDock_Office2007 .rdExpand
+{
+    width:12px;
+    background:url(Dock/Expand.gif) repeat-x;
+}
+.RadDock_Office2007 .rdClose
+{
+    width:12px;
+    background:url(Dock/Close.gif) repeat-x;
+}
+.RadDock_Office2007 .rdPin
+{
+    width:12px;
+    background:url(Dock/Pin.gif) repeat-x;
+}
+.RadDock_Office2007 .rdUnpin
+{
+    width:12px;
+    background:url(Dock/Unpin.gif) repeat-x;
+}
+
+.RadDock_Office2007 .rdCustom
+{
+    width:12px;
+    background:url(Dock/Custom.gif) no-repeat;
+}
+
+
+/* inner content */
+
+.RadDock_Office2007 .rdContent
+{
+    top:0px; /*brd*/
+    padding-bottom:1px; /*brd*/
+    font:11px/1.2 verdana,sans-serif;
+}
+
+.RadDock_Office2007 .rdVTitlebar .rdContent
+{
+    margin-left:20px;
+}
+
+
+/* drag grips */
+
+.RadDock_Office2007 .rdGripTop,
+.RadDock_Office2007 .rdGripLeft
+{
+    background:#666;
+}
+
+.RadDock_Office2007 .rdGripTop
+{
+    top:2px; /*brd*/
+    height:3px;
+}
+.RadDock_Office2007 .rdGripLeft
+{
+    left:2px; /*brd*/
+    width:3px;
+}
+
+.RadDock_Office2007 .rdWGripLeft .rdContent
+{
+    margin-left:3px;
+}
+
+.RadDock_Office2007 .rdTopLeft,
+.RadDock_Office2007 .rdTopRight,
+.RadDock_Office2007 .rdBottomLeft,
+.RadDock_Office2007 .rdBottomRight,
+.RadDock_Office2007 .rdLeftMiddle,
+.RadDock_Office2007 .rdRightMiddle
+{
+	height: 3px;
+	width: 3px;
+	line-height: 3px;
+	background: #8db2e3;
+}
+
+.RadDock_Office2007 .rdTopCenter, 
+.RadDock_Office2007 .rdBottomCenter 
+{
+	background: #8db2e3;
+	height: 3px;
+	line-height: 3px;
+}
+
+.RadDock_Office2007 .rdWrapTable .rdTitlebar,
+.RadDock_Office2007 .rdWrapTable .rdTitle,
+.RadDock_Office2007 .rdWrapTable .rdCommands
+{
+    background:url(Dock/TitlebarH.gif) repeat-x;
+}
+
+.RadDock_Office2007 .rdWrapTable .rdSideBorders.rdHTitlebar
+{
+    border: 0 !important;
+}
+
+body:nth-of-type(1) .RadDock_Office2007 .rdCommands a
+{
+   margin: 0 0 0 0 !important;
+}

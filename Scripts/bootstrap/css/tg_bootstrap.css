@@ -1,0 +1,54 @@
+.btn-eraser.active {
+	color: rgba(255, 255, 255, 0.75);
+}
+
+.btn-eraser.inactive {
+	color: #ccc;
+}
+
+.btn {
+	border-color: #c5c5c5;
+	border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+}
+
+.btn-eraser {
+	color: #ffffff;
+	-webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #FF0060;
+	background-image: -moz-linear-gradient(top, #FF60C0, #E000C0);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FF60C0), to(#E000C0));
+	background-image: -webkit-linear-gradient(top, #FF60C0, #E000C0);
+	background-image: -o-linear-gradient(top, #FF60C0, #E000C0);
+	background-image: linear-gradient(to bottom, #FF60C0, #E000C0);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffFF60C0', endColorstr='#ffE000C0', GradientType=0);
+	border-color: #E000C0 #E000C0 #a00080;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	*background-color: #E000C0;
+	/* Darken IE7 buttons by default so they stand out more given they won't have borders */
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+	.btn-eraser:hover,
+	.btn-eraser:active,
+	.btn-eraser.active,
+	.btn-eraser.disabled,
+	.btn-eraser[disabled] {
+		color: #ffffff;
+		background-color: #E000C0;
+	}
+
+	.btn-eraser:active,
+	.btn-eraser.active {
+		background-color: #E03399 \9;
+	}
+
+.btn-group.open .btn-eraser.dropdown-toggle {
+	background-color: #E000C0;
+}
+
+.btn-eraser .caret {
+	border-top-color: #ffffff;
+	border-bottom-color: #ffffff;
+}

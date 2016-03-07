@@ -1,0 +1,2397 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+body
+{
+		font-size: .80em;
+		font-family: "Helvetica" , "Segoe UI" , Arial, Verdana, sans-serif;
+		margin: 0px;
+		padding: 0px;
+		color: black;
+		width: 100%;
+		height: 100%;
+		background-color: #b4b4b4;
+}
+
+body.default
+{
+		background: url('../Images/new_tg_bg.png');
+		background-repeat: repeat;
+		background-color: #f8f8f8;
+}
+
+body.waterfall
+{
+		background: url('../Images/waterfalls_bg.jpg') no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+}
+
+body.e3Logo
+{
+		background: url('../Images/Elements-home-page-light.jpg') no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+}
+
+body.bluegreen
+{
+		background: url('../Images/bgs/bluegreen60.png') no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+}
+
+.upperRightCorner img {
+position: absolute;
+top: 0px;
+right: 0px;
+padding-top: 5px;
+padding-right: 5px;
+}
+
+#bgimg
+{
+		position: absolute;
+		z-index: -6;
+		overflow: hidden;
+}
+
+#bgimg2
+{
+		position: absolute;
+		z-index: -5;
+		overflow: hidden;
+}
+
+#mainBody
+{
+		float: left;
+		width: 100%;
+		overflow: hidden;
+		position: relative;
+}
+
+#mainBody ul
+{
+		clear: left;
+		float: left;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		left: 50%;
+		text-align: center;
+}
+
+#mainBody ul li
+{
+		display: block;
+		float: left;
+		list-style: none;
+		margin: 0;
+		padding: 10px;
+		position: relative;
+		right: 50%;
+}
+
+
+a:link, a:visited
+{
+		color: #034af3;
+		text-align: right;
+}
+
+a:hover
+{
+		color: #1d60ff;
+		text-decoration: none;
+}
+
+a:active
+{
+		color: #034af3;
+}
+
+p
+{
+		margin-bottom: 10px;
+		line-height: 1.6em;
+}
+
+.selectedCritieriaDisplayArea {
+    width: 170px;   
+}
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+		font-size: 1.5em;
+		color: #666666;
+		font-variant: small-caps;
+		text-transform: none;
+		font-weight: 200;
+		margin-bottom: 0px;
+}
+
+h1
+{
+		font-size: 1.6em;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+}
+
+h2
+{
+		font-size: 1.5em;
+		font-weight: 600;
+}
+
+h3
+{
+		font-size: 1.2em;
+}
+
+h4
+{
+		font-size: 1.1em;
+}
+
+h5, h6
+{
+		font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+		margin-top: 0px;
+}
+
+
+/* INPUT ELEMENTS   
+----------------------------------------------------------*/
+textarea.searchStyle
+{
+		color: #666;
+		font-size: 14px;
+		-moz-border-radius: 8px;
+		-webkit-bordert-radius: 8px;
+		border-radius: 8px;
+		padding: 5px;
+		height: 15px;
+		width: 200px;
+		border: #999 1px solid;
+		font-family: "Lucida Sans Unicode" , "Lucida Grande" , sans-serif;
+		transition: all 0.25s ease-in-out;
+		-webkit-transition: all 0.25s ease-in-out;
+		-moz-transition: all 0.25s ease-in-out;
+		box-shadow: 0 0 5px rgba(81, 203, 238, 0);
+		-webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 0);
+		-moz-box-shadow: 0 0 5px rgba(81, 203, 238, 0);
+		overflow: hidden;
+}
+
+
+input.searchStyle
+{
+		color: #666;
+		font-size: 12px;
+		-moz-border-radius: 18px;
+		-webkit-bordert-radius: 18px;
+		border-radius: 18px;
+		padding: 5px;
+		padding-left: 12px;
+		width: 170px;
+		border: #999 1px solid;
+		font-family: "Lucida Sans Unicode" , "Lucida Grande" , sans-serif;
+		transition: all 0.25s ease-in-out;
+		-webkit-transition: all 0.25s ease-in-out;
+		-moz-transition: all 0.25s ease-in-out;
+		box-shadow: 0 0 5px rgba(81, 203, 238, 0);
+		-webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 0);
+		-moz-box-shadow: 0 0 5px rgba(81, 203, 238, 0);
+		overflow: hidden;
+}
+
+#searchHolder
+{
+		position: relative;
+		height: 30px;
+		padding-left: 3px;
+		padding-top: 3px;
+}
+
+.textArea
+{
+		width: 220px;
+		float: left;
+}
+
+.buttonArea
+{
+		width: 30px;
+		float: right;
+}
+
+.searchTextDiv_smallTile
+{
+		width: 190px;
+		float: left;
+}
+
+.searchTileButtonDiv_smallTile
+{
+		width: 30px;
+		float: left;
+		padding-right: 5px;
+}
+
+.searchTileBtnDiv_smallTile_hourglassIcon
+{
+    background-image: url('../Images/mag_glass.png');
+		width: 16px;
+		height: 16px;
+}
+
+.advancedSearchDiv_smallTile
+{
+		float: left;
+		width: 20px;
+		font-size: 8pt;
+		font-weight: bold;
+}
+
+div.advancedSearchDiv_smallTile a
+{
+		text-decoration: none;
+}
+
+.buttonAreaFloatLeft
+{
+		float: left;
+}
+
+textarea.searchStyle:focus
+{
+		color: #000;
+		outline: none;
+		border: #35a5e5 1px solid;
+		font-family: "Lucida Sans Unicode" , "Lucida Grande" , sans-serif;
+		box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+		-webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+		-moz-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page
+{
+		width: 100%;
+}
+
+.header
+{
+		width: 100%;
+		float: left;
+		position: relative;
+		margin: 0px;
+		padding: 0px;
+		background-repeat: repeat;
+		height: 58px;
+		padding-top: 3px !important;
+}
+
+.headerOuterWrapper
+{
+		width: auto; /* z-index: 8005; */
+}
+
+.headerInnerWrapper
+{
+		width: 901px;
+}
+
+.header_left
+{
+		width: 10px;
+		height: 58px;
+		background-image: url('../images/header/header_left.png');
+		background-repeat: no-repeat;
+}
+
+.header_middle
+{
+		height: 58px;
+		background-image: url('../images/header/header_middle.png');
+		background-repeat: repeat-x;
+}
+
+.header_right
+{
+		width: 10px;
+		height: 58px;
+		background-image: url('../images/header/header_right.png');
+		background-repeat: no-repeat;
+}
+
+#headerTblLeft
+{
+		vertical-align: middle;
+		height: 55px;
+}
+
+#headerTblMiddle
+{
+		vertical-align: middle;
+		height: 55px;
+		padding-bottom: 2px;
+}
+
+#headerTblRight
+{
+		vertical-align: bottom;
+		height: 55px;
+}
+
+.headerFolders
+{
+		float: left;
+		min-width: 550px;
+		bottom: 3px;
+}
+
+.headerFoldersSmall
+{
+		float: right;
+}
+
+.headerImage
+{
+		width: 100px;
+		float: left;
+}
+
+.headerImageSmall
+{
+		display: none;
+}
+
+.headerPageTitle
+{
+		float: left;
+		text-align: left;
+		padding-top: 3px;
+}
+
+.headerNavigation
+{
+		float: right;
+		text-align: right;
+		height: 20px;
+		bottom: 3px;
+        white-space: nowrap;
+}
+
+.headerUserInfo
+{
+		float: right;
+}
+
+.pagingDiv
+{
+		height: 25px;
+		width: 1001px;
+		text-align: center;
+}
+
+.pagingDivExpandedWindow
+{
+		height: 20px;
+		width: 100%;
+		text-align: center;
+		background-color: Gray;
+}
+
+.pagingDivTall
+{
+		height: 25px;
+		width: 1001px;
+		text-align: center;
+}
+
+.pagingDivTallHidden
+{
+		visibility: hidden;
+}
+
+.tileWrapper
+{
+		height: 290px;
+		width: 1001px;
+		overflow: hidden;
+		margin-bottom: 10px;
+}
+
+.tileScroll
+{
+		width: 1018px;
+		overflow: auto;
+		position: relative;
+		text-align: left;
+}
+
+.tileDiv
+{
+		text-align: left;
+		height: 307px;
+}
+
+.searchWrapper
+{
+		height: 519px;
+		width: 100%;
+		overflow: hidden;
+}
+
+.searchScroll
+{
+		width: 100%;
+		overflow: auto;
+		position: relative;
+		text-align: left;
+}
+
+.searchDiv
+{
+		text-align: left;
+		height: 532px;
+}
+
+.tileCommands
+{
+		width: 100%;
+		height: 25px;
+		text-align: right;
+}
+
+.headerTable
+{
+		width: 100%;
+}
+
+.header h1
+{
+		font-weight: 700;
+		margin: 0px;
+		padding: 0px 0px 0px 20px;
+		color: #f9f9f9;
+		border: none;
+		line-height: 2em;
+		font-size: 2em;
+}
+
+.leftnav
+{
+		vertical-align: top;
+		background-image: url('../Images/bgs/white60.png');
+		background-repeat: repeat;
+		height: 100%;
+}
+
+.main
+{
+		float: left;
+		padding: 0;
+		margin: 0;
+		height: 100%;
+		width: 100%;
+}
+
+.mainContents
+{
+		width: 1001px;
+}
+
+.leftCol
+{
+		padding: 6px 0px;
+		margin: 12px 8px 8px 8px;
+		width: 200px;
+		min-height: 200px;
+}
+
+.footer
+{
+		color: #4e5766;
+		padding: 8px 0px 0px 0px;
+		margin: 0px auto;
+		text-align: center;
+		line-height: normal;
+}
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.hideSkiplink
+{
+		background-color: #3a4f63;
+		width: 100%;
+}
+
+div.menu
+{
+		padding: 4px 0px 4px 8px;
+}
+
+div.menu ul
+{
+		list-style: none;
+		margin: 0px;
+		padding: 0px;
+		width: auto;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+		background-color: #465c71;
+		border: 1px #4e667d solid;
+		color: #dde4ec;
+		display: block;
+		line-height: 1.35em;
+		padding: 4px 20px;
+		text-decoration: none;
+		white-space: nowrap;
+}
+
+div.menu ul li a:hover
+{
+		background-color: #bfcbd6;
+		color: #465c71;
+		text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+		background-color: #465c71;
+		color: #cfdbe6;
+		text-decoration: none;
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+		margin: 1em 0px;
+		padding: 1em;
+		border: 1px solid #ccc;
+}
+
+fieldset p
+{
+		margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+		display: block;
+}
+
+fieldset label.inline
+{
+		display: inline;
+}
+
+legend
+{
+		font-size: 1.1em;
+		font-weight: 600;
+		padding: 2px 4px 8px 4px;
+}
+
+input.textEntry
+{
+		width: 320px;
+		border: 1px solid #ccc;
+}
+
+input.passwordEntry
+{
+		width: 320px;
+		border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+		width: 42%;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+		clear: both;
+}
+
+.title
+{
+		font-size: 1.5em;
+		font-variant: small-caps;
+		text-transform: none;
+		font-weight: 200;
+		margin-bottom: 3px;
+		color: #000000;
+		display: block;
+		width: 1262px;
+}
+
+.loginDisplay
+{
+		font-size: 1.1em;
+		display: block;
+		text-align: right;
+		padding: 10px;
+		color: White;
+}
+
+.loginDisplay a:link
+{
+		color: white;
+}
+
+.loginDisplay a:visited
+{
+		color: white;
+}
+
+.loginDisplay a:hover
+{
+		color: white;
+}
+
+.failureNotification
+{
+		font-size: 1.2em;
+		color: Red;
+}
+
+.bold
+{
+		font-weight: bold;
+}
+
+.submitButton
+{
+		text-align: right;
+		padding-right: 10px;
+}
+
+.tileTitleContainer
+{
+		position: absolute;
+		width: 300px;
+}
+
+div.tileContainer
+{
+		width: 320px;
+		margin: 10px;
+		height: 270px;
+		-moz-border-radius: 7px;
+		border-radius: 7px;
+		background-image: url('../Images/transparent_bkgd.png');
+		background-repeat: repeat;
+		position: absolute;
+}
+
+.padBottom
+{
+		padding-bottom: 15px;
+}
+
+.tileBtnMaximize
+{
+		width: 300px;
+		height: 24px;
+		position: relative;
+		z-index: 8;
+}
+
+div.tileTitle
+{
+		width: 290px;
+		height: 24px;
+		background-image: url('../Images/buttons.png');
+		background-repeat: repeat-x;
+		color: White;
+		-moz-border-radius: 7px;
+		border-radius: 5px;
+		padding-left: 10px;
+		position: relative;
+}
+
+div.tileContent
+{
+		padding: 2px;
+		position: relative;
+}
+
+div.tileContainerSmall
+{
+		cursor: pointer;
+		width: 108px;
+		height: 121px;
+		margin: 5px;
+		background-image: url('../Images/new/tile_search_bg.png') !important;
+		background-repeat: no-repeat !important;
+}
+
+div.breadcrumbSmall
+{
+		cursor: pointer;
+		width: 25px;
+		height: 25px;
+		margin: 2px;
+		background-image: url('../Images/bgs/white60.png') !important;
+		background-repeat: repeat !important;
+}
+
+div.tileTitleSmall
+{
+		width: 140px;
+		height: 24px;
+		padding-left: 10px;
+}
+
+div.tileContentSmall
+{
+		padding: 2px;
+		font-size: 12px;
+}
+
+.identificationTile-DivAroundTable
+{
+		height: 235px;
+		overflow: auto;
+}
+
+.contentTile-PreviewLabel
+{
+		height: 20px;
+		text-align: left;
+}
+
+.contentTile-PreviewContent
+{
+		vertical-align: middle;
+		overflow: auto;
+}
+
+.pageTitle
+{
+		color: White;
+		font-size: 18pt;
+		font-weight: bold;
+		overflow: hidden; 
+		white-space:nowrap; 
+		text-overflow:ellipsis; 
+		display:block; 
+		width: 730px;
+}
+
+.headerFieldLabel
+{
+		font-size: 16px;
+		font-style: italic;
+}
+
+.headerFieldValue
+{
+		font-size: 16px;
+		font-weight: bold;
+		font-style: italic;
+}
+
+.banner
+{
+		background-image: url('../Images/elements_header_blue.png');
+		height: 58px;
+}
+
+.bannerleft
+{
+		background-position: top left;
+}
+
+.bannermiddle
+{
+		background-image: url('../Images/elements_header_blue_repeat.png');
+}
+
+.bannerright
+{
+		background-position: top right;
+}
+
+.navButton
+{
+		cursor: pointer;
+}
+
+
+.tilesPrevButton
+{
+		cursor: pointer;
+}
+
+.tilesNextButton
+{
+		cursor: pointer;
+}
+
+.shadow
+{
+		-moz-box-shadow: 5px 5px 8px #636c78;
+		-webkit-box-shadow: 5px 5px 8px #636c78;
+		box-shadow: 5px 5px 8px #636c78; /* For IE 8 */
+		-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#636c78')"; /* For IE 5.5 - 7 */
+		filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#636c78');
+}
+
+.rectangle
+{
+		background: #7f9db9;
+		height: 50px;
+		width: 210px;
+		position: absolute;
+		top: 110px;
+		float: left;
+		-moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+		-khtml-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+		-webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+		z-index: 100; /* the stack order: foreground */
+}
+
+.rectangle h2
+{
+		font-size: 30px;
+		color: #fff;
+		padding-top: 6px;
+		text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+		text-align: center;
+		text-wrap: normal;
+}
+
+.rectangle h3
+{
+		font-size: 18px;
+		color: #fff;
+		padding-top: 5px;
+		text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+		text-align: center;
+}
+
+.triangle-l
+{
+		border-color: transparent #7d90a3 transparent transparent;
+		border-style: solid;
+		border-width: 15px;
+		height: 0px;
+		width: 0px;
+		position: relative;
+		left: -30px;
+		top: 65px;
+		z-index: -1; /* displayed under bubble */
+}
+
+.triangle-r
+{
+		border-color: transparent transparent transparent #7d90a3;
+		border-style: solid;
+		border-width: 15px;
+		height: 0px;
+		width: 0px;
+		position: relative;
+		left: 195px;
+		top: 35px;
+		z-index: -1; /* displayed under bubble */
+}
+
+.myElementPanelItem
+{
+		font-weight: bold !important;
+		color: black !important;
+		background-color: White !important;
+		background-image: none !important;
+		border: 0px !important;
+		text-align: center !important;
+		font-size: 22px;
+}
+
+.myElementPanelItem_Selected
+{
+		font-weight: bold !important;
+		color: black !important;
+		background-color: #dfdfdf !important;
+		background-image: none !important;
+		border: 0px !important;
+		text-align: center !important;
+		font-size: 22px;
+}
+
+.tileFolderDiv
+{
+		float: left;
+		text-align: center;
+		font-size: 11pt;
+		cursor: pointer;
+		font-family: "Helvetica" , "Lucida Grande" , "Segoe UI" , Arial, Verdana, sans-serif;
+		position: relative;
+		z-index: 1;
+		padding-bottom: 2px;
+}
+
+.tileFolderDivSmall
+{
+		width: 35px;
+		float: left;
+		text-align: center;
+		font-size: 8pt;
+		cursor: pointer;
+		font-family: "Helvetica" , "Lucida Grande" , "Segoe UI" , Arial, Verdana, sans-serif;
+		position: relative;
+		z-index: 1;
+}
+
+
+.folderLabelSmall
+{
+		display: none;
+}
+
+
+.rrClipRegion
+{
+		border: 0px !important;
+}
+
+.RotatorPagePanel
+{
+		text-align: center;
+}
+
+
+div.folderIcon
+{
+		width: 57px;
+		height: 57px;
+		position: absolute;
+}
+
+.headerSpacer
+{
+		width: 100%;
+}
+
+#headerSpacerDiv
+{
+		height: 60px;
+}
+
+.headerSpacerSmall
+{
+		width: 100%;
+}
+.headerPageTitleSmall
+{
+		width: 200px;
+		float: left;
+		height: 25px;
+		overflow: hidden;
+}
+
+div.iconOverlay
+{
+		width: 57px;
+		height: 57px;
+		z-index: 5;
+		display: block;
+		background-image: url('../Images/icons/overlay.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		text-align: center;
+		font-size: 8pt;
+		cursor: pointer;
+		font-family: "Helvetica" , "Lucida Grande" , "Segoe UI" , Arial, Verdana, sans-serif;
+		position: absolute;
+}
+div.iconOverlay:hover
+{
+		background-image: none;
+}
+
+.iconON
+{
+		z-index: 6;
+}
+
+.mailSummary
+{
+		font-size: 8pt;
+		cursor: pointer;
+		font-family: "Helvetica" , "Lucida Grande" , "Segoe UI" , Arial, Verdana, sans-serif;
+}
+
+#messageContainer
+{
+		position: absolute;
+		width: 75px;
+		height: 72px;
+}
+
+#newMessages
+{
+		width: 75px;
+		height: 72px;
+		position: absolute;
+		z-index: 7;
+		background-image: url('../Images/bubble.png');
+		background-position: top right;
+		background-repeat: no-repeat;
+		text-align: right;
+		vertical-align: top;
+		cursor: pointer;
+		font-size: 14px;
+}
+
+#bubbleText
+{
+		float: right;
+		position: relative;
+		padding-top: 3px;
+		padding-right: 10px;
+}
+
+
+.onTop
+{
+		z-index: 1000 !important;
+}
+
+.largeLabel
+{
+		font-size: 24px;
+		font-weight: bold;
+}
+
+.rtsLink, .rtsOut
+{
+		padding-left: 1px !important;
+		padding-right: 1px !important;
+}
+
+.rdLeft, .rdRight, .rdCenter, .rdMiddle, .rdBottom
+{
+		background-image: none !important;
+		background-color: transparent !important;
+}
+
+.rdContent
+{
+		background-image: url('../Images/tiles/tile_bg_new.png') !important;
+		background-repeat: no-repeat !important;
+        overflow: hidden !important;
+}
+
+.rdTitleBar
+{
+		background-image: url('../Images/new/tile_header2.png') !important;
+		background-repeat: repeat !important;
+		text-align: center !important;
+		color: black !important;
+		font-size: 14px !important;
+		font-weight: bold !important;
+}
+
+.rdTitleBarTwoRows
+{
+		background-image: url('../Images/tiles/tile_header_glass.png') !important;
+		background-repeat: repeat !important;
+		text-align: center !important;
+		height: 50px;
+}
+
+.rdTitleBarTwoRowsLight
+{
+		background-image: url('../Images/tiles/tile_header_glass_light.png') !important;
+		background-repeat: repeat !important;
+		text-align: center !important;
+		height: 50px;
+}
+
+/* Specific styles for Report Container Docks */
+.radReportCriteriaContainer .rdTitleBarTwoRows
+{
+		background-image: url('../Images/new/criteria_header.png') !important;
+		background-repeat: repeat !important;
+		text-align: center !important;
+		height: 27px;
+}
+
+.radReportResultsContainer .rdTitleBarTwoRows
+{
+		background-image: url('../Images/new/results_header.png') !important;
+		background-repeat: repeat !important;
+		text-align: center !important;
+		height: 27px;
+}
+
+.radReportCriteriaContainer .rdContent
+{
+		background-image: url('../Images/new/texture500.gif') !important;
+		background-repeat: repeat !important;
+		-moz-border-radius-bottomright: 8px;
+		-moz-border-radius-bottomleft: 8px;
+		-webkit-border-bottom-right-radius: 8px;
+		-webkit-border-bottom-left-radius: 8px;
+		border-bottom-left-radius: 8px;
+		border-bottom-right-radius: 8px;
+}
+
+.radReportResultsContainer .rdContent
+{
+		background-image: url('../Images/new/texture500.gif') !important;
+		background-repeat: repeat !important;
+		-moz-border-radius-bottomright: 8px;
+		-moz-border-radius-bottomleft: 8px;
+		-webkit-border-bottom-right-radius: 8px;
+		-webkit-border-bottom-left-radius: 8px;
+		border-bottom-left-radius: 8px;
+		border-bottom-right-radius: 8px;
+}
+
+/* Specific styles for Report Container Docks */
+.radReportCriteriaContainer_1_1 .rdTitleBarTwoRows
+{
+		background-image: url('../Images/tiles/tile_header_large.png') !important;
+		background-repeat: repeat !important;
+		text-align: center !important;
+		height: 27px;
+}
+
+.radReportCriteriaContainer_1_1 .rdContent
+{
+		background-image: url('../Images/tiles/tile_large.png') !important;
+		background-repeat: repeat !important;
+		-moz-border-radius-bottomright: 8px;
+		-moz-border-radius-bottomleft: 8px;
+		-webkit-border-bottom-right-radius: 8px;
+		-webkit-border-bottom-left-radius: 8px;
+		border-bottom-left-radius: 8px;
+		border-bottom-right-radius: 8px;
+}
+
+/* END Report stuff*/
+
+
+
+.rdTitleBar em
+{
+		color: white !important;
+		font-size: 14px !important;
+		width: 100%;
+}
+
+.rdTitleBar1
+{
+		background: #3FF;
+		text-align: center !important;
+}
+
+.rdTitleBar2
+{
+		background: #FC0;
+		text-align: center !important;
+}
+
+.rdTitleBar3
+{
+		background: #6F9;
+		text-align: center !important;
+}
+
+.rdTitleBarTwoRows1
+{
+		background: #3FF;
+		text-align: center !important;
+		height: 50px;
+}
+
+.rdTitleBarTwoRows2
+{
+		background: #FC0;
+		text-align: center !important;
+		height: 50px;
+}
+
+.rdTitleBarTwoRows3
+{
+		background: #6F9;
+		text-align: center !important;
+		height: 50px;
+}
+
+.rdCommands
+{
+		position: relative;
+		top: 25px;
+}
+
+.tileTitleRow
+{
+		position: absolute;
+		z-index: 2;
+		width: 100%;
+		color: black !important;
+		font-size: 14px !important;
+		font-weight: bold !important;
+		padding-top: 3px;
+}
+
+.tileTitleRow div
+{
+    width: 95%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0 auto;
+}
+
+.selectableClassTile
+{
+		cursor: pointer;
+		color: blue;
+		text-decoration: underline;
+}
+
+.selectableClassTile:hover
+{
+		color: purple;
+}
+
+.FolderIconImageButton:hover
+{
+		background-image: url('../images/header/text_selection.png');
+		background-repeat: repeat-x;
+}
+
+.RadComboBox_Web20 .rcbHovered .rcbInputCell .rcbInput, .RadComboBox_Web20 .rcbFocused .rcbInputCell .rcbInput
+{
+		color: #fff !important;
+}
+
+a.rotatorPageButton
+{
+		display: inline-block;
+		width: 22px;
+		text-align: center;
+		text-decoration: none;
+		color: black;
+		padding-top: 2px;
+}
+
+a.rotatorPageButtonHighlight
+{
+		display: inline-block;
+		width: 22px;
+		text-align: center;
+		text-decoration: none !important;
+		color: black !important;
+		padding-top: 2px;
+		border: 1px solid black;
+		padding-bottom: 2px;
+}
+
+a.rotatorPageButton:hover
+{
+		color: #CC5500;
+}
+
+.fieldValueTable, .fieldValueTableSmall
+{
+		text-align: left;
+}
+
+.fieldValueTable td
+{
+		padding: 3px;
+}
+
+.fieldValueTableSmall
+{
+		font-size: 9pt;
+}
+
+.fieldValueTableSmall td
+{
+		padding: 2px;
+}
+
+.fieldLabel
+{
+		font-weight: bold;
+}
+
+.fieldAddModalTable td
+{
+		vertical-align: text-top;
+}
+
+.expandCommand
+{
+		cursor: pointer !important;
+		background-image: url('../Images/new/expand.png') !important;
+}
+
+.stateResultsCommand
+{
+		cursor: pointer !important;
+		background-image: url('../Images/new/results.png') !important;
+}
+
+.editCommand
+{
+		cursor: pointer !important;
+		background-image: url('../Images/new/edit.png') !important;
+}
+
+
+.performanceLevel
+{
+		cursor: pointer !important;
+		background-image: url('../Images/new/performanceLevel.png') !important;
+}
+
+.exportToExcelCommand
+{
+		cursor: pointer !important;
+		background-image: url('../Images/new/excel_button.png') !important; 
+        margin:-2px 0 0 -3px !important;            
+}
+
+.reportCommand
+{
+		cursor: pointer !important;
+		background-image: url('../Images/Report_Icon.png') !important; 
+        margin:-2px 0 0 -3px !important;            
+}
+
+.changeCommand
+{
+		cursor: pointer !important;
+		background-image: url('../Images/new/view_additional.png') !important;
+}
+
+.extraCommandContainer
+{
+		position: absolute;
+		bottom: 4px;
+		left: 0px;
+		min-width: 16px;
+		height: 18px;
+		z-index: 1;
+}
+
+.extraCommand
+{
+		width: 30px;
+		height: 18px;
+		margin-left: 4px;
+		margin-top: 1px;
+		cursor: pointer;
+}
+
+.rotator2InitTxt
+{
+		color: #000;
+		font-size: 14pt;
+		text-align: center;
+		width: 98%;
+		height: 295px;
+		background-color: #FFF;
+		opacity: .5;
+		filter: Alpha(opacity=50);
+		padding-top: 10%;
+		margin-top: 10px;
+}
+
+.carouselLabel
+{
+		color: black;
+		font-size: 12pt;
+		font-weight: bold;
+		position: absolute;
+		float: left;
+}
+
+.searchCarouselLabel
+{
+		color: #FFF;
+		font-size: 11pt;
+		font-weight: bold;
+}
+
+.folderHighlightOver
+{
+		position: absolute;
+		left: 7px;
+		top: -4px;
+}
+
+.folderOverlay
+{
+		position: absolute;
+		left: 10px;
+		top: 2px;
+}
+
+.folderHighlight_Over
+{
+		width: 80px;
+		float: left;
+		text-align: center;
+		font-size: 8pt;
+		cursor: pointer;
+		font-family: "Helvetica" , "Lucida Grande" , "Segoe UI" , Arial, Verdana, sans-serif;
+		position: relative;
+		z-index: 1;
+		background-image: url(../Images/icons/highlight_over.png);
+		background-repeat: no-repeat;
+		background-position: 45% -2px;
+}
+
+.lowerCarouselMsgIcon
+{
+		display: inline;
+		background-image: url('../Images/new/view_additional.png');
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-color: #69C;
+}
+
+/*USED FOR PROGRESS BARS*/
+dd
+{
+		/*position: relative; /* IE is dumb */
+		display: block;
+		float: left;
+		width: 75px;
+		height: 16px;
+		margin: 5px;
+		background-color: White;
+		border: 1px solid silver;
+}
+
+dd div.blue
+{
+		/*position: relative; */
+		background-color: Blue;
+		height: 16px;
+		text-align: right;
+		display: block;
+}
+
+dd div.green
+{
+		/*position: relative; */
+		background-color: Green;
+		height: 16px;
+		text-align: right;
+		display: block;
+}
+
+
+/*Three Item Divs: left, Center, Right */
+.threeItem_wrapper
+{
+		/*width  MUST be specified in px, % or em to center wrapper */
+		height: 30px;
+		margin: auto; /* centers div */
+		padding: 0; /* Optional */
+		text-align: left; /* IE fix */
+}
+
+.threeItem_left
+{
+		/*width NECESSARY*/ /* not necessary */
+		margin: 0; /* Optional */
+		padding: 0; /* Optional */
+		float: left;
+}
+.threeItem_center
+{
+		/*width NECESSARY*/
+		margin: 0; /* Optional */
+		padding: 0; /* Optional */
+		float: left;
+}
+.threeItem_right
+{
+		/*width NECESSARY*/
+		margin: 0; /* Optional */
+		padding: 0; /* Optional */
+		float: left;
+}
+
+.overflowHidden
+{
+		overflow: hidden;
+}
+
+.myLogin
+{
+		margin-left: auto;
+		margin-right: auto;
+}
+
+/*4 Button Box */
+.mainWrap
+{
+		margin: auto;
+		width: 300px;
+		height: 280px;
+}
+
+.btnWrap
+{
+		width: 220px;
+		margin: auto;
+		padding: 6px;
+		background-color: #000;
+		border-radius: 4px;
+}
+
+a.rbLinkButton.tasks, a.rbLinkButton.people
+{
+		position: relative;
+		padding: 0;
+		margin: 3px;
+		border: 0;
+		border: 6px solid;
+}
+
+a.rbLinkButton.tasks:hover, a.rbLinkButton.people:hover
+{
+		border-color: #fff;
+}
+
+a.rbLinkButton.tasks, a.rbLinkButton.people
+{
+		margin-bottom: 6px;
+}
+
+a.searchLink
+{
+		font-size: 11px;
+		color: Black;
+}
+
+a.previewLink
+{
+		color:black; 
+		text-decoration: none !important; 
+		font-weight:normal;
+}
+
+.btnText
+{
+		display: block;
+		height: 14px;
+		line-height: 14px;
+		position: absolute;
+		left: 5px;
+		bottom: 5px;
+		color: #fff;
+}
+
+a.rbLinkButton.tasks
+{
+		background-color: #8ebc00;
+		text-align: center;
+		vertical-align: middle;
+		border-color: #8ebc00;
+}
+
+a.rbLinkButton.tasks:hover
+{
+		background-color: #8ebc00;
+}
+
+a.rbLinkButton.tasks img, a.rbLinkButton.people img
+{
+		vertical-align: middle;
+		margin-top: -10px;
+}
+
+a.rbLinkButton.people
+{
+		background-color: #ff6900;
+		text-align: center;
+		vertical-align: middle;
+		border-color: #ff6900;
+}
+
+a.rbLinkButton.people:hover
+{
+		background-color: #ff6900;
+}
+
+
+
+* + html a.rbLinkButton.tasks img, * + html a.rbLinkButton.people img
+{
+		margin-top: -28px;
+}
+
+table.toolbarHeader
+{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		margin: 0px;
+		height: 20px;
+}
+
+table.toolbarHeader td
+{
+		background-color: #dadada;
+		height: 20px;
+}
+
+/* TBL Structure with Divs */
+
+.tblContainer
+{
+		display: table;
+		padding: 0;
+}
+
+.tblRow
+{
+		display: table-row;
+}
+
+.tblLeft, .tblRight, .tblMiddle
+{
+		display: table-cell;
+}
+
+.RadTabStrip li a
+{
+		margin-right: -2px;
+		margin-bottom: -2px;
+}
+
+span.pointer:hover
+{
+		cursor: pointer;
+		cursor: hand;
+}
+
+.searchTileBtnDiv_smallTile
+{
+		position: relative;
+		float: right;
+		cursor: pointer;
+		background-repeat: no-repeat;
+		background-position: left bottom;
+		text-align: right;
+		padding-left: 20px;
+		padding-right: 0px !important;
+		margin-right: 10px;
+		margin-top: 5px;
+}
+
+.searchTileBtnDiv_smallTile_icon
+{
+		left: 2px;
+		background-repeat: no-repeat;
+		position: absolute;
+		display: block;
+}
+
+.searchTileBtnDiv_smallTile_addIcon
+{
+		background-image: url('../Images/add.gif');
+		width: 16px;
+		height: 16px;
+}
+
+.searchTileBtnDiv_smallTile_enrollIcon
+{
+		background-image: url('../Images/clipboard_student.gif');
+		width: 16px;
+		height: 16px;
+}
+
+.searchTileBtnDiv_smallTile_SchedulerIcon
+{
+		background-image: url('../Images/calendar_small.gif');
+		width: 16px;
+		height: 16px;
+}
+
+
+.tabsAndButtonsWrapper_smallTile div
+{
+		display: inline;
+		/*padding-right: 10px;*/
+}
+
+.searchTileNoRecordMsg_smallTile
+{
+		font-weight: bold;
+		font-size: 10pt;
+}
+
+div.RadGrid .searchResults_smallTile a
+{
+		color: #00F;
+}
+
+.roundedCorner
+{
+		padding: 2px;
+		-moz-border-radius-bottomright: 5px;
+		-webkit-border-bottom-right-radius: 5px;
+		border-radius: 5px;
+}
+
+.bottomTextButton
+{
+		position: relative;
+		float: right;
+		top: 0px;
+		left: 0px;
+		height: 16px;
+		cursor: pointer;
+		background-repeat: no-repeat;
+		background-position: left center;
+		text-align: right;
+		padding-left: 20px;
+		padding-right: 10px;
+}
+
+#searchMoreLinkSpan_smallTile
+{
+		display: none;
+}
+
+.bottomTextButton
+{
+		position: relative;
+		float: right;
+		top: 0px;
+		left: 0px;
+		height: 16px;
+		cursor: pointer;
+		background-repeat: no-repeat;
+		background-position: left center;
+		text-align: right;
+		padding-left: 20px;
+		padding-right: 10px;
+}
+
+.roundedFilterButton
+{
+		position: relative;
+		float: left;
+		cursor: pointer;
+		text-align: center;
+		vertical-align: middle;
+		margin: 4px;
+		background-color: MidnightBlue;
+		color: White;
+		width: 69px;
+		height: 16px;
+		-moz-border-radius-bottomright: 8px;
+		-webkit-border-bottom-right-radius: 8px;
+		border-radius: 8px;
+}
+
+.summaryImgButton
+{
+		position: relative;
+		top: 3px;
+}
+
+.inlineImgButton
+{
+		position: relative;
+		top: 3px;
+}
+
+.smallTile_PhotoButton
+{
+		width: 50px;
+		position: relative;
+		float: left;
+		margin-right: 5px;
+}
+
+.smallTile_PhotoButton img
+{
+		width: 50px;
+		position: relative;
+		float: left;
+		margin-right: 5px;
+}
+
+.inlineImage
+{
+		display: inline;
+}
+
+.tileHelpButton
+{
+		display: inline;
+		cursor: pointer;
+		margin-top: 2px;
+		margin-left: 4px;
+}
+
+.toggleViewButtons
+{
+		display: inline;
+		cursor: pointer;
+		margin-top: 2px;
+		margin-left: 2px;
+}
+
+.toggleViewButtons_selected
+{
+		display: inline;
+		cursor: pointer;
+		background-color: #0F3789;
+		margin-top: 2px;
+		margin-left: 2px;
+}
+
+.gridToggleView_Graphical_InfoDiv
+{
+		vertical-align: top;
+		position: relative;
+		float: left;
+}
+
+.searchTileRotatorDiv
+{
+		width: 170px;
+		height: 20px;
+		background-color: #F0F0F0;
+		border: 1px solid black;
+		padding-top: 3px;
+		padding-right: 3px;
+}
+
+.criteriaHeaderDiv
+{
+		width: 175px;
+		height: 20px;
+		background-color: #f0f0f0;
+		border: 1px solid black;
+		padding-top: 3px;
+		padding-right: 3px;
+		-moz-border-radius: 1em 3em 1em 3em;
+		border-radius: 1em 3em 1em 3em;
+}
+
+.criteriaHeaderDiv .left
+{
+		float: left;
+		padding-left: 7px;
+		width: 140px;
+}
+
+.criteriaHeaderDiv .right
+{
+		float: right;
+		padding-right: 7px;
+		cursor: pointer;
+}
+
+.criteriaItemDiv
+{
+		width: 171px;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		padding-right: 3px;
+		padding-left: 10px;
+		overflow: hidden;
+}
+
+.criteriaUpdateMessageDiv
+{
+		font-size: 11px;
+		width: 171px;
+		padding-right: 3px;
+		padding-left: 10px;
+		overflow: hidden;
+}
+
+.criteriaItemBlankDiv
+{
+		width: 171px;
+		height: 20px;
+		padding-top: 3px;
+		padding-right: 3px;
+}
+
+.criteriaItemDiv .right
+{
+		float: left;
+		width: 150px;
+		text-align: left;
+}
+
+.criteriaItemDiv .left
+{
+		float: left;
+		width: 20px;
+		cursor: pointer;
+		cursor: hand;
+}
+
+a[class="FolderIconImageButton"][selected="selected"]
+{
+		background-image: url('../images/header/text_selection.png');
+		background-repeat: repeat-x;
+		color: black;
+		text-decoration: none !important;
+}
+
+.FolderIconImageButton
+{
+		color: black !important;
+		float: left;
+}
+
+#folderDividerDiv
+{
+		float: right;
+}
+
+.FolderIconImageButtonSmall
+{
+		width: 25px;
+}
+
+.tileContainerDiv_dimmed
+{
+		opacity: .4;
+}
+
+.tileContainerDiv_dimmed_IE8 * /* IE8 Fix for child elements not getting the opacity change */
+{
+		filter: alpha(opacity=40);
+}
+
+.tileContainerDiv_dimmed_IE8 .rdCommands li a span /* IE8 Fix for child elements not getting the opacity change */
+{
+		filter: alpha(opacity=100);
+}
+
+
+.constructionMargins
+{
+		margin-left: 40px;
+		margin-top: 80px;
+}
+
+.expandedConstructionMargins
+{
+		margin-left: 350px;
+		margin-top: 200px;
+}
+
+.searchTileRotatorDiv
+{
+		cursor: pointer;
+		cursor: hand;
+}
+
+.reportTable
+{
+		margin: 3px;
+		width: 98%;
+		border: 1px solid black;
+}
+
+.reportTable td
+{
+		font-weight: bold;
+		text-align: center;
+		padding: 3px;
+}
+
+.chartItemDiv
+{
+		width: 100px;
+		height: 50px;
+		border: 1px solid black;
+		padding: 3px;
+		text-align: center;
+		margin: 3px;
+}
+
+/* Start: BugID#:259, 262, 264, 17 Dec 2012: Yogesh Raj */
+
+.rtlAssessResults .rtlDataDiv /* Horizontal Scroll Issue */
+{
+		height: 465px !important; /*This should match whatever the tree list height is because of scrolling*/
+		width: auto;
+}
+
+.rtlHeader /* Table Heading Padding */
+{
+        padding: 0px !important;    
+}
+
+#MainWrapperDiv /* Auto Height Increse Issue */
+{
+    overflow: hidden !important;
+}
+
+.rwTable 
+{
+    overflow: hidden !important;    
+}
+
+/* End: BugID#:5259, 262, 264, 17 Dec 2012: Yogesh Raj */
+
+.rtlSummativeResults .rtlDataDiv
+{
+		height: 465px !important; /*This should match whatever the tree list height is because of scrolling*/
+}
+
+/* Table Styled Divs  */
+
+.div-table
+{
+		display: table;
+}
+
+.div-table-caption
+{
+		display: table-caption;
+}
+
+.div-table-row
+{
+		display: table-row;
+}
+
+.div-table-col
+{
+		display: table-cell;
+		padding: 3px;
+}
+
+.roundButtons
+{
+		color: #00F;
+		font-weight: bold;
+		font-size: 12pt;
+		padding: 2px;
+		display: inline;
+		position: relative;
+		border: solid 1px #000;
+		border-radius: 50px;
+		margin-left: 10px;
+		cursor: pointer;
+		background-color: #FFF;
+}
+
+/* Search Screen Styles BEGIN  */
+
+.searchAction 
+{
+		width: 60px;
+		height: 34px;
+}
+
+.searchActionDisabled 
+{
+		cursor: default !important;
+}
+
+.lockContent
+{
+		background-image: url('../Images/assessment/Lock.png');
+}
+
+.unlockContent
+{
+		background-image: url('../Images/assessment/Unlock.png');
+}
+
+.activateContent
+{
+		background-image: url('../Images/assessment/Activate.png');
+}
+
+.deactivateContent
+{
+		background-image: url('../Images/assessment/Deactivate.png');
+}
+
+/* Search Screen Styles END  */
+
+.listWrapper ul
+{
+		clear: left;
+		float: left;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		text-align: center;
+}
+
+.listWrapper ul li
+{
+		display: block;
+		float: left;
+		list-style: none;
+		margin: 0;
+		position: relative;
+}
+
+.criteria_Simple, .criteria_SelectedButUnapplied, .criteria_Applied, .criteria_AppliedButPendingRemove, .criteria_SimpleUnapplied  {
+		width: 171px;
+		overflow: hidden;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		padding-right: 3px;
+		padding-left: 10px;
+}
+
+.criteria_SelectedButUnapplied .criteriaText, .criteria_SimpleUnapplied .criteriaText 
+{
+		float: left;
+		margin-left: 2px;
+		font-style: italic;
+		color: #31460F;
+}
+
+.criteria_SelectedButUnapplied .imgBeforeCriteria {
+		background-image: url('../Images/close_x.gif');
+		width: 16px;
+		height: 16px;
+		float: left;
+		cursor: pointer;
+		border: 0px;
+}
+
+.criteria_Applied .criteriaText, .criteria_Simple .criteriaText  {
+		float: left;
+		margin-left: 2px;
+		
+}
+
+.criteria_Applied .imgBeforeCriteria {
+		background-image: url('../Images/close_x.gif');
+		width: 16px;
+		height: 16px;
+		float: left;
+		cursor: pointer;
+		border: 0px;
+}
+
+.criteria_AppliedButPendingRemove .criteriaText {
+		text-decoration: line-through;
+		float: left;
+		margin-left: 2px;
+}
+
+.criteria_AppliedButPendingRemove .imgBeforeCriteria {
+		background-image: url('../Images/commands/exclamation_red.png');
+		width: 16px;
+		height: 16px;
+		float: left;
+		cursor: pointer;
+		border: 0px;
+}
+
+.CritReadOnly .imgBeforeCriteria {
+    display: none;
+}
+
+.hideCritImgTrue {
+    display: none;
+}
+
+.HeightLimited .rlbGroup {
+    max-height: 240px;
+    overflow-y: auto;
+}
+
+.HeightLimited {
+    max-height: 290px;
+    overflow: hidden;
+}
+
+.Schedules {
+    text-align:left;
+    vertical-align:top;
+}
+
+/*
+    This section was added to handle styling for the Schedule 
+    Controls Schedules.ascx & Schedule_Edit.ascx
+-----------------------------------------------------------------*/
+.Schedules tr {
+    border-top:1px solid #cfd9e7;
+}
+
+.Schedules td {
+    border:none !important;
+    text-align:left;
+    vertical-align:top;
+    padding-left:0px !important;
+    padding-right:0px !important;
+}
+
+.Schedules.Admin {
+    background-color: #f3f7fc;
+}
+
+.Schedules.Content {
+    background-color: #fcf0e6;
+}
+
+.Schedules.Print {
+    background-color: #ffffe5;
+}
+
+input[type="submit"]:disabled
+{
+color: gray;
+opacity:.7;
+}
+* {
+outline:none;
+}
+/* Copied this from site.css in ContentEditSample for MathEquationEditor because the page has same name */
+*[contenteditable="true"] {
+	padding: 2px;
+}
+
+.title {
+	text-align: center;
+	font-family: 'Trebuchet MS';
+	font-size:18px;
+	font-weight:bold;
+}
+
+.thinkgateEditBox {
+	margin-bottom: 14px; /* was 14px*/
+	border: thin solid #c6c6c6;
+	position: relative;
+	top: 0px;
+	display: inline-block;
+	min-height: 26px;
+	padding: 2px 10px; /* was 2px 10px*/
+	background-color: white;
+}
+
+.thinkgateAnswer {
+	width: 90%;
+}
+
+.thinkgateQuestion {
+	width: 90%;
+    height: 77px;
+    left: 0px;
+}
+
+.answerBlock {
+	display: inline-block;
+	margin-left: 24px;
+	margin-right: 50px;
+	min-width: 680px;
+    height: 42px;
+}
+
+	.answerBlock label {
+		vertical-align: top;
+		font-weight: bold;
+		display: inline-block;
+	}
+
+	.answerBlock input {
+		vertical-align: top;
+		display: inline-block;
+		margin-left: 5px;
+		margin-right: 10px;
+	}
+
+.tgmathIframe {
+	position: relative;
+}
+
+	.tgmathIframe .ratio {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	.tgmathIframe iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+.tgEditable {
+	min-height: 20px; /* was 20px, changed to 77 back to 80 */
+	min-width: 200px;
+    height: 20px;
+    width: 200px;
+} 
+
+.cke_editable h1, h2, h3, h4, h5, h6
+{
+    color: inherit;
+	font-variant: normal;
+    font-weight: normal;
+    line-height: 1.2em;
+}
+
+.RadComboBox .rcbInputCell .rcbEmptyMessage {
+    font-style: normal;
+}
+
+.divadvisementchecklist
+{
+		position: relative;
+		float: left;
+		cursor: pointer;
+		background-repeat: no-repeat;
+		background-position: left bottom;
+		text-align: right;	
+        padding-left: 10px !important;	
+		padding-right: 0px !important;
+		margin-right: 10px;
+		margin-top: 5px;
+}

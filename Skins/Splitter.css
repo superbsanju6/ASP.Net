@@ -1,0 +1,109 @@
+
+/*****************************************************************************/
+/* these below are not skin/border size specific. Shared between all skins */
+/*****************************************************************************/
+.rspNested,
+.rspNestedHorizontal 
+{
+	border-width: 0px !important;
+}
+
+/************ nested vertical ****************/
+.rspNested .rspPane, 
+.rspNested .rspResizeBar,
+.rspNested .rspResizeBarOver,
+.rspNested .rspResizeBarInactive  
+{
+	border-top: 0px;
+	border-bottom: 0px;
+}
+
+.rspNested .rspPane.rspFirstItem,
+.rspNested .rspResizeBar.rspFirstItem,
+.rspNested .rspResizeBarOver.rspFirstItem,
+.rspNested .rspResizeBarInactive.rspFirstItem
+{
+	border-left: 0px;
+}
+
+.rspNested .rspPane.rspLastItem, 
+.rspNested .rspResizeBar.rspLastItem,
+.rspNested .rspResizeBarOver.rspLastItem,
+.rspNested .rspResizeBarInactive.rspLastItem
+{
+	border-right: 0px;
+}
+
+.rspNested .rspPane.rspFirstItem.rspLastItem, 
+.rspNested .rspResizeBar.rspFirstItem.rspLastItem,
+.rspNested .rspResizeBarOver.rspFirstItem.rspLastItem,
+.rspNested .rspResizeBarInactive.rspFirstItem.rspLastItem
+{
+	border-left: 0px;
+	border-right: 0px;
+}
+
+/************ nested horizontal ****************/
+
+.rspNestedHorizontal .rspPaneHorizontal, 
+.rspNestedHorizontal .rspResizeBarHorizontal,
+.rspNestedHorizontal .rspResizeBarOverHorizontal,
+.rspNestedHorizontal .rspResizeBarInactiveHorizontal
+{
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.rspNestedHorizontal .rspPaneHorizontal.rspFirstItem,
+.rspNestedHorizontal .rspResizeBarHorizontal.rspFirstItem,
+.rspNestedHorizontal .rspResizeBarOverHorizontal.rspFirstItem,
+.rspNestedHorizontal .rspResizeBarInactiveHorizontal.rspFirstItem
+{
+	border-top: 0px;
+}
+
+.rspNestedHorizontal .rspPaneHorizontal.rspLastItem, 
+.rspNestedHorizontal .rspResizeBarHorizontal.rspLastItem,
+.rspNestedHorizontal .rspResizeBarOverHorizontal.rspLastItem,
+.rspNestedHorizontal .rspResizeBarInactiveHorizontal.rspLastItem
+{
+	border-bottom: 0px;
+}
+
+.rspNestedHorizontal .rspPaneHorizontal.rspFirstItem.rspLastItem, 
+.rspNestedHorizontal .rspResizeBarHorizontal.rspFirstItem.rspLastItem,
+.rspNestedHorizontal .rspResizeBarOverHorizontal.rspFirstItem.rspLastItem,
+.rspNestedHorizontal .rspResizeBarInactiveHorizontal.rspFirstItem.rspLastItem
+{
+	border-top: 0px;
+	border-bottom: 0px;
+}
+
+/************ sliding pane icons ****************/
+
+.rspSlideHeaderIconWrapper div
+{
+	font-size: 1px;
+	line-height: 1px;
+}
+
+/************ VisibleDuringInit ****************/
+
+.rspHideRadSplitter
+{
+	position:absolute;
+	top:-9999px;
+	left:-9999px;
+}
+
+/************ SlidingPanes content elements overflow problem in Firefox ****************/
+
+.rspHideContentOverflow div
+{
+	overflow: hidden !important;
+}
+
+.rspHideContentOverflow iframe
+{
+	visibility: hidden !important;
+}

@@ -1,0 +1,495 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Search.Master.cs"
+    Inherits="Thinkgate.SearchMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server">
+        <StyleSheets>
+            <telerik:StyleSheetReference Path="~/Styles/reset.css" />
+            <telerik:StyleSheetReference Path="~/Styles/Site.css" />
+            <telerik:StyleSheetReference Path="~/Styles/SearchExpanded.css" />
+        </StyleSheets>
+    </telerik:RadStyleSheetManager>
+    <telerik:RadScriptBlock runat="server">
+        <script type="text/javascript" src="<asp:Literal runat='server' Text='<%$appSettings:MathJaxUrl%>' />/MathJax.js?config=TeX-AMS-MML_HTMLorMML,<asp:Literal runat='server' Text='<%$appSettings:MathJaxUrl%>' />/config/local/thinkgate-e3.js"></script>
+    </telerik:RadScriptBlock>
+    <link href="~/Styles/Thinkgate_Window/Window.Thinkgate_Window.css?v=4" rel="stylesheet" type="text/css" runat="server" />
+
+    <link href="~/Scripts/jquery-ui/css/overcast/jquery-ui-1.10.0.custom.min.css" rel="stylesheet" type="text/css" runat="server" />
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        html {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        #criteriaListPanes {
+            /*left: 23px;*/
+            height: 100%;
+            position: relative;
+        }
+
+        .ui-tabs .ui-tabs-panel {
+            padding-left: 0px !important;
+        }
+
+        .ui-dialog .ui-dialog-content {
+            min-height: 50px !important;
+        }
+
+        .ui-widget-content {
+            background: none !important;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server" style="height: 100%;">
+        <telerik:RadScriptManager ID="RadScriptManager2" runat="server">
+            <Scripts>
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
+                <asp:ScriptReference Path="~/Scripts/jquery-1.9.1.min.js" />
+                <asp:ScriptReference Path="~/Scripts/jquery-migrate-1.1.0.min.js" />
+                <asp:ScriptReference Path="~/Scripts/jquery-ui/js/jquery-ui-1.10.0.custom.min.js" />
+                <asp:ScriptReference Path="~/Scripts/jquery.scrollTo-min.js" />
+                <asp:ScriptReference Path="~/Scripts/jquery.cookie.js" />
+                <asp:ScriptReference Path="~/Scripts/json2.js" />
+                <asp:ScriptReference Path="~/Scripts/expandedSearchPage.js" />
+                <asp:ScriptReference Path="~/Scripts/master.js" />
+                <asp:ScriptReference Path="~/Scripts/jsrender.js" />
+                <asp:ScriptReference Path="~/Scripts/jquery.jfade.1.0.min.js" />
+                <asp:ScriptReference Path="~/Scripts/SearchPager.js" />
+                <asp:ScriptReference Path="~/Scripts/Criteria.js" />
+                <asp:ScriptReference Path="~/Scripts/jquery.inputmask.js" />
+                <asp:ScriptReference Path="~/Scripts/GoogleAnalytics.js" />
+            </Scripts>
+        </telerik:RadScriptManager>
+        <telerik:RadWindowManager ID="RadWindowManager1" runat="server" EnableShadow="true" ReloadOnShow="true"
+            Skin="Thinkgate_Window" EnableEmbeddedSkins="False" Modal="True" InitialBehaviors="Close"
+            Animation="None">
+        </telerik:RadWindowManager>
+        <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+        </telerik:RadAjaxManager>
+        <telerik:RadSkinManager ID="RadSkinManager1" runat="server" Skin="Transparent">
+        </telerik:RadSkinManager>
+        <asp:ContentPlaceHolder ID="ScriptPlaceHolder" runat="server">
+        </asp:ContentPlaceHolder>
+        <script type="text/javascript">
+            var SearchHasBeenRun=false;
+            function toggleSidebar() {
+                //$('#leftColumn').toggle('slide', { direction: 'left' }, 500);
+                var $leftColumn = $('#leftColumn');
+                var current_state = $leftColumn.attr('state');
+                if (!current_state) {
+                    current_state = 'opened';
+                    $leftColumn.attr('state', current_state);
+                    $leftColumn.attr('orig_width', $leftColumn.width());
+                }
+                if (current_state == 'opened') {
+                    $leftColumn.css('overflow', 'hidden');
+                    $leftColumn.css('overflow-y', 'hidden');
+                    $leftColumn.stop().animate({ width: 0 }, {
+                        duration: 500,
+                        complete: function () {
+                            $leftColumn.css('overflow', 'hidden');
+                            $leftColumn.css('overflow-y', 'hidden');
+                            $('#columnExpanderHandleImage').attr('src', '<%=ImageWebFolder%>arrow_gray_right.gif');
+					}, step: function (now, fx) {
+					    $('#rightColumn').css('margin-left', now+10);
+					}
+				});
+                current_state = 'closed';
+            } else {
+                $leftColumn.css('overflow-y', 'auto');
+                $leftColumn.stop().animate({ width: $leftColumn.attr('orig_width') }, {
+                    duration: 500,
+                    complete: function () {
+                        $leftColumn.css('overflow-y', 'auto');
+                        $('#columnExpanderHandleImage').attr('src', '<%=ImageWebFolder%>arrow_gray_left.gif');
+					    $leftColumn.css('overflow', 'visible');
+					}, step:function(now, fx) {
+					    $('#rightColumn').css('margin-left', now+10);
+					}
+				});
+                current_state = 'opened';
+            }
+
+		    /*
+			var leftColumnWidth = convertToInt($('#leftColumn').css('width'));
+			var rightColumnMarginLeft = convertToInt($('#rightColumn').css('margin-left'));
+			var columnExpanderWidth = convertToInt($('#columnExpander').css('width'));
+			var columnExpanderMarginLeft = convertToInt($('#columnExpander').css('margin-left'));
+
+			if (rightColumnMarginLeft == columnExpanderWidth) {
+				rightColumnMarginLeft = -rightColumnMarginLeft;
+			}
+
+			var newRightColumnMarginLeft = Math.abs(rightColumnMarginLeft - leftColumnWidth);
+			var newColumnExpanderMarginLeft = Math.abs(columnExpanderMarginLeft - leftColumnWidth);
+			*/
+		    /*$('#rightColumn').animate({ 'margin-left': newRightColumnMarginLeft }, 500);
+			$('#columnExpander').animate({ 'margin-left': newColumnExpanderMarginLeft }, 500, function () {
+				if (newColumnExpanderMarginLeft == 0) {
+					//closed
+					$('#columnExpanderHandleImage').attr('src', '< %=ImageWebFolder%>arrow_gray_right.gif');
+					if (typeof alterPageComponents == 'function' )
+						alterPageComponents('closed');
+				}
+				else {
+					//open
+					$('#columnExpanderHandleImage').attr('src', '< %=ImageWebFolder%>arrow_gray_left.gif');
+
+					if (typeof alterPageComponents == 'function')
+						alterPageComponents('open');
+				}
+			});*/
+            $leftColumn.attr('state', current_state);
+        }
+
+        function convertToInt(value) {
+            return value.replace( /[^-\d\.]/g , '');
+        }
+
+        </script>
+        <telerik:RadCodeBlock runat="server">
+            <script type="text/javascript">
+
+                var currentLoadingPanel = null;
+                var currentUpdatedControl = null;
+                function ShowSpinner(target) {
+                    currentLoadingPanel = $find("updPanelLoadingPanel");
+
+                    currentUpdatedControl = target ? target : "form2";
+                    //show the loading panel over the updated control 
+                    currentLoadingPanel.show(currentUpdatedControl);
+                }
+
+                function HideSpinner() {
+                    //hide the loading panel and clean up the global variables 
+                    if (currentLoadingPanel != null) {
+                        currentLoadingPanel.hide(currentUpdatedControl);
+                    }
+                    //currentUpdatedControl = null;
+                    //currentLoadingPanel = null;
+                }
+
+                function OnRequestStart(sender, eventArgs) {
+                    if (window.location.pathname.indexOf("UsageStatisticReport.aspx") >= 0) {
+                        var levelNode = CriteriaController.FindNode("LevelFilter");
+                        var startMonthYearNode = CriteriaController.FindNode("StartMonthYear");
+                        if (levelNode && levelNode.Values.length > 0) {
+                            if (levelNode.Values[0].Value.Text == "School" || levelNode.Values[0].Value.Text == "User") {
+                                var schoolNode = CriteriaController.FindNode("School");
+                                if (!schoolNode) {
+                                    eventArgs.set_cancel(true);
+                                    $("#TableView").hide();
+                                    $("#divDefaultMessage").show();                                 
+                                    alert('Please make sure all required criteria is selected before updating search.');
+                                }
+                                else if (schoolNode && schoolNode.Values.length == 0) {
+                                    eventArgs.set_cancel(true);
+                                    $("#TableView").hide();
+                                    $("#divDefaultMessage").show();                                
+                                    alert('Please make sure all required criteria is selected before updating search.');
+                                }
+                            }
+                        }
+
+                        if ((levelNode && levelNode.Values[0] == undefined) || startMonthYearNode && startMonthYearNode.Values[0] == undefined) {
+                            eventArgs.set_cancel(true);
+                            $("#TableView").hide();
+                            $("#exportGridImgBtn").hide();
+                            $("#spanResultDate").hide();
+                            $("#divDefaultMessage").show();                        
+                            alert('Please make sure all required criteria is selected before updating search.');
+                            return;
+                        }
+                    }
+
+                    if (window.location.pathname.indexOf("CredentialTrackingReportPage.aspx") >= 0) {
+                        var levelNode = CriteriaController.FindNode("ViewBy");
+                        // var startMonthYearNode = CriteriaController.FindNode("StartMonthYear");
+                        if (levelNode && levelNode.Values.length > 0) {
+                            if (levelNode.Values[0].Value.Text == "Teacher" || levelNode.Values[0].Value.Text == "Class" || levelNode.Values[0].Value.Text == "Student") {
+                                var schoolNode = CriteriaController.FindNode("School");
+
+                                if (!schoolNode) {
+                                    eventArgs.set_cancel(true);
+                                    $("#TableView").hide();
+                                    $("#divDefaultMessage").show();
+                                    alert('Please make sure all required criteria is selected before updating search.');
+                                }
+                                else if (schoolNode && schoolNode.Values.length == 0) {
+                                    eventArgs.set_cancel(true);
+                                    $("#TableView").hide();
+                                    $("#divDefaultMessage").show();
+                                    alert('Please make sure all required criteria is selected before updating search.');
+                                }
+                                else if (levelNode.Values[0].Value.Text == "Class" || levelNode.Values[0].Value.Text == "Student") {
+                                    var teacherNode = CriteriaController.FindNode("Teacher");
+                                    if (!teacherNode) {
+                                        eventArgs.set_cancel(true);
+                                        $("#TableView").hide();
+                                        $("#divDefaultMessage").show();
+                                        alert('Please make sure all required criteria is selected before updating search.');
+                                    }
+                                    else if (teacherNode && teacherNode.Values.length == 0) {
+                                        eventArgs.set_cancel(true);
+                                        $("#TableView").hide();
+                                        $("#divDefaultMessage").show();
+                                        alert('Please make sure all required criteria is selected before updating search.');
+                                    }
+                                }
+
+                            }
+
+                        }
+
+                    }
+                    if (window.location.pathname.indexOf("CompetencyTrackingReportPage.aspx") >= 0) {                     
+                        var levelNode = CriteriaController.FindNode("ViewBy");
+                        var selectedStandardList = CriteriaController.FindNode("StandardList");
+                        if (levelNode && levelNode.Values.length > 0) {
+                            if (levelNode.Values[0].Value.Text == "School" || levelNode.Values[0].Value.Text == "Teacher" || levelNode.Values[0].Value.Text == "Class" || levelNode.Values[0].Value.Text == "Student") {
+                                var schoolNode = CriteriaController.FindNode("School");
+                                if (!schoolNode || schoolNode.Values.length <= 0) {
+                                    eventArgs.set_cancel(true);
+                                    $("#TableView").hide();
+                                    $("#divDefaultMessage").show();
+                                    alert('Please make sure all required criteria is selected before updating search.');
+                                    return false;
+                                }
+                                if (levelNode.Values[0].Value.Text == "Teacher" || levelNode.Values[0].Value.Text == "Class" || levelNode.Values[0].Value.Text == "Student") {
+                                    var teacherNode = CriteriaController.FindNode("Teacher");
+                                    var teacherNameNode = CriteriaController.FindNode("TeacherName");
+                                    if ((!teacherNode || !teacherNameNode || teacherNode.Values.length <= 0 || teacherNameNode.Values.length <= 0) && selectedStandardList == 8) {
+                                        eventArgs.set_cancel(true);
+                                        $("#TableView").hide();
+                                        $("#divDefaultMessage").show();
+                                        alert('Please make sure all required criteria is selected before updating search.');
+                                        return false;
+                                    }
+                                }
+
+
+
+
+                            }
+
+                            if (levelNode.Values[0].Value.Text == "Group") {
+                                var groupNode = CriteriaController.FindNode("Group");
+                                if (!groupNode || groupNode.Values.length <= 0) {
+                                    eventArgs.set_cancel(true);
+                                    $("#TableView").hide();
+                                    $("#divDefaultMessage").show();
+                                    alert('Please make sure all required criteria is selected before updating search.');
+                                    return false;
+                                }
+                            }
+                            if (levelNode.Values[0].Value.Text == "Demographics") {
+                                var demoNode = CriteriaController.FindNode("Demographic");
+                                if (!demoNode || demoNode.Values.length <= 0) {
+                                    eventArgs.set_cancel(true);
+                                    $("#TableView").hide();
+                                    $("#divDefaultMessage").show();
+                                    alert('Please make sure all required criteria is selected before updating search.');
+                                    return false;
+                                }
+                            }
+                            if (levelNode.Values[0].Value.Text == "Student") {
+                                var studentNode = CriteriaController.FindNode("Student");
+                                if (!studentNode || studentNode.Values.length <= 0) {
+                                    eventArgs.set_cancel(true);
+                                    $("#TableView").hide();
+                                    $("#divDefaultMessage").show();
+                                    alert('Please make sure all required criteria is selected before updating search.');
+                                    return false;
+                                }
+                            }
+
+                            if (levelNode.Values[0].Value.Text == "Class") {
+                                var  classNode = CriteriaController.FindNode("Class");
+                                if (!classNode || classNode.Values.length <= 0) {
+                                    eventArgs.set_cancel(true);
+                                    $("#TableView").hide();
+                                    $("#divDefaultMessage").show();
+                                    alert('Please make sure all required criteria is selected before updating search.');
+                                    return false;
+                                }
+                            }
+
+
+                        }
+                        else
+                        {
+                            eventArgs.set_cancel(true);
+                            $("#TableView").hide();
+                            $("#divDefaultMessage").show();
+                            alert('Please make sure all required criteria is selected before updating search.');
+                            return false;
+                        }
+
+                        var levelNode = CriteriaController.FindNode("StandardList");
+                        if (levelNode && levelNode.Values.length > 0) {
+
+                            if (levelNode.Values[0].Value.Text == "Competency Worksheet") {
+                                var listSelectionNode = CriteriaController.FindNode("WorksheetSelection");
+                               //var listSelectionNode = CriteriaController.FindNode("ListSelection"); commented for TFS#27508 
+                                var teacherNode = CriteriaController.FindNode("Teacher");
+                                if (!listSelectionNode || !teacherNode || listSelectionNode.Values.length <= 0 || teacherNode.Values.length <= 0) {
+                                    eventArgs.set_cancel(true);
+                                    $("#TableView").hide();
+                                    $("#divDefaultMessage").show();
+                                    alert('Please make sure all required criteria is selected before updating search.');
+                                    return false;
+
+                                }
+                            }
+
+                                if (levelNode.Values[0].Value.Text == "Competency List") {
+                                    var competencyListNode = CriteriaController.FindNode("ListSelection");
+
+                                    if (!competencyListNode || competencyListNode.Values.length <= 0) {
+                                        eventArgs.set_cancel(true);
+                                        $("#TableView").hide();
+                                        $("#divDefaultMessage").show();
+                                        alert('Please make sure all required criteria is selected before updating search.');
+                                        return false;
+
+                                    }
+                                }
+                                if (levelNode.Values[0].Value.Text == "Standard Set") {
+                                    var standardSetNode = CriteriaController.FindNode("StandardSet");
+
+                                    if (!standardSetNode || standardSetNode.Values.length <= 0) {
+                                        eventArgs.set_cancel(true);
+                                        $("#TableView").hide();
+                                        $("#divDefaultMessage").show();
+                                        alert('Please make sure all required criteria is selected before updating search.');
+                                        return false;
+
+                                    }
+                                }
+
+
+                        }
+                        else
+                        {
+                            eventArgs.set_cancel(true);
+                            $("#TableView").hide();
+                            $("#divDefaultMessage").show();
+                            alert('Please make sure all required criteria is selected before updating search.');
+                            return false;
+                        }
+
+                            var endMonthYearNode = CriteriaController.FindNode("EndMonthYear");
+                            if (endMonthYearNode && endMonthYearNode.Values.length > 0) {
+                                var start = startMonthYearNode.Values[0].Value.Date;
+                                var end = endMonthYearNode.Values[0].Value.Date;
+                                if (end != "undefined" && end != "") {
+                                    var startSplit = start.split(" ");
+                                    var endSplit = end.split(" ");
+                                    if ((startSplit[1] == endSplit[1])) {
+                                        if (getMonth(startSplit[0]) > getMonth(endSplit[0])) {
+                                            alert('End Date cannot be less than Start Date');
+                                            return false;
+                                        }
+                                    }
+                                    if ((startSplit[1] > endSplit[1])) {
+                                        alert('End Date cannot be less than Start Date');
+                                        return false;
+                                    }
+                                    else {
+
+                                    }
+                                }
+                                return true;
+                            }
+
+
+                        }
+                    }
+                
+
+                        function getMonth(val) {
+                            var result = 0;
+                            switch (val) {
+                                case "Jan": result = 1; break;
+                                case "Feb": result = 2; break;
+                                case "Mar": result = 3; break;
+                                case "Apr": result = 4; break;
+                                case "May": result = 5; break;
+                                case "Jun": result = 6; break;
+                                case "Jul": result = 7; break;
+                                case "Aug": result = 8; break;
+                                case "Sep": result = 9; break;
+                                case "Oct": result = 10; break;
+                                case "Nov": result = 11; break;
+                                case "Dec": result = 12; break;
+                            }
+                            return result;
+                        }
+
+
+                        function OnResponseEnd(sender, eventArgs) {
+                            if (window.location.pathname.indexOf("StandardsSearch_ExpandedV2.aspx") >= 0) {
+                                if (expandedStandardsSearchAjaxResponseHandler) {
+                                    expandedStandardsSearchAjaxResponseHandler(sender, eventArgs);
+                                }
+                            }
+                            if (window.location.pathname.indexOf("CompetencyTrackingReportPage.aspx") >= 0) {
+                                if (CompetencyexpandedStandardsSearchAjaxResponseHandler) {
+                                    CompetencyexpandedStandardsSearchAjaxResponseHandler(sender, eventArgs);
+                                }
+                            }
+                        }
+            </script>
+        </telerik:RadCodeBlock>
+        <telerik:RadAjaxLoadingPanel ID="updPanelLoadingPanel" Style="position: absolute;" Width="100%" Height="100%" IsSticky="true" runat="server" ClientIDMode="Static" />
+        <div id="MainWrapperDiv" runat="server" style="width: 100%; height: 100%!important;">
+            <div style="height: 100%;">
+                <div id="wrapperColumnRight" style="float: right; width: 100%; margin-left: -210px; height: 100%">
+                    <div id="rightColumn" style="margin-left: 210px; height: 100%;">
+                        <asp:ContentPlaceHolder ID="RightColumnHeaderContentPlaceHolder" runat="server">
+                        </asp:ContentPlaceHolder>
+                        <telerik:RadAjaxPanel ID="AjaxPanelResults" runat="server" ClientEvents-OnRequestStart="OnRequestStart" ClientEvents-OnResponseEnd="OnResponseEnd" LoadingPanelID="updPanelLoadingPanel" OnAjaxRequest="AjaxPanelResults_AjaxRequest" ClientIDMode="Static" Height="100%">
+                            <asp:ContentPlaceHolder ID="RightColumnContentPlaceHolder" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </telerik:RadAjaxPanel>
+                        <asp:ContentPlaceHolder ID="RightColumnReportViewerContentPlaceHolder" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+                <div id="leftColumn" style="width: 200px; float: left; height: 100%; background-color: #848484; overflow-x: hidden; overflow-y: auto; position: static;">
+                    <asp:ContentPlaceHolder ID="LeftColumnHeaderContentPlaceHolder" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <asp:ContentPlaceHolder ID="LeftColumnContentPlaceHolder" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div id="columnExpander" style="width: 10px; float: left; height: 100%; background-color: #CCCCCC;">
+                    <div id="columnExpanderHandle" onclick="toggleSidebar()" style="cursor: pointer; height: 100px; background-color: #0F3789; position: relative; top: 42%;">
+                        <asp:Image runat="server" ID="columnExpanderHandleImage" Style="position: relative; left: 1px; top: 40px; width: 8px" ImageUrl="~/Images/arrow_gray_left.gif" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <telerik:RadWindowManager ID="RadWindowManager" runat="server" EnableShadow="true" Skin="Telerik">
+        </telerik:RadWindowManager>
+
+        <input clientidmode="Static" type="hidden" runat="server" id="ReturnToPostBackPage" />
+        <input clientidmode="Static" type="hidden" runat="server" id="tileScrollDiv1_currentPage"
+            value="1" />
+        <input clientidmode="Static" type="hidden" runat="server" id="tileScrollDiv2_currentPage"
+            value="1" />
+        <input clientidmode="Static" type="hidden" runat="server" id="tileScrollDiv1_postBackPage" />
+        <input clientidmode="Static" type="hidden" runat="server" id="tileScrollDiv2_postBackPage" />
+        <asp:ContentPlaceHolder ID="EndOfFormContentPlaceHolder" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

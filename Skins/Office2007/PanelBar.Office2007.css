@@ -1,0 +1,98 @@
+/* RadPanelBar Office 2007 skin */
+
+.RadPanelBar_Office2007
+{
+	background: #fff;
+}
+
+.RadPanelBar_Office2007 .rpRootGroup
+{
+	border: 1px solid #6593cf;
+	border-top: 0;
+}
+
+.RadPanelBar_Office2007 .rpLink,
+.RadPanelBar_Office2007 .rpTemplate
+{
+	font: bold 11px/31px Arial, Verdana, sans-serif;
+	color: #204d89;
+}
+
+.RadPanelBar_Office2007 .rpLink
+{
+	border-top: 1px solid #6593cf;
+	background: #c0dbff url('PanelBar/RootItemBkg.gif') repeat-x;
+}
+
+.RadPanelBar_Office2007 .rpImage
+{
+	margin: 5px 2px;
+}
+
+.RadPanelBar_Office2007 .rpText
+{
+	padding: 0 20px;
+}
+
+.RadPanelBar_Office2007 .rpLink:hover,
+.RadPanelBar_Office2007 .rpExpanded,
+.RadPanelBar_Office2007 .rpSelected
+{
+	background: #fee17a url('PanelBar/RootItemBkgActive.gif') repeat-x;
+	color: #000;
+}
+
+.RadPanelBar_Office2007 .rpGroup .rpLink,
+.RadPanelBar_Office2007 .rpGroup .rpTemplate
+{
+	font-weight: normal;
+	line-height: 21px;
+}
+
+.RadPanelBar_Office2007 .rpGroup a.rpExpanded,
+.RadPanelBar_Office2007 .rpGroup a.rpExpandable
+{
+	border-bottom: 1px solid #D5E3FF;
+}
+
+.RadPanelBar_Office2007 .rpGroup .rpLink
+{
+	background: none;
+	border: 0;
+}
+
+.RadPanelBar_Office2007 .rpGroup .rpText,
+.RadPanelBar_Office2007 .rpGroup .rpTemplate
+{
+	background: transparent;
+	padding: 0 20px;
+	border: 0;
+}
+
+.RadPanelBar_Office2007 .rpLevel2 .rpText { padding: 0 30px; }
+.RadPanelBar_Office2007 .rpLevel3 .rpText { padding: 0 40px; }
+.RadPanelBar_Office2007 .rpLevel4 .rpText { padding: 0 50px; }
+
+.RadPanelBar_Office2007 .rpGroup .rpLink:hover,
+.RadPanelBar_Office2007 .rpGroup .rpSelected
+{
+	background: none;
+	text-decoration: underline;
+}
+
+.RadPanelBar_Office2007 .rpDisabled,
+.RadPanelBar_Office2007 .rpDisabled:hover
+{
+	background: #c0dbff url('PanelBar/RootItemBkg.gif') repeat-x;
+	color: #888;
+	cursor: default;
+}
+
+.RadPanelBar_Office2007 .rpGroup .rpDisabled,
+.RadPanelBar_Office2007 .rpGroup .rpDisabled:hover
+{
+	text-decoration: none;
+	background: none;
+	color: #ccc;
+	cursor: default;
+}

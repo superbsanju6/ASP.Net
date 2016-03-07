@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Thinkgate.Services.ClassWCF" CodeBehind="ClassWCF.svc.cs" %>

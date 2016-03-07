@@ -1,0 +1,481 @@
+.RadFileExplorer
+{
+	border: 1px solid #999999;
+}
+
+/*========================== Address box ===================================*/
+*+html .rfeAddressBox,
+* html .rfeAddressBox
+{
+	margin-top: -4px;
+}
+
+.rfeAddressBox
+{
+	border: solid 1px #999999;
+	margin:0px;
+	padding:0px;
+	font-size: 9pt;
+	_margin-top:-4px;
+}
+
+/*========================== Upload panel styles ===========================*/
+.rfeUploadContainer
+{
+	margin: 5px 0 0 5px;
+}
+
+.rfeUploadInfoPanel
+{
+	border: solid 1px #d7d7d7;
+	background: #f5f5f5;
+	padding: 16px;
+	margin: 5px 5px 5px 0;
+}
+
+.rfeUploadInfoPanel dt
+{
+	font-weight: bold;
+	float: left;
+	padding-right: 4px;
+}
+
+.ruActions
+{
+    padding: 5px 0;
+}
+
+.rfeUploadButtonContainer
+{
+    margin-top: 5px 0 0 0;
+}
+
+.rfeUploadButtonContainer input
+{
+    width: 75px;
+}
+
+/*================================ CSS for the AJAX Loading Panels ========================*/
+
+/* file extension sprites (manager dialogs)===================================================================================================== */
+/* RadGrid Active and Selected Rows Hack */
+/*
+.SelectedRow_Vista td,
+.ActiveRow_Vista td,
+.GridRowOver_Vista td td
+{
+	padding: 0;
+}*/
+
+/* RadGrid Active and Selected Rows Hack */
+.rfeFileExtension
+{
+	height: 18px;
+	line-height: 18px;
+	background: transparent url('Common/FileExtensionSprites.png') no-repeat left -681px;
+	padding: 0 0 0 24px !important;
+}
+
+/* IE6 does not support the alpha channel of png files, so we force it to use gif */
+* html .rfeFileExtension
+{
+    background-image: url('Common/FileExtensionSpritesIE6.gif') !important;
+}
+
+.folder
+{
+	background-position: left -1224px !important;
+}
+
+/*========================================= Toolbar related CSS ========================*/
+.RadFileExplorer .RadToolBar,
+.RadFileExplorer .RadToolBar .rtbOuter,
+.RadFileExplorer .RadToolBar .rtbMiddle,
+.RadFileExplorer .RadToolBar .rtbInner
+{
+    /*
+    margin: 0;
+    padding: 0;*/
+    display: block;
+    float: none;
+}
+
+/*.RadFileExplorer .RadToolBar .rtbOuter
+{
+    border: 0 !important;
+}*/
+
+.RadFileExplorer .RadToolBar .rtbInner
+{
+    /*background-position: 0 100%;
+    padding-bottom: 2px;
+    padding-left: 10px;*/
+}
+
+.RadFileExplorer .RadToolBar .rtbText
+{
+	padding: 0 2px 0 22px; /* assuming that the space is 3px wide *gasp* */
+	line-height: 17px; /* icon height */
+	display: block;
+	background-image: url('Common/FileExplorerToolbarSprites.png');
+	background-repeat: no-repeat;
+}
+
+/* IE6 does not support the alpha channel of png files, so we force it to use gif */
+* html .RadFileExplorer .RadToolBar .rtbText
+{
+	background-image: url('Common/FileExplorerToolbarSpritesIE6.gif') !important;
+}
+
+.RadFileExplorer .RadToolBar .rtbUL
+{
+	display: block;
+}
+
+.RadFileExplorer .RadToolBar_Vista .rtbItem,
+.RadFileExplorer .RadToolBar_Vista .rtbWrap,
+.RadFileExplorer .RadToolBar_Vista .rtbOut,
+.RadFileExplorer .RadToolBar_Vista .rtbMid
+{
+	display: block;
+	float: left;
+	clear: none;
+}
+
+.RadFileExplorer .RadToolBar .rtbIconOnly .rtbText
+{
+	padding: 0 0 0 16px; /* assuming that the space is 3px wide *gasp* */
+	font-size: 17px; /* icon height */
+}
+
+.RadFileExplorer .RadToolBar .icnRefresh .rtbText { background-position: 0 0; }
+.RadFileExplorer .RadToolBar .icnNewFolder .rtbText { background-position: 0 -17px; }
+.RadFileExplorer .RadToolBar .icnDelete .rtbText { background-position: 0 -34px; }
+.RadFileExplorer .RadToolBar .icnUpload .rtbText { background-position: 0 -51px; }
+.RadFileExplorer .RadToolBar .icnBack .rtbText { background-position: 0 -313px;  }
+.RadFileExplorer .RadToolBar .icnForward .rtbText { background-position: 0 -333px; }
+.RadFileExplorer .RadToolBar .icnOpen .rtbText { background-position: 0 -351px; }
+
+.RadFileExplorer .RadToolBar .NoIcon .rtbText
+{
+	padding-left: 0 !important;
+	background: none !important;
+	zoom: 1;
+}
+
+.RadFileExplorer .RadToolBar .NoIcon.rtbChecked
+{
+	color: White;
+}
+
+/*There are different colors of the grid master table and the grid itself?!?! Cool */
+.RadFileExplorer .RadGrid
+{
+	background-color:Transparent !important;
+	border-width: 0px !important;
+	cursor : default !important;
+	outline : none;
+}
+
+.RadFileExplorer .RadGrid div
+{
+	-moz-user-select:none;
+	-khtml-user-select:none;
+}
+
+/* Eliminate the useless border between cells */
+.RadFileExplorer .RadGrid td
+{
+	border:0px solid red !important;
+	overflow:hidden;
+}
+
+.RadFileExplorer .RadGrid td.rfeFileExtension
+{
+	width:auto;
+	height:auto;
+}
+
+.RadFileExplorer .RadGrid .rgNoRecords div
+{
+	padding:4px;
+}
+
+/*========================================= TreeView related CSS ========================*/
+.RadFileExplorer .RadTreeView
+{
+	margin-top:2px !important;
+}
+
+.RadFileExplorer .RadTreeView .rtIn
+{
+	 margin-left: 0 !important;
+}
+
+/* Hacks to display the loading image correctly on all browsers*/
+.RadFileExplorer .rtTemplate {
+	display: inline-block;
+}
+
+*+html .RadFileExplorer .rtLoadingBefore {
+	float:left;
+}
+
+
+.RadFileExplorer .RadTreeView .rfeFolderImage
+{
+	background: transparent url('Common/FileExtensionSprites.png') no-repeat;
+	background-position: -6px -1224px;
+	width: 18px;
+	height: 18px;
+	display:inline-block;
+	vertical-align: middle;
+	margin-right: 2px;
+}
+
+/* IE6 does not support the alpha channel of png files, so we force it to use gif */
+* html .RadFileExplorer .RadTreeView .rfeFolderImage
+{
+	background-image: url('Common/FileExtensionSpritesIE6.gif') !important;
+}
+
+/*========================================= Splitter related CSS ========================*/
+
+.RadFileExplorer .RadSplitter .rspResizeBar,
+.RadFileExplorer .RadSplitter .rspResizeBarOver
+{
+	border-top:0px solid red;
+	border-bottom:0px solid red;
+}
+
+
+/*========================================= Context Menu related CSS - TODO: RadContextMenu does not allow for CSS items - this must be fixed in the menu in the future ========================*/
+
+
+
+
+/*==============================================================================================*/
+
+.RadFileExplorer .folderup
+{
+	background-position: left -1256px !important;
+}
+
+.RadFileExplorer .gif
+{
+	background-position: left -39px !important;
+}
+
+.RadFileExplorer .html,
+.RadFileExplorer .htm,
+.RadFileExplorer .xhtml,
+.RadFileExplorer .hta
+{
+	background-position: left -71px !important;
+}
+
+.RadFileExplorer .exe,
+.RadFileExplorer .bat
+{
+	background-position: left -967px !important;
+}
+
+.RadFileExplorer .rar,
+.RadFileExplorer .zip,
+.RadFileExplorer .ace
+{
+	background-position: left -102px !important;
+}
+
+.RadFileExplorer .psd,
+.RadFileExplorer .pdd
+{
+	background-position: left -135px !important;
+}
+
+.RadFileExplorer .js
+{
+	background-position: left -167px !important;
+}
+
+.RadFileExplorer .vbs
+{
+	background-position: left -999px !important;
+}
+
+.RadFileExplorer .css
+{
+	background-position: left -200px !important;
+}
+
+.RadFileExplorer .txt
+{
+	background-position: left -232px !important;
+}
+
+.RadFileExplorer .asp
+{
+	background-position: left -264px !important;
+}
+
+.RadFileExplorer .aspx
+{
+	background-position: left -296px !important;
+}
+
+.RadFileExplorer .sln
+{
+	background-position: left -327px !important;
+}
+
+.RadFileExplorer .config
+{
+	background-position: left -360px !important;
+}
+
+.RadFileExplorer .cs
+{
+	background-position: left -392px !important;
+}
+
+.RadFileExplorer .vb
+{
+	background-position: left -424px !important;
+}
+
+.RadFileExplorer .doc,
+.RadFileExplorer .docx,
+.RadFileExplorer .rtf,
+.RadFileExplorer .dot
+{
+	background-position: left -456px !important;
+}
+
+.RadFileExplorer .ppt
+{
+	background-position: left -488px !important;
+}
+
+.RadFileExplorer .xls
+{
+	background-position: left -519px !important;
+}
+
+.RadFileExplorer .ascx
+{
+	background-position: left -550px !important;
+}
+
+.RadFileExplorer .jpg,
+.RadFileExplorer .jpeg,
+.RadFileExplorer .jpe
+{
+	background-position: left -584px !important;
+}
+
+.RadFileExplorer .png
+{
+	background-position: left -615px !important;
+}
+
+.RadFileExplorer .mdb
+{
+	background-position: left -648px !important;
+}
+
+.RadFileExplorer .csproj
+{
+	background-position: left -711px !important;
+}
+
+.RadFileExplorer .webinfo
+{
+	background-position: left -744px !important;
+}
+
+.RadFileExplorer .vbproj
+{
+	background-position: left -775px !important;
+}
+
+.RadFileExplorer .pdf
+{
+	background-position: left -808px !important;
+}
+
+.RadFileExplorer .bmp
+{
+	background-position: left -840px !important;
+}
+
+.RadFileExplorer .swf
+{
+	background-position: left -872px !important;
+}
+
+.RadFileExplorer .tif,
+.RadFileExplorer .tiff
+{
+	background-position: left -904px !important;
+}
+
+.RadFileExplorer .mpg,
+.RadFileExplorer .mpeg,
+.RadFileExplorer .avi,
+.RadFileExplorer .gp3,
+.RadFileExplorer .mov,
+.RadFileExplorer .mpeg4,
+.RadFileExplorer .aif,
+.RadFileExplorer .aiff,
+.RadFileExplorer .rm,
+.RadFileExplorer .wmv
+{
+	background-position: left -936px !important;
+}
+
+.RadFileExplorer .mp3,
+.RadFileExplorer .mp4,
+.RadFileExplorer .mid,
+.RadFileExplorer .midi,
+.RadFileExplorer .wav,
+.RadFileExplorer .gp3,
+.RadFileExplorer .gp4,
+.RadFileExplorer .gp5,
+.RadFileExplorer .wma,
+.RadFileExplorer .ogg
+{
+	background-position: left -1031px !important;
+}
+
+.RadFileExplorer .fla,
+.RadFileExplorer .flv
+{
+	background-position: left -1063px !important;
+}
+
+.RadFileExplorer .dll
+{
+	background-position: left -1095px !important;
+}
+
+.RadFileExplorer .xml
+{
+	background-position: left -1127px !important;
+}
+
+.RadFileExplorer .xslt
+{
+	background-position: left -1159px !important;
+}
+
+.RadFileExplorer .xsl
+{
+	background-position: left -1191px !important;
+}
+
+.RadFileExplorer .bac
+{
+	background-position: left -681px;
+}
+/* === END OF FILE EXPLORER ICONS ===*/
+/* end of file extension sprites (manager dialogs) */

@@ -1,0 +1,174 @@
+
+div.RadMenu_Office2007 ul.rmRootGroup
+{
+	padding: 2px 7px;
+	background: #bcdefa;
+}
+
+div.RadMenu_Office2007_rtl ul.rmRootGroup
+{
+	padding: 0;
+}
+
+.RadMenu_Office2007 .rmLink,
+.RadMenu_Office2007 .rmTemplate
+{
+	text-decoration: none;
+	color: #251c1d;
+	
+	font: 11px Verdana, sans-serif;
+	font: 12px "Segoe UI", "Myriad Pro", Calibri;
+	
+	padding: 4px 6px;
+}
+
+.RadMenu_Office2007 .rmLink:hover,
+.RadMenu_Office2007 .rmExpanded,
+.RadMenu_Office2007 .rmFocused
+{
+	padding: 3px 5px;
+	border: 1px solid #6593cf;
+	background: #99bff0 url('Menu/rmRootItemHover.gif') repeat-x 0 0;
+	cursor: pointer;
+}
+
+.RadMenu_Office2007 .rmDisabled,
+.RadMenu_Office2007 .rmDisabled:hover
+{
+	color: #888;
+	padding: 4px 6px;
+	border: 0;
+	background: none;
+	cursor: default;
+}
+
+.RadMenu_Office2007 .rmLeftImage+.rmText
+{
+	padding-left: 18px;
+}
+
+.RadMenu_Office2007_rtl .rmLeftImage
+{
+	padding-right: 2px;
+}
+
+/* submenu styling */
+
+.RadMenu_Office2007 .rmGroup
+{
+	border: 1px solid #898fa5;
+	background: #f6f6f6 url('Menu/rmSubMenuBg.gif') repeat-y 0 0;
+}
+
+.RadMenu_Office2007 .rmRootGroup
+{
+	background: #bcdefa;
+	border: 1px solid #898fa5;
+}
+
+.RadMenu_Office2007_rtl .rmGroup
+{
+	background-position: 100% 0;
+}
+
+.RadMenu_Office2007 .rmGroup .rmLink
+{
+	padding: 6px 1px;
+	margin: 1px;
+}
+
+.RadMenu_Office2007 .rmGroup .rmText
+{
+	padding: 0 30px;
+}
+
+.RadMenu_Office2007 .rmGroup .rmLink:hover,
+.RadMenu_Office2007 .rmGroup .rmExpanded,
+.RadMenu_Office2007 .rmGroup .rmFocused
+{
+	padding: 5px 0;
+	border: 1px solid #ffbd69;
+	background: #ffe7a2;
+	cursor: pointer;
+}
+
+.RadMenu_Office2007 .rmGroup .rmDisabled,
+.RadMenu_Office2007 .rmGroup .rmDisabled:hover
+{
+	color: #888;
+	padding: 6px 1px;
+	border: 0;
+	background: none;
+	cursor: default;
+}
+
+.RadMenu_Office2007 .rmGroup .rmExpandRight
+{
+	background: transparent url('Menu/rmExpandArrowRight.gif') no-repeat 100% 50%;
+}
+
+.RadMenu_Office2007 .rmGroup .rmExpandLeft
+{
+	background: transparent url('Menu/rmExpandArrowLeft.gif') no-repeat 0 50%;
+}
+
+.RadMenu_Office2007 .rmGroup .rmLeftImage
+{
+	margin-left: 2px;
+}
+
+/* double margin bugfix */
+* html .RadMenu_Office2007 .rmGroup .rmLeftImage { margin-left: 1px; }
+
+.RadMenu_Office2007 .rmExpanded
+{
+	z-index: 2000;
+	position: relative;
+}
+
+.RadMenu_Office2007 .rmSeparator
+{
+	margin: 0 0 0 2px;
+}
+
+.RadMenu_Office2007 .rmGroup .rmSeparator .rmText
+{
+	background: #9ac6ff;
+	padding-top: 1px;
+	margin-left: 28px;
+}
+
+/* scrolling arrows */
+
+.RadMenu_Office2007 .rmTopArrow,
+.RadMenu_Office2007 .rmBottomArrow
+{
+	background: #fff url('Menu/rmScrollingArrows.gif') no-repeat;
+	border: 0 solid #898fa5;
+	height: 10px;
+	width: 100%;
+	outline: 0;
+}
+
+.RadMenu_Office2007 .rmLeftArrow,
+.RadMenu_Office2007 .rmRightArrow
+{
+	background: #fff url('Menu/rmScrollingArrows.gif') no-repeat;
+	border: 0 solid #898fa5;
+	width: 10px;
+	height: 100%;
+	outline: 0;
+}
+
+.RadMenu_Office2007 .rmHorizontal .rmSlide { margin: -1px 0 0 0; }
+.RadMenu_Office2007 .rmVertical .rmSlide { margin: 0 0 0 -1px; }
+
+.RadMenu_Office2007 .rmTopArrow { background-position: 50% 0; border-bottom-width: 1px; }
+.RadMenu_Office2007 .rmBottomArrow { background-position: 50% 100%; border-top-width: 1px; }
+.RadMenu_Office2007 .rmLeftArrow { background-position: 0 47%; border-right-width: 1px; }
+.RadMenu_Office2007 .rmRightArrow { background-position: 100% 47%; border-left-width: 1px; }
+
+.RadMenu_Office2007_Context
+{
+	background: none;
+}

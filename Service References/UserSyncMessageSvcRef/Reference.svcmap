@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c7b62098-bc32-4e2b-8d17-32f32ca5317f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies>
+      <ReferencedAssembly AssemblyName="Thinkgate.Base" />
+      <ReferencedAssembly AssemblyName="Thinkgate.BaseTypes" />
+      <ReferencedAssembly AssemblyName="Thinkgate.Data" />
+      <ReferencedAssembly AssemblyName="Thinkgate.Domain" />
+      <ReferencedAssembly AssemblyName="Thinkgate.Services.Contracts" />
+    </ReferencedAssemblies>
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/Thinkgate.Services.UserSyncMessageService/MessageService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MessageService.disco" MetadataType="Disco" ID="ab3b7e20-19f4-4146-9aef-8d90fcf5e179" SourceId="1" SourceUrl="http://localhost/Thinkgate.Services.UserSyncMessageService/MessageService.svc?disco" />
+    <MetadataFile FileName="MessageService.xsd" MetadataType="Schema" ID="372859ed-34bf-4193-863b-ee154b6d91f8" SourceId="1" SourceUrl="http://localhost/Thinkgate.Services.UserSyncMessageService/MessageService.svc?xsd=xsd2" />
+    <MetadataFile FileName="MessageService1.xsd" MetadataType="Schema" ID="4d6b78b0-c39c-409d-aa9e-b1b1f86c14b5" SourceId="1" SourceUrl="http://localhost/Thinkgate.Services.UserSyncMessageService/MessageService.svc?xsd=xsd1" />
+    <MetadataFile FileName="MessageService.wsdl" MetadataType="Wsdl" ID="ff037ba7-18dd-46bf-82f0-4203dc4259f1" SourceId="1" SourceUrl="http://localhost/Thinkgate.Services.UserSyncMessageService/MessageService.svc?wsdl" />
+    <MetadataFile FileName="MessageService2.xsd" MetadataType="Schema" ID="4971ca50-a0a9-4939-b415-1c78fc03b7d2" SourceId="1" SourceUrl="http://localhost/Thinkgate.Services.UserSyncMessageService/MessageService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

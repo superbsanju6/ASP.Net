@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="lgisaacs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Thinkgate Policies</title>
+  <body>
+    <header>
+      <para styleclass="Heading1" style="text-align:right;"><image src="thinkgate.jpg" align="right" scale="43.00%" width="192" height="43" styleclass="Image Caption"></image></para>
+      <para styleclass="Heading1"><text styleclass="Heading1" style="font-size:18pt; color:#ffffff;" translate="true">Thinkgate Policies</text></para>
+    </header>
+    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:47px; tabstops:none;"></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-right:0px; margin-left:18px; tabstops:none;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Heading1" style="font-size:12pt; color:#000000;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Heading1" style="font-size:12pt; color:#000000;"><caption translate="true"><![CDATA[Password Reset]]></caption></toggle></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-right:0px; margin-left:18px; tabstops:none;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para style="margin-left:47px;"><text style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">In the case of needing a password reset (i.e, becoming locked out of the system, forgotten password) you will need to contact the</text><text style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true"> primary point of contact</text><text style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> within your district in order to get the password reset. &#160;</text><text style="font-family:Calibri; font-size:12pt; font-weight:bold; font-style:italic; color:#000080;" translate="true">Thinkgate support cannot reset individual user’s password due to security reasons.</text><text style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> &#160;</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading1" style="text-indent:0px; margin-right:0px; margin-left:0px; tabstops:none;"></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Heading1" style="font-size:12pt; color:#000000;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Heading1" style="font-size:12pt; color:#000000;"><caption translate="true"><![CDATA[Unproofing Tests]]></caption></toggle></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para style="margin-left:48px;"><text style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">Once a test has been proofed it </text><text style="font-family:Calibri; font-size:12pt; font-weight:bold; text-decoration:underline; color:#000080;" translate="true">cannot</text><text style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> be unproofed. &#160;</text><text style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">All changes must be made to a test before it is proofed</text><text style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">. &#160;The only way to make changes to the proofed test is to </text><text style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">copy</text><text style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> the test and make changes to the </text><text style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">copy of the test</text><text style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> then proof the copied test.</text></para>
+          <para style="margin-left:48px;"></para>
+          <para style="margin-left:48px;"><text style="font-family:Calibri; font-size:12pt; font-weight:bold; font-style:italic; color:#000080;" translate="true">Warning</text><text style="font-family:Calibri; font-size:12pt; font-style:italic; color:#000080;" translate="true">: Once a test had been copied it receives a new test ID, therefore bubble sheets printed for the original test will not work for the copied test. &#160;New bubble sheets will need to be printed for the copied test.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading1"></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Heading1" style="font-size:12pt; color:#000000;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Heading1" style="font-size:12pt; color:#000000;"><caption translate="true"><![CDATA[Who can contact Thinkgate support?]]></caption></toggle></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:47px; tabstops:none;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">The predetermined </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">primary points of contact</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:normal; color:#000080;" translate="true"> within your district are the only users that can contact Thinkgate Support. &#160;</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:normal; font-style:italic; color:#000080;" translate="true">Please contact your district&apos;s Elements™ administrator in regards to who can contact Thinkgate support within your district.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading1"></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Heading1" style="font-size:12pt; color:#000000;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Heading1" style="font-size:12pt; color:#000000;"><caption translate="true"><![CDATA[If I have an enhancement idea or find a bug in the system, whom do I tell? ]]></caption></toggle></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:47px; tabstops:none;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">If you have a good idea for an enhancement to the system or have details on any bug that you find you will need to contact </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:normal; color:#000080;" translate="true">one of the</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">primary points of contact</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> within your district. &#160;The </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">primary point of contact</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:normal; color:#000080;" translate="true"> c</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">an then directly contact Thinkgate support with the reported bug or enhancement request. &#160;Thinkgate support will then submit the enhancement request or reported bug to the Thinkgate developers for review and prioritization.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading1"></para>
+    <para styleclass="Normal" style="text-align:left; margin-top:0px; margin-bottom:0px; line-height:2.0;"><link displaytype="image" src="New_Back_Arrow_icon.gif" type="topiclink" href="Curriculum_Plans"></link><text styleclass="Normal" style="font-size:14pt;" translate="true"> &#160;</text><link displaytype="button" type="topiclink" href="FAQ_Menu" translate="true">FAQ Menu</link></para>
+  </body>
+</topic>

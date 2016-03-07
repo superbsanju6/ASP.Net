@@ -1,0 +1,894 @@
+.reToolbar.Office2007 li .reTool_text span
+{
+	background-image: url('../CommandSpritesDark.png');
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 22px;
+	line-height: 22px;
+}
+
+.reToolbar.Office2007 li .reTool_text
+{
+	height: 22px;
+	margin: 0 0 0 0;
+	color: white;
+	font: normal 11px Arial, Verdana, Sans-serif;
+}
+
+.reToolbar.Office2007 li .reTool_text:hover,
+.reToolbar.Office2007 li .reTool_text.reTool_selected
+{
+	margin: 2px 0 0 0;
+	background-color: #d3eb99;
+    background-image: none;
+}
+
+.reToolbar.Office2007 li .reTool_text:hover,
+.reToolbar.Office2007 li .reTool_text.reTool_selected
+{
+	_border: 0 !important;
+}
+
+.reToolbar.Office2007 li .reTool_text .reButton_text
+{
+	padding-right: 4px;
+	color: black;
+}
+
+.Office2007.reToolbarWrapper
+{
+	background: transparent;
+}
+
+.Office2007.reToolZone .reToolbarWrapper
+{
+	background:transparent;
+	float:none;
+	clear:both;
+}
+
+.RadEditor.Office2007.reWrapper
+{
+	font: normal 11px Arial, Verdana, Sans-serif;
+	border: 1px solid #3b5a82;
+	background: #dbe8f8 !important;
+}
+
+.reTlbVertical
+{
+	width: 2px;
+	font-size:1px;
+}
+
+.RadEditor.Office2007.reWrapper table td.reContentCell
+{
+	border: solid 1px #000;
+	background: white;
+}
+
+.Office2007.reAlignmentSelector
+{
+	border: solid 1px #777;
+	background: white;	
+}
+
+.Office2007.reAlignmentSelector div
+{
+	width: 18px;
+	height: 18px;
+	margin: 1px auto;
+	background-image: url('CommandSpritesLight.png');
+	background-repeat: no-repeat;
+}
+
+.Office2007.reSpinBox li
+{
+	float: none; clear: both;
+	line-height: 11px;
+	margin: 0 0 1px 1px;
+}
+
+.Office2007.reSpinBox input
+{	
+	border: solid 1px #818181;
+	height: 19px; 
+	line-height: 19px;
+	background: white;
+}
+
+.Office2007.reSpinBox label
+{
+	width: 100px;
+	line-height: 24px;
+}
+
+.Office2007.reSpinBox a
+{
+	border: solid 1px #818181;
+	text-align: center;
+	font: bold 10px Arial, Verdana, Sans-serif;
+	color: #818181;
+	background-color: #fff;
+}
+
+.Office2007.reSpinBox a:hover
+{
+	background-color: #fff;
+	border: solid 1px #333;
+	color: #333;
+}
+
+.Office2007.reSpinBox a span
+{
+	width: 9px; height: 9px; line-height: 9px;
+}
+
+.RadEditor.Office2007.reWrapper
+{
+	height:480px;
+	width:640px;
+}
+
+.RadEditor.Office2007 .reWrapper_corner
+{
+    width: 1px; 
+    height: 1px; 
+    line-height: 1px; 
+    font-size:1px; 
+    background: transparent;
+}
+
+.RadEditor.Office2007 .reWrapper_center
+{		
+	height: 4px; 
+	line-height: 4px; 
+	font-size:1px;
+}
+
+.reCenter_top,
+.reLeftVerticalSide,
+.reRightVerticalSide,
+.reToolZone,
+.reCenter_bottom
+{
+	background-color: white !important;
+}
+
+.reModule
+{
+	color: #333;
+	font: normal 11px Tahoma, sans-serif;
+	line-height:normal;
+	padding: 1px 5px;
+	border: solid 1px #9cbed9;
+	background: #c1d9f1;
+	margin: 1px;
+}
+
+.reModule_visible_icon,
+.reModule_hidden_icon
+{
+	width: 16px;
+	height: 16px;
+	background: transparent url('../CommandSpritesDark.png') no-repeat;
+	margin: -2px 4px 0;
+}
+
+.reModule_visible_icon
+{
+	background-position: -2368px -2px;
+}
+
+.reModule_hidden_icon
+{
+	background-position: -2368px -24px;
+}
+
+a.reModule_domlink
+{
+	color:#333;
+	font: normal 11px Tahoma;
+	padding: 3px 6px 1px;
+	text-decoration: underline;
+}	
+
+a.reModule_domlink_selected
+{
+	color:#333;
+	font: normal 11px Tahoma;
+	text-decoration: none;
+	background-color:#eee;
+	border:1px solid #898989;
+	padding:0 5px;
+}
+
+.RadEditor.Office2007 .reResizeCell div
+{
+    width:20px;
+    height:25px;
+    float:right;
+    background:url('Editor/CornersSprites.gif') center -74px no-repeat; 
+}
+
+.reLoading
+{
+    width:30px;
+    background:url('Editor/LoadingSpell.gif') center center no-repeat;
+    float:left;
+}
+
+.reAjaxspell_wrapper
+{
+    border: 1px solid #515151 !important;    
+}
+
+div.reEditorModes
+{
+    margin-top: 2px;
+}
+
+div.reEditorModes .reMode_selected
+{
+	background-color: #fff;
+	border: solid 1px #3b5a82;
+}
+
+div.reEditorModes a span
+{
+	background-image: url('Editor/ModesSprites.gif');
+	color: #3b5a82;
+}
+
+.Office2007.reDropDownBody
+{
+	background-color: white !important;
+	background-image: none !important;
+	border: solid 1px #8f8f8f;
+	-moz-border-radius: 0.3em;
+	border-radius: 0.3em; 
+	-webkit-border-radius: 0.3;
+	scrollbar-face-color: #e9e9e9;
+	scrollbar-highlight-color: #ffffff;
+	scrollbar-shadow-color: #e9e9e9;
+	scrollbar-3dlight-color: #dbdbdb;
+	scrollbar-arrow-color: #787878;
+	scrollbar-track-color: #f5f5f5;
+	scrollbar-darkshadow-color: #aeaeae;
+}
+
+.Office2007.reDropDownBody,
+.Office2007.reDropDownBody table
+{
+	font:12px arial,verdana,sans-serif;
+}
+
+.Office2007.reDropDownBody .reToolbar.Office2007
+{
+    height: auto;
+    background:white;
+}
+
+.Office2007.reDropDownBody a
+{
+    background-image: none;
+    background-color: white;
+    border-bottom: solid 1px #aaaaaa;
+    margin: 0;
+}
+
+.Office2007.reDropDownBody a:hover
+{
+    background-image: none !important;
+    background-color: #eaeaea;
+    border-bottom: solid 1px #aaaaaa;
+}
+
+.Office2007.reDropDownBody .reCustomLinks a
+{
+    background-image: none;
+    background-color: white;
+    border-bottom: 0;
+}
+
+.Office2007.reDropDownBody .reCustomLinks a:hover
+{
+    background-image: none;
+    background-color: white;
+    text-decoration: underline;
+    border-bottom: 0;
+}
+
+.Office2007.reDropDownBody table td
+{
+	padding:1px 2px;
+	border:1px solid #fff;
+	color:#000;
+	text-align:left;
+}
+
+.Office2007.reDropDownBody .reItemOver
+{
+	border: solid 1px #8f8f8f !important;
+	background: #ffd38e !important;
+}
+
+.Office2007.reColorPicker
+{
+	border: solid 1px #868686;
+	padding: 4px;
+	-moz-border-radius: 3px;
+	background: #fafafa;
+}
+
+.Office2007.reColorPicker table div
+{
+	width: 11px; 
+	height: 11px; 
+	line-height: 11px; 
+	font-size: 1px;
+	border: solid 1px #c5c5c5;
+}
+
+.Office2007.reColorPicker table td.reItemOver div
+{
+	border-color:#000;
+}
+
+.Office2007.reColorPicker table td
+{
+	padding: 2px;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+.Office2007.reDropDownBody.reColorPicker table td.reItemOver
+{
+	border: 0 !important;
+	background: transparent !important;
+}
+
+.Office2007.reColorPicker .reColorPickerFooter
+{
+	margin: 0 auto;
+	font: normal 11px Verdana, Arial, Sans-serif;
+	height: 22px;
+	line-height: 18px;
+	width: 166px;
+	padding:4px 0;
+}
+
+.Office2007.reColorPicker span
+{
+	width: 82px;
+	height: 20px;
+	line-height: 18px;
+	border: solid 1px #c5c5c5;
+}
+
+.reColorPicker .reColorPickerFooter .reDarkColor
+{
+	background: black;
+	color: white;
+	border-right:0;
+}
+
+.reColorPicker .reColorPickerFooter .reLightColor
+{
+	background: white;
+	color: black;
+	border-left:0;
+}
+
+.reInsertSymbol
+{
+	border: solid 1px #8f8f8f;
+	background: white;
+	width: auto !important;
+}
+
+.Office2007.reInsertSymbol table
+{
+	width: auto !important;
+}
+
+.Office2007.reInsertSymbol table td
+{
+	font: bold 11px Tahoma,"Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+	color: #333;
+	width: 18px !important;
+	height: 22px !important;
+	padding: 2px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Office2007.reInsertSymbol table td.reItemOver
+{
+	color: #000;
+}
+
+.reInsertTable table
+{
+	float: left;
+	background-color:#f9f9f9;
+	cursor:default;	
+	width: 142px;
+}
+
+.reInsertTable td 
+{
+	padding:0 !important;
+	border-color: #777 !important;
+}
+
+.reInsertTable td.reItemOver
+{
+	border-color: #ddd !important;
+}
+
+.reInsertTable td div
+{	
+	font-size:1px;
+	width:10px;
+	height: 10px;
+	margin:1px !important;
+	padding:0 !important;
+}
+
+.reInsertTable .reTlbVertical li
+{
+	float: left !important;
+	width: 23px;
+	margin: 0;
+}
+
+.reInsertTable .reTlbVertical li a,
+.Office2007.reInsertTable .reTlbVertical .Office2007.reToolbar a.reTool_disabled
+{
+    background: none !important;
+    margin: 0 !important;
+    padding: 1px !important;
+    border: 0 !important;
+}
+
+.reInsertTable .reTlbVertical li a:hover
+{
+	border: 1px solid #ccc !important;
+	padding: 0 !important;
+}
+
+.Office2007.reInsertTable .reTlbVertical li a .reButton_text
+{
+	width: auto !important;
+	padding-left: 4px;
+	color: #ccc;
+}
+
+.Office2007.reInsertTable .reTlbVertical li a .reButton_text:hover
+{
+	color: black;
+}
+
+.reUndoRedo
+{
+	border: solid 1px #8f8f8f;
+	background-color: white;
+	padding: 0;
+}
+
+.Office2007.reUndoRedo table td,
+.Office2007.reUndoRedo table td.reItemOver
+{
+	border: 0 !important;
+	margin: 0 !important;
+}
+
+.Office2007.reApplyClass table td
+{
+	border: 1px solid #cacaca;
+	padding: 2px;
+}
+
+ .reApplyClass span
+{
+	width: 12px; 
+	height: 13px; 
+	line-height: 13px;
+	background-image: url('Editor/ApplyClassSprites.gif');
+	background-repeat: no-repeat;
+}
+
+.reApplyClass .reClass_all
+{
+	background-position: 0 -52px;
+}
+
+.reApplyClass .reClass_img
+{
+	background-position: 0 -13px;
+}
+
+.reApplyClass .reClass_a
+{
+	background-position: 0 -26px;
+}
+
+.reApplyClass .reClass_table
+{
+	background-position: 0 -39px;
+}
+
+.reApplyClass .reClass_unknown
+{	
+	background-position: 0 0;
+}
+
+ul.reCustomLinks,
+ul.reCustomLinks ul
+{
+	font: normal 11px Verdana, Arial, Sans-serif;
+	color: black;
+	background: none;		
+}
+
+ul.reCustomLinks
+{
+	margin: 0 2px;
+}
+
+ul.reCustomLinks a
+{
+	color: black;
+}
+
+ul.reCustomLinks ul
+{
+	margin-left: 12px;
+}
+
+ul.reCustomLinks a:hover
+{
+	text-decoration: underline;
+	color: #666;
+}
+
+ul.reCustomLinks li
+{
+	padding: 1px 0;
+}
+
+ul.reCustomLinks a
+{
+	cursor: hand; 
+	cursor: pointer;
+}
+
+ul.reCustomLinks .reCustomLinksIcon
+{
+	width: 9px; 
+	height: 9px;
+	background-image: url('Editor/CustomLinksSprites.gif');
+	background-repeat: no-repeat;
+	margin: 2px 4px 0 0;
+}
+
+ul.reCustomLinks .reCustomLinksIcon.reIcon_plus
+{
+	background-position: 0 0;
+}
+
+ul.reCustomLinks .reCustomLinksIcon.reIcon_minus
+{
+	background-position: -9px 0;
+}
+
+ul.reCustomLinks .reCustomLinksIcon.reIcon_empty
+{
+	background: none;
+}
+
+* html .RadEditor{background-image: none !important}
+
+.reDropDownBody .reTlbVertical .Office2007.reToolbar .reTool_text
+{
+	background: white;
+	border: 0;
+	padding: 3px 1px 3px 3px;
+	margin: 0 1px;
+}
+
+.reDropDownBody .reTlbVertical .Office2007.reToolbar .reTool_text:hover,
+.reDropDownBody .reTlbVertical .Office2007.reToolbar .reTool_selected
+{
+	border: solid 1px white;
+	padding: 2px 0 2px 2px;
+	background: #ffe47f url('Editor/ToolBarSprites.gif') repeat-x 0 -192px;
+}
+
+.Office2007.reDropDownBody .reTlbVertical .Office2007.reToolbar .reTool_disabled
+{
+	background: white !important;
+	border: 0;
+	padding: 1px;
+	color: #000;
+}
+
+.Office2007.reDropDownBody .reTlbVertical .Office2007.reToolbar .reTool_text span.reButton_text
+{
+	padding-left: 13px;
+}
+
+.Office2007.reDropDownBody .reTlbVertical .Office2007.reToolbar .reTool_disabled span
+{
+	opacity: 0.4;
+	-moz-opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+
+.reTool span
+{
+	background-image: url('../CommandSpritesDark.png');
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+* html .reDropDownBody .reTlbVertical .reToolbar.Office2007 .reTool_disabled,
+* html .reDropDownBody .reTlbVertical .reToolbar.Office2007 .reTool_disabled:hover,
+* html .reDropDownBody .reTlbVertical .reToolbar.Office2007 .reTool_disabled:active,
+* html .reDropDownBody .reTlbVertical .reToolbar.Office2007 .reTool_disabled:focus
+{
+	border: 0 !important;
+	padding:1px !important;
+	background:transparent url('Editor/ToolbarVerticalSprites.gif') repeat-y -40px 0 !important;
+	_background: none !important;
+}
+
+.reTlbVertical .reDropdown
+{
+	width: 4px;
+}
+
+.reTool_disabled:hover
+{
+	background: none !important;
+}
+
+.RadEXhtmlButton
+{
+    border: solid 1px #c7dbe6;
+    background: #f0f2f4;
+    color: black;
+    font: normal 11px Verdana, Arial, Sans-serif;
+}
+
+.Office2007.reDropDownBody.reInsertTable
+{
+    overflow: hidden;
+}
+
+td.reTlbVertical .reToolbar.Office2007
+{
+    width: 22px !important;
+    background: url('Editor/ToolBarVerticalSprites.gif') repeat-y -22px 0;
+    height: auto !important;
+}
+
+td.reTlbVertical .reToolbar.Office2007 .reSeparator
+{
+    display: none !important;
+}
+
+td.reTlbVertical .reToolbar.Office2007 li
+{
+    background: url('Editor/ToolBarVerticalSprites.gif') repeat-y -22px 0;
+    width: 22px;
+}
+
+td.reTlbVertical .reToolbar.Office2007 .reGrip
+{
+    background: url('Editor/ToolBarVerticalSprites.gif') !important;
+    width: 22px !important;
+    height: 2px !important;
+    line-height: 2px !important;
+    font-size: 1px !important;
+}
+
+td.reTlbVertical .reToolbar.Office2007 .reGrip.grip_first
+{
+    background-position: 0 0 !important;
+}
+
+td.reTlbVertical .reToolbar.Office2007 .reGrip.grip_last
+{
+    background-position: 0 -2px !important;
+}
+
+td.reTlbVertical .reToolbar.Office2007 .split_arrow
+{
+    display: none;
+}
+
+td.reTlbVertical .reToolbar.Office2007 .reSeparator
+{
+    border-bottom: solid 1px #fff !important;
+    background: #bed4ed !important;
+    height: 1px !important;
+    line-height: 1px !important;
+    width: 20px !important;
+    margin: 0 !important;
+}
+
+td.reTlbVertical .reToolbar.Office2007 .reTool.reSplitButton,
+td.reTlbVertical .reToolbar.Office2007 .reTool,
+td.reTlbVertical .reToolbar.Office2007 .reTool.reTool_selected
+{
+	width: 21px !important;
+	height: 21px !important;
+	padding: 2px 0 0 0 !important;
+}
+
+td.reTlbVertical .reToolbar.Office2007 .reTool:hover
+{
+	background: url('Editor/ToolBarVerticalSprites.gif') no-repeat -44px 0 !important;
+}
+
+td.reTlbVertical .reToolbar.Office2007 .reTool.reTool_selected
+{
+    background: url('Editor/ToolBarVerticalSprites.gif') no-repeat -65px 0 !important;
+}
+
+.reDropDownBody.reInsertTable .reTool_text .TableWizard
+{
+    height: 23px;
+    width: 23px; 
+    line-height: 23px;
+    background-image: url('../CommandSpritesDark.png') !important;
+    background-position: -3575px center !important;
+}
+
+.reDropDownBody.reInsertTable .reTool_text .reButton_text,
+.reDropDownBody.reInsertTable .reTool_text:hover .reButton_text
+{
+    color: black !important;
+}
+
+.Vista.reDropDownBody .reItemOver
+{
+	border: solid 1px #3b5a82 !important;
+	background: #cddcee !important;
+	color: #3b5a82 !important;
+}
+
+/* show on focus fix */
+.radwindow .reDropdown
+{
+ position: relative;
+ top: 1px;
+ padding-top: 0 !important;
+}
+    
+.radwindow .reDropdown span
+{
+ padding-top: 0 !important;
+  line-height: 16px !important;
+}
+
+/* toolbar */
+.reToolbar li
+{
+	background: url('Editor/ToolBarSprites.gif') repeat-x 0 -140px; 
+}
+
+.reToolbar .reGrip
+{
+	background-image: url('Editor/ToolBarSprites.gif');
+}
+
+.reTool:hover
+{
+    background: url('Editor/ToolBarSprites.gif') no-repeat 0 -217px;
+}
+
+.reTool span
+{
+    background-image: url('../CommandSpritesDark.png');
+}
+
+/* split button */
+.reSplitButton .split_arrow
+{
+	background: url('Editor/ToolBarSprites.gif') no-repeat -1px -108px;
+}
+
+.reSplitButton:hover,
+.reSplitButton:active
+{
+    background: url('Editor/ToolBarSprites.gif') no-repeat 0 -167px !important;
+}
+
+.reTool:active,
+.reTool:focus,
+.reTool_selected,
+.reTool_selected:hover,
+.reTool_selected:active,
+.reTool_selected:focus
+{
+	background: url('Editor/ToolBarSprites.gif') repeat-x 0 -192px;
+}
+
+.reTool_selected,
+.reTool_selected:hover,
+.reTool_selected:active,
+.reTool_selected:focus
+{
+	background: url('Editor/ToolBarSprites.gif') repeat-x 0 -192px !important;
+}
+
+.reTool_disabled,
+.reTool_disabled:hover,
+.reTool_disabled:active,
+.reTool_disabled:focus
+{
+	background: none;
+}
+/* end of toolbar */
+
+/* dropdown */
+.reDropdown
+{
+	border: solid 1px #abc1de;
+	color: black;
+	background: #eaf2fb url('Editor/ToolBarSprites.gif') no-repeat right -92px;
+}
+
+.reDropdown:hover,
+.reDropdown:active,
+.reDropdown:focus
+{
+	background-color: white;
+}
+
+.reTool_disabled.reDropdown:hover
+{
+	border: solid 1px #abc1de !important;
+	color: black;
+	background: #eaf2fb url('Editor/ToolBarSprites.gif') no-repeat right -92px !important;
+}
+
+.reDropdown span
+{
+	color: #000;
+}
+/* end of dropdown */
+
+/* separator */
+.reTlbVertical .reSeparator
+{
+    background: url('Editor/ToolBarVerticalSprites.gif') no-repeat -40px center !important;
+}
+
+li.reSeparator
+{
+	background: transparent url('Editor/ToolBarSprites.gif') no-repeat center -300px;
+}
+
+.reTlbVertical .reToolbar li.reSeparator
+{
+	background: transparent url('Editor/ToolbarVerticalSprites.gif') no-repeat -84px center;
+}
+/* end of separator */
+
+* html .reTlbVertical .reToolbar span
+{
+    background-image: url('CommandSpritesLightIE6.gif');
+}
+
+* html .Office2007.reDropDownBody a:hover
+{
+    padding: 3px !important;
+}
+
+* html .reTool_selected
+{
+    height: 18px !important;
+}

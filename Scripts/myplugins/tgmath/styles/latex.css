@@ -1,0 +1,69 @@
+A { text-decoration:underline; }
+
+.inputfield {
+  padding:8px;
+  margin:0px;
+  width:98%;
+  border:0px;
+  background:#f0fff0;
+}
+
+.editfield, .coldisp {
+  border:1px solid #a0a0a0;
+  padding:8px;
+  margin-bottom:12px;
+  margin-top:12px;
+  background:#f0fff0;
+  border-radius:8px;
+  -moz-border-radius:8px;
+  -webkit-border-radius:8px;
+  -moz-box-shadow:    5px 5px 5px #ccc;
+  -webkit-box-shadow: 5px 5px 5px #ccc;
+  box-shadow:         5px 5px 5px #ccc;
+}
+
+.controlbox {
+  background:#e8f0ff;
+  border:1px solid #a0a0a0;
+  padding:4px;
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  -moz-box-shadow:    5px 5px 5px #ccc;
+  -webkit-box-shadow: 5px 5px 5px #ccc;
+  box-shadow:         5px 5px 5px #ccc;
+}
+
+button,input,select, option {
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+}
+
+.inputfield:focus {
+  outline:none;
+  color:black;
+}
+
+input[type="radio"] {
+  border:none;
+}
+
+body,input {
+  font-family: monospace;
+}
+
+/* must use element ID to style these */
+
+.coldisp {
+  background:#fffff0;
+  padding:24px;
+  text-align:left;
+  border:1px solid #a0a0a0;
+  overflow:auto;
+  white-space:nowrap;
+}
+
+#ccgimage, #googimage {
+  margin:8px;
+}

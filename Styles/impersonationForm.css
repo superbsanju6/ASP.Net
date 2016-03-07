@@ -1,0 +1,108 @@
+﻿#impersonationFormBackground{
+position: absolute;
+z-index: 4;
+top: 50%;
+left: 50%;
+width: 240px;
+padding: 30px;
+margin: -170px 0 0 -150px;
+-webkit-box-shadow: rgba(0, 0, 0, 0.8) 0 1px 3px,rgba(0, 0, 0, 0.65) 0 0 0 1px,inset rgba(255, 255, 255, 0.15) 0 1px 0,inset rgba(0, 0, 0, 0.25) 0 -1px 0;
+-moz-box-shadow: rgba(0,0,0,0.8) 0 1px 3px,rgba(0,0,0,0.65) 0 0 0 1px,inset rgba(255,255,255,0.15) 0 1px 0,inset rgba(0,0,0,0.25) 0 -1px 0;
+background-color: #393939;
+background-image: -moz-linear-gradient(top, #393939, #262626);
+background-image: -ms-linear-gradient(top, #393939, #262626);
+background-image: linear-gradient(top, #393939, #262626);
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+overflow: hidden;
+-webkit-font-smoothing: antialiased;
+-webkit-transition: opacity 0.2s linear;
+}
+
+.impersonationLabel {
+float: none;
+width: auto;
+line-height: 1.5;
+text-align: left;
+color: #CCC;
+text-shadow: rgba(0, 0, 0, 0.8) 0 -1px 0;
+font-weight: bold;
+display: block;
+margin: 0 15px 0 0;
+-webkit-font-smoothing: antialiased;
+font: 11px/1.6 "Lucida Grande",Tahoma,Verdana,sans-serif;
+}
+
+.impersonationInputBox {
+width: 228px;
+border: none;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+font-size: 11px;
+padding: 6px;
+-webkit-box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0,rgba(0, 0, 0, 0.5) 0 -1px 0;    
+}
+
+.impersonateButton {
+width: 240px;
+opacity: 0.99;
+display: inline-block;
+padding: 0px;
+margin: 0;
+border: none;
+background: #396;
+background-color: #396;
+background-image: -moz-linear-gradient(top, #396, #31654B);
+background-image: -ms-linear-gradient(top, #396, #31654B);
+background-image: -o-linear-gradient(top, #396, #31654B);
+background-image: -webkit-gradient(linear, left top, left bottom, from(#396), to(#31654B));
+background-image: -webkit-linear-gradient(top, #396, #31654B);
+background-image: linear-gradient(top, #396, #31654B);
+height: 27px;
+line-height: 25px;
+text-shadow: rgba(0, 0, 0, 0.8) 0 -1px 0;
+color: white;
+text-decoration: none;
+font-weight: bold;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+-webkit-font-smoothing: antialiased;
+-webkit-box-shadow: rgba(0, 0, 0, 0.8) 0 1px 3px,rgba(0, 0, 0, 0.65) 0 0 0 1px,inset rgba(255, 255, 255, 0.25) 0 1px 0,inset rgba(0, 0, 0, 0.25) 0 -1px 0;
+-moz-box-shadow: rgba(0,0,0,0.8) 0 1px 3px,rgba(0,0,0,0.65) 0 0 0 1px,inset rgba(255,255,255,0.25) 0 1px 0,inset rgba(0,0,0,0.25) 0 -1px 0;
+box-shadow: rgba(0, 0, 0, 0.8) 0 1px 3px,rgba(0, 0, 0, 0.65) 0 0 0 1px,inset rgba(255, 255, 255, 0.25) 0 1px 0,inset rgba(0, 0, 0, 0.25) 0 -1px 0;
+-moz-transition: opacity 0.2s linear;
+-o-transition: opacity 0.2s linear;
+-webkit-transition: opacity 0.2s linear;
+-ms-transition: opacity 0.2s linear;
+transition: opacity 0.2s linear;
+}
+
+p.text {
+margin: 0 0 10px;
+}
+
+.impersonationHeader{
+float: none;
+width: auto;
+line-height: 1.5;
+text-align: left;
+color: #CCC;
+text-shadow: rgba(0, 0, 0, 0.8) 0 -1px 0;
+font-weight: bold;
+display: block;
+-webkit-font-smoothing: antialiased;
+font: 15px "Lucida Grande",Tahoma,Verdana,sans-serif;
+padding-bottom: 1em;
+}
+
+​

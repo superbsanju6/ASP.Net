@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="CredentialTrackingReport.ascx.cs" Inherits="Thinkgate.Controls.Reports.CredentialTrackingReport" %>
+<iframe runat="server" id="credentialTrackingReportFrame" width="961px" height="540px" style="border: 0px"></iframe>

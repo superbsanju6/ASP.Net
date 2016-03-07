@@ -1,0 +1,71 @@
+﻿.logintitle {
+    background-color: #366092;
+    color: white;
+    font-weight: normal;
+}
+
+.classroomtitle {
+    background-color: #75923c;
+    color: white;
+    font-weight: normal;
+}
+
+.districttitle {
+    background-color: #e16b0a;
+    color: white;
+    font-weight: normal;
+}
+
+.instructiontitle {
+    background-color: #c0504d;
+    color: white;
+    font-weight: normal;
+}
+
+.commontitle {
+    background-color: grey;
+    color: white;
+    font-weight: normal;
+}
+
+.NAValues {
+    text-align: center;
+    background-color: lightgrey;
+    color: white;
+}
+
+
+.logingroupcolumns {
+    background-color: #000065;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.classroomgroupcolumns {
+    background-color: #4e6128;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.districtgroupcolumns {
+    background-color: #964706;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.instructiongroupcolumns {
+    background-color: #963634;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.commongroupcolumns {
+    background-color: grey;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}

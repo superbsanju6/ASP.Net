@@ -1,0 +1,78 @@
+.RadTreeView_Thinkgate_TreeView,
+.RadTreeView_Thinkgate_TreeView a.rtIn,
+.RadTreeView_Thinkgate_TreeView .rtEdit .rtIn input
+{
+	color: #00F;
+	font: 12px/18px "Segoe UI", Arial, sans-serif;
+}
+
+.RadTreeView_Thinkgate_TreeView .rtPlus, 
+.RadTreeView_Thinkgate_TreeView .rtMinus
+{
+	background-image: url('TreeView/PlusMinus.png');
+}
+
+.RadTreeView_Thinkgate_TreeView .rtChecked,
+.RadTreeView_Thinkgate_TreeView .rtUnchecked,
+.RadTreeView_Thinkgate_TreeView .rtIndeterminate
+{
+	background-image: url('TreeView/TriState.png');
+}
+
+.RadTreeView_Thinkgate_TreeView .rtHover .rtIn
+{
+	border: 1px solid #bdd9fb;
+}
+
+div.RadTreeView_Thinkgate_TreeView .rtSelected .rtIn {
+    border: 0;
+    padding-left: 3px;
+}
+
+.RadTreeView_Thinkgate_TreeView .rtSelected .rtIn
+{
+	border: 0;
+}
+
+.RadTreeView_Thinkgate_TreeView .rtHover .rtIn
+{
+	background-color: #edf5fd;
+	background-image: url('TreeView/ItemHoveredBg.png');
+}
+
+.RadTreeView_Thinkgate_TreeView .rtSelected .rtIn
+{
+	/*background-color: #c4ddfc;
+	background-image: url('TreeView/ItemSelectedBg.png');*/
+}
+
+.RadTreeView_Thinkgate_TreeView .rtSelected .rtLoadingBefore,
+.RadTreeView_Thinkgate_TreeView .rtSelected .rtLoadingAfter,
+.RadTreeView_Thinkgate_TreeView .rtSelected .rtLoadingBelow
+{
+	color: #1e395b;
+}
+
+.RadTreeView_Thinkgate_TreeView .rtLoadingIcon
+{
+	background-image: url('TreeView/LoadingIcon.gif');
+}
+
+.RadTreeView_Thinkgate_TreeView .rtLI .rtEdit .rtIn
+{
+	border-color: #99defd;
+	background: #fff;
+}
+
+.RadTreeView_Thinkgate_TreeView_disabled .rtIn,
+.RadTreeView_Thinkgate_TreeView .rtDisabled .rtIn
+{
+	color: #ccc;
+}
+
+.RadTreeView_Thinkgate_TreeView_ParentNode {
+    color: #000;
+    font-size: 12pt;   
+}
+
+

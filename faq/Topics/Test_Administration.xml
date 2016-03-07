@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="lgisaacs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Dashboard</title>
+  <body>
+    <header>
+      <para styleclass="Heading1" style="text-align:right;"><image src="thinkgate.jpg" align="right" scale="43.00%" width="192" height="43" styleclass="Image Caption"></image></para>
+      <para styleclass="Heading1"><text styleclass="Heading1" style="color:#ffffff;" translate="true">Dashboard</text></para>
+    </header>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Heading1" style="font-size:12pt; color:#000000;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Heading1" style="font-size:12pt; color:#000000;"><caption translate="true"><![CDATA[Why is the dashboard grayed out?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:47px;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">If the dashboard for a test is grayed out the test security is more than likely set to disabled. &#160;When the test security is set to disabled the dashboard will be grayed and not viewable until a date is specified within the Test Security window. &#160;</text><text style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">This can be changed through the </text><text style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">security tab </text><text style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">under the </text><text style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">test profile screen</text><text style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> for a proofed test. &#160;The status can also be changed through the </text><text style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">Find District Test</text><text style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> screen by selecting the checkbox next to the correct test and then using the </text><text style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">Actions</text><text style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> hover over menu to change the status.</text></para>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:47px;"></para>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:47px;"><text style="font-family:Calibri; font-size:12pt; font-weight:bold; font-style:italic; color:#000080;" translate="true">Test security can only be changed by specific user types within your district. &#160;Please contact your district&apos;s Thinkgate Administrator in order to find out who can change the security settings of a test.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Normal" style="font-size:12pt; font-weight:bold;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Normal" style="font-size:12pt; font-weight:bold;"><caption translate="true"><![CDATA[How do I reset a student's score?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:-1px; margin-right:0px; margin-left:47px;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">In order to reset a student&apos;s test score you will need to check the </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">select checkbox</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> next to the student&apos;s name and click the </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">Reset Selected</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> option in the </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">left nav</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Normal" style="font-size:12pt; font-weight:bold;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Normal" style="font-size:12pt; font-weight:bold;"><caption translate="true"><![CDATA[How do I manually input a student's score?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:47px;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">In order to manually input a student&apos;s score you will need to check the </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">select checkbox</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> next to the student&apos;s name then click the </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">Manual Input Selected</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> option in the left nav which will open a separate window that will allow you to manually enter question answers for the student. &#160;</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-style:italic; color:#000080;" translate="true">This is most commonly used to enter short answer question scores.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-align:left;"></para>
+    <para styleclass="Normal" style="text-align:left;"><link displaytype="image" src="New_Back_Arrow_icon.gif" type="topiclink" href="Assessments"></link><text style="font-family:Arial; font-size:14pt; color:#000000;" translate="true"> &#160;</text><link displaytype="button" type="topiclink" href="Assessments" translate="true">Assessment</link></para>
+    <para styleclass="Normal" style="text-align:left; margin-top:0px; margin-bottom:0px; line-height:2.0;"><link displaytype="image" src="New_Back_Arrow_icon.gif" type="topiclink" href="Curriculum_Plans"></link><text styleclass="Normal" style="font-size:14pt;" translate="true"> &#160;</text><link displaytype="button" type="topiclink" href="FAQ_Menu" translate="true">FAQ Menu</link></para>
+  </body>
+</topic>

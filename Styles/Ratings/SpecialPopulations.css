@@ -1,0 +1,24 @@
+﻿body 
+{
+    background-color: #DEE2E7;
+}
+
+.float-left 
+{
+    float: left;
+}
+
+.float-right 
+{
+    float: right;
+}
+
+.dropdown 
+{
+    width: 80%;
+}
+
+.font-small
+{
+    font-size: small;
+}

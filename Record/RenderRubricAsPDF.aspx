@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RenderRubricAsPDF.aspx.cs" Inherits="Thinkgate.Record.RenderRubricAsPDF" %>

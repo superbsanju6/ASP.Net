@@ -1,0 +1,701 @@
+﻿@import url("./Site.css");
+@import url("./Thinkgate_Window/Window.Thinkgate_Window.css?v=4");
+@import url("../Thinkgate_Blue/TabStrip.Thinkgate_Blue.css");
+
+#ovrRideForScrollBarDisplay {
+    overflow: auto !important;
+}
+
+.cke_editable {
+    padding: 2px !important;
+    min-height: 25px !important;
+    height: auto !important;
+}
+
+.SKEditableBodyText p {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: auto !important;
+    word-wrap: break-word !important;
+}
+
+
+.reContentArea
+{
+	background-color: White;
+}
+.questionInstance
+{
+	white-space: nowrap;
+}
+.bottomTextButton
+{
+	vertical-align: middle;
+    height:100%;
+}
+.previewImg
+{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
+	/*min-height: 600px;*/
+}
+table.ItemBankList td
+{
+	width: 100%;
+	padding: 10px;
+}
+.divUploadTemplate
+{
+	background-color: White;
+	width: 100%;
+	height: 100%;
+}
+.center
+{
+	text-align: center;
+	width: 100%;
+	margin: auto;
+}
+.IdentificationSubHeader
+{
+	font-style: italic;
+	color: Gray;
+	line-height: 12px;
+}
+.ImageUploader
+{
+	text-align: center;
+	background-color: White;
+	width: 100%;
+	white-space: nowrap;
+	font-weight: bold;
+}
+.LegalMessage
+{
+	text-align: center;
+	background-color: White;
+	height: 100%;
+	line-height: 12px;
+}
+.IconHeader
+{
+	xheight: 35px;
+	width: 100%;
+	background-color: rgb(222, 226, 231);
+}
+		
+.rpFirst .rpTemplate
+{
+	position: relative;
+	font-size: 0;
+	line-height: 0;
+}
+		
+div.RadPanelBar
+{
+	margin: 0 auto 0;
+	xmargin: 20px auto 0;
+}
+		
+.linksPanel
+{
+	xposition: absolute;
+	right: 30px;
+	bottom: 30px;
+	width: 200px;
+	height: 30px;
+	text-align: right;
+}
+		
+.RadPanelBar .rpFirst .rpTemplate
+{
+	zoom: 1;
+	width: 100%;
+}
+		
+.linksPanel a
+{
+	color: White;
+}
+		
+/* styling of template contents */
+.rpTemplate .productList
+{
+	padding: 0;
+	width: 662px;
+	margin: 0 auto;
+	display: block;
+}
+		
+.rpTemplate .productList:after
+{
+	content: ".";
+	display: block;
+	visibility: hidden;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	height: 0;
+	clear: both;
+}
+		
+.rpTemplate .productList li
+{
+	list-style-type: none;
+	float: left;
+	text-align: center;
+	width: 220px;
+	margin: 15px 0 0;
+	padding: 0;
+	border-right: 1px solid #bec7cb;
+}
+		
+.rpTemplate .productList li.last
+{
+	border-right-width: 0;
+}
+		
+.rpTemplate .productList li div
+{
+	font: normal 12px Arial,sans-serif;
+	text-decoration: underline;
+	color: #333;
+}
+		
+div.RadPanelBar .rpTemplate
+{
+	xbackground: #EDF9FE;
+	overflow: hidden !important;
+	height: 100%;
+}
+.rpHeaderTemplate
+{
+	overflow: hidden;
+	height: 26px;
+}
+.RadPanelItemHeader
+{
+	padding-left: 5px;
+}
+.reTool .MathML
+{
+    background-image: url(../Images/Pencil.png); 
+}
+		
+#LeftPane
+{
+	float: left;
+	width: auto;
+	xwidth: 700px;
+}
+		
+#RightPane
+{
+	float: left;
+	width: 250px;
+	background-color: #858585;
+	height: 400px;
+}
+		
+#RightPaneShowHideWrapper
+{
+	float: left;
+	width: 10px;
+	height: 500px;
+	background-color: Green;
+}
+		
+.tblContainer
+{
+	display: table;
+	padding: 0;
+}
+		
+.tblRow
+{
+	display: table-row;
+}
+		
+.tblLeft, .tblRight, .tblMiddle
+{
+	display: table-cell;
+	vertical-align: top;
+}
+		
+.tblCell_InternalQuestionLayout
+{
+	display: table-cell;
+	vertical-align: top;
+	white-space: normal;
+}
+		
+.tblCell
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+		
+.itemFieldName
+{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 8pt;
+	padding-left: 10px;
+	padding-right: 3px;
+	padding-top: 2px;
+	float: left;
+}
+		
+.itemFieldButton
+{
+	float: left;
+	vertical-align: middle;
+}
+		
+.zoom_in_img
+{
+	float: left;
+	clear: left;
+	cursor: pointer;
+	margin-top: 10px;
+}
+		
+.flag_img
+{
+	float: left;
+	clear: left;
+	margin-left: 2px;
+	margin-top: 10px;
+}
+		
+/* .RadComboBox .rcbArrowCell a  {
+	cursor: pointer !important;
+}
+*/
+		
+#bankSliderHandle
+{
+	width: 10px;
+	height: 100px;
+	background-color: #0F3789;
+	cursor: pointer;
+}
+
+.questionPlaceholder
+{
+	height: 85px;
+	border: 1px dashed black;
+    background-color: #D5E7FC;            
+}
+		
+.questionInstance_highlight
+{
+	border: 1px solid transparent;
+}
+		
+.fieldTestItem_true
+{
+	background-color: #FFEC9F;
+}
+		
+.questionInstance_highlight
+{
+	background-color: #D5E7FC;
+	border: 1px solid black;
+}
+		
+.questionInstance_move
+{
+	border: 1px dashed black;
+	cursor: move;
+}
+		
+.SKEditableBody
+{
+	border: 1px solid transparent;
+	width: 100%;
+	min-height: 25px;
+}
+		
+.questionInstance_highlight .SKEditableBody
+{
+	border: 1px solid #808080;
+	background-color: #EAF2FC;
+	width: 100%;
+}
+		
+#topPortion
+{
+	background-color: rgb(223, 233, 245);
+}
+		
+.bullet_img
+{
+	margin-right: 2px; /* float: left;*/
+}
+		
+.item_number_div
+{
+	width: 25px;
+	font-weight: bold;
+	border-top: 1px solid transparent;
+	padding-right: 7px; /*clear: left;
+		float: left;*/
+}
+		
+.response_letter
+{
+	font-weight: bold;
+	padding-right: 4px;
+	white-space: nowrap;
+	width: 60px;
+	vertical-align: middle; /*float: left;*/
+}
+		
+.response_letter input
+{
+	position: relative;
+	top: 1px;
+}
+		
+.SKEditableBodyBlockContent
+{
+	/*display: inline;*/
+}
+		
+.SKEditorWrapper
+{
+}
+		
+.headingArea
+{
+	height: 20px;
+	overflow: hidden;
+	border-bottom: 1px solid #3D3D3D;
+}
+		
+.headingToggle
+{
+	font-family: arial;
+	font-size: 10pt;
+	font-weight: bold;
+	padding: 3px;
+	cursor: pointer;
+}
+		
+.headingToggleImg
+{
+	margin-right: 10px;
+	height: 15px;
+	width: 15px;
+	float: left;
+	background-image: url('../Images/unexpand_arrow.gif');
+}
+		
+.headingToggleImgOff
+{
+	background-image: url('../Images/expand_arrow.gif');
+}
+		
+.headingDirectionsPreview
+{
+	margin-left: 100px;
+	color: gray;
+}
+		
+#divItemCount
+{
+	color: gray;
+	float: right;
+}
+		
+#scrollUpHelper, #scrollDownHelper
+{
+	width: 100%;
+	background-color: #E3D379;
+	padding: 3px;
+	color: #0F2EBC;
+	text-align: center;
+	font-family: arial;
+	font-weight: bold;
+	display: none;
+	border: 1px dashed black;
+	height: 30px;
+	background-image: url('/Images/arrow_gray_right.gif');
+}
+		
+.ItemStandard
+{
+	position: absolute;
+	top: 165px;
+	left: 20px;
+	width: 200px;
+	font-family: arial;
+	font-size: 8pt;
+	background-color: #CCCCCC;
+	text-align: center;
+	overflow: hidden;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	height: 10px;
+}
+		
+.rightHandToolbar
+{
+	background-color: #3D3D3D;
+}
+		
+.answer_text
+{
+	padding-top: 4px;
+	min-height: 25px;
+}
+		
+.thumbInstance
+{
+	width: 230px;
+	height: 200px;
+	position: relative;
+}
+		
+.thumbImage
+{
+	position: absolute;
+	top: 0px;
+	left: 20px;
+	border: 1px solid #CCCCCC;
+}
+		
+#testQuestions
+{
+	width: 100%;
+	min-height: 300px;
+}
+		
+#testQuestions_EmptyHelper
+{
+	width: 100%;
+	height: 100%;
+	background-color: #CCCCCC;
+	border: 1px dashed #3D3D3D;
+}
+		
+#StandardOutlineTree
+{
+	background-color: white;
+	display: none;
+	height: 300px;
+	overflow: auto;
+}
+		
+#lblBankCount, #lblBankCount_filter
+{
+	display: block;
+	font-family: arial;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+	padding: 2px;
+	font-size: 8pt;
+	color: #002B64;
+}
+		
+.adding_helper_text
+{
+	text-align: center;
+	position: absolute;
+	padding: 3px;
+	width: 160px;
+	top: 75px;
+	left: 40px;
+	background-color: #F2B26A;
+	font-weight: bold;
+	font-size: 9pt;
+	z-index: 20;
+}
+		
+.radDropdownBtn
+{
+	font-weight: bold;
+	font-size: 11pt;
+}
+		
+.WeightPCT
+{
+	position: relative;
+	top: 3px;
+	left: 10px;
+}
+		
+.AddendumRow
+{
+	margin-top: 1px;
+	margin-bottom: 3px;
+	margin-left: 4px;
+	margin-right: 100px;
+	float: left;
+	table-layout: fixed;
+}
+		
+.RubricRow
+{
+	margin-top: 1px;
+	margin-bottom: 3px;
+	margin-left: 4px;
+	float: left;
+	table-layout: fixed;
+}
+		
+		
+.RubricRow
+{
+	margin-top: 1px;
+	margin-bottom: 3px;
+	margin-left: 4px;
+	margin-right: 100px;
+	float: left;
+	table-layout: fixed;
+}
+		
+#imgAddNewItem
+{
+	margin-left: 2px;
+	float: right;
+	cursor: pointer;
+}
+		
+#imgAddNewForm
+{
+	margin: 4px;
+	float: right;
+	cursor: pointer;
+}
+		
+.itemActions
+{
+	height: 16px;
+	background-repeat: no-repeat;
+	background-image: url('../Images/AssessmentItemIcons.png');
+	float: right;
+	margin-right: 5px;
+	cursor: pointer;
+}
+		
+#documentTabText
+{
+	font-style: italic;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+		
+#documentTable
+{
+	font-weight: bold;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
+		
+#documentTable td
+{
+	font-weight: bold;
+	border: 1px solid #636363;
+	padding: 2px;
+	font-size: 11pt;
+}
+		
+.center
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+		
+.assessmentHeaders
+{
+	background-color: #C5C8CC;
+}
+		
+.answerKeyHeaders
+{
+	background-color: #CCC2BA;
+}
+		
+.assessmentRows
+{
+	background-color: #F2F6FC;
+}
+		
+.answerKeyRows
+{
+	background-color: #FCF0E6;
+}
+		
+#radtab_Forms
+{
+}
+		
+#radtab_FieldTest
+{
+}
+		
+.multiPage
+{
+}
+		
+.visibilityHideFTtrue
+{
+	visibility: hidden;
+}
+		
+.displayNoneFTtrue
+{
+	display: none;
+}
+		
+.RadComboBox .rcbInputCell .rcbEmptyMessage
+{
+	font-style: normal !important;
+}
+		
+.RadToolBar_Sitefinity .rtbMiddle
+{
+	background-color: transparent;
+}
+		
+.RadTabStrip .rtsOut
+{
+	padding-right: 9px !important;
+}
+.RadTabStrip .rtsIn
+{
+	width: 100%;
+}
+		
+.RadTabStripTop_Thinkgate_Blue .rtsLevel
+{
+	background-color: #DFE9F5;
+}
+		
+/* hide tool bar from showing up initally */
+.reToolbar
+{
+	position: absolute;
+	top: -40px;
+}
+		
+div.RadToolBar_Horizontal .rtbSeparator
+{
+	width: 50px;
+	background: none;
+	border: none;
+}
+
+.handler {
+    
+}

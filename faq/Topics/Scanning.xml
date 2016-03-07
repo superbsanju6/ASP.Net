@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="lgisaacs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Scanning</title>
+  <body>
+    <header>
+      <para styleclass="Heading1" style="text-align:right;"><image src="thinkgate.jpg" align="right" scale="43.00%" width="192" height="43" styleclass="Image Caption"></image></para>
+      <para styleclass="Heading1"><text styleclass="Heading1" style="color:#ffffff;" translate="true">Scanning</text></para>
+    </header>
+    <para styleclass="Normal"></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Heading1" style="font-size:12pt; color:#000000;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Heading1" style="font-size:12pt; color:#000000;"><caption translate="true"><![CDATA[How will I know that everything scanned properly?]]></caption></toggle></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:46px;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">In order to verify that the bubble sheets were scanned properly you can check the </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">dashboard</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> for the test that was scanned and make sure that every student has a score showing up under the </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">Pct Score</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> column. &#160;Another way to verify that the sheets were scanned correctly is by checking the </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">Manual Input</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> for a student and comparing it to the original bubble sheet. &#160;In order to do this go to the </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">dashboard</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> for the test and click the </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">checkbox</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> next to the students name and click </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">Manual Input Selected</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> in the left nav.</text></para>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:46px;"></para>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:46px;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:normal; font-style:italic; color:#000000;" translate="true">See also </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Test_Administration" styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:normal; font-style:italic; color:#000000;" translate="true">How do I manually input a student&apos;s score?</link><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:normal; font-style:italic; color:#000000;" translate="true"> for directions on accessing the Manual Input screen</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading1"></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Heading1" style="font-size:12pt;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Heading1" style="font-size:12pt;"><caption translate="true"><![CDATA[Can anyone login to scan bubble sheets?
+]]></caption></toggle></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:46px;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">Thinkgate support works with district administrators in order to determine who has permission to scan bubble sheets within a district. &#160;All Elements users have the ability scan bubble sheets, however, Thinkgate support recommends that district administrators control scanning permissions within their district. &#160;Please contact your district&apos;s Elements™ administrator for scanning permission. </text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading1"></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Heading1" style="font-size:12pt; color:#000000;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Heading1" style="font-size:12pt; color:#000000;"><caption translate="true"><![CDATA[Can one person scan for multiple teachers?]]></caption></toggle></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:47px;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">An individual user does have the ability to scan for multiple teachers, however, permission to do so is controlled by a district&apos;s Elements™ administrator. &#160;Please contact your district&apos;s Elements™ administrator in regard to the scanning permissions within your district.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading1"></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Heading1" style="font-size:12pt; color:#000000;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Heading1" style="font-size:12pt; color:#000000;"><caption translate="true"><![CDATA[How does the scanner respond to duplicate student ID's?
+]]></caption></toggle></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:47px;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">If multiple bubble sheets are scanned with the same student ID the first bubble sheet scanned for the student is the only one that is actually scored. &#160;All the other sheets scanned with the same student ID will be ignored unless the student&apos;s score is reset through the dashboard and the sheets scanned again. &#160;The first sheet scanned for a student ID is always the one that is scored.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading1"></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Heading1" style="font-size:12pt; color:#000000;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Heading1" style="font-size:12pt; color:#000000;"><caption translate="true"><![CDATA[Should the sheet be face up or face down?
+]]></caption></toggle></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para style="margin-left:46px;"><text style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">Both HALO and Plain Paper bubble sheets are scanned </text><text style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">face up.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading1"></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Heading1" style="font-size:12pt; color:#000000;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Heading1" style="font-size:12pt; color:#000000;"><caption translate="true"><![CDATA[Where can I get the PPS scanning software?
+]]></caption></toggle></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para style="text-indent:-1px; margin-left:48px;"><text style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">The Thinkgate PPS scanning software is located in the </text><text style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">reference center</text><text style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> within the Elements™ system. &#160;The Thinkgate scanning software must be downloaded in order to scan tests within the Elements systems.</text></para>
+          <para style="text-indent:-1px; margin-left:48px;"></para>
+          <para style="text-indent:-1px; margin-left:48px;"><text style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">With the 2009 summer release the old PPS software will be automatically updated to the new version when the software is opened the first time.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Heading1" style="font-size:12pt; color:#000000;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Heading1" style="font-size:12pt; color:#000000;"><caption translate="true"><![CDATA[I administered the test on the wrong bubble sheet, so how do I rescan the bubble sheets for the right test?
+]]></caption></toggle></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para style="margin-left:48px;"><text style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">If the test was taken on either a </text><text style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">student or HALO form</text><text style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> you can print off a blank form for the correct test and scan that form on top of the other forms. &#160;When the blank form is scanned first it will scan all the other forms to the test id on the first bubble sheet.</text><br/><text style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">If the tests were scanned on a </text><text style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">roster form</text><text style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> the test will need to be taken over again or the scores manually entered through the test dashboard.</text></para>
+          <para style="margin-left:48px;"></para>
+          <para style="margin-left:48px;"><text style="font-family:Calibri; font-size:12pt; font-style:italic; color:#000000;" translate="true">Student scores should be </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Test_Administration" style="font-family:Calibri; font-size:12pt; font-style:italic; color:#000000;" translate="true">reset</link><text style="font-family:Calibri; font-size:12pt; font-style:italic; color:#000000;" translate="true"> through the dashboard for the incorrect test that was scanned</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading1"></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Heading1" style="font-size:12pt; color:#000000;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Heading1" style="font-size:12pt; color:#000000;"><caption translate="true"><![CDATA[How do I switch scanning modes?]]></caption></toggle></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para style="margin-left:48px;"><text style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">In order to change the scanning mode on the scanner hold </text><text style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">ctrl + shift + F12</text><text style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> with the scanning software open.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading1"></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Heading1" style="font-size:12pt; color:#000000;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Heading1" style="font-size:12pt; color:#000000;"><caption translate="true"><![CDATA[What happens to test results if bubble sheets are scanned for a class that already had results?]]></caption></toggle></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:47px;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">If bubble sheets are scanned for a class that already had test results the new bubble sheets scanned will be ignored and the old scores will remain. &#160;In order to scan new bubble sheets for a class that already has results the student&apos;s scores must be reset. &#160;In order to do this go to the dashboard and select the checkboxes next to the desired students then click Reset Selected in the left nav. &#160;After the scores have been reset the new bubble sheets can be scanned.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Normal" style="font-size:12pt; font-weight:bold;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Normal" style="font-size:12pt; font-weight:bold;"><caption translate="true"><![CDATA[Why are no scores showing on the Dashboard after I scanned the test?]]></caption></toggle></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Heading1" style="text-indent:-1px; margin-right:0px; margin-left:48px;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">The most common reason for scores not showing on the dashboard after a test was scanned is because the test contained a short answer or essay question. &#160;Scores for these questions must be </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">manually input</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> for the students in order for the scores to be calculated.</text></para>
+          <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"></para>
+          <para styleclass="Heading1" style="text-indent:0px; margin-right:0px; margin-left:47px;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-style:italic; color:#000000;" translate="true">See </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Test_Administration" styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:normal; font-style:italic; color:#000000;" translate="true">How do I manually input a student&apos;s score?</link><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:normal; font-style:italic; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-style:italic; color:#000000;" translate="true"> for directions on the manual input feature.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"></para>
+    <para styleclass="Normal" style="text-align:left;"><link displaytype="image" src="New_Back_Arrow_icon.gif" type="topiclink" href="Assessments"></link><text style="font-family:Arial; font-size:14pt; color:#000000;" translate="true"> &#160;</text><link displaytype="button" type="topiclink" href="Assessments" translate="true">Assessment</link></para>
+    <para styleclass="Normal" style="text-align:left; margin-top:0px; margin-bottom:0px; line-height:2.0;"><link displaytype="image" src="New_Back_Arrow_icon.gif" type="topiclink" href="Curriculum_Plans"></link><text styleclass="Normal" style="font-size:14pt;" translate="true"> &#160;</text><link displaytype="button" type="topiclink" href="FAQ_Menu" translate="true">FAQ Menu</link></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"></para>
+  </body>
+</topic>

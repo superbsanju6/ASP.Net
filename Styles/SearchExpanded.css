@@ -1,0 +1,127 @@
+﻿.rgDetailTable, .rgMasterTable
+{
+    width: 100%;
+}
+
+.RadWindow .rwWindowContent .radalert
+{
+    background-image: none !important;
+    padding: 0px !important;
+}
+
+.rgAdvPart
+{
+    display: none;
+    float: left;
+}
+
+.rgArrPart1
+{
+    float: left;
+    padding: 0 10px;
+    line-height: 22px;
+    white-space: nowrap;
+}
+
+.rgArrPart2
+{
+    padding-left: 0;
+    float: left;
+    width: 50px;
+}
+
+.rgWrap .a
+{
+    font: 12px/16px "segoe ui" ,arial,sans-serif;
+
+}
+
+.rgWrap .span
+{
+    font: 12px/16px "segoe ui" ,arial,sans-serif;
+}
+
+.rgPageFirst
+{
+    background-position: 0 -550px;
+    background-image: url('../Images/web20Buttons.gif');
+}
+
+.rgPagePrev
+{
+    background-position: 0 -700px;
+    background-image: url('../Images/web20Buttons.gif');
+}
+
+.rgPageFirst, .rgPagePrev
+{
+    margin-right: 1px;
+}
+
+.rgPageFirst, .rgPagePrev, .rgPageNext, .rgPageLast
+{
+    width: 22px;
+    height: 22px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.rgCurrentPage
+{
+    background-position: 0 -1350px;
+    background-image: url('../Images/web20Buttons.gif');
+}
+
+.rgNumPart a
+{
+    color: black;
+    float: left;
+    line-height: 22px;
+    margin: 0;
+    padding: 0 5px 0 2px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.rgNumPart
+{
+    float: left;
+}
+
+.rgPageNext
+{
+    background-position: 0 -850px;
+    background-image: url('../Images/web20Buttons.gif');
+    margin-left: 1px;
+    width: 22px;
+    height: 22px;
+    vertical-align: top;
+
+}
+
+.rgPageLast
+{
+    background-position: 0 -1000px;
+    background-image: url('../Images/web20Buttons.gif');
+    margin-left: 1px;
+    width: 22px;
+    height: 22px;
+    vertical-align: top;
+    
+}
+
+#numberWrapper
+{
+    width: 99000px;
+    height: 23px;
+    white-space: nowrap;
+}
+
+#pagingScrollWrapper
+{
+    width: 75px;
+    overflow: hidden;
+}
+
+
+​

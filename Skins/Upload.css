@@ -1,0 +1,91 @@
+/* RadUpload Common Styles */
+
+.RadUpload
+{
+	width:430px; /*default*/
+	text-align: left;
+}
+
+.RadUpload_rtl, .ruProgressArea_rtl
+{
+	text-align: right;
+}
+
+.RadUploadSingle
+{
+	display:inline;
+}
+
+.ruInputs
+{
+	zoom:1;/*IE fix - removing items on the client*/
+}
+
+.ruInputs,
+.ruProgress
+{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.ruFileWrap
+{
+	position:relative;
+	white-space:nowrap;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.ruFileInput,
+.ruFakeInput,
+.ruButton
+{
+	float: none;
+	vertical-align:top;
+}
+
+.ruCheck
+{
+	position:relative;
+	zoom:1;
+}
+
+.ruStyled .ruFileInput
+{
+	position:absolute;
+	z-index:1;
+	opacity:0;/*Opera,Firefox*/
+	-moz-opacity:0;/*Firefox*/
+	filter:alpha(opacity=0);/*IE*/
+}
+
+.ruReadOnly .ruFakeInput
+{
+	position:relative;
+	z-index:2;
+}
+
+.ruButtonDisabled
+{
+	opacity:0.6;/*Opera,Firefox*/
+	-moz-opacity:0.6;/*Firefox*/
+	filter:alpha(opacity=60);/*IE*/
+}
+
+@media screen and (min-width:50px)
+{
+	.ruBar, .ruBar div
+	{
+		border: solid transparent;
+		border-width: 1px 0;
+	}
+	
+	.ruProgressArea
+	{
+		display: block !important;
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+}

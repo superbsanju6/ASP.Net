@@ -1,0 +1,35 @@
+﻿.tgAddNewDialog { 
+	color: inherit;
+}
+.tgAddExistingDialog { 
+	color: inherit;
+}
+.ipheader a, .upheader a, .lpheader a {
+	border: 1px solid #E0E0E0;
+	color: #0055BB;
+	padding: 1px;
+}
+.ipheader a:hover, .ipheader a:focus, .ipheader a:active, .upheader a:hover, .upheader a:focus, .upheader a:active, .lpheader a:hover, .lpheader a:focus, .lpheader a:active {
+	border-color: #BBCCDD;
+	outline: 0 none;
+	text-decoration: none;
+}
+.upheaderadd, .lpheaderadd {
+	background-color: #F0F0F0;
+	border: 1px solid #DADADA;
+	color: #0055BB;
+	cursor: pointer;
+	display: block;
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 2px;
+	padding: 0.5em 0.5em 0.5em 1.7em;
+	position: relative;
+	width: inherit;
+	background-image: url('../images/add.gif');
+	background-position: 1px 50%;
+	background-repeat: no-repeat;
+}
+.upheaderadda, .lpheaderadda {
+	color: #0055BB;
+}

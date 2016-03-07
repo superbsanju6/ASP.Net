@@ -1,0 +1,104 @@
+<Chart SkinName="CustomSkin">
+  <ChartTitle>
+    <Appearance>
+      <FillStyle MainColor="" />
+    </Appearance>
+    <TextBlock>
+      <Appearance>
+        <TextProperties Color="0, 0, 79" />
+      </Appearance>
+    </TextBlock>
+  </ChartTitle>
+  <Legend>
+    <Appearance Overflow="Row">
+      <ItemTextAppearance>
+        <TextProperties Font="Verdana, 7pt" />
+      </ItemTextAppearance>
+      <Position AlignedPosition="Top" />
+      <Dimensions Margins="17.6%, 3%, 1px, 1px" Paddings="0px, 0px, 0px, 0px" />
+      <Border Color="165, 190, 223" />
+    </Appearance>
+  </Legend>
+  <Appearance BarOverlapPercent="-30">
+    <Border Color="103, 136, 190" />
+  </Appearance>
+  <PlotArea>
+    <XAxis>
+      <Appearance Color="149, 184, 206">
+        <MajorGridLines Width="0" Color="209, 221, 238" />
+        <MajorTick Color="149, 184, 206" />
+        <TextAppearance>
+          <TextProperties Color="Black" Font="Verdana, 7pt" />
+        </TextAppearance>
+      </Appearance>
+    </XAxis>
+    <YAxis>
+      <Appearance Color="149, 184, 206">
+        <MajorGridLines Color="209, 221, 238" />
+        <MinorGridLines Color="209, 221, 238" />
+        <MinorTick Color="149, 184, 206" />
+        <MajorTick Color="149, 184, 206" />
+      </Appearance>
+    </YAxis>
+    <Appearance>
+      <FillStyle MainColor="249, 250, 251" FillType="Solid" />
+      <Border Color="149, 184, 206" />
+    </Appearance>
+  </PlotArea>
+  <Series>
+    <ChartSeries>
+      <Appearance>
+        <FillStyle MainColor="Red" FillType="Solid" />
+        <LineSeriesAppearance Color="Red" />
+        <TextAppearance>
+          <TextProperties Color="Black" Font="Verdana, 7pt" />
+        </TextAppearance>
+      </Appearance>
+      <Items>
+        <ChartSeriesItem>
+          <Appearance>
+            <FillStyle MainColor="Red" FillType="Solid" />
+          </Appearance>
+          <Label>
+            <Appearance LabelLocation="Outside" />
+          </Label>
+        </ChartSeriesItem>
+        <ChartSeriesItem>
+          <Appearance>
+            <FillStyle MainColor="Red" FillType="Solid" />
+          </Appearance>
+          <Label>
+            <Appearance LabelLocation="Outside" />
+          </Label>
+        </ChartSeriesItem>
+      </Items>
+    </ChartSeries>
+    <ChartSeries>
+      <Appearance>
+        <FillStyle MainColor="LightSkyBlue" FillType="Solid" />
+        <LineSeriesAppearance Color="LightSkyBlue" />
+        <TextAppearance>
+          <TextProperties Color="Black" Font="Verdana, 7pt" />
+        </TextAppearance>
+      </Appearance>
+      <Items>
+        <ChartSeriesItem>
+          <Appearance>
+            <FillStyle MainColor="LightSkyBlue" FillType="Solid" />
+          </Appearance>
+          <Label>
+            <Appearance LabelLocation="Outside" />
+          </Label>
+        </ChartSeriesItem>
+        <ChartSeriesItem>
+          <Appearance>
+            <FillStyle MainColor="LightSkyBlue" FillType="Solid" />
+          </Appearance>
+          <Label>
+            <Appearance LabelLocation="Outside" />
+          </Label>
+        </ChartSeriesItem>
+      </Items>
+    </ChartSeries>
+  </Series>
+</Chart>

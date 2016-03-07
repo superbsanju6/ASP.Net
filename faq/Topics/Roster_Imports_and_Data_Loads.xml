@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="lgisaacs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Data Imports and Loads</title>
+  <body>
+    <header>
+      <para styleclass="Heading1" style="text-align:right;"><image src="thinkgate.jpg" align="right" scale="43.00%" width="192" height="43" styleclass="Image Caption"></image></para>
+      <para styleclass="Heading1"><text styleclass="Heading1" style="font-size:18pt; color:#ffffff;" translate="true">Data Imports and Loads</text></para>
+    </header>
+    <para styleclass="Normal"></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Heading1" style="font-size:12pt;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Heading1" style="font-size:12pt;"><caption translate="true"><![CDATA[How do I upload a roster file?
+]]></caption></toggle></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:48px; tabstops:none;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">A roster file needs to be uploaded to Thinkgate support through the </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">Upload to Support</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:normal; color:#000080;" translate="true"> option under the </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">Support</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:normal; color:#000080;" translate="true"> tab. &#160;The file needs to be sent as a comma delimited or .csv (comma-separated values) file.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-16px; margin-right:0px; margin-left:64px; tabstops:none;"></para>
+    <para styleclass="Normal" style="text-indent:-19px; margin-right:0px; margin-left:19px; tabstops:none;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Normal" style="font-size:12pt; font-weight:bold;"><caption translate="true"><![CDATA[How do I upload an Admin or School file?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-16px; margin-right:0px; margin-left:64px; tabstops:none;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:0px; tabstops:none;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">An Administrator or School file is uploaded the same way that a Roster File is uploaded, through the </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">Upload to Support</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> option under the </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">Support</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> tab. &#160;These files need to be sent as comma delimited or .csv </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:normal; color:#000080;" translate="true">(comma-separated values) </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">files.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-16px; margin-right:0px; margin-left:64px; tabstops:none;"></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-right:0px; margin-left:18px; tabstops:none;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Heading1" style="font-size:12pt; color:#000000;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Heading1" style="font-size:12pt; color:#000000;"><caption translate="true"><![CDATA[How long does it take to get a roster file uploaded?]]></caption></toggle></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:48px; tabstops:none;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">Roster files should be uploaded within </text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true">24 hours of being received</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> by Thinkgate support unless there are any issues during the upload process. &#160;Roster files sent late Friday will be uploaded at the beginning of the following week.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading1"></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Heading1" style="font-size:12pt; color:#000000;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Heading1" style="font-size:12pt; color:#000000;"><caption translate="true"><![CDATA[How do I upload state data?]]></caption></toggle></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:47px; tabstops:none;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">State data is uploaded to the Thinkgate support the same way a Roster File is, through the Upload Files to Support option located under the Support tab. &#160;</text><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; font-weight:bold; font-style:italic; color:#000080;" translate="true">However, state data should be sent as a text or .txt file.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading1"></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Heading1" style="font-size:12pt; color:#000000;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Heading1" style="font-size:12pt; color:#000000;"><caption translate="true"><![CDATA[How long does it take to get state data uploaded after it has been sent?]]></caption></toggle></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para style="margin-left:48px;"><text style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">Once state data has been uploaded to and received by support there is a</text><text style="font-family:Calibri; font-size:12pt; font-weight:bold; color:#000080;" translate="true"> two week turn around</text><text style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true"> to get the data uploaded to the respective system. &#160;</text><text style="font-family:Calibri; font-size:12pt; font-style:italic; color:#000080;" translate="true">The two week time frame is subject to change in the case of any upload or technical issues.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><image src="New_Add_icon4.bmp" scale="100.00%" styleclass="Heading1" style="font-size:12pt;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="New_Add_icon4.bmp" src-expanded="hmtoggle_plus1.gif" styleclass="Heading1" style="font-size:12pt;"><caption translate="true"><![CDATA[Why is the birthdate and state ID required in a Roster File?
+]]></caption></toggle></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:46px; tabstops:none;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; color:#000080;" translate="true">The birthdate and state ID are required in a Roster File because State Data imports are matched to specific students using the birthdate and state ID.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading1" style="text-indent:-18px; margin-left:18px;"></para>
+    <para styleclass="Normal" style="text-align:left; margin-top:0px; margin-bottom:0px; line-height:2.0;"><link displaytype="image" src="New_Back_Arrow_icon.gif" type="topiclink" href="Curriculum_Plans"></link><text styleclass="Normal" style="font-size:14pt;" translate="true"> &#160;</text><link displaytype="button" type="topiclink" href="FAQ_Menu" translate="true">FAQ Menu</link></para>
+  </body>
+</topic>

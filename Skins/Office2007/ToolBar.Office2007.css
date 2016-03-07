@@ -1,0 +1,315 @@
+/* RadToolbar Office2007 skin file */
+
+/* toolbar rounded corners */
+
+.RadToolBar_Office2007_Horizontal
+{
+	background: transparent url('ToolBar/ToolbarBgHTL.gif') no-repeat;
+}
+
+.RadToolBar_Office2007_Horizontal .rtbOuter
+{
+	background: transparent url('ToolBar/ToolbarBgHTR.gif') no-repeat;
+}
+
+.RadToolBar_Office2007_Horizontal .rtbMiddle
+{
+	background: transparent url('ToolBar/ToolbarBgHBL.gif') no-repeat;
+}
+
+.RadToolBar_Office2007_Horizontal .rtbInner
+{
+	background: transparent url('ToolBar/ToolbarBgH.gif') no-repeat;
+}
+
+.RadToolBar_Office2007_Vertical,
+.RadToolBar_Office2007_Vertical .rtbOuter,
+.RadToolBar_Office2007_Vertical .rtbMiddle,
+.RadToolBar_Office2007_Vertical .rtbInner
+{
+	background: transparent url('ToolBar/ToolbarBgV.gif') no-repeat;
+}
+
+div.RadToolBar_Office2007
+{
+	background-position: 0 0;
+	padding: 0 0 0 1px; /* rounded corner radius */
+	margin: 0;
+}
+
+.RadToolBar_Office2007 .rtbOuter
+{
+	background-position: 100% 0;
+	padding-top: 1px; /* rounded corner radius */
+}
+
+.RadToolBar_Office2007 .rtbMiddle
+{
+	background-position: 0 100%;
+	padding-left: 1px; /* rounded corner radius */
+	margin-left: -1px; /* - rounded corner radius */
+}
+
+.RadToolBar_Office2007 .rtbInner
+{
+	background-position: 100% 100%;
+	padding: 0 1px 1px 0; /* rounded corner radius */
+	margin: 0;
+}
+
+/* spacing between items */
+
+.RadToolBar_Office2007_Horizontal .rtbItem
+{
+	padding-right: 1px;
+}
+
+* html .RadToolBar_Office2007 .rtbItem { margin-bottom:2px; }
+
+.RadToolBar_Office2007 .rtbText
+{
+	padding: 0 2px;
+}
+
+/* buttons rounded corners */
+
+.RadToolBar_Office2007 .rtbItemFocused .rtbWrap,
+.RadToolBar_Office2007 .rtbItemHovered .rtbWrap,
+.RadToolBar_Office2007 .rtbItem .rtbWrap:hover { background: transparent url('ToolBar/ToolbarItemHover.gif') repeat-x 0 100%; }
+
+.RadToolBar_Office2007 .rtbItemClicked .rtbWrap,
+.RadToolBar_Office2007 .rtbChecked .rtbWrap,
+.RadToolBar_Office2007 .rtbUL .rtbDropDownExpanded .rtbWrap,
+.RadToolBar_Office2007 .rtbUL .rtbSplBtnExpanded .rtbWrap { background: transparent url('ToolBar/ToolbarItemActive.gif') repeat-x 0 100%; }
+
+.RadToolBar_Office2007 .rtbOut
+{
+	background-position: 100% 0;
+}
+
+.RadToolBar_Office2007 .rtbItem,
+.RadToolBar_Office2007 .rtbWrap
+{
+	font: 11px Tahoma, sans-serif;
+	color: #333;
+}
+
+.RadToolBar_Office2007 .rtbMid
+{
+	padding-top: 4px;
+}
+
+.RadToolBar_Office2007 .rtbItemFocused .rtbMid,
+.RadToolBar_Office2007 .rtbItemHovered .rtbMid,
+.RadToolBar_Office2007 .rtbWrap:hover .rtbMid { background: transparent url('ToolBar/ToolbarItemHover.gif') repeat-x 0 0; }
+
+.RadToolBar_Office2007 .rtbItemClicked .rtbMid,
+.RadToolBar_Office2007 .rtbChecked .rtbMid,
+.RadToolBar_Office2007 .rtbUL .rtbDropDownExpanded .rtbMid,
+.RadToolBar_Office2007 .rtbUL .rtbSplBtnExpanded .rtbMid { background: transparent url('ToolBar/ToolbarItemActive.gif') repeat-x 0 0; }
+
+.RadToolBar_Office2007 .rtbWrap .rtbIn
+{
+	padding: 0 5px 4px 5px; /* rounded corner radius */
+}
+
+.RadToolBar_Office2007 .rtbItemFocused .rtbIn,
+.RadToolBar_Office2007 .rtbItemHovered .rtbIn,
+.RadToolBar_Office2007 .rtbWrap:hover .rtbIn
+{ background: transparent url('ToolBar/ToolbarItemHover.gif') repeat-x 100% 100%; }
+
+.RadToolBar_Office2007 .rtbItemClicked .rtbIn,
+.RadToolBar_Office2007 .rtbChecked .rtbIn,
+.RadToolBar_Office2007 .rtbUL .rtbDropDownExpanded .rtbIn,
+.RadToolBar_Office2007 .rtbUL .rtbSplBtnExpanded .rtbIn
+{ background: transparent url('ToolBar/ToolbarItemActive.gif') repeat-x 100% 100%; }
+
+.RadToolBar_Office2007 .rtbWrap:hover .rtbText,
+.RadToolBar_Office2007 .rtbChecked:hover .rtbText
+{
+	color: #4d4d4d;
+}
+
+.RadToolBar_Office2007 .rtbItem,
+.RadToolBar_Office2007 .rtbChecked .rtbText,
+.RadToolBar_Office2007 .rtbUL .rtbDropDownExpanded .rtbText,
+.RadToolBar_Office2007 .rtbUL .rtbSplBtnExpanded .rtbText
+{
+	color: #333;
+}
+
+/* split button styles */
+
+.RadToolBar_Office2007 .rtbSplBtn .rtbSplBtnActivator
+{
+	/*padding-right: 4px;
+	margin-left:5px;*/
+}
+
+.RadToolBar_Office2007 .rtbSplBtn .rtbText
+{
+	padding-right: 3px;
+}
+
+.RadToolBar_Office2007 .rtbItemFocused .rtbChoiceArrow,
+.RadToolBar_Office2007 .rtbChoiceArrow,
+.RadToolBar_Office2007 .rtbWrap:hover .rtbChoiceArrow
+{
+	width: 7px;
+	height: 16px;
+	
+	background: url('ToolBar/ToolbarSplitButtonArrow.gif') no-repeat 0 center;
+}
+
+.RadToolBar_Office2007 .rtbItemClicked .rtbChoiceArrow,
+.RadToolBar_Office2007 .rtbUL .rtbDropDownExpanded .rtbChoiceArrow,
+.RadToolBar_Office2007 .rtbUL .rtbSplBtnExpanded .rtbChoiceArrow
+{
+	background-position: 100% center;
+}
+
+.RadToolBar_Office2007 .rtbSplButHovered .rtbOut,
+.RadToolBar_Office2007 .rtbSplBtn .rtbWrap:hover .rtbOut { background: transparent url('ToolBar/ToolbarSplButHover.gif') repeat-x 100% 0; }
+
+.RadToolBar_Office2007 .rtbSplButHovered .rtbIn,
+.RadToolBar_Office2007 .rtbSplBtn .rtbWrap:hover .rtbIn
+{ background: transparent url('ToolBar/ToolbarSplButHover.gif') repeat-x 100% 100%; }
+
+
+.RadToolBar_Office2007 .rtbUL .rtbSplBtnExpanded .rtbWrap .rtbOut { background: transparent url('ToolBar/ToolbarSplButActive.gif') repeat-x 100% 0; }
+
+.RadToolBar_Office2007 .rtbUL .rtbSplBtnExpanded .rtbWrap .rtbIn
+{ background: transparent url('ToolBar/ToolbarSplButActive.gif') repeat-x 100% 100%; }
+
+
+/* disabled styles */
+
+.RadToolBar_Office2007 .rtbDisabled .rtbWrap:hover,
+.RadToolBar_Office2007 .rtbDisabled .rtbWrap:hover .rtbOut,
+.RadToolBar_Office2007 .rtbDisabled .rtbWrap:hover .rtbMid,
+.RadToolBar_Office2007 .rtbDisabled .rtbWrap:hover .rtbIn
+{
+	background: none;
+	cursor: default;
+}
+
+.RadToolBar_Office2007 .rtbDisabled .rtbText,
+.RadToolBar_Office2007 .rtbDisabled .rtbWrap:hover .rtbText
+{
+	color: #888;
+}
+
+.RadToolBar_Office2007 .rtbDisabled .rtbIcon,
+.RadToolBar_Office2007 .rtbDisabled .rtbWrap:hover .rtbIcon,
+.RadToolBar_Office2007 .rtbDisabled .rtbChoiceArrow,
+.RadToolBar_Office2007 .rtbDisabled .rtbWrap:hover .rtbChoiceArrow
+{
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	filter:alpha(opacity=50);
+}
+
+/* popup menu styles */
+
+.RadToolBarDropDown_Office2007 
+{
+	border: 1px solid #868686;
+	background: #fafafa url('ToolBar/ToolbarDropDownBg.gif') repeat-y 0 0;
+}
+
+.RadToolBarDropDown_Office2007 .rtbGroup
+{
+	padding: 1px 0;
+}
+
+.RadToolBarDropDown_Office2007 .rtbItem
+{
+	line-height: 24px;
+	text-decoration: none;
+	margin-left: 3px;
+	margin-right: 1px;
+	overflow: visible;
+	padding: 0;
+}
+
+.RadToolBarDropDown_Office2007 .rtbItemHovered,
+.RadToolBarDropDown_Office2007 .rtbItemFocused
+{
+	background: transparent url('ToolBar/ToolbarDropDownHover.gif') no-repeat 100% 0;
+}
+
+.RadToolBarDropDown_Office2007 .rtbItemHovered .rtbWrap,
+.RadToolBarDropDown_Office2007 .rtbItemFocused .rtbWrap
+{
+	color: #00156e;
+	background: transparent url('ToolBar/ToolbarDropDownHover.gif') no-repeat 0 0;
+}
+
+.RadToolBarDropDown_Office2007 .rtbWrap
+{
+	color: #333;
+	padding-left: 2px;
+	margin-left: -2px;
+	font: 11px/24px Tahoma, sans-serif;
+}
+
+.RadToolBarDropDown_Office2007 .rtbIcon
+{
+	margin: 3px 0 0 2px;
+	position: absolute;
+}
+
+.RadToolBarDropDown_Office2007 .rtbText
+{
+	padding: 0 20px 0 30px;
+	height: 24px;
+}
+
+.RadToolBarDropDown_Office2007 .rtbDisabled
+{
+	background: transparent;
+}
+
+.RadToolBarDropDown_Office2007 .rtbDisabled .rtbText
+{
+	color: #999;
+}
+
+.RadToolBarDropDown_Office2007 .rtbSeparator
+{
+	margin-bottom: 1px;
+}
+
+.RadToolBarDropDown_Office2007 .rtbSeparator .rtbText
+{
+	border-top: 1px solid #fff;
+	padding-top: 1px;
+	line-height: 0;
+	font-size: 0;
+	background: #ccc;
+	margin-left: 30px;
+	margin-right: 5px;
+	height: auto;
+	display: block;
+}
+
+
+/* extremely wide toolbars */
+
+.RadToolBar_Wide_Office2007,
+.RadToolBar_Wide_Office2007 .rtbOuter,
+.RadToolBar_Wide_Office2007 .rtbMiddle,
+.RadToolBar_Wide_Office2007 .rtbInner
+{
+	padding: 0;
+	background: none;
+}
+
+.RadToolBar_Wide_Office2007
+{
+	height: 26px;
+	background: transparent url('ToolBar/WideBg.gif') repeat-x 0 0;
+}
+
+.RadToolBar_Wide_Office2007 .rtbInner { padding-top: 1px; }
+.RadToolBar_Wide_Office2007 .rtbText { height: 16px; }

@@ -1,0 +1,41 @@
+<ChartConfig>
+	<Skins>
+		<Chart Name="StaffDemographics" CustomSkinFile="Skins/SIPChart1.xml"></Chart>
+		<Chart Name="SuspensionRate" CustomSkinFile="Skins/SIPChart1.xml"></Chart>
+		<Chart Name="SchoolGraduation" CustomSkinFile="Skins/SIPChart1.xml"></Chart>
+		<Chart Name="SchoolDropoutPrevention" CustomSkinFile="Skins/SIPChart1.xml"></Chart>
+		<Chart Name="SchoolAttendanceRates" CustomSkinFile="Skins/SIPChart1.xml"></Chart>
+		<Chart Name="AbsenceRates" CustomSkinFile="Skins/SIPChart1.xml"></Chart>
+	</Skins>
+	<ColorMap>
+		<Map Value="High School" Color="#3366CC"/>
+		<Map Value="Middle" Color="#DC3912"/>
+		<Map Value="Elementary" Color="#FF9900"/>
+		<Map Value="Multi-Types" Color="#109618"/>
+    <Map Value="Multi" Color="#109618"/>
+		<Map Value="Other" Color="#990099"/>
+
+    <Map Value="Language Arts" Color="#3366CC"/>
+    <Map Value="Mathematics" Color="#DC3912"/>
+    <Map Value="Social Studies" Color="#FF9900"/>
+    <Map Value="Science" Color="#109618"/>
+    <Map Value="Elective" Color="#990099"/>
+	 
+		<Map Value="Pre-Kindergarten" Color="#3366CC"/>
+		<Map Value="Kindergarten" Color="#990099"/>
+		<Map Value="1st Grade" Color="#FF9900"/>
+		<Map Value="2nd Grade" Color="#109618"/>
+		<Map Value="3rd Grade" Color="#DC3912"/>
+		<Map Value="4th Grade" Color="#0099C6"/>
+		<Map Value="5th Grade" Color="#DD4477"/>
+		
+		<Map Value="6th Grade" Color="#3366CC"/>
+		<Map Value="7th Grade" Color="#54B061"/>
+		<Map Value="8th Grade" Color="#7136A7"/>
+		
+		<Map Value="9th Grade" Color="#1AA78B"/>
+		<Map Value="10th Grade" Color="#A7861C"/>
+		<Map Value="11th Grade" Color="#155815"/>
+		<Map Value="12th Grade" Color="#6C211A"/>
+	</ColorMap>
+</ChartConfig>

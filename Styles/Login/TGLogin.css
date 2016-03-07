@@ -1,0 +1,59 @@
+﻿/*ID Fields*/
+
+#lblVersion 
+{
+    color: white;
+    font-size: 10pt;
+}
+
+#lblModifiedDate 
+{
+    color: white;
+    font-size: 10pt;
+}
+
+#lblServerName 
+{
+    color: black;
+    font-size: 10pt;
+}
+
+#LoginFailureDiv 
+{
+    color: red;
+}
+
+#loginForm 
+{
+    width: 100%;
+}
+
+#mainBody 
+{
+    width: 100%;
+}
+
+#realBody 
+{
+    height: 100%;
+}
+
+#messageDiv 
+{
+    width:100%;
+    text-align:center;
+}
+
+/*End ID Fields*/
+
+/*Class Fields*/
+
+.versionDiv 
+{
+    text-align: right; 
+    padding-right: 1em;
+}
+
+/*End Class Fields*/
+
+

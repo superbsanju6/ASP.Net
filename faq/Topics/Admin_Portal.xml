@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" lasteditedby="lgisaacs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Administrator Portal</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Administrator Portal</text></para>
+    </header>
+    <para styleclass="Header 2" style="text-align:right;"><link displaytype="image" src="New_Back_Arrow_icon.gif" type="topiclink" href="Data_Utilization"></link><text styleclass="Header 2" style="font-size:8pt;" translate="true">&#32;</text><link displaytype="text" defaultstyle="true" type="topiclink" href="Data_Utilization" styleclass="Answer" style="font-size:8pt;" translate="true">Return to Data Utilization Menu</link></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal" style="font-size:11pt;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal" style="font-size:11pt;"><caption translate="true"><![CDATA[How do I choose my criteria options now that the curriculum criteria menu option is gone?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">In order to make the reporting process easier and less time consuming for users we have moved all criteria options to the top of the actual Administrator portal screen. &#160;In order to choose your criteria click on Administrator portal and the criteria options will be available at the top of the screen. &#160;You can now choose and change all of your criteria options from one screen without having to navigate to a totally different menu option each time.</text></para>
+          <para styleclass="Answer"></para>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">Listed below are the new criteria options you have:</text></para>
+          <para styleclass="Answer"></para>
+          <para styleclass="Answer"><text styleclass="Answer" style="font-weight:bold;" translate="true">Assessment Category</text><text styleclass="Answer" translate="true"> - If you wish to run reports on different testing types you can now use this drop down to distinguish rather then using the District Assessment and State Assessments button that existed prior.</text></para>
+          <para styleclass="Answer" style="margin-left:24px;"><text styleclass="Answer" style="font-style:italic;" translate="true">Classroom</text></para>
+          <para styleclass="Answer" style="margin-left:24px;"><text styleclass="Answer" style="font-style:italic;" translate="true">District</text></para>
+          <para styleclass="Answer" style="margin-left:24px;"><text styleclass="Answer" style="font-style:italic;" translate="true">Intervention</text></para>
+          <para styleclass="Answer" style="margin-left:24px;"><text styleclass="Answer" style="font-style:italic;" translate="true">State</text></para>
+          <para styleclass="Answer" style="margin-left:24px;"></para>
+          <para styleclass="Answer"><text styleclass="Answer" style="font-weight:bold;" translate="true">Curriculum Criteria</text><text styleclass="Answer" translate="true"> - The options here are the same as the old Curriculum Criteria menu option.</text></para>
+          <para styleclass="Answer" style="margin-left:24px;"><text styleclass="Answer" style="font-style:italic;" translate="true">Grade</text></para>
+          <para styleclass="Answer" style="margin-left:24px;"><text styleclass="Answer" style="font-style:italic;" translate="true">Subject</text></para>
+          <para styleclass="Answer" style="margin-left:24px;"><text styleclass="Answer" style="font-style:italic;" translate="true">Course</text></para>
+          <para styleclass="Answer" style="margin-left:24px;"><text styleclass="Answer" style="font-style:italic;" translate="true">Subtype</text></para>
+          <para styleclass="Answer" style="margin-left:24px;"><text styleclass="Answer" style="font-style:italic;" translate="true">Curriculum</text></para>
+          <para styleclass="Answer"></para>
+          <para styleclass="Answer"><text styleclass="Answer" style="font-weight:bold;" translate="true">Portal Criteria</text><text styleclass="Answer" translate="true"> - This section allows you to further drill down your results based on the options listed below.</text></para>
+          <para styleclass="Answer" style="margin-left:24px;"><text styleclass="Answer" style="font-style:italic;" translate="true">Terms</text></para>
+          <para styleclass="Answer" style="margin-left:24px;"><text styleclass="Answer" style="font-style:italic;" translate="true">Assessment Types</text></para>
+          <para styleclass="Answer" style="margin-left:24px;"><text styleclass="Answer" style="font-style:italic;" translate="true">Years</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal" style="font-size:11pt;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal" style="font-size:11pt;"><caption translate="true"><![CDATA[How do I look at specific test types now that the District Assessments and State Assessments option is gone?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">In order to distinguish what test type you want to look at you can use the Assessment Category criteria from the Administrator Portal screen. &#160;Please see the answer from the question above for a further explanation of the new Administrator Portal screen.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal" style="font-size:11pt;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal" style="font-size:11pt;"><caption translate="true"><![CDATA[Where did all the reports go (i.e. At Risk Standards by Student, by Class, by Teacher etc..)?  I only see a couple under each cell I click.]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">All At Risk, Mastery, Progress and Report Card reports have been consolidated into dynamic reports that can be broken down into all the old reports. &#160;All of the different At Risk reports are now located in the left nav after you run the &apos;At Risk&apos; report. &#160;Once you run the initial report you can break it down by different criteria by clicking through the reports in the left nav. &#160;This same structure is used in the Mastery, Progress and Report Card reports.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal" style="font-size:11pt;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal" style="font-size:11pt;"><caption translate="true"><![CDATA[What does the icon next to teacher's names do?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">These icons allow permitted users direct access to the Teacher Portal. &#160;Administrator no longer have to navigate away from the Admin portal to run the Teacher Portal, they can just click the icon to link directly to the associated teacher&apos;s teacher portal.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal" style="font-size:11pt;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal" style="font-size:11pt;"><caption translate="true"><![CDATA[Can I print reports with page breaks so I can hand them out to students?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">Yes, on many of the various reports you run, including the At Risk and Mastery reports you can run the report with page breaks. &#160;The page break options are located in the left nav once the report has been ran under the With Page Break header.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[How do I compare different test types and categories?  Is there a way to get them all to show on the same screen?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">New in the Summer 2010 release is a locking feature that allows the user to compare multiple test types and assessment categories. &#160;Once you run a report you will see an &quot;unlocked&quot; icon above the test name. &#160;Click this icon to &quot;Lock&quot; the test to your admin portal. &#160;Once a test has been locked you change all of you criteria and search for another test. &#160;The &quot;Locked&quot; test(s) will then display on your newly ran report next to the other tests.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[Can I filter the Administrator Portal by student demographics?  If so, how?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">Yes, in the top right of your Administrator Portal there is a new Demographics section that allows the user to break down their Admin portal reports by demographic.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[Can I look at state data through the Administrator Portal?  If so, how?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Yes, in the top left of the Administrator Portal there is an Assessment Category drop down. &#160;If state data is loaded to your system this drop down will allow you to view state data results.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[What do the different "clickable" cells represent?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">Each of the cells represents a different combination of tests, classes, teachers and students. &#160;For example, the &quot;paper&quot; icons will always run reports on ALL tests for either the district, school, teacher or class depending on which row the user is on. &#160;The corresponding row to the column determines what entities are included in the report. &#160;If you do not wish to run a report on ALL tests you can click the actual percentage scores below one of the columns for a specific test.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[Can I print the Administrator Portal view?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">Yes, if you scroll over the Actions menu above the portal you can click the Print option to print the report.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal"><caption translate="true"><![CDATA[Can the Administrator Portal be extracted to Excel?]]></caption></toggle></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:42px;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Answer"><text styleclass="Answer" translate="true">Yes, if you scroll over the Actions menu above the portal you can click the Export to Excel option to export the report.</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

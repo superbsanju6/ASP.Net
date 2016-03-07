@@ -1,0 +1,30 @@
+﻿td
+{
+    text-align:center;
+}
+
+body 
+{
+    background-color: #DEE2E7;
+}
+
+#container 
+{
+    background-color: #DEE2E7;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+#container table 
+{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+
+.checkbox 
+{
+    font-size: small;
+}

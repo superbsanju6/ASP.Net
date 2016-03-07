@@ -1,0 +1,169 @@
+﻿html
+{
+    width: 950px;
+}
+
+body {
+    background-color: lightsteelblue;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    width: 665px;
+}
+
+.headerCol1
+{
+		width: 21%;
+		font-weight: bold;
+}
+
+.headerCol2
+{
+		width: 30%;
+}
+				
+.btn
+{
+		width: 48px;
+		height: 48px;
+}
+
+.btnContainer
+{
+		padding-bottom: 15px;
+		padding-left: 12px;
+}
+
+.btnText
+{
+		width: 100%;
+		font-size: 9pt;
+		font-weight: bold;
+		position: absolute;
+		bottom: -16px;
+		text-align: center;
+}
+
+.imageBtnText
+{
+		width: 48px;
+		font-size: 8pt;
+		font-weight: bold;
+		position: absolute;
+		text-align: center;
+}
+
+#mainForm
+{
+    width: 950px;
+}
+
+#headerTable
+{
+    width: 95%;
+    margin-top: 10px;
+}
+
+#lblScheduling
+{
+    text-decoration: underline;
+}
+
+#buttonTable
+{
+    width: 100%;
+    margin-top: 10px;
+}
+
+#printIconTable
+{
+    margin-left: 10px;
+}
+
+#cntPrintAssessment
+{
+    padding-left: 2px;
+}
+
+#btnPrintAssessment
+{
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#cntdisPrintAssessment
+{
+    padding-left: 2px;
+}
+
+#btndisPrintAssessment
+{
+    cursor:default;
+    opacity:.3; 
+    filter:alpha(opacity=30);
+}
+
+#bubbleSheetContainer
+{
+    width: 90px; 
+    padding-left: 20px;
+}
+
+#btnPrintBubbleSheets
+{
+    cursor: pointer;
+    margin-left: 16px;
+}
+
+#printBubbleSheetText
+{
+    width: 85px;
+}
+
+#tdMiddleButtons
+{
+    margin-left: 100px;
+}
+
+#tdRightButtons
+{
+    width: 40%;
+}
+
+#btnManualInput
+{
+    cursor: default;
+}
+
+#btnScans
+{
+    cursor: default;
+}
+
+#assessmentAdminView
+{
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+
+#btnReset
+{
+    cursor: default;
+}
+
+#onlineLiveView
+{
+    width: 100%;
+    height: 500px;
+    display: none;
+}
+
+#timeRemainingColumn
+{
+    color: Red;
+}
+
+#btnComments
+{
+    padding-left: 4px;
+}
